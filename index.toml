@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/create-server.toml"
+hash = "1372706d35aaa69b3941597bd6c30490f0b97a686c1eefc36243ed6a523dbdd3"
+
+[[files]]
+file = "config/create_connected-common.toml"
+hash = "df2f7f73b69daf78af136f73ebf67215ac5cf584509a0c34da846f8ce58a510b"
+
+[[files]]
 file = "mods/better-advanced-tooltips.pw.toml"
 hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
 metafile = true
@@ -73,6 +81,11 @@ metafile = true
 [[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "7cc4b699a816b1dcee290ceb5951f404079edfefd0dd844955056fbf93b82629"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfiggui.pw.toml"
+hash = "c8e892b182d86465ffaf7f2a6290164656946fafb4e13f36c4a664972d7fe011"
 metafile = true
 
 [[files]]

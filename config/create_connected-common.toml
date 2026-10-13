@@ -1,0 +1,81 @@
+#.
+#Migrate copycats to Create: Copycats+ when they receive a block update
+migrateCopycatsOnBlockUpdate = true
+#.
+#Migrate copycats to Create: Copycats+ when their block entities are initialized
+migrateCopycatsOnInitialize = true
+
+#.
+#Enable/disable features. Values on server override clients
+[features]
+	#.
+	acacia_shear_pin = true
+	kinetic_bridge = false
+	copper_shear_pin = true
+	mldeg_shear_pin = true
+	dark_oak_shear_pin = true
+	item_silo = true
+	empty_fan_catalyst = true
+	brass_shear_pin = true
+	warped_shear_pin = true
+	kinetic_battery = true
+	zinc_shear_pin = true
+	brass_chute = true
+	mangrove_shear_pin = true
+	brake = true
+	copycat_fence_gate = true
+	copycat_stairs = true
+	brass_gearbox = true
+	copycat_vertical_step = true
+	oak_shear_pin = true
+	copycat_wall = true
+	six_way_gearbox = true
+	crank_wheel = true
+	encased_chain_cogwheel = true
+	dashboard = true
+	shear_pin = true
+	bamboo_shear_pin = true
+	inverted_gearshift = true
+	copycat_board = true
+	inventory_bridge = true
+	copycat_fence = true
+	fluid_vessel = true
+	cross_connector = true
+	birch_shear_pin = true
+	inverted_clutch = true
+	parallel_gearbox = true
+	redstone_link_wildcard = true
+	inventory_access_port = true
+	centrifugal_clutch = true
+	copycat_slab = true
+	overstress_clutch = true
+	copycat_block = true
+	large_crank_wheel = true
+	crimson_shear_pin = true
+	jungle_shear_pin = true
+	sequenced_pulse_generator = true
+	spruce_shear_pin = true
+	freewheel_clutch = true
+	linked_transmitter = true
+	cherry_shear_pin = true
+	copycat_beam = true
+
+#.
+#Enable/disable categories of features. Disabling a category hides all related features. Values on server override clients
+[feature_categories]
+	#.
+	#.
+	#All kinetic components, such as gearboxes and crank wheels
+	kinetic = true
+	#.
+	#All redstone components, such as linked transmitter and sequenced pulse generator
+	redstone = true
+	#.
+	#All components related to item and fluid transport
+	logistics = true
+	#.
+	#All copycats (Install Create: Copycats+ to upgrade)
+	copycats = true
+	#.
+	#All building palette blocks
+	palette = true
