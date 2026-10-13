@@ -6,7 +6,27 @@ hash = "1372706d35aaa69b3941597bd6c30490f0b97a686c1eefc36243ed6a523dbdd3"
 
 [[files]]
 file = "config/create_connected-common.toml"
-hash = "df2f7f73b69daf78af136f73ebf67215ac5cf584509a0c34da846f8ce58a510b"
+hash = "297f0fc61743172f35c68a80bfb90df58daafe9e6d011b089a3157f8191b474f"
+
+[[files]]
+file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
+hash = "4d52ce818b36108e9055ef5524f45236187616477134ce6aede5565c5aa12a08"
+
+[[files]]
+file = "kubejs/server_scripts/create.js"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/server_scripts/create_connected.js"
+hash = "0708d18b46cd2830e1b91b3f746766d810eb170a605cdb5c07927d888e0d5319"
+
+[[files]]
+file = "kubejs/server_scripts/create_encased.js"
+hash = "a2729a8768ade1297937dc9fc80033d44a2b5e471c29dca2908a7c86be03cf5b"
+
+[[files]]
+file = "kubejs/server_scripts/create_fluid_logistics.js"
+hash = "357c790d7d41f076960fefe2247bb42a29603a87938c12da0e1fcb3bc69df343"
 
 [[files]]
 file = "mods/better-advanced-tooltips.pw.toml"
