@@ -21,12 +21,20 @@ file = "kubejs/server_scripts/create_connected.js"
 hash = "0708d18b46cd2830e1b91b3f746766d810eb170a605cdb5c07927d888e0d5319"
 
 [[files]]
+file = "kubejs/server_scripts/create_crafts_n_additions.js"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "kubejs/server_scripts/create_encased.js"
-hash = "a2729a8768ade1297937dc9fc80033d44a2b5e471c29dca2908a7c86be03cf5b"
+hash = "3b998bfd36bbe726bbf16742bad6d684a807c379bcf2b6902d395e60a5f1b4b9"
 
 [[files]]
 file = "kubejs/server_scripts/create_fluid_logistics.js"
 hash = "357c790d7d41f076960fefe2247bb42a29603a87938c12da0e1fcb3bc69df343"
+
+[[files]]
+file = "kubejs/server_scripts/just_enough_items.js"
+hash = "7a587abf7d85f1c34be1d8bb0ee1c27de5444ddd026e637591e84c1ecd48d486"
 
 [[files]]
 file = "mods/better-advanced-tooltips.pw.toml"

@@ -38,6 +38,9 @@ ServerEvents.tags('item', event => {
         event.add('kubejs:fluid_pipe', 'createcasing:' + variant + '_fluid_pipe')
         event.add('kubejs:mechanical_pump', 'createcasing:' + variant + '_mechanical_pump')
     }
+
+    event.remove('c:plates', 'createcasing:zinc_sheet')
+    event.remove('c:plates/zinc', 'createcasing:zinc_sheet')
 })
 
 ServerEvents.recipes(event => {
@@ -74,4 +77,6 @@ ServerEvents.recipes(event => {
         event.shapeless(large_cogwheel, [ '#kubejs:shaft', 'minecraft:' + variant + '_planks', 'minecraft:' + variant + '_planks' ])
         event.shapeless(large_cogwheel, [ cogwheel, 'minecraft:' + variant + '_planks' ])
     }
+
+    event.remove({ 'output': 'createcasing:zinc_sheet' })
 })
