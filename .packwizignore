@@ -1,0 +1,44 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+runs
+.kotlin
+docs
+
+# packwiz
+*.zip
+*.mrpack
+packwiz.exe
+packwiz
+
+# git
+*.gitattributes
+*.gitignore
+.git
+.github
+
+# repository
+README.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+NOTICE.md

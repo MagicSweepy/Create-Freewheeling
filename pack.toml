@@ -1,0 +1,13 @@
+name = "Create Freewheeling"
+author = "Magic_Sweepy"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "6ab6780a7217a59863de0848c594c579a5263af0c230e1d93ca88b1f9c70ac02"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.259"
