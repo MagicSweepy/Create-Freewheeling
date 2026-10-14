@@ -21,7 +21,7 @@ file = "kubejs/assets/createendergateway/lang/zh_cn.json"
 hash = "0614ff8a126560be83673b95cb79db959e79de69cc4c8653309f37e260b9dbaf"
 
 [[files]]
-file = "kubejs/assets/rubberworks/zh_cn.json"
+file = "kubejs/assets/rubberworks/lang/zh_cn.json"
 hash = "81c95bf25b3d3251d2786f86f1f9234c69917ff355f2dbb77f82f930fe1d1926"
 
 [[files]]
