@@ -21,12 +21,16 @@ file = "kubejs/assets/createendergateway/lang/zh_cn.json"
 hash = "0614ff8a126560be83673b95cb79db959e79de69cc4c8653309f37e260b9dbaf"
 
 [[files]]
+file = "kubejs/assets/rubberworks/zh_cn.json"
+hash = "81c95bf25b3d3251d2786f86f1f9234c69917ff355f2dbb77f82f930fe1d1926"
+
+[[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
 hash = "4d52ce818b36108e9055ef5524f45236187616477134ce6aede5565c5aa12a08"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "8363208f0a60da093ae337b5914b54d031f6115eebfe5aa0477e35d12551015e"
 
 [[files]]
 file = "kubejs/server_scripts/create_connected.js"
@@ -51,6 +55,10 @@ hash = "3b998bfd36bbe726bbf16742bad6d684a807c379bcf2b6902d395e60a5f1b4b9"
 [[files]]
 file = "kubejs/server_scripts/create_fluid_logistics.js"
 hash = "357c790d7d41f076960fefe2247bb42a29603a87938c12da0e1fcb3bc69df343"
+
+[[files]]
+file = "kubejs/server_scripts/create_rubber_works.js"
+hash = "7752509fbdcfa4c393087a38c5a531bdb4cc40c5ebf533dbe95d1e3a3d7b6c35"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
@@ -114,6 +122,11 @@ metafile = true
 [[files]]
 file = "mods/create-improve.pw.toml"
 hash = "4bda35d10dddcbcfd31831c9bcfcbcb057107009a89f6f5505bbf301454e8779"
+metafile = true
+
+[[files]]
+file = "mods/create-rubberworks.pw.toml"
+hash = "31c3d1a049b685618fbc3edb730f36d438b446c539ccc84471179a22bcab1fca"
 metafile = true
 
 [[files]]
