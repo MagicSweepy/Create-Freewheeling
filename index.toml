@@ -37,6 +37,14 @@ file = "kubejs/server_scripts/create_crafts_n_additions.js"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "kubejs/server_scripts/create_diesel_generators.js"
+hash = "03e365fa960e6de75f906f5e013bf1585113805c03184333e3956bf0fe3c887b"
+
+[[files]]
+file = "kubejs/server_scripts/create_dragons_plus.js"
+hash = "e03f592627c6d161d60fbb49a109c8c9c48a8c31cd8635df70a39f074e56829b"
+
+[[files]]
 file = "kubejs/server_scripts/create_encased.js"
 hash = "3b998bfd36bbe726bbf16742bad6d684a807c379bcf2b6902d395e60a5f1b4b9"
 
@@ -46,11 +54,16 @@ hash = "357c790d7d41f076960fefe2247bb42a29603a87938c12da0e1fcb3bc69df343"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "7a587abf7d85f1c34be1d8bb0ee1c27de5444ddd026e637591e84c1ecd48d486"
+hash = "dcffe021eedc49a87226fab7142194d07bd4efe4ee2c0c325c0dbfab00c2cb93"
 
 [[files]]
 file = "mods/better-advanced-tooltips.pw.toml"
 hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
 
 [[files]]
@@ -66,6 +79,11 @@ metafile = true
 [[files]]
 file = "mods/create-connected.pw.toml"
 hash = "3b1b6163af92aa709dbc1800f76654db759a6ae590a6dd1858509138e1a70d6c"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "c12d2dc7c116f12a8f321b1c5fcd3a0231eb06dcebfe4e08231b91c915abc337"
 metafile = true
 
 [[files]]
@@ -91,6 +109,11 @@ metafile = true
 [[files]]
 file = "mods/create-fluidlogistic.pw.toml"
 hash = "0f155586e2558e279d8ce97f733993409024ec29292300949b557db28209057e"
+metafile = true
+
+[[files]]
+file = "mods/create-improve.pw.toml"
+hash = "4bda35d10dddcbcfd31831c9bcfcbcb057107009a89f6f5505bbf301454e8779"
 metafile = true
 
 [[files]]
