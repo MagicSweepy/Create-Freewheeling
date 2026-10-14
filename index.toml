@@ -9,6 +9,18 @@ file = "config/create_connected-common.toml"
 hash = "297f0fc61743172f35c68a80bfb90df58daafe9e6d011b089a3157f8191b474f"
 
 [[files]]
+file = "kubejs/assets/create_connected_encased/lang/zh_cn.json"
+hash = "cd822433ce3b78fbab0b3b101c3171723b09b0666bafae9b1c83ca3b853bb9bf"
+
+[[files]]
+file = "kubejs/assets/createaddition/lang/zh_cn.json"
+hash = "c75ee98dbbad9cb65c41536f94846b158feaf4be4f453bec612e47c14f50e150"
+
+[[files]]
+file = "kubejs/assets/createendergateway/lang/zh_cn.json"
+hash = "0614ff8a126560be83673b95cb79db959e79de69cc4c8653309f37e260b9dbaf"
+
+[[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
 hash = "4d52ce818b36108e9055ef5524f45236187616477134ce6aede5565c5aa12a08"
 
@@ -72,6 +84,11 @@ hash = "3ed1023f1adc6e29f8fb634a494a960b60fb3316541d9feb33002d8be657962e"
 metafile = true
 
 [[files]]
+file = "mods/create-ender-gateway.pw.toml"
+hash = "1a863e519284c44cf81fb8ab7d986e6f725e43cb784e969039d791e706dfeb25"
+metafile = true
+
+[[files]]
 file = "mods/create-fluidlogistic.pw.toml"
 hash = "0f155586e2558e279d8ce97f733993409024ec29292300949b557db28209057e"
 metafile = true
@@ -87,8 +104,28 @@ hash = "8913bb244d45ff085d444bd9c0ea236ffb3414a608554766140a208ac973a5a6"
 metafile = true
 
 [[files]]
+file = "mods/createjeicompat.pw.toml"
+hash = "bef580ddce749792b78b0e69bd6dc49c67ea3a5152eeb0f7cfac31e1dbd1f580"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
+metafile = true
+
+[[files]]
+file = "mods/interiors.pw.toml"
+hash = "69b39b9ae4625d2b3b8b48974ef9447e28286a06bfdaf12f986a3da8efd76ae6"
+metafile = true
+
+[[files]]
+file = "mods/jade-addons.pw.toml"
+hash = "6fb17e32ab3d80cac0fce250a55c6b5314c1330c1689b22f2ed3a84e5263220c"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "4b0a995f7cfa19951ba585aa320a1f4ef1a755a38b608adcff2f9ddd156b195b"
 metafile = true
 
 [[files]]
