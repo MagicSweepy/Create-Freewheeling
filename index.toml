@@ -61,6 +61,10 @@ file = "kubejs/server_scripts/create_rubber_works.js"
 hash = "7752509fbdcfa4c393087a38c5a531bdb4cc40c5ebf533dbe95d1e3a3d7b6c35"
 
 [[files]]
+file = "kubejs/server_scripts/farmers_delight.js"
+hash = "9ab62db6f5ee4dc1bd01c99550973a81d24c133eb268ebf2ea61d097a82fb5b2"
+
+[[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
 hash = "dcffe021eedc49a87226fab7142194d07bd4efe4ee2c0c325c0dbfab00c2cb93"
 
@@ -77,6 +81,11 @@ metafile = true
 [[files]]
 file = "mods/copycats.pw.toml"
 hash = "a21d5d0e2e3c1b5662ca1dc907cf496bb9f2a94b368a3f291967e8ba29043eaa"
+metafile = true
+
+[[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "3c416226b0040265cf8b2e633dd57784311797a2d7490d130f60d39a9b6bc3ae"
 metafile = true
 
 [[files]]
@@ -125,6 +134,11 @@ hash = "4bda35d10dddcbcfd31831c9bcfcbcb057107009a89f6f5505bbf301454e8779"
 metafile = true
 
 [[files]]
+file = "mods/create-integrated-farming.pw.toml"
+hash = "048819dc63310056e9a26ba0bbcf5f629f7c530b58c9ca1777ea39867765bd6c"
+metafile = true
+
+[[files]]
 file = "mods/create-rubberworks.pw.toml"
 hash = "31c3d1a049b685618fbc3edb730f36d438b446c539ccc84471179a22bcab1fca"
 metafile = true
@@ -147,6 +161,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
 metafile = true
 
 [[files]]
