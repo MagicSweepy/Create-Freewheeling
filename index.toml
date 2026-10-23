@@ -93,8 +93,12 @@ file = "kubejs/server_scripts/just_enough_items.js"
 hash = "a1ce72959766e7602dcda3e170ddb25edc94b2f5b0d18202b3b524effe7bb2fb"
 
 [[files]]
+file = "kubejs/server_scripts/toms_simple_storage.js"
+hash = "b1077364c0e142ff83e63b217a3991ef65e2179637c01f5f2ade084398f407f3"
+
+[[files]]
 file = "local/tofneo_packs/seen.txt"
-hash = "c846b73b915aa713e06775c8f4edfb9fa6f60e1dc878b3eb41f5f25343eede0f"
+hash = "19e00a7a50317132fd2b5ad39ec12e945db3d948e3e7e2601b179d576a2fd0fe"
 
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
@@ -337,6 +341,11 @@ hash = "0e1b01e2153e21799c09d48a49850c694a83674d63c9f47ec32c288325f45878"
 metafile = true
 
 [[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "af78bb5306aa88d89bdc0274e6a9541283e61e39e2df92516a965866b79ff3bd"
+metafile = true
+
+[[files]]
 file = "resourcepacks/create-mcgui.pw.toml"
 hash = "f1b28378eb5b1e56000bc080a11113c480426de5b5f5c511be1a5e3ec751d606"
 metafile = true
@@ -349,4 +358,9 @@ metafile = true
 [[files]]
 file = "resourcepacks/create-sophisticated-storages.pw.toml"
 hash = "4aa679c0f51fd71c1cb353cbc948962f4d53184a83f8db57eb2b893d94492372"
+metafile = true
+
+[[files]]
+file = "resourcepacks/toms-create-style.pw.toml"
+hash = "6a2c9c68399a61b12350d55485a52c8ad1d5b661de4c330f42baff927b6c9718"
 metafile = true
