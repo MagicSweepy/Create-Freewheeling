@@ -4,3 +4,4 @@ on file/CreateSophBackpacks.zip
 on file/CreateSophiStorage.zip
 on file/create_mcGUI_2.1.0.zip
 on file/Tom's Create Style 1.2 - 1.21.zip
+on file/Create FTB Quests 1.0.zip

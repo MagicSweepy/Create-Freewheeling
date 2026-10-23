@@ -1,0 +1,13 @@
+name = "FTB Quests Create"
+filename = "Create FTB Quests 1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1a543c1e7650730eb0ff64df5b53e007d8443fbc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7913337
+project-id = 1511504

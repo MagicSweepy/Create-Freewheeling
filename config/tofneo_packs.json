@@ -1,0 +1,25 @@
+{
+  "_doc": "Instance Pack Manager. enabled = on by default; locked = players cannot change this choice. A pack missing from this file = enabled + locked. Set it in game: Mods > Instance Pack Manager > Config. order = resource packs from BOTTOM to TOP, applied once per installation.",
+  "packs": {
+    "Create FTB Quests 1.0.zip": {
+      "enabled": true,
+      "locked": false
+    },
+    "CreateSophBackpacks.zip": {
+      "enabled": true,
+      "locked": false
+    },
+    "CreateSophiStorage.zip": {
+      "enabled": true,
+      "locked": false
+    },
+    "Tom's Create Style 1.2 - 1.21.zip": {
+      "enabled": true,
+      "locked": false
+    },
+    "create_mcGUI_2.1.0.zip": {
+      "enabled": true,
+      "locked": false
+    }
+  }
+}

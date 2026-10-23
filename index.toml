@@ -13,6 +13,10 @@ file = "config/curios-common.toml"
 hash = "d8d755ee9da66b79d5d3b84705a5410d3311e5377f48c35f071595f7a3324628"
 
 [[files]]
+file = "config/tofneo_packs.json"
+hash = "68d1566850c6b821adb83e19a67a9d55ddf6b411a07fb67e7bfda0197fe14e54"
+
+[[files]]
 file = "kubejs/assets/create/textures/block/glass_fluid_pipe.png"
 hash = "0bc79fd064b1246ad6b6b60de8fc471c72d1b20aee8279e1862168c390563f44"
 
@@ -102,7 +106,7 @@ hash = "b1077364c0e142ff83e63b217a3991ef65e2179637c01f5f2ade084398f407f3"
 
 [[files]]
 file = "local/tofneo_packs/seen.txt"
-hash = "19e00a7a50317132fd2b5ad39ec12e945db3d948e3e7e2601b179d576a2fd0fe"
+hash = "18b6bc3c0cc5e6aea2dcbe18e81ca5c1a873d5d4491949fca388668014589e90"
 
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
@@ -112,6 +116,11 @@ metafile = true
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "4b78352cbccdb3400530955a3e1271b2a60aec604e26e2ecdbf840faf0457d47"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
@@ -217,6 +226,36 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
+metafile = true
+
+[[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "670df7985eec05c6a339d90ebbcfda0e5f1f5c63846ac65a441412f123471e14"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "19d86081a1c7654a91f437d85ea34af4e3f2b899c8e0e50d48a04ca97babf7b4"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "93330f6ec85532067df176c6baee0e0f6d685c78088b1a2217726f6421899148"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "c21c2308684a75cda7dd9d557d129c9f89f49be527da3d5aa675fff444c11f5e"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "96b8df58491c7190b35bf1c5115f029df6464ec276244557becad1613c5f5125"
 metafile = true
 
 [[files]]
@@ -362,6 +401,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/create-sophisticated-storages.pw.toml"
 hash = "4aa679c0f51fd71c1cb353cbc948962f4d53184a83f8db57eb2b893d94492372"
+metafile = true
+
+[[files]]
+file = "resourcepacks/ftb-quests-create.pw.toml"
+hash = "7c189ebb30c622810a8b3dc6e9e0824196c34d89e5683f43d72cbbc331d510c1"
 metafile = true
 
 [[files]]
