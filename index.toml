@@ -9,6 +9,10 @@ file = "config/create_connected-common.toml"
 hash = "297f0fc61743172f35c68a80bfb90df58daafe9e6d011b089a3157f8191b474f"
 
 [[files]]
+file = "config/curios-common.toml"
+hash = "d8d755ee9da66b79d5d3b84705a5410d3311e5377f48c35f071595f7a3324628"
+
+[[files]]
 file = "kubejs/assets/create/textures/block/glass_fluid_pipe.png"
 hash = "0bc79fd064b1246ad6b6b60de8fc471c72d1b20aee8279e1862168c390563f44"
 
