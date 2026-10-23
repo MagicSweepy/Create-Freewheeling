@@ -13,8 +13,20 @@ file = "config/curios-common.toml"
 hash = "d8d755ee9da66b79d5d3b84705a5410d3311e5377f48c35f071595f7a3324628"
 
 [[files]]
+file = "config/ftbchunks-world.snbt"
+hash = "2b515fc43ca4947089b5ccaeba940746679b8964d496698c79cd6eae8fe7c335"
+
+[[files]]
+file = "config/ftbessentials.snbt"
+hash = "20c11fdd92c80d5b7fd9c4f17912527873ece6d18635a8a64ac026962dea18be"
+
+[[files]]
 file = "config/tofneo_packs.json"
 hash = "68d1566850c6b821adb83e19a67a9d55ddf6b411a07fb67e7bfda0197fe14e54"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "dea8d2000b7bf50b4450cfb76aded10079a833fdc08a9d409dfd9b2b8f0aa5f3"
 
 [[files]]
 file = "kubejs/assets/create/textures/block/glass_fluid_pipe.png"
@@ -121,6 +133,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "0f6b24d697903dc261c881c4a736ec57c57ed5384f23d77ca9f6cec1e954d559"
 metafile = true
 
 [[files]]
@@ -231,6 +248,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "670df7985eec05c6a339d90ebbcfda0e5f1f5c63846ac65a441412f123471e14"
+metafile = true
+
+[[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "6fa984dc1b5905ae909b417ed1cd92d6b536ba4832ed8c8d95aa9d424ad789df"
 metafile = true
 
 [[files]]
@@ -386,6 +408,21 @@ metafile = true
 [[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "af78bb5306aa88d89bdc0274e6a9541283e61e39e2df92516a965866b79ff3bd"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "cfc3d0abc9c387a708d246bef5f90481cd62adee3b6ed7e0932042de2bdbcc3e"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "70e12b988f0efd4df56597d3f37fe37608584b876ff3e713e4f5d966a37a4a25"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "62eaf7c193d20dbec89944f6e1401ce64a80d8d704830a988d24c1498d8316e2"
 metafile = true
 
 [[files]]
