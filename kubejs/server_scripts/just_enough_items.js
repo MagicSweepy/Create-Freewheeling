@@ -3,6 +3,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('create_dragons_plus:fluid_hatch')
     event.remove('createdieselgenerators:wire_cutters')
     event.remove('createdieselgenerators:hammer')
+    event.remove('createcasing:recaser')
 })
 
 RecipeViewerEvents.removeCategories(event => {

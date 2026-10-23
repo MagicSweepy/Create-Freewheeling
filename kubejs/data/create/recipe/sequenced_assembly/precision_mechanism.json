@@ -17,7 +17,7 @@
           "item": "create:incomplete_precision_mechanism"
         },
         {
-          "tag": "kubejs:cogwheel"
+          "tag": "create:cogwheels"
         }
       ],
       "results": [
@@ -33,7 +33,7 @@
           "item": "create:incomplete_precision_mechanism"
         },
         {
-          "tag": "kubejs:large_cogwheel"
+          "tag": "create:large_cogwheels"
         }
       ],
       "results": [

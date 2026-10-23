@@ -10,11 +10,15 @@ hash = "297f0fc61743172f35c68a80bfb90df58daafe9e6d011b089a3157f8191b474f"
 
 [[files]]
 file = "kubejs/assets/create_connected_encased/lang/zh_cn.json"
-hash = "cd822433ce3b78fbab0b3b101c3171723b09b0666bafae9b1c83ca3b853bb9bf"
+hash = "b51c14a62590377087f60e7fe0e4be617d75719ad6a4c7161a93393664a1b42c"
 
 [[files]]
 file = "kubejs/assets/createaddition/lang/zh_cn.json"
 hash = "c75ee98dbbad9cb65c41536f94846b158feaf4be4f453bec612e47c14f50e150"
+
+[[files]]
+file = "kubejs/assets/createcasing/lang/zh_cn.json"
+hash = "5f24316c23f9d05df697fafccd6bf46828c09038cc375658e5e3ec9720c980ac"
 
 [[files]]
 file = "kubejs/assets/createendergateway/lang/zh_cn.json"
@@ -22,19 +26,23 @@ hash = "0614ff8a126560be83673b95cb79db959e79de69cc4c8653309f37e260b9dbaf"
 
 [[files]]
 file = "kubejs/assets/rubberworks/lang/zh_cn.json"
-hash = "81c95bf25b3d3251d2786f86f1f9234c69917ff355f2dbb77f82f930fe1d1926"
+hash = "d106229ac6e932d9ddebae4718dbab9a3cb2e0163b4bf4d62e31e4ee27b2b6a0"
 
 [[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
-hash = "4d52ce818b36108e9055ef5524f45236187616477134ce6aede5565c5aa12a08"
+hash = "94067ba409b7ce0728252ab09d215e7b23bb9546019b47950574909df9c00297"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
-hash = "8363208f0a60da093ae337b5914b54d031f6115eebfe5aa0477e35d12551015e"
+hash = "f9f02c2d404c3f0935a709dfac1afc19d40ce0b70d370eae0b3bfaea5707ab0c"
 
 [[files]]
 file = "kubejs/server_scripts/create_connected.js"
 hash = "0708d18b46cd2830e1b91b3f746766d810eb170a605cdb5c07927d888e0d5319"
+
+[[files]]
+file = "kubejs/server_scripts/create_connected_encased.js"
+hash = "1194019f851e6ecceb2be140be53cb273ab956127b13a1a70ea0eccc110d7427"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_n_additions.js"
@@ -50,11 +58,11 @@ hash = "e03f592627c6d161d60fbb49a109c8c9c48a8c31cd8635df70a39f074e56829b"
 
 [[files]]
 file = "kubejs/server_scripts/create_encased.js"
-hash = "3b998bfd36bbe726bbf16742bad6d684a807c379bcf2b6902d395e60a5f1b4b9"
+hash = "a241fd4ec3896afa1b16ecde0b3e9356fd29aefcd4e4ad7bac760c9efbc31332"
 
 [[files]]
 file = "kubejs/server_scripts/create_fluid_logistics.js"
-hash = "357c790d7d41f076960fefe2247bb42a29603a87938c12da0e1fcb3bc69df343"
+hash = "4e715cbe6360c4d22781d6225ce58b839c63025203d188d07062f5d54a75b688"
 
 [[files]]
 file = "kubejs/server_scripts/create_rubber_works.js"
@@ -66,7 +74,7 @@ hash = "9ab62db6f5ee4dc1bd01c99550973a81d24c133eb268ebf2ea61d097a82fb5b2"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "dcffe021eedc49a87226fab7142194d07bd4efe4ee2c0c325c0dbfab00c2cb93"
+hash = "a1ce72959766e7602dcda3e170ddb25edc94b2f5b0d18202b3b524effe7bb2fb"
 
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
@@ -100,7 +108,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected-encased.pw.toml"
-hash = "3a741cbb8ff5120b51788709ac490c9cabf64c6ce21a431419cbd5c929e1aa7e"
+hash = "2b702fc116384f9784ca5474e89b01ff7f664ef203060a9483223b3ed3c2c76b"
 metafile = true
 
 [[files]]
@@ -120,7 +128,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "39e4105fc8c8334fffb32f73220d898cc9ce22a1f2d5ba7eaaeb8abfc422b7fd"
+hash = "b41c3e165e3550a1e4fdc60091cfcdc79361a02983ea62258045bdd5a84a90bf"
 metafile = true
 
 [[files]]

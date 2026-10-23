@@ -1,13 +1,13 @@
 name = "Create Connected: Encased"
-filename = "create_connected_encased-1.1.0.jar"
+filename = "create_connected_encased-1.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a6b716f4f6c2ca1cab00ae70fd598f561661a74b"
+hash = "a5b6f0cd36ddb405c7115b250963742dd7e02f1b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9117153
+file-id = 9281640
 project-id = 1721967
