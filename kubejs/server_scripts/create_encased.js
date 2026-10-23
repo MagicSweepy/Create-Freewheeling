@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({ input: 'create:smart_fluid_pipe' }, 'create:smart_fluid_pipe', '#create:smart_fluid_pipes')
     event.replaceInput({ input: 'create:mechanical_pump' }, 'create:mechanical_pump', '#create:mechanical_pumps')
     event.replaceInput({ input: 'create:fluid_valve' }, 'create:fluid_valve', '#create:fluid_valves')
+    event.replaceInput({ input: 'create:spout' }, 'create:spout', '#create:spouts')
 
     // #region Cogwheels
 

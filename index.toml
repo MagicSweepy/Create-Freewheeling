@@ -58,11 +58,11 @@ hash = "e03f592627c6d161d60fbb49a109c8c9c48a8c31cd8635df70a39f074e56829b"
 
 [[files]]
 file = "kubejs/server_scripts/create_encased.js"
-hash = "a241fd4ec3896afa1b16ecde0b3e9356fd29aefcd4e4ad7bac760c9efbc31332"
+hash = "c946116f02152129e78b12ffeb1506aeea3eacd92d2a13437984916e327ec9f1"
 
 [[files]]
 file = "kubejs/server_scripts/create_fluid_logistics.js"
-hash = "4e715cbe6360c4d22781d6225ce58b839c63025203d188d07062f5d54a75b688"
+hash = "f4f2ad691f7dc08c44b52ab44ec8e43b47eba5f697122ec60764b5aefb955bef"
 
 [[files]]
 file = "kubejs/server_scripts/create_rubber_works.js"
