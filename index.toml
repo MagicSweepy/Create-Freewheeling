@@ -9,6 +9,10 @@ file = "config/create_connected-common.toml"
 hash = "297f0fc61743172f35c68a80bfb90df58daafe9e6d011b089a3157f8191b474f"
 
 [[files]]
+file = "kubejs/assets/create/textures/block/glass_fluid_pipe.png"
+hash = "0bc79fd064b1246ad6b6b60de8fc471c72d1b20aee8279e1862168c390563f44"
+
+[[files]]
 file = "kubejs/assets/create_connected_encased/lang/zh_cn.json"
 hash = "b51c14a62590377087f60e7fe0e4be617d75719ad6a4c7161a93393664a1b42c"
 
@@ -19,6 +23,18 @@ hash = "c75ee98dbbad9cb65c41536f94846b158feaf4be4f453bec612e47c14f50e150"
 [[files]]
 file = "kubejs/assets/createcasing/lang/zh_cn.json"
 hash = "5f24316c23f9d05df697fafccd6bf46828c09038cc375658e5e3ec9720c980ac"
+
+[[files]]
+file = "kubejs/assets/createcasing/textures/block/glass_fluid_pipe/andesite.png"
+hash = "1b84300f5e5c743f8c24559e94f43d41769bcf591db251210b3b32a1bd9658df"
+
+[[files]]
+file = "kubejs/assets/createcasing/textures/block/glass_fluid_pipe/brass.png"
+hash = "5817593e3289432fa387a50a71028ccade78c3d718cee582034f2f0f5fb738c2"
+
+[[files]]
+file = "kubejs/assets/createcasing/textures/block/glass_fluid_pipe/zinc.png"
+hash = "e9b12230b4f859ecbe02ff8dea262cb9fec07806d0ce110b1d171e5f3c98c9c4"
 
 [[files]]
 file = "kubejs/assets/createendergateway/lang/zh_cn.json"
@@ -78,7 +94,7 @@ hash = "a1ce72959766e7602dcda3e170ddb25edc94b2f5b0d18202b3b524effe7bb2fb"
 
 [[files]]
 file = "local/tofneo_packs/seen.txt"
-hash = "6fa665416cb2412141449b622262fa52107949ad5983303d96f68b18456c11e7"
+hash = "c846b73b915aa713e06775c8f4edfb9fa6f60e1dc878b3eb41f5f25343eede0f"
 
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
@@ -318,6 +334,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "0e1b01e2153e21799c09d48a49850c694a83674d63c9f47ec32c288325f45878"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-mcgui.pw.toml"
+hash = "f1b28378eb5b1e56000bc080a11113c480426de5b5f5c511be1a5e3ec751d606"
 metafile = true
 
 [[files]]

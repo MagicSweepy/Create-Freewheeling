@@ -2,3 +2,4 @@
 # Deleting this file applies the modpack defaults again at next launch.
 on file/CreateSophBackpacks.zip
 on file/CreateSophiStorage.zip
+on file/create_mcGUI_2.1.0.zip
