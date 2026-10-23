@@ -21,6 +21,10 @@ file = "config/ftbessentials.snbt"
 hash = "20c11fdd92c80d5b7fd9c4f17912527873ece6d18635a8a64ac026962dea18be"
 
 [[files]]
+file = "config/serilum/starterkit/kits/Kit_1.txt"
+hash = "d9aecebae2bef8e2eb5927228c06591a8ce3a7be11e793307f73fbdc3e4017d6"
+
+[[files]]
 file = "config/tofneo_packs.json"
 hash = "68d1566850c6b821adb83e19a67a9d55ddf6b411a07fb67e7bfda0197fe14e54"
 
@@ -148,6 +152,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "8bf59e3bacf4bae409bd4f26aa77cdd3d8a61b67e1174b25200a558b0daba725"
 metafile = true
 
 [[files]]
@@ -403,6 +412,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "0e1b01e2153e21799c09d48a49850c694a83674d63c9f47ec32c288325f45878"
+metafile = true
+
+[[files]]
+file = "mods/starter-kit.pw.toml"
+hash = "38fba226003880e15e5acb6cba090e3b6920bd352cbd45f8ab879cbe2047c566"
 metafile = true
 
 [[files]]
