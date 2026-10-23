@@ -26,7 +26,7 @@ hash = "d9aecebae2bef8e2eb5927228c06591a8ce3a7be11e793307f73fbdc3e4017d6"
 
 [[files]]
 file = "config/tofneo_packs.json"
-hash = "68d1566850c6b821adb83e19a67a9d55ddf6b411a07fb67e7bfda0197fe14e54"
+hash = "2c633b807525d6d09cf1b8f42a240c4ef824d4a91b39bf3bfe74d91be258e077"
 
 [[files]]
 file = "config/waystones-common.toml"

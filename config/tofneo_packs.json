@@ -3,23 +3,23 @@
   "packs": {
     "Create FTB Quests 1.0.zip": {
       "enabled": true,
-      "locked": false
+      "locked": true
     },
     "CreateSophBackpacks.zip": {
       "enabled": true,
-      "locked": false
+      "locked": true
     },
     "CreateSophiStorage.zip": {
       "enabled": true,
-      "locked": false
+      "locked": true
     },
     "Tom's Create Style 1.2 - 1.21.zip": {
       "enabled": true,
-      "locked": false
+      "locked": true
     },
     "create_mcGUI_2.1.0.zip": {
       "enabled": true,
-      "locked": false
+      "locked": true
     }
   }
 }
