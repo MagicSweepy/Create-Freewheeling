@@ -77,6 +77,10 @@ file = "kubejs/server_scripts/just_enough_items.js"
 hash = "a1ce72959766e7602dcda3e170ddb25edc94b2f5b0d18202b3b524effe7bb2fb"
 
 [[files]]
+file = "local/tofneo_packs/seen.txt"
+hash = "6fa665416cb2412141449b622262fa52107949ad5983303d96f68b18456c11e7"
+
+[[files]]
 file = "mods/ae2-jei-integration.pw.toml"
 hash = "491974dc6adba0e893fb755f55dfe833a1076ba49fdf9e4f92b8b9fa069ce9b5"
 metafile = true
@@ -202,6 +206,11 @@ hash = "d37a576e8345f7c7fe6ad9364d8da15309a7085bfda05f91558556791e33f24c"
 metafile = true
 
 [[files]]
+file = "mods/instance-pack-manager.pw.toml"
+hash = "37e0a6f9f1072e1841ba19a637b0e83b5b4a3435b4e1c21f54e0cfe669553b50"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 hash = "69b39b9ae4625d2b3b8b48974ef9447e28286a06bfdaf12f986a3da8efd76ae6"
 metafile = true
@@ -309,4 +318,14 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "0e1b01e2153e21799c09d48a49850c694a83674d63c9f47ec32c288325f45878"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
+hash = "6d6b7da245ca52c3dcfa20907de5934af51634f07319c3072b26a7f9971e1738"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-sophisticated-storages.pw.toml"
+hash = "4aa679c0f51fd71c1cb353cbc948962f4d53184a83f8db57eb2b893d94492372"
 metafile = true

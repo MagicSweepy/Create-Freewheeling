@@ -1,0 +1,4 @@
+# Instance Pack Manager: default modes already applied to this installation.
+# Deleting this file applies the modpack defaults again at next launch.
+on file/CreateSophBackpacks.zip
+on file/CreateSophiStorage.zip

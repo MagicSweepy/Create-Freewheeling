@@ -1,0 +1,13 @@
+name = "Instance Pack Manager"
+filename = "instance_pack_manager-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d168a3ae0d89c82a23c344cfcc894085a8745c67"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9290115
+project-id = 1693870
