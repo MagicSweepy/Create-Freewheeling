@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ModernUI/client.toml"
+hash = "3adee74d730eb659aa522e634a399f87c556e414f678277c80f0dce749bbc5a7"
+
+[[files]]
 file = "config/create-server.toml"
 hash = "1372706d35aaa69b3941597bd6c30490f0b97a686c1eefc36243ed6a523dbdd3"
 
@@ -201,6 +205,11 @@ hash = "8bf59e3bacf4bae409bd4f26aa77cdd3d8a61b67e1174b25200a558b0daba725"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "a21d5d0e2e3c1b5662ca1dc907cf496bb9f2a94b368a3f291967e8ba29043eaa"
 metafile = true
@@ -396,6 +405,11 @@ hash = "aaa5892af3e5d81c19b67ac1b450dc634980dd3af9443072adfa2bdc80b1e6dd"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "057044d2179d9e10b616ef8fa4cc870ad350842fc5c325ce0b3766160852cd13"
+metafile = true
+
+[[files]]
 file = "mods/neapolitan.pw.toml"
 hash = "55ff0b12591e858a83633b5dc788464c908375a79e4043ac11b3518a776cc358"
 metafile = true
@@ -406,6 +420,11 @@ hash = "5d6d025439294b72c3cda81163247ebbac199a6c3b8aa0fbbcf0dee987232f6f"
 metafile = true
 
 [[files]]
+file = "mods/re-avaritia.pw.toml"
+hash = "d9d78cb442bc4c7b2a5917f2e57968750762558eb381a2a630dd0d5e6244e0cc"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "f45da2d9525cb355c246a0ed35de86f6b78e553dcf69119d05494803a2e43983"
 metafile = true
@@ -413,6 +432,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
 metafile = true
 
 [[files]]
@@ -438,6 +462,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "88f9a977f852f416f10c36cec9383cd933202a9c55308f6db01c3b5f078940e7"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-inventory-interactions.pw.toml"
+hash = "019f108d9ff73962db81e520e348cbea5d70d5c0fadcde1de8d49b90a20bcbdf"
 metafile = true
 
 [[files]]
