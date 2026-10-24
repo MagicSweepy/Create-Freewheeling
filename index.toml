@@ -73,6 +73,10 @@ file = "kubejs/assets/createendergateway/lang/zh_cn.json"
 hash = "0614ff8a126560be83673b95cb79db959e79de69cc4c8653309f37e260b9dbaf"
 
 [[files]]
+file = "kubejs/assets/extra_gauges/lang/zh_cn.json"
+hash = "ead57830604c29579bbe817f511208a36c83174edc59f9eee28ac39fa826083f"
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
 hash = "481d1221d3c80b4f12da7503a2ac2acc6e8336b9df4df46f25ad06b538c6492a"
 
@@ -259,6 +263,11 @@ hash = "1a863e519284c44cf81fb8ab7d986e6f725e43cb784e969039d791e706dfeb25"
 metafile = true
 
 [[files]]
+file = "mods/create-extra-gauges.pw.toml"
+hash = "80303b4d6acd243e1796b5debec43f53ee8b84b2bc84c4afe2af678680fd9cfe"
+metafile = true
+
+[[files]]
 file = "mods/create-fluidlogistic.pw.toml"
 hash = "0f155586e2558e279d8ce97f733993409024ec29292300949b557db28209057e"
 metafile = true
@@ -296,6 +305,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
+metafile = true
+
+[[files]]
+file = "mods/deployer.pw.toml"
+hash = "b5f93c7de7f0b296533f51c53536c5258a8896c4e30f0fc1bdc3c51fa3b60cb5"
 metafile = true
 
 [[files]]
