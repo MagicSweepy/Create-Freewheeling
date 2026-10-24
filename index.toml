@@ -25,6 +25,30 @@ file = "config/ftbessentials.snbt"
 hash = "20c11fdd92c80d5b7fd9c4f17912527873ece6d18635a8a64ac026962dea18be"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "143e8b6808c5c6a483581195a9bdfdd7a72ca92c6733f8c28d14c3f533e8a7db"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
+hash = "c0705bc6324f76882075861fd0bd554c9b80997f2b172089fb5e047ea8bafcb5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/4fe6230ca6cc0ca9.snbt"
+hash = "f2b9aa13cad0a4d83e19c0e39460dd5b839600084fcc2db8fdf6b634bed58ed4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/57eb35d05e426451.snbt"
+hash = "343cd49a11dc5f1118d62304866c26569c480e4570e126841af85e2ea694dea5"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "360148cc5a53ffbc2cefd68cfc23f4c5a152439419a99b8b171e9f9173ccc0c3"
+
+[[files]]
+file = "config/ftbquests/quests/lang/zh_cn.snbt"
+hash = "bd551e69d4ffdf2b6f9a963697574355141616ee6c1f2bdb8cb5673dd7acd3cc"
+
+[[files]]
 file = "config/jade/jade.json"
 hash = "abccdc49ee988cf6566a6afa65b940358633e28ea8d9d74e8e61dd39896b1eb9"
 
@@ -330,6 +354,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-essentials.pw.toml"
 hash = "6fa984dc1b5905ae909b417ed1cd92d6b536ba4832ed8c8d95aa9d424ad789df"
+metafile = true
+
+[[files]]
+file = "mods/ftb-filter-system.pw.toml"
+hash = "9cb8d355c77067b00a96d96db398f60db62a6ee238dabff45ade33dd8d9f9e3b"
 metafile = true
 
 [[files]]
