@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3d3031c68d8d2fbe"
+	group: "10F403E42D9782F3"
+	icon: {
+		id: "create:brass_casing"
+	}
+	id: "3D3031C68D8D2FBE"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"3B39A6674FC93E3D"
+			"2F52399523596EB4"
+		]
+		id: "37BECA3B494FD00E"
+		shape: "gear"
+		size: 6.0d
+		tasks: [{
+			id: "2C104DE33EE08778"
+			item: { count: 1, id: "create:brass_ingot" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

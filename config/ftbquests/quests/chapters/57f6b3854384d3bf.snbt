@@ -1,12 +1,13 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "4fe6230ca6cc0ca9"
+	default_quest_shape: "hexagon"
+	default_quest_size: 4.0d
+	filename: "57f6b3854384d3bf"
 	group: "10F403E42D9782F3"
 	icon: {
-		id: "create:brass_casing"
+		id: "create:crimsite"
 	}
-	id: "4FE6230CA6CC0CA9"
+	id: "57F6B3854384D3BF"
 	images: [ ]
 	order_index: 1
 	quest_links: [ ]

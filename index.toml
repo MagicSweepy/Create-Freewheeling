@@ -30,23 +30,27 @@ hash = "143e8b6808c5c6a483581195a9bdfdd7a72ca92c6733f8c28d14c3f533e8a7db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
-hash = "c0705bc6324f76882075861fd0bd554c9b80997f2b172089fb5e047ea8bafcb5"
+hash = "066615520000e24d6a5be1f6b52d593425b8d9dd19393af7cc43e27cbed07253"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/4fe6230ca6cc0ca9.snbt"
-hash = "f2b9aa13cad0a4d83e19c0e39460dd5b839600084fcc2db8fdf6b634bed58ed4"
+file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
+hash = "cbce9c91548536cbf7ea9c4af65e71dc1b2526b504e9bef22e69b4c7167450da"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/57eb35d05e426451.snbt"
-hash = "343cd49a11dc5f1118d62304866c26569c480e4570e126841af85e2ea694dea5"
+file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
+hash = "ef1e5352ed35fd2a280b5b7442cecb712c3bb87f67357c95888a9333699d3c1b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "360148cc5a53ffbc2cefd68cfc23f4c5a152439419a99b8b171e9f9173ccc0c3"
 
 [[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "9c14bfdd411c4519475720a6bb9ee048e9d3dd0130561143ec21045239576f03"
+
+[[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "bd551e69d4ffdf2b6f9a963697574355141616ee6c1f2bdb8cb5673dd7acd3cc"
+hash = "a6bde1ab44b206428df5d3aecb566aa41cf18fd1a0bd26c3ba1e6ec1d3fdc84e"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -99,6 +103,30 @@ hash = "0614ff8a126560be83673b95cb79db959e79de69cc4c8653309f37e260b9dbaf"
 [[files]]
 file = "kubejs/assets/extra_gauges/lang/zh_cn.json"
 hash = "ead57830604c29579bbe817f511208a36c83174edc59f9eee28ac39fa826083f"
+
+[[files]]
+file = "kubejs/assets/ftbquests/textures/shapes/hexagon/background.png"
+hash = "ceebe0f98fe2497758e3e02516b67b32e76c4391de6bb66bd9c903b4eeb735b6"
+
+[[files]]
+file = "kubejs/assets/ftbquests/textures/shapes/hexagon/background.png.mcmeta"
+hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
+
+[[files]]
+file = "kubejs/assets/ftbquests/textures/shapes/hexagon/outline.png"
+hash = "4a4e7f741ae0e5a6e5b9e3345552b01b1e969522c243afde132f23f99f76bef8"
+
+[[files]]
+file = "kubejs/assets/ftbquests/textures/shapes/hexagon/outline.png.mcmeta"
+hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
+
+[[files]]
+file = "kubejs/assets/ftbquests/textures/shapes/hexagon/shape.png"
+hash = "3ee669bd8aaf8f8a3195eb65e6e54ff2b9fd7670f735abc7aab0045686cd0f87"
+
+[[files]]
+file = "kubejs/assets/ftbquests/textures/shapes/hexagon/shape.png.mcmeta"
+hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
