@@ -65,8 +65,28 @@ file = "kubejs/assets/createendergateway/lang/zh_cn.json"
 hash = "0614ff8a126560be83673b95cb79db959e79de69cc4c8653309f37e260b9dbaf"
 
 [[files]]
+file = "kubejs/assets/kubejs/lang/en_us.json"
+hash = "481d1221d3c80b4f12da7503a2ac2acc6e8336b9df4df46f25ad06b538c6492a"
+
+[[files]]
+file = "kubejs/assets/kubejs/lang/zh_cn.json"
+hash = "a273ae2e8a451c2cca6f097153eef9d9e9e3a7d4651dea5a59bb09a424414849"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/cake_mechanism.png"
+hash = "0b1369e7bbd8bb5415c3175a7d39bef44f4c7618c06a404920f9678a468bc31d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unfilled_cake_mechanism.png"
+hash = "4c173c012b3339877b8724ea1b3922df1020bf173c2f52359f47495b01a717e2"
+
+[[files]]
 file = "kubejs/assets/rubberworks/lang/zh_cn.json"
 hash = "d106229ac6e932d9ddebae4718dbab9a3cb2e0163b4bf4d62e31e4ee27b2b6a0"
+
+[[files]]
+file = "kubejs/client_scripts/incomplete_item_renderer.js"
+hash = "21c974ef2cd0b1808f9b3dcd290af21804c4124d8b8c21ff88b87521c008cec4"
 
 [[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
@@ -78,7 +98,7 @@ hash = "f9f02c2d404c3f0935a709dfac1afc19d40ce0b70d370eae0b3bfaea5707ab0c"
 
 [[files]]
 file = "kubejs/server_scripts/create_connected.js"
-hash = "0708d18b46cd2830e1b91b3f746766d810eb170a605cdb5c07927d888e0d5319"
+hash = "92b54e028714d70e78af67485cffa873a92b8e7e559bb1b27c94c2ef57ece25e"
 
 [[files]]
 file = "kubejs/server_scripts/create_connected_encased.js"
@@ -114,11 +134,19 @@ hash = "9ab62db6f5ee4dc1bd01c99550973a81d24c133eb268ebf2ea61d097a82fb5b2"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "a1ce72959766e7602dcda3e170ddb25edc94b2f5b0d18202b3b524effe7bb2fb"
+hash = "71437a6d87aac83927d29f61261bf64fcf6d9b306f849ef2bdeeda8e498337e3"
+
+[[files]]
+file = "kubejs/server_scripts/kubejs.js"
+hash = "9a2810cdb518a9fd76cfd7048ca55c4fca169c01dafc28d68a6ae0d5bb82f04c"
 
 [[files]]
 file = "kubejs/server_scripts/toms_simple_storage.js"
 hash = "b1077364c0e142ff83e63b217a3991ef65e2179637c01f5f2ade084398f407f3"
+
+[[files]]
+file = "kubejs/startup_scripts/items.js"
+hash = "ba9753f425c64740bc6170286f254afb442819d021a8bd098684221f8379237d"
 
 [[files]]
 file = "local/tofneo_packs/seen.txt"
@@ -147,6 +175,11 @@ metafile = true
 [[files]]
 file = "mods/better-advanced-tooltips.pw.toml"
 hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
+metafile = true
+
+[[files]]
+file = "mods/blueprint.pw.toml"
+hash = "16ba84aa4357c8ca27afc6f92225b94ae4a965dfef3eed9240c3062436e1fd0f"
 metafile = true
 
 [[files]]
@@ -271,7 +304,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "93330f6ec85532067df176c6baee0e0f6d685c78088b1a2217726f6421899148"
+hash = "385e7d9da242de82c155495b28d8eb75a5825cd812961ae28e2598b03b2b7336"
 metafile = true
 
 [[files]]
@@ -352,6 +385,11 @@ metafile = true
 [[files]]
 file = "mods/modern-ui.pw.toml"
 hash = "aaa5892af3e5d81c19b67ac1b450dc634980dd3af9443072adfa2bdc80b1e6dd"
+metafile = true
+
+[[files]]
+file = "mods/neapolitan.pw.toml"
+hash = "55ff0b12591e858a83633b5dc788464c908375a79e4043ac11b3518a776cc358"
 metafile = true
 
 [[files]]

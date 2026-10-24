@@ -1,3 +1,7 @@
+RecipeViewerEvents.removeEntries('item', event => {
+    event.remove('kubejs:unfilled_cake_mechanism')
+})
+
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('createcasing:zinc_sheet')
     event.remove('create_dragons_plus:fluid_hatch')
