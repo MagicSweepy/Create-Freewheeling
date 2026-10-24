@@ -134,11 +134,15 @@ hash = "9ab62db6f5ee4dc1bd01c99550973a81d24c133eb268ebf2ea61d097a82fb5b2"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "71437a6d87aac83927d29f61261bf64fcf6d9b306f849ef2bdeeda8e498337e3"
+hash = "8724ae00c885a356f89ebffcfadddbf6274cc9ec8a74f8b95d0311df16e9b21c"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
 hash = "9a2810cdb518a9fd76cfd7048ca55c4fca169c01dafc28d68a6ae0d5bb82f04c"
+
+[[files]]
+file = "kubejs/server_scripts/neapolitan.js"
+hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
 
 [[files]]
 file = "kubejs/server_scripts/toms_simple_storage.js"
@@ -146,7 +150,11 @@ hash = "b1077364c0e142ff83e63b217a3991ef65e2179637c01f5f2ade084398f407f3"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "ba9753f425c64740bc6170286f254afb442819d021a8bd098684221f8379237d"
+hash = "8a4225c9a7398d49ebd1214cb5880dc4b39d14ec3af5cc332cf0c0527397232d"
+
+[[files]]
+file = "kubejs/startup_scripts/modpack.js"
+hash = "c8ec8780aa37b60e0bee3f98cfe5108f4cb76730c7a413fdb0a7454c2f585262"
 
 [[files]]
 file = "local/tofneo_packs/seen.txt"

@@ -1,4 +1,3 @@
-
 StartupEvents.registry('item', event => {
     event.create('cake_mechanism').food(food => { food
         .nutrition(12)

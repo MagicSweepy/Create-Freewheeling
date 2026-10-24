@@ -8,6 +8,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('createdieselgenerators:wire_cutters')
     event.remove('createdieselgenerators:hammer')
     event.remove('createcasing:recaser')
+    event.remove('neapolitan:chocolate_bar')
+    event.remove('neapolitan:milk_bottle')
 })
 
 RecipeViewerEvents.removeCategories(event => {
