@@ -496,6 +496,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5CDCD7A113276A50"]
 			id: "1E65784B75CF663D"
 			tasks: [{
 				dimension: "minecraft:the_nether"
@@ -690,6 +691,7 @@
 			y: -10.0d
 		}
 		{
+			dependencies: ["22527282D4A659E7"]
 			id: "18978306FA3F90E6"
 			tasks: [{
 				id: "0B449906B3EE4E62"
@@ -700,6 +702,10 @@
 			y: 5.0d
 		}
 		{
+			dependencies: [
+				"18978306FA3F90E6"
+				"6EC8BF51FACA3108"
+			]
 			id: "5B2B9ACFF8F69DCD"
 			tasks: [{
 				id: "55C00629652DDB7E"

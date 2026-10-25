@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
+	default_quest_size: 4.0d
 	filename: "3d3031c68d8d2fbe"
 	group: "10F403E42D9782F3"
 	icon: {
@@ -10,20 +11,110 @@
 	images: [ ]
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"3B39A6674FC93E3D"
-			"2F52399523596EB4"
-		]
-		id: "37BECA3B494FD00E"
-		shape: "gear"
-		size: 6.0d
-		tasks: [{
-			id: "2C104DE33EE08778"
-			item: { count: 1, id: "create:brass_ingot" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"3B39A6674FC93E3D"
+				"2F52399523596EB4"
+			]
+			id: "37BECA3B494FD00E"
+			shape: "gear"
+			size: 6.0d
+			tasks: [{
+				id: "2C104DE33EE08778"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37BECA3B494FD00E"]
+			id: "32254B988DBFD54C"
+			tasks: [{
+				id: "64E6D81F66D486A1"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0EF127DEF629C44E"
+				"4D7EEF0C589780DA"
+			]
+			id: "06D16CB3912B8D4C"
+			tasks: [{
+				id: "5BE887244E869D3F"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"32254B988DBFD54C"
+				"06D16CB3912B8D4C"
+			]
+			id: "6B4C3566623E66B5"
+			size: 4.0d
+			tasks: [{
+				id: "2C1E1244D8AC7F3E"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B4C3566623E66B5"]
+			id: "0129441E33AC78C2"
+			size: 5.0d
+			tasks: [{
+				count: 2L
+				id: "3D525FEFE21A8728"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"06D16CB3912B8D4C"
+				"37BECA3B494FD00E"
+			]
+			id: "36FEFF311C2C01F9"
+			tasks: [
+				{
+					id: "2DEE4265533BD90A"
+					item: { count: 1, id: "create:brass_funnel" }
+					type: "item"
+				}
+				{
+					id: "088BDE34FAC1C257"
+					item: { count: 1, id: "create:brass_tunnel" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"37BECA3B494FD00E"
+				"06D16CB3912B8D4C"
+			]
+			id: "05C7313C92310FD9"
+			tasks: [{
+				id: "363B664021C532A0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:deployers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+	]
 }
