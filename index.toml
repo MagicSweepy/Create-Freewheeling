@@ -366,7 +366,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "58c8a64f256889552536342d3544d6a957a6dbf0cf9f22ebf7f2c493acf34c0e"
+hash = "9cb28f80dbca7495978b03760c372d41c97a8675dcfb4093277737f6ba106fe3"
 metafile = true
 
 [[files]]
@@ -491,7 +491,7 @@ metafile = true
 
 [[files]]
 file = "mods/neo-eco-ae-extension.pw.toml"
-hash = "5d6d025439294b72c3cda81163247ebbac199a6c3b8aa0fbbcf0dee987232f6f"
+hash = "933b6b184dc768c5e86663df0be24eb7c3da84e7e092709286c8a8591b1eaf9e"
 metafile = true
 
 [[files]]
