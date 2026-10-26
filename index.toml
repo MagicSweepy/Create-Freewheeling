@@ -77,6 +77,22 @@ file = "kubejs/assets/create_connected_encased/lang/zh_cn.json"
 hash = "b51c14a62590377087f60e7fe0e4be617d75719ad6a4c7161a93393664a1b42c"
 
 [[files]]
+file = "kubejs/assets/create_optical/lang/zh_cn.json"
+hash = "48a484fbef26652da7d0683deb2d6c3d41fc522f087c54cd0b32017fdca72935"
+
+[[files]]
+file = "kubejs/assets/create_optical/textures/block/optical_receptor/optical_receptor_base.png"
+hash = "9c634e8cf581704a8e523781c00ef3a8834d13b2a3c9914897e9e4ca71824169"
+
+[[files]]
+file = "kubejs/assets/create_optical/textures/block/optical_source/optical_source_base.png"
+hash = "02d11ccb6f3badb48a79f211fd90771645c5147de4f6ba02ce11b314c52c7fc5"
+
+[[files]]
+file = "kubejs/assets/create_optical/textures/block/optical_source/simple.png"
+hash = "67c2bcfcfe520dbe03d7ea9785e2b7cf73663ffe5cdc22bb58e1d10314e75c26"
+
+[[files]]
 file = "kubejs/assets/createaddition/lang/zh_cn.json"
 hash = "c75ee98dbbad9cb65c41536f94846b158feaf4be4f453bec612e47c14f50e150"
 
@@ -157,6 +173,10 @@ file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
 hash = "94067ba409b7ce0728252ab09d215e7b23bb9546019b47950574909df9c00297"
 
 [[files]]
+file = "kubejs/data/create_optical/recipe/sequenced_assembly/rose_quartz_catalyst_coil.json"
+hash = "839be7c49f0696ff961db8a9884543921c1aed43c0866da9246923a969198186"
+
+[[files]]
 file = "kubejs/server_scripts/chain/stone_chain.js"
 hash = "1607f2c9b3ce745b8db40d4479bf495ab44068fca8a6aae3a48e5b1892b15bff"
 
@@ -191,6 +211,10 @@ hash = "c946116f02152129e78b12ffeb1506aeea3eacd92d2a13437984916e327ec9f1"
 [[files]]
 file = "kubejs/server_scripts/create_fluid_logistics.js"
 hash = "f4f2ad691f7dc08c44b52ab44ec8e43b47eba5f697122ec60764b5aefb955bef"
+
+[[files]]
+file = "kubejs/server_scripts/create_optical.js"
+hash = "15b482203461b783d13af95fd5bd86f09391035cef0b0c3be3dcefd5efba0714"
 
 [[files]]
 file = "kubejs/server_scripts/create_rubber_works.js"
@@ -336,6 +360,11 @@ metafile = true
 [[files]]
 file = "mods/create-integrated-farming.pw.toml"
 hash = "048819dc63310056e9a26ba0bbcf5f629f7c530b58c9ca1777ea39867765bd6c"
+metafile = true
+
+[[files]]
+file = "mods/create-optical.pw.toml"
+hash = "5bf8716ddc33271c900238653d5a37ecd46729b6d03f7925819e6dc18277c08e"
 metafile = true
 
 [[files]]

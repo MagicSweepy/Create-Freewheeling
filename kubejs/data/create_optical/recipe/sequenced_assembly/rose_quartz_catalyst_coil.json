@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createaddition:electrum_rod"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "create_optical:rose_quartz_catalyst_coil"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_optical:incomplete_rose_quartz_catalyst_coil"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_optical:incomplete_rose_quartz_catalyst_coil"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_optical:incomplete_rose_quartz_catalyst_coil"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_optical:incomplete_rose_quartz_catalyst_coil"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_optical:incomplete_rose_quartz_catalyst_coil"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_optical:incomplete_rose_quartz_catalyst_coil"
+        }
+      ]
+    },
+    {
+      "type": "create_optical:focusing",
+      "ingredients": [
+        {
+          "item": "create_optical:incomplete_rose_quartz_catalyst_coil"
+        }
+      ],
+      "mode": 3,
+      "results": [
+        {
+          "id": "create_optical:incomplete_rose_quartz_catalyst_coil"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_optical:incomplete_rose_quartz_catalyst_coil"
+  }
+}
