@@ -5,5 +5,8 @@ StartupEvents.registry('item', event => {
         .alwaysEdible()
         .effect('minecraft:regeneration', 1000, 0, 1)
     })
-    event.create('unfilled_cake_mechanism', 'create:sequenced_assembly')
+    event.create('unfilled_cake_mechanism', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
+
+    event.create('plastic_ingot').tag('c:ingots/plastic')
+    event.create('plastic_sheet').tag('c:plates/plastic')
 })

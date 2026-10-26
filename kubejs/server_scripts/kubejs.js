@@ -1,7 +1,3 @@
-ServerEvents.tags('item', event => {
-    event.add('kubejs:incomplete_items', 'kubejs:unfilled_cake_mechanism')
-})
-
 ServerEvents.recipes(event => {
     var incomplete = 'kubejs:unfilled_cake_mechanism'
     event.recipes.create.sequenced_assembly([ 'kubejs:cake_mechanism' ], 'createaddition:cake_base_baked',

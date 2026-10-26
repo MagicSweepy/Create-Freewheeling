@@ -1,4 +1,15 @@
 {
     "item.kubejs.cake_mechanism": "蛋糕构件",
-    "item.kubejs.unfilled_cake_mechanism": "未填充蛋糕构件"
+    "item.kubejs.unfilled_cake_mechanism": "未填充蛋糕构件",
+    "item.kubejs.plastic_ingot": "塑料条",
+    "item.kubejs.plastic_sheet": "塑料片",
+
+    "item.kubejs.ethylene_bucket": "乙烯桶",
+    "fluid.kubejs.ethylene": "乙烯",
+    "fluid_type.kubejs.ethylene": "乙烯",
+    "block.kubejs.ethylene": "流动的乙烯",
+    "item.kubejs.sulfuric_acid_bucket": "硫酸桶",
+    "fluid.kubejs.sulfuric_acid": "硫酸",
+    "fluid_type.kubejs.sulfuric_acid": "硫酸",
+    "block.kubejs.sulfuric_acid": "流动的硫酸"
 }

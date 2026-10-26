@@ -1,4 +1,15 @@
 {
     "item.kubejs.cake_mechanism": "Cake Mechanism",
-    "item.kubejs.unfilled_cake_mechanism": "Unfilled Cake Mechanism"
+    "item.kubejs.unfilled_cake_mechanism": "Unfilled Cake Mechanism",
+    "item.kubejs.plastic_ingot": "Plastic Bar",
+    "item.kubejs.plastic_sheet": "Plastic Sheet",
+
+    "item.kubejs.ethylene_bucket": "Ethylene Bucket",
+    "fluid.kubejs.ethylene": "Ethylene",
+    "fluid_type.kubejs.ethylene": "Ethylene",
+    "block.kubejs.ethylene": "Flowing Ethylene",
+    "item.kubejs.sulfuric_acid_bucket": "Sulfuric Acid Bucket",
+    "fluid.kubejs.sulfuric_acid": "Sulfuric Acid",
+    "fluid_type.kubejs.sulfuric_acid": "Sulfuric Acid",
+    "block.kubejs.sulfuric_acid": "Flowing Sulfuric Acid"
 }

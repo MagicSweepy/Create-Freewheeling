@@ -1,0 +1,26 @@
+{
+  "type": "createdieselgenerators:distillation",
+  "ingredients": [
+    {
+      "type": "fluid_tag",
+      "fluid_tag": "c:crude_oil",
+      "amount": 100
+    }
+  ],
+  "heat_requirement": "heated",
+  "processing_time": 60,
+  "results": [
+    {
+      "id": "createdieselgenerators:diesel",
+      "amount": 40
+    },
+    {
+      "id": "createdieselgenerators:gasoline",
+      "amount": 40
+    },
+    {
+      "id": "kubejs:ethylene",
+      "amount": 20
+    }
+  ]
+}

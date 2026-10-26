@@ -34,7 +34,7 @@ hash = "dbf670c81a4621d4b3ddb10f46a224afe8da65e35e70ea5dd69901ed93eb100d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
-hash = "5ab456f840b8c2ab56adc4a6ebc7b29d9337c7bfa725cfb933f9166182f8f9c6"
+hash = "35b3b6160d835c110fae24a508444a92c6186bb0ff364c0568e6ac141e0f0000"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
@@ -50,7 +50,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "2a2488eace3497067e0331cbe3e48735ca3b53bfc1393874b7852b57fd0cf5f8"
+hash = "0d8b2ee40c738a0f9241e5d2f208c7018b878cea161bef49b63a3901b9ceacb6"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -146,11 +146,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "481d1221d3c80b4f12da7503a2ac2acc6e8336b9df4df46f25ad06b538c6492a"
+hash = "12794de505849a97a226a37c31023ebb9dd2482e455de79141a6fa371dee9b66"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "a273ae2e8a451c2cca6f097153eef9d9e9e3a7d4651dea5a59bb09a424414849"
+hash = "e477b917c66fdbb2d7394c2c834ff9d2ef699bbd9c7486a9e3eb5afb7db4d516"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/cake_mechanism.png"
@@ -177,6 +177,10 @@ file = "kubejs/data/create_optical/recipe/sequenced_assembly/rose_quartz_catalys
 hash = "839be7c49f0696ff961db8a9884543921c1aed43c0866da9246923a969198186"
 
 [[files]]
+file = "kubejs/data/createdieselgenerators/recipe/distillation/crude_oil.json"
+hash = "e3fca38d3870169fcd011ff3f14bc79d571af82fbb63c67075d0d0f4ff61290c"
+
+[[files]]
 file = "kubejs/server_scripts/chain/stone_chain.js"
 hash = "1607f2c9b3ce745b8db40d4479bf495ab44068fca8a6aae3a48e5b1892b15bff"
 
@@ -194,7 +198,7 @@ hash = "1194019f851e6ecceb2be140be53cb273ab956127b13a1a70ea0eccc110d7427"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_n_additions.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "b32bef51b51ae5b5ad1f84fccb6cb288413b6653e1d46102a8d908fae7a40755"
 
 [[files]]
 file = "kubejs/server_scripts/create_diesel_generators.js"
@@ -230,7 +234,7 @@ hash = "8724ae00c885a356f89ebffcfadddbf6274cc9ec8a74f8b95d0311df16e9b21c"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
-hash = "9a2810cdb518a9fd76cfd7048ca55c4fca169c01dafc28d68a6ae0d5bb82f04c"
+hash = "27637a8740ac8b1c8af8348c55ac37b1db2779457e2014647eb9719df3327f2f"
 
 [[files]]
 file = "kubejs/server_scripts/neapolitan.js"
@@ -241,8 +245,12 @@ file = "kubejs/server_scripts/toms_simple_storage.js"
 hash = "b1077364c0e142ff83e63b217a3991ef65e2179637c01f5f2ade084398f407f3"
 
 [[files]]
+file = "kubejs/startup_scripts/fluids.js"
+hash = "623e1e0435f70b5548890ceff13d0825447030a3be50867ae09e76db8fab3242"
+
+[[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "8a4225c9a7398d49ebd1214cb5880dc4b39d14ec3af5cc332cf0c0527397232d"
+hash = "0aa54dd112512671ae5006e3de48b66376ee020b0b2b6c7ac4edd743fa676499"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"

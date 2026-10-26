@@ -116,5 +116,336 @@
 			x: 2.5d
 			y: 5.0d
 		}
+		{
+			dependencies: [
+				"37055CF414E2D189"
+				"0181EBDEEAC3915E"
+			]
+			id: "6B1E51934AE21D1B"
+			tasks: [
+				{
+					id: "2E17006D96200553"
+					item: { count: 1, id: "create_optical:optical_source" }
+					type: "item"
+				}
+				{
+					id: "3BEE5696AF3E0D3E"
+					item: { count: 1, id: "create_optical:encased_mirror" }
+					type: "item"
+				}
+				{
+					id: "132DE99A1EE2EDF4"
+					item: { count: 1, id: "create_optical:absorption_polarizing_filter" }
+					type: "item"
+				}
+				{
+					id: "6A245286A86118F6"
+					item: { count: 1, id: "create_optical:polarizing_beam_splitter_block" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06D16CB3912B8D4C"]
+			id: "37055CF414E2D189"
+			tasks: [{
+				id: "7DB482E52F1CEE72"
+				item: { count: 1, id: "create_optical:optical_device" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["05C7313C92310FD9"]
+			id: "40BA0F9395594249"
+			tasks: [{
+				id: "681C6CF9C762B570"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B1E51934AE21D1B"]
+			id: "71B30D1F4C433134"
+			tasks: [{
+				id: "36BA85D4F51A0E96"
+				item: { count: 1, id: "create_optical:beam_focuser" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6B1E51934AE21D1B"
+				"40BA0F9395594249"
+			]
+			id: "78C1E4EB21317FCF"
+			tasks: [{
+				id: "0691B92530972F6F"
+				item: { count: 1, id: "create_optical:thermal_optical_source" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"71B30D1F4C433134"
+				"41A0BE1AB49E85A9"
+			]
+			id: "426F1392D6C0E37F"
+			tasks: [{
+				id: "37DB7B51244628EE"
+				item: { count: 1, id: "create_optical:beam_condenser" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["37055CF414E2D189"]
+			id: "36D33A9C3D315E89"
+			tasks: [
+				{
+					id: "40FB7F4940B92847"
+					item: { count: 1, id: "create_optical:optical_receptor" }
+					type: "item"
+				}
+				{
+					id: "697EAD5D7399411E"
+					item: { count: 1, id: "create_optical:heavy_optical_receptor" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B4C3566623E66B5"]
+			id: "3453231DB525D6D9"
+			tasks: [{
+				id: "0852EBDDF955887C"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"566CA29CE4FB1B22"
+				"5DEBF8444B43C16D"
+			]
+			id: "2930193246570DEC"
+			tasks: [
+				{
+					id: "7431DE47DF473D10"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+				{
+					id: "3FE3E419ACDC9CC3"
+					item: { count: 1, id: "createaddition:electric_pump" }
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3453231DB525D6D9"
+				"5DEBF8444B43C16D"
+			]
+			id: "566CA29CE4FB1B22"
+			tasks: [
+				{
+					id: "7C573B20699B6221"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
+					type: "item"
+				}
+				{
+					id: "5C0AD7251698B01B"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"566CA29CE4FB1B22"
+				"5DEBF8444B43C16D"
+			]
+			id: "5A85EF1D0E3E2CE9"
+			tasks: [{
+				id: "458EFD50323B8D37"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A85EF1D0E3E2CE9"]
+			id: "41A0BE1AB49E85A9"
+			tasks: [{
+				id: "239F5AB8F18EB5AF"
+				item: { count: 1, id: "createaddition:electrum_ingot" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D50B86BFA05749D"]
+			id: "5DEBF8444B43C16D"
+			tasks: [{
+				id: "26B355054C5E7CD4"
+				item: { count: 1, id: "createaddition:capacitor" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B4C3566623E66B5"]
+			id: "09C8C726A2789788"
+			tasks: [
+				{
+					id: "3A7FAB815954A0F9"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "4377803AE17F1757"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "07E6DB5D9FE5BBF5"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
+					type: "item"
+				}
+				{
+					id: "63A492CD274EE164"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_hole" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["62C741D6E44D664D"]
+			id: "0D50B86BFA05749D"
+			tasks: [{
+				id: "660A6938977EA1B6"
+				item: { count: 1, id: "kubejs:plastic_ingot" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["01EE3862C4CEB3F9"]
+			icon: {
+				id: "createdieselgenerators:huge_diesel_engine"
+			}
+			id: "53153530CFEF63E0"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "createdieselgenerators:diesel"
+				}
+				id: "52E4B2329D3F1A24"
+				type: "fluid"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["01EE3862C4CEB3F9"]
+			icon: {
+				id: "createdieselgenerators:gasoline_bucket"
+			}
+			id: "2CA28C0ED4AB776D"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "createdieselgenerators:gasoline"
+				}
+				id: "4C8ECAC91DF31CD2"
+				type: "fluid"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09C8C726A2789788"]
+			id: "01EE3862C4CEB3F9"
+			tasks: [{
+				id: "533F22315B50FEB0"
+				item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0129441E33AC78C2"]
+			id: "696D2AA8F7B26D83"
+			tasks: [{
+				id: "2FC791C091A5FE21"
+				item: { count: 1, id: "create:cinder_flour" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["696D2AA8F7B26D83"]
+			id: "55AB9379D33FA275"
+			tasks: [{
+				id: "546E42385149875B"
+				item: { count: 1, id: "kubejs:sulfuric_acid_bucket" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			id: "46A51CF6E2308357"
+			tasks: [{
+				id: "0FAEF1FDCBF68562"
+				item: { count: 1, id: "createdieselgenerators:ethanol_bucket" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"01EE3862C4CEB3F9"
+				"46A51CF6E2308357"
+				"55AB9379D33FA275"
+			]
+			dependency_requirement: "one_completed"
+			id: "62C741D6E44D664D"
+			tasks: [{
+				id: "0A73A66B303EDCCF"
+				item: { count: 1, id: "kubejs:ethylene_bucket" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -15.0d
+		}
 	]
 }
