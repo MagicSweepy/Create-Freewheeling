@@ -34,11 +34,15 @@ hash = "dbf670c81a4621d4b3ddb10f46a224afe8da65e35e70ea5dd69901ed93eb100d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
-hash = "35b3b6160d835c110fae24a508444a92c6186bb0ff364c0568e6ac141e0f0000"
+hash = "86f54225931968598e1ec79ccdf032a0bb80b0bfe2a7795fb550c6ba839fcdcd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
 hash = "5ed6e947f2c7bdfa181041651a7bda61a2cece3c84c035e6ac43a84ca568f54a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/612770933324c0f0.snbt"
+hash = "ff9f6b3edfe0d44cbc1717ed021e8e4630a071ad9f8944ed2fcc325b98569bf3"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -50,7 +54,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "0d8b2ee40c738a0f9241e5d2f208c7018b878cea161bef49b63a3901b9ceacb6"
+hash = "189a29ded402ae58b189d57bd747a6cd7c2298b6248a4647dc7bf37611047efc"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -157,6 +161,14 @@ file = "kubejs/assets/kubejs/textures/item/cake_mechanism.png"
 hash = "0b1369e7bbd8bb5415c3175a7d39bef44f4c7618c06a404920f9678a468bc31d"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/plastic_ingot.png"
+hash = "96cdaed75ab5ed0a72e54174255dc942a79b9d24e21c4d6495005b51bcdbe344"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/plastic_sheet.png"
+hash = "5861ca827dce274deff331b3ee3c0349eb9f04c1eb15028ffde8b5b6c7fc38aa"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/unfilled_cake_mechanism.png"
 hash = "4c173c012b3339877b8724ea1b3922df1020bf173c2f52359f47495b01a717e2"
 
@@ -175,6 +187,14 @@ hash = "94067ba409b7ce0728252ab09d215e7b23bb9546019b47950574909df9c00297"
 [[files]]
 file = "kubejs/data/create_optical/recipe/sequenced_assembly/rose_quartz_catalyst_coil.json"
 hash = "839be7c49f0696ff961db8a9884543921c1aed43c0866da9246923a969198186"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/liquid_burning/biofuel.json"
+hash = "6c251c6112922f285c952878ea2edf01626ea1da6da5b0bc6af336f15872b84e"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/liquid_burning/gasoline.json"
+hash = "c33c30bb8f2f52dad417d5afc193e469bf191b2a3471b3af95bf24056ff3e5db"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/recipe/distillation/crude_oil.json"

@@ -191,13 +191,13 @@
 				item: { count: 1, id: "create_optical:thermal_optical_source" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 2.5d
+			y: 15.0d
 		}
 		{
 			dependencies: [
-				"71B30D1F4C433134"
 				"41A0BE1AB49E85A9"
+				"06955CB8A6E8D98F"
 			]
 			id: "426F1392D6C0E37F"
 			tasks: [{
@@ -205,7 +205,7 @@
 				item: { count: 1, id: "create_optical:beam_condenser" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 20.0d
 			y: 10.0d
 		}
 		{
@@ -446,6 +446,105 @@
 			}]
 			x: 12.5d
 			y: -15.0d
+		}
+		{
+			dependencies: [
+				"71B30D1F4C433134"
+				"0EF127DEF629C44E"
+			]
+			id: "06955CB8A6E8D98F"
+			tasks: [{
+				id: "339C2DBF9BF0261A"
+				item: { count: 1, id: "create_optical:rose_quartz_catalyst_coil" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["40BA0F9395594249"]
+			id: "23258DED95CF1C56"
+			tasks: [
+				{
+					id: "5117BF756B8D61DC"
+					item: { count: 1, id: "create:mechanical_arm" }
+					type: "item"
+				}
+				{
+					id: "3D6BA7356F4B0B71"
+					item: { count: 1, id: "fluidlogistics:mechanical_fluid_gun" }
+					type: "item"
+				}
+				{
+					id: "135B5C57B8C6CAD1"
+					item: { count: 1, id: "fluidlogistics:fluid_transporter" }
+					type: "item"
+				}
+				{
+					id: "39BE276F4CE90837"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"41A0BE1AB49E85A9"
+				"0181EBDEEAC3915E"
+				"37055CF414E2D189"
+			]
+			id: "24E1167D514E16BA"
+			tasks: [{
+				id: "44DFAC5177DC14A0"
+				item: { count: 1, id: "create_optical:hologram_source" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["40BA0F9395594249"]
+			hide_details_until_startable: false
+			id: "7C4C61A0939812B3"
+			tasks: [
+				{
+					id: "233D8278402D2E23"
+					item: { count: 1, id: "create:extendo_grip" }
+					type: "item"
+				}
+				{
+					id: "1C7A56EE1C62005C"
+					item: { count: 1, id: "create:wand_of_symmetry" }
+					type: "item"
+				}
+				{
+					id: "64A115D95EC42764"
+					item: { count: 1, id: "fluidlogistics:hand_pointer" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["40BA0F9395594249"]
+			id: "068456B599E80D89"
+			tasks: [
+				{
+					id: "565B7A561C5C1516"
+					item: { count: 1, id: "create:factory_gauge" }
+					type: "item"
+				}
+				{
+					id: "302B0202D828667B"
+					item: { count: 1, id: "fluidlogistics:fluid_factory_gauge" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 15.0d
 		}
 	]
 }
