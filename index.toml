@@ -34,7 +34,7 @@ hash = "dbf670c81a4621d4b3ddb10f46a224afe8da65e35e70ea5dd69901ed93eb100d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
-hash = "86f54225931968598e1ec79ccdf032a0bb80b0bfe2a7795fb550c6ba839fcdcd"
+hash = "dffb6c78b94e16d0be1d2e584c2d7d2eba9ec03d29defab8d375ec1052b28e28"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
@@ -222,7 +222,7 @@ hash = "596356332c68c3fc4af11365749b523b7f26a7f4f965ac4c9713be1d902d0bb0"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_n_additions.js"
-hash = "b32bef51b51ae5b5ad1f84fccb6cb288413b6653e1d46102a8d908fae7a40755"
+hash = "8114dcb1adb1009c68e0612e380ff79de58ba9975add6e845633bb58fe1c6b16"
 
 [[files]]
 file = "kubejs/server_scripts/create_diesel_generators.js"
