@@ -1,4 +1,25 @@
 ServerEvents.recipes(event => {
+    // #region Brakes
+
+    event.remove({ id: 'create_connected_encased:crafting/brakes/andesite_manual_only' })
+    event.remove({ id: 'create_connected_encased:deploying/brakes/andesite' })
+
+    resetBrakeRecipes('brass', 'create:brass_casing')
+    resetBrakeRecipes('copper', 'create:copper_casing')
+    resetBrakeRecipes('railway', 'create:railway_casing')
+    resetBrakeRecipes('creative', 'createcasing:creative_casing')
+    resetBrakeRecipes('industrial_iron', 'create:industrial_iron_block')
+    resetBrakeRecipes('weathered_iron', 'create:weathered_iron_block')
+    resetBrakeRecipes('zinc', 'createcasing:zinc_casing')
+
+    function resetBrakeRecipes(variant, input) {
+        var brake = 'create_connected_encased:' + variant + '_brake'
+        event.remove({ output: brake })
+        event.shapeless(brake, [ input, '#create:shafts', '#c:dusts/redstone', 'minecraft:obsidian' ])
+    }
+
+    // #endregion
+
     // #region Parallel Gearboxes & Vertical Parallel Gearboxes
 
     event.remove('create_connected_encased:crafting/parallel_gearboxs/andesite_manual_only')

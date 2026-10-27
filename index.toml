@@ -181,6 +181,10 @@ file = "kubejs/data/createdieselgenerators/recipe/distillation/crude_oil.json"
 hash = "e3fca38d3870169fcd011ff3f14bc79d571af82fbb63c67075d0d0f4ff61290c"
 
 [[files]]
+file = "kubejs/server_scripts/chain/oil_chain.js"
+hash = "11ff8a86b4dc282598dbab150c538f7b3b394a2615ab938d7f52f260e1ac1a38"
+
+[[files]]
 file = "kubejs/server_scripts/chain/stone_chain.js"
 hash = "1607f2c9b3ce745b8db40d4479bf495ab44068fca8a6aae3a48e5b1892b15bff"
 
@@ -194,7 +198,7 @@ hash = "92b54e028714d70e78af67485cffa873a92b8e7e559bb1b27c94c2ef57ece25e"
 
 [[files]]
 file = "kubejs/server_scripts/create_connected_encased.js"
-hash = "1194019f851e6ecceb2be140be53cb273ab956127b13a1a70ea0eccc110d7427"
+hash = "596356332c68c3fc4af11365749b523b7f26a7f4f965ac4c9713be1d902d0bb0"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_n_additions.js"
@@ -337,7 +341,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "b41c3e165e3550a1e4fdc60091cfcdc79361a02983ea62258045bdd5a84a90bf"
+hash = "056aacc6cc26cdbb69f91a55c1593cb4fb8106dcd4aaa3c1c0ca2c9019caddd8"
 metafile = true
 
 [[files]]
