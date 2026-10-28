@@ -30,7 +30,7 @@ hash = "143e8b6808c5c6a483581195a9bdfdd7a72ca92c6733f8c28d14c3f533e8a7db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
-hash = "dbf670c81a4621d4b3ddb10f46a224afe8da65e35e70ea5dd69901ed93eb100d"
+hash = "8ec8a9bb8c8e09200dd3a674a39eb545bf1691a9d5a30aad457b990eeb72a847"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
@@ -38,7 +38,7 @@ hash = "ded266f3cd845dd051ec5c805950e1093f2e0605e3c38fbd3415714eb17eaec7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
-hash = "5ed6e947f2c7bdfa181041651a7bda61a2cece3c84c035e6ac43a84ca568f54a"
+hash = "5ba6728b2f7ebc74663fd699b21a1ee34de5a9134a991c1e3bbf433435c64f69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/612770933324c0f0.snbt"
@@ -54,7 +54,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "30d03dec878bdd98686284221b9e0162f3c24d7e401ad8780d1541195494dfc7"
+hash = "0a0109cc2c6b385f6d1f4f3acd19594f0b5b9add7c81b2c4a74b183c639bfb21"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -199,6 +199,18 @@ hash = "c33c30bb8f2f52dad417d5afc193e469bf191b2a3471b3af95bf24056ff3e5db"
 [[files]]
 file = "kubejs/data/createdieselgenerators/recipe/distillation/crude_oil.json"
 hash = "e3fca38d3870169fcd011ff3f14bc79d571af82fbb63c67075d0d0f4ff61290c"
+
+[[files]]
+file = "kubejs/data/fluidlogistics/recipe/cooling/small_smethyst_bud.json"
+hash = "7b565ebceb26a557baf8c290341dde20f03d306cc7081eb835e6d56683740a6c"
+
+[[files]]
+file = "kubejs/server_scripts/chain/amethyst_chain.js"
+hash = "e8e08a9b4bb21950ba2b202a59aad3fecd584b4c177be26994d462dc96560ceb"
+
+[[files]]
+file = "kubejs/server_scripts/chain/blaze_chain.js"
+hash = "ee3f6abe7f5741e181d895dd570dd727010ef2ae016f2e452f12b0ba973ca7bd"
 
 [[files]]
 file = "kubejs/server_scripts/chain/oil_chain.js"

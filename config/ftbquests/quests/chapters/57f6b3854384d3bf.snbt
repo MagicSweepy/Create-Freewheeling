@@ -359,5 +359,58 @@
 			x: 10.0d
 			y: 15.0d
 		}
+		{
+			dependencies: [
+				"57AE4A22E9F30742"
+				"659D7CA3BAED2C6D"
+			]
+			id: "1460ADC75DCF3221"
+			size: 3.5d
+			tasks: [{
+				id: "26736D07167B7BAE"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2349B217488D3171"
+				"7134487B9C7A987A"
+			]
+			id: "659D7CA3BAED2C6D"
+			size: 5.0d
+			tasks: [{
+				id: "2A5D489377252767"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:spouts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["57AE4A22E9F30742"]
+			id: "34F2791E625E4C0C"
+			size: 3.5d
+			tasks: [{
+				id: "0CBE9924193D1809"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["34F2791E625E4C0C"]
+			id: "599C311B872C818A"
+			tasks: [{
+				id: "2D4E32DA28B64676"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
 	]
 }

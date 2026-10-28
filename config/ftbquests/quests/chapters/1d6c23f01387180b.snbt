@@ -510,11 +510,18 @@
 			dependencies: ["1E65784B75CF663D"]
 			id: "3B39A6674FC93E3D"
 			size: 5.5d
-			tasks: [{
-				id: "09D6FBCC4925E1C8"
-				item: { count: 1, id: "create:blaze_burner" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "09D6FBCC4925E1C8"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "5812E46170EEE5CB"
+					item: { count: 1, id: "fluidlogistics:snow_golem_freezer" }
+					type: "item"
+				}
+			]
 			x: 32.5d
 			y: 15.0d
 		}
