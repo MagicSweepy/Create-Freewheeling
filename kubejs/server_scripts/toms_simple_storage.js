@@ -1,3 +1,20 @@
+ServerEvents.tags('block', event => {
+    event.add('create:wrench_pickup', 'toms_storage:inventory_connector')
+    event.add('create:wrench_pickup', 'toms_storage:storage_terminal')
+    event.add('create:wrench_pickup', 'toms_storage:crafting_terminal')
+    event.add('create:wrench_pickup', 'toms_storage:open_crate')
+    event.add('create:wrench_pickup', 'toms_storage:trim')
+    event.add('create:wrench_pickup', 'toms_storage:level_emitter')
+    event.add('create:wrench_pickup', 'toms_storage:inventory_cable')
+    event.add('create:wrench_pickup', 'toms_storage:inventory_cable_framed')
+    event.add('create:wrench_pickup', 'toms_storage:basic_inventory_hopper')
+    event.add('create:wrench_pickup', 'toms_storage:inventory_interface')
+    event.add('create:wrench_pickup', 'toms_storage:inventory_proxy')
+    event.add('create:wrench_pickup', 'toms_storage:inventory_cable_connector_framed')
+    event.add('create:wrench_pickup', 'toms_storage:inventory_cable_connector')
+    event.add('create:wrench_pickup', 'toms_storage:filing_cabinet')
+})
+
 ServerEvents.recipes(event => {
     event.remove({ output: 'toms_storage:inventory_connector' })
     event.shaped('toms_storage:inventory_connector',

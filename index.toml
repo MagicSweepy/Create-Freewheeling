@@ -205,6 +205,10 @@ file = "kubejs/data/fluidlogistics/recipe/cooling/small_smethyst_bud.json"
 hash = "7b565ebceb26a557baf8c290341dde20f03d306cc7081eb835e6d56683740a6c"
 
 [[files]]
+file = "kubejs/server_scripts/avaritia.js"
+hash = "de58aba2df8639faf71d708f1e9394860ce6bb9c3156c15b0ba0c119b7231391"
+
+[[files]]
 file = "kubejs/server_scripts/chain/amethyst_chain.js"
 hash = "e8e08a9b4bb21950ba2b202a59aad3fecd584b4c177be26994d462dc96560ceb"
 
@@ -278,7 +282,7 @@ hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
 
 [[files]]
 file = "kubejs/server_scripts/toms_simple_storage.js"
-hash = "b1077364c0e142ff83e63b217a3991ef65e2179637c01f5f2ade084398f407f3"
+hash = "95360fc5e9988aafaf86e690ca93dd3470ad025388b7c969a60903454fb70965"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
