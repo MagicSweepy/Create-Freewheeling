@@ -1,13 +1,13 @@
 name = "Create: Improve"
-filename = "createimp-1.4.2.jar"
+filename = "createimp-1.4.4 HotFix.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "88b9a005f92db97f4b842b62c99275929f562511"
+hash = "f7d287d4bf2475634a6abf9fefaabff8ad1b21fe"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8969527
+file-id = 9341728
 project-id = 1580762

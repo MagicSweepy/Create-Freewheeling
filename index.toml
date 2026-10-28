@@ -381,12 +381,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-fluidlogistic.pw.toml"
-hash = "0f155586e2558e279d8ce97f733993409024ec29292300949b557db28209057e"
+hash = "a2a969e8f5afe56dc36023c5af445b14979c0c0adff42e2a6281fb231e4746fa"
 metafile = true
 
 [[files]]
 file = "mods/create-improve.pw.toml"
-hash = "4bda35d10dddcbcfd31831c9bcfcbcb057107009a89f6f5505bbf301454e8779"
+hash = "7d0597e25f243a0f4b6f1d2eee1af669d3f3c4bf028f2ed8db69d4dc80dc4d59"
 metafile = true
 
 [[files]]
@@ -556,7 +556,7 @@ metafile = true
 
 [[files]]
 file = "mods/neo-eco-ae-extension.pw.toml"
-hash = "933b6b184dc768c5e86663df0be24eb7c3da84e7e092709286c8a8591b1eaf9e"
+hash = "d793df216854ead2c0ed988d2228b3aa6539e537b395fac6cc2279090738dbcd"
 metafile = true
 
 [[files]]
