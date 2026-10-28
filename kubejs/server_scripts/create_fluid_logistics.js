@@ -7,4 +7,7 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: 'fluidlogistics:redstone_fluid_valve'})
     event.shapeless('fluidlogistics:redstone_fluid_valve', [ '#create:fluid_valves', '#c:dusts/redstone' ])
+
+    event.remove({ output: 'fluidlogistics:oscillating_steam_engine' })
+    event.shapeless('fluidlogistics:oscillating_steam_engine', [ '#create:steam_engines', 'create:precision_mechanism' ])
 })

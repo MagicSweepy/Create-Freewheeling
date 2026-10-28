@@ -34,7 +34,7 @@ hash = "dbf670c81a4621d4b3ddb10f46a224afe8da65e35e70ea5dd69901ed93eb100d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
-hash = "dffb6c78b94e16d0be1d2e584c2d7d2eba9ec03d29defab8d375ec1052b28e28"
+hash = "ded266f3cd845dd051ec5c805950e1093f2e0605e3c38fbd3415714eb17eaec7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
@@ -54,7 +54,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "189a29ded402ae58b189d57bd747a6cd7c2298b6248a4647dc7bf37611047efc"
+hash = "30d03dec878bdd98686284221b9e0162f3c24d7e401ad8780d1541195494dfc7"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -226,7 +226,7 @@ hash = "8114dcb1adb1009c68e0612e380ff79de58ba9975add6e845633bb58fe1c6b16"
 
 [[files]]
 file = "kubejs/server_scripts/create_diesel_generators.js"
-hash = "03e365fa960e6de75f906f5e013bf1585113805c03184333e3956bf0fe3c887b"
+hash = "12c8a7b9bea5e9906fd53d5347539bcad11cfa1c0c833f21d2d66325809e2ff7"
 
 [[files]]
 file = "kubejs/server_scripts/create_dragons_plus.js"
@@ -238,7 +238,7 @@ hash = "c946116f02152129e78b12ffeb1506aeea3eacd92d2a13437984916e327ec9f1"
 
 [[files]]
 file = "kubejs/server_scripts/create_fluid_logistics.js"
-hash = "f4f2ad691f7dc08c44b52ab44ec8e43b47eba5f697122ec60764b5aefb955bef"
+hash = "65d7e397b19bcbcb4be29fd4eb869b25db0c51cd51d76a661a61db5fca1560e4"
 
 [[files]]
 file = "kubejs/server_scripts/create_optical.js"

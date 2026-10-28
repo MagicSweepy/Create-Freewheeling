@@ -361,14 +361,34 @@
 				id: "createdieselgenerators:huge_diesel_engine"
 			}
 			id: "53153530CFEF63E0"
-			tasks: [{
-				fluid: {
-					amount: 1000
-					id: "createdieselgenerators:diesel"
+			tasks: [
+				{
+					fluid: {
+						amount: 1000
+						id: "createdieselgenerators:diesel"
+					}
+					id: "52E4B2329D3F1A24"
+					type: "fluid"
 				}
-				id: "52E4B2329D3F1A24"
-				type: "fluid"
-			}]
+				{
+					id: "4DC433DA62EA80ED"
+					item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3215436E4D63E355"
+					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49E9BF2EDED2C8D0"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: -10.0d
 		}
@@ -390,7 +410,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["09C8C726A2789788"]
+			dependencies: [
+				"09C8C726A2789788"
+				"40BA0F9395594249"
+			]
 			id: "01EE3862C4CEB3F9"
 			tasks: [{
 				id: "533F22315B50FEB0"
@@ -413,21 +436,33 @@
 		}
 		{
 			dependencies: ["696D2AA8F7B26D83"]
+			icon: {
+				id: "kubejs:sulfuric_acid_bucket"
+			}
 			id: "55AB9379D33FA275"
 			tasks: [{
-				id: "546E42385149875B"
-				item: { count: 1, id: "kubejs:sulfuric_acid_bucket" }
-				type: "item"
+				fluid: {
+					amount: 1000
+					id: "kubejs:sulfuric_acid"
+				}
+				id: "02D5C903D9A6814A"
+				type: "fluid"
 			}]
 			x: 15.0d
 			y: -10.0d
 		}
 		{
+			icon: {
+				id: "createdieselgenerators:ethanol_bucket"
+			}
 			id: "46A51CF6E2308357"
 			tasks: [{
-				id: "0FAEF1FDCBF68562"
-				item: { count: 1, id: "createdieselgenerators:ethanol_bucket" }
-				type: "item"
+				fluid: {
+					amount: 1000
+					id: "createdieselgenerators:ethanol"
+				}
+				id: "50F50FEA9A38F866"
+				type: "fluid"
 			}]
 			x: 17.5d
 			y: -15.0d
@@ -439,11 +474,17 @@
 				"55AB9379D33FA275"
 			]
 			dependency_requirement: "one_completed"
+			icon: {
+				id: "kubejs:ethylene_bucket"
+			}
 			id: "62C741D6E44D664D"
 			tasks: [{
-				id: "0A73A66B303EDCCF"
-				item: { count: 1, id: "kubejs:ethylene_bucket" }
-				type: "item"
+				fluid: {
+					amount: 1000
+					id: "kubejs:ethylene"
+				}
+				id: "3DD848972E6DE518"
+				type: "fluid"
 			}]
 			x: 12.5d
 			y: -15.0d
@@ -484,6 +525,11 @@
 				{
 					id: "39BE276F4CE90837"
 					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+				{
+					id: "2E52A02C92B50A6B"
+					item: { count: 1, id: "fluidlogistics:oscillating_steam_engine" }
 					type: "item"
 				}
 			]

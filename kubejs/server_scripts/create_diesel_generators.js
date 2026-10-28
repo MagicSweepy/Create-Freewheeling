@@ -23,4 +23,31 @@ ServerEvents.recipes(event => {
         I: '#c:ingots/andesite_alloy',
         P: '#c:plates/andesite_alloy'
     })
+
+    event.remove({ output: 'createdieselgenerators:distillation_controller' })
+    event.shaped('4x createdieselgenerators:distillation_controller',
+    [
+        '   ',
+        'PGP',
+        'IQI'
+    ],
+    {
+        P: '#create:fluid_pipes',
+        G: 'fluidlogistics:fluid_factory_gauge',
+        I: '#c:ingots/andesite_alloy',
+        Q: '#c:plates/iron'
+    })
+
+    event.shaped('16x createdieselgenerators:distillation_controller',
+    [
+        '   ',
+        'PGP',
+        'IQI'
+    ],
+    {
+        P: '#create:fluid_pipes',
+        G: 'fluidlogistics:fluid_factory_gauge',
+        I: '#c:ingots/andesite_alloy',
+        Q: '#c:plates/plastic'
+    })
 })
