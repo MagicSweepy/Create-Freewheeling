@@ -234,7 +234,7 @@ hash = "92b54e028714d70e78af67485cffa873a92b8e7e559bb1b27c94c2ef57ece25e"
 
 [[files]]
 file = "kubejs/server_scripts/create_connected_encased.js"
-hash = "596356332c68c3fc4af11365749b523b7f26a7f4f965ac4c9713be1d902d0bb0"
+hash = "f15c19148de2b2ccf1458b142dae90a073b04887ffc5123f43b19c0e7877947b"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_n_additions.js"
@@ -250,7 +250,7 @@ hash = "e03f592627c6d161d60fbb49a109c8c9c48a8c31cd8635df70a39f074e56829b"
 
 [[files]]
 file = "kubejs/server_scripts/create_encased.js"
-hash = "c946116f02152129e78b12ffeb1506aeea3eacd92d2a13437984916e327ec9f1"
+hash = "fdb247a784bc2596352d07667d2e362ddf705cb3b303b2036f7ab4eb3120dae3"
 
 [[files]]
 file = "kubejs/server_scripts/create_fluid_logistics.js"
@@ -274,7 +274,7 @@ hash = "ace1882e75b4898d91953158704874338f5fb076836b40e7b00e3a5c7b52000f"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "671c38073bf1e602fec77477935c6fc1d26ebb88ee5d31bce8605d8d8327c02f"
+hash = "b3004214b14d3349372f23c2821bbc5521163655aa967690045cd460e760ea05"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"

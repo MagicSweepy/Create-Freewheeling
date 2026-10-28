@@ -11,6 +11,8 @@ ServerEvents.recipes(event => {
     resetBrakeRecipes('industrial_iron', 'create:industrial_iron_block')
     resetBrakeRecipes('weathered_iron', 'create:weathered_iron_block')
     resetBrakeRecipes('zinc', 'createcasing:zinc_casing')
+    resetBrakeRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetBrakeRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetBrakeRecipes(variant, input) {
         var brake = 'create_connected_encased:' + variant + '_brake'
@@ -32,6 +34,8 @@ ServerEvents.recipes(event => {
     resetParallelGearboxRecipes('industrial_iron')
     resetParallelGearboxRecipes('weathered_iron')
     resetParallelGearboxRecipes('zinc')
+    resetParallelGearboxRecipes('shadow_steel')
+    resetParallelGearboxRecipes('refined_radiance')
 
     function resetParallelGearboxRecipes(variant) {
         var pgearbox = 'create_connected_encased:' + variant + '_parallel_gearbox'
@@ -56,6 +60,8 @@ ServerEvents.recipes(event => {
     resetSixWayGearboxRecipes('industrial_iron', 'create:industrial_iron_block')
     resetSixWayGearboxRecipes('weathered_iron', 'create:weathered_iron_block')
     resetSixWayGearboxRecipes('zinc', 'createcasing:zinc_casing')
+    resetSixWayGearboxRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetSixWayGearboxRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetSixWayGearboxRecipes(variant, input) {
         var sgearbox = 'create_connected_encased:' + variant + '_six_way_gearbox'

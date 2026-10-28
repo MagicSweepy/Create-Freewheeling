@@ -412,6 +412,8 @@ ServerEvents.recipes(event => {
     resetItemInterfaceRecipes('industrial_iron', 'create:industrial_iron_block')
     resetItemInterfaceRecipes('weathered_iron', 'create:weathered_iron_block')
     resetItemInterfaceRecipes('zinc', 'createcasing:zinc_casing')
+    resetItemInterfaceRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetItemInterfaceRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     resetFluidInterfaceRecipes('andesite', 'create:andesite_casing')
     resetFluidInterfaceRecipes('brass', 'create:brass_casing')
@@ -487,6 +489,8 @@ ServerEvents.recipes(event => {
     resetGearboxRecipes('industrial_iron', 'create:industrial_iron_block')
     resetGearboxRecipes('weathered_iron', 'create:weathered_iron_block')
     resetGearboxRecipes('zinc', 'createcasing:zinc_casing')
+    resetGearboxRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetGearboxRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetGearboxRecipes(variant, input) {
         var gearbox = 'createcasing:' + variant + '_gearbox'
@@ -534,6 +538,8 @@ ServerEvents.recipes(event => {
     resetMechanicalPressRecipes('industrial_iron', 'create:industrial_iron_block')
     resetMechanicalPressRecipes('weathered_iron', 'create:weathered_iron_block')
     resetMechanicalPressRecipes('zinc', 'createcasing:zinc_casing')
+    resetMechanicalPressRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetMechanicalPressRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetMechanicalPressRecipes(variant, input) {
         var press = 'createcasing:' + variant + '_press'
@@ -565,6 +571,8 @@ ServerEvents.recipes(event => {
     resetMechanicalMixerRecipes('industrial_iron', 'create:industrial_iron_block')
     resetMechanicalMixerRecipes('weathered_iron', 'create:weathered_iron_block')
     resetMechanicalMixerRecipes('zinc', 'createcasing:zinc_casing')
+    resetMechanicalMixerRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetMechanicalMixerRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetMechanicalMixerRecipes(variant, input) {
         var mixer = 'createcasing:' + variant + '_mixer'
@@ -596,6 +604,8 @@ ServerEvents.recipes(event => {
     resetDepotRecipes('industrial_iron', 'create:industrial_iron_block')
     resetDepotRecipes('weathered_iron', 'create:weathered_iron_block')
     resetDepotRecipes('zinc', 'createcasing:zinc_casing')
+    resetDepotRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetDepotRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetDepotRecipes(variant, input) {
         var depot = 'createcasing:' + variant + '_depot'
@@ -617,6 +627,8 @@ ServerEvents.recipes(event => {
     resetChainDriveCogwheelRecipes('industrial_iron', 'create:industrial_iron_block')
     resetChainDriveCogwheelRecipes('weathered_iron', 'create:weathered_iron_block')
     resetChainDriveCogwheelRecipes('zinc', 'createcasing:zinc_casing')
+    resetChainDriveCogwheelRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetChainDriveCogwheelRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetChainDriveCogwheelRecipes(variant, input) {
         var drive = 'createcasing:' + variant + '_encased_chain_drive'
@@ -643,6 +655,8 @@ ServerEvents.recipes(event => {
     resetChainGearshiftRecipes('industrial_iron', 'create:industrial_iron_block')
     resetChainGearshiftRecipes('weathered_iron', 'create:weathered_iron_block')
     resetChainGearshiftRecipes('zinc', 'createcasing:zinc_casing')
+    resetChainGearshiftRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetChainGearshiftRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetChainGearshiftRecipes(variant) {
         var drive = 'createcasing:' + variant + '_encased_chain_drive'
@@ -665,6 +679,8 @@ ServerEvents.recipes(event => {
     resetConfigurableGearboxRecipes('industrial_iron')
     resetConfigurableGearboxRecipes('weathered_iron')
     resetConfigurableGearboxRecipes('zinc')
+    resetConfigurableGearboxRecipes('shadow_steel')
+    resetConfigurableGearboxRecipes('refined_radiance')
 
     function resetConfigurableGearboxRecipes(variant) {
         var cgearbox = 'createcasing:' + variant + '_configurable_gearbox'
@@ -696,6 +712,8 @@ ServerEvents.recipes(event => {
     resetChainConveyorRecipes('industrial_iron', 'create:industrial_iron_block')
     resetChainConveyorRecipes('weathered_iron', 'create:weathered_iron_block')
     resetChainConveyorRecipes('zinc', 'createcasing:zinc_casing')
+    resetChainConveyorRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetChainConveyorRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetChainConveyorRecipes(variant, input) {
         var conveyor = 'createcasing:' + variant + '_chain_conveyor'
@@ -729,6 +747,8 @@ ServerEvents.recipes(event => {
     resetGearshiftRecipes('industrial_iron', 'create:industrial_iron_block')
     resetGearshiftRecipes('weathered_iron', 'create:weathered_iron_block')
     resetGearshiftRecipes('zinc', 'createcasing:zinc_casing')
+    resetGearshiftRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetGearshiftRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetGearshiftRecipes(variant, input) {
         var gearshift = 'createcasing:' + variant + '_gearshift'
@@ -770,6 +790,8 @@ ServerEvents.recipes(event => {
     resetClutchRecipes('industrial_iron', 'create:industrial_iron_block')
     resetClutchRecipes('weathered_iron', 'create:weathered_iron_block')
     resetClutchRecipes('zinc', 'createcasing:zinc_casing')
+    resetClutchRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetClutchRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetClutchRecipes(variant, input) {
         var clutch = 'createcasing:' + variant + '_clutch'
@@ -813,6 +835,8 @@ ServerEvents.recipes(event => {
     resetDeployerRecipes('industrial_iron', 'create:industrial_iron_block')
     resetDeployerRecipes('weathered_iron', 'create:weathered_iron_block')
     resetDeployerRecipes('zinc', 'createcasing:zinc_casing')
+    resetDeployerRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetDeployerRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetDeployerRecipes(variant, input) {
         var deployer = 'createcasing:' + variant + '_deployer'
@@ -844,6 +868,8 @@ ServerEvents.recipes(event => {
     resetEncasedFanRecipes('industrial_iron', 'create:industrial_iron_block')
     resetEncasedFanRecipes('weathered_iron', 'create:weathered_iron_block')
     resetEncasedFanRecipes('zinc', 'createcasing:zinc_casing')
+    resetEncasedFanRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetEncasedFanRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetEncasedFanRecipes(variant, input) {
         var fan = 'createcasing:' + variant + '_encased_fan'
@@ -875,6 +901,8 @@ ServerEvents.recipes(event => {
     resetMechanicalHarvesterRecipes('industrial_iron', 'create:industrial_iron_block')
     resetMechanicalHarvesterRecipes('weathered_iron', 'create:weathered_iron_block')
     resetMechanicalHarvesterRecipes('zinc', 'createcasing:zinc_casing')
+    resetMechanicalHarvesterRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetMechanicalHarvesterRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetMechanicalHarvesterRecipes(variant, input) {
         var harvester = 'createcasing:' + variant + '_mechanical_harvester'
@@ -906,6 +934,8 @@ ServerEvents.recipes(event => {
     resetMechanicalSawRecipes('industrial_iron', 'create:industrial_iron_block')
     resetMechanicalSawRecipes('weathered_iron', 'create:weathered_iron_block')
     resetMechanicalSawRecipes('zinc', 'createcasing:zinc_casing')
+    resetMechanicalSawRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetMechanicalSawRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetMechanicalSawRecipes(variant, input) {
         var saw = 'createcasing:' + variant + '_mechanical_saw'
@@ -937,6 +967,8 @@ ServerEvents.recipes(event => {
     resetMechanicalDrillRecipes('industrial_iron', 'create:industrial_iron_block')
     resetMechanicalDrillRecipes('weathered_iron', 'create:weathered_iron_block')
     resetMechanicalDrillRecipes('zinc', 'createcasing:zinc_casing')
+    resetMechanicalDrillRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetMechanicalDrillRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetMechanicalDrillRecipes(variant, input) {
         var drill = 'createcasing:' + variant + '_mechanical_drill'
@@ -968,6 +1000,8 @@ ServerEvents.recipes(event => {
     resetMechanicalPloughRecipes('industrial_iron', 'create:industrial_iron_block')
     resetMechanicalPloughRecipes('weathered_iron', 'create:weathered_iron_block')
     resetMechanicalPloughRecipes('zinc', 'createcasing:zinc_casing')
+    resetMechanicalPloughRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetMechanicalPloughRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetMechanicalPloughRecipes(variant, input) {
         var plough = 'createcasing:' + variant + '_mechanical_plough'
@@ -999,6 +1033,8 @@ ServerEvents.recipes(event => {
     resetMechanicalRollerRecipes('industrial_iron', 'create:industrial_iron_block')
     resetMechanicalRollerRecipes('weathered_iron', 'create:weathered_iron_block')
     resetMechanicalRollerRecipes('zinc', 'createcasing:zinc_casing')
+    resetMechanicalRollerRecipes('shadow_steel', 'create:shadow_steel_casing')
+    resetMechanicalRollerRecipes('refined_radiance', 'create:refined_radiance_casing')
 
     function resetMechanicalRollerRecipes(variant, input) {
         var roller = 'createcasing:' + variant + '_mechanical_roller'
