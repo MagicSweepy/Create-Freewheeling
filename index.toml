@@ -66,7 +66,7 @@ hash = "d9aecebae2bef8e2eb5927228c06591a8ce3a7be11e793307f73fbdc3e4017d6"
 
 [[files]]
 file = "config/tofneo_packs.json"
-hash = "2c633b807525d6d09cf1b8f42a240c4ef824d4a91b39bf3bfe74d91be258e077"
+hash = "c3105723ee8a13215f52208e6d4a5c1079b2433beb88a547b90fe554e9a965ea"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -269,8 +269,12 @@ file = "kubejs/server_scripts/farmers_delight.js"
 hash = "9ab62db6f5ee4dc1bd01c99550973a81d24c133eb268ebf2ea61d097a82fb5b2"
 
 [[files]]
+file = "kubejs/server_scripts/functional_storage.js"
+hash = "ace1882e75b4898d91953158704874338f5fb076836b40e7b00e3a5c7b52000f"
+
+[[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "8724ae00c885a356f89ebffcfadddbf6274cc9ec8a74f8b95d0311df16e9b21c"
+hash = "671c38073bf1e602fec77477935c6fc1d26ebb88ee5d31bce8605d8d8327c02f"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
@@ -298,7 +302,7 @@ hash = "c8ec8780aa37b60e0bee3f98cfe5108f4cb76730c7a413fdb0a7454c2f585262"
 
 [[files]]
 file = "local/tofneo_packs/seen.txt"
-hash = "18b6bc3c0cc5e6aea2dcbe18e81ca5c1a873d5d4491949fca388668014589e90"
+hash = "502264b84b545bb6b3f2d8d35cf93105c51d2111ff6626d73ad5474d895d4087"
 
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
@@ -496,6 +500,11 @@ hash = "96b8df58491c7190b35bf1c5115f029df6464ec276244557becad1613c5f5125"
 metafile = true
 
 [[files]]
+file = "mods/functional-storage.pw.toml"
+hash = "55c21e0159f5509b84d1e1fa42c2e478a3600c43007ede829cad5839aaa1b8da"
+metafile = true
+
+[[files]]
 file = "mods/glodium.pw.toml"
 hash = "9aafdd83668c1b903caf0245b0bf2de3bb743befaa78d39e74a95c9933d624ac"
 metafile = true
@@ -651,6 +660,11 @@ hash = "38fba226003880e15e5acb6cba090e3b6920bd352cbd45f8ab879cbe2047c566"
 metafile = true
 
 [[files]]
+file = "mods/titanium.pw.toml"
+hash = "3a38b581421787f8f5e6c59c07347fa1b0abe25943c8adc437bcb26a641e042e"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "af78bb5306aa88d89bdc0274e6a9541283e61e39e2df92516a965866b79ff3bd"
 metafile = true
@@ -668,6 +682,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "62eaf7c193d20dbec89944f6e1401ce64a80d8d704830a988d24c1498d8316e2"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-functional-storage.pw.toml"
+hash = "9866ab398d3cd665f6f733f267f27a133b6e8f4858ab7c555d10f32ed1f7d5b8"
 metafile = true
 
 [[files]]

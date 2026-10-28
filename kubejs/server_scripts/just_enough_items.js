@@ -10,6 +10,9 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('createcasing:recaser')
     event.remove('neapolitan:chocolate_bar')
     event.remove('neapolitan:milk_bottle')
+    event.remove('functionalstorage:dripping_upgrade')
+    event.remove('functionalstorage:water_generator_upgrade')
+    event.remove('functionalstorage:obsidian_upgrade')
 })
 
 RecipeViewerEvents.removeCategories(event => {
