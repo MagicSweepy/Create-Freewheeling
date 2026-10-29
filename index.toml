@@ -29,12 +29,16 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "143e8b6808c5c6a483581195a9bdfdd7a72ca92c6733f8c28d14c3f533e8a7db"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/1654fb55717b9615.snbt"
+hash = "a386b703a54c536600c25b1cf0e02ab9f05981faac3f2c0171c5daf1a90cefdc"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
 hash = "8ec8a9bb8c8e09200dd3a674a39eb545bf1691a9d5a30aad457b990eeb72a847"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
-hash = "5943c673d220cc70793e696a364ab00c04712c4e277286c57291d508a727d790"
+hash = "d7ba88d365bb520ab5cdebcd01ddb20fe01f773997539e90e919893468b5dd14"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
@@ -54,7 +58,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "993656706e2cea347f6143768ee81e892b8147ab656567f3ec5da9b81f0c7325"
+hash = "41101efa1c25833ab0d3227a4ed648cd29c419300ba773910277042dd021723b"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -189,6 +193,14 @@ file = "kubejs/assets/kubejs/textures/item/unfilled_cake_mechanism.png"
 hash = "4c173c012b3339877b8724ea1b3922df1020bf173c2f52359f47495b01a717e2"
 
 [[files]]
+file = "kubejs/assets/mmcr/lang/en_us.json"
+hash = "957d453b5cbb18b0ef7b26fb21ebd53d9b21c2f3b2add83fd54592289e9c9093"
+
+[[files]]
+file = "kubejs/assets/mmcr/lang/zh_cn.json"
+hash = "e65d5c31003358d320e8c0c4f092925b43e3feb5c7aa4b89aa2485ad3b9f9c7b"
+
+[[files]]
 file = "kubejs/assets/rubberworks/lang/zh_cn.json"
 hash = "d106229ac6e932d9ddebae4718dbab9a3cb2e0163b4bf4d62e31e4ee27b2b6a0"
 
@@ -313,6 +325,10 @@ file = "kubejs/server_scripts/minecraft.js"
 hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
 
 [[files]]
+file = "kubejs/server_scripts/modular_machinery.js"
+hash = "b2b1c804b8eb62ee083b952bfa047eb02c3c3f2dadbedd26a10841b3ae9896a4"
+
+[[files]]
 file = "kubejs/server_scripts/neapolitan.js"
 hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
 
@@ -349,6 +365,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+metafile = true
+
+[[files]]
+file = "mods/athena.pw.toml"
+hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
 metafile = true
 
 [[files]]

@@ -763,5 +763,95 @@
 			x: 35.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["1E65784B75CF663D"]
+			id: "739894808CC625F5"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "0AB17D8352F056B8"
+				type: "dimension"
+			}]
+			x: 32.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["739894808CC625F5"]
+			id: "3D84BA05931EFFB0"
+			tasks: [{
+				id: "0796083EA292D46C"
+				item: { count: 1, id: "neoecoae:aluminum_ingot" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7D728E2E2CF5D096"]
+			id: "63DAFDC1A861B604"
+			tasks: [
+				{
+					id: "079D7DFBB4344695"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "69A9E57A574009D0"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "4FC7D6DBA3B8C1C6"
+					item: { count: 1, id: "create:controls" }
+					type: "item"
+				}
+				{
+					id: "150A4A154829F696"
+					item: { count: 1, id: "create:schedule" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A888CA427EBF052"
+					item: { count: 1, id: "create:track_signal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3374FABB2B8A4E05"
+					item: { count: 1, id: "create:track_observer" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 35.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["739894808CC625F5"]
+			id: "32CC1E6B8469C00C"
+			tasks: [{
+				id: "42C3C97DA5E1BE3B"
+				item: { count: 1, id: "createendergateway:mechanical_gateway" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7D728E2E2CF5D096"
+				"3D84BA05931EFFB0"
+			]
+			id: "3F5BCE25FF6C0842"
+			size: 5.0d
+			tasks: [{
+				id: "76C63AF343899D00"
+				item: { count: 1, id: "mmcr:basic_casing" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 15.0d
+		}
 	]
 }
