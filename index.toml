@@ -607,6 +607,11 @@ hash = "aaa5892af3e5d81c19b67ac1b450dc634980dd3af9443072adfa2bdc80b1e6dd"
 metafile = true
 
 [[files]]
+file = "mods/modular-machinery-community-refoxed.pw.toml"
+hash = "c9ed4d8d48e3bf7e151e2f98bca39bb6a194099ddccb26ff511551b9f0b98465"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "057044d2179d9e10b616ef8fa4cc870ad350842fc5c325ce0b3766160852cd13"
 metafile = true
