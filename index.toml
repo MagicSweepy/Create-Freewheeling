@@ -309,6 +309,10 @@ file = "kubejs/server_scripts/kubejs.js"
 hash = "27637a8740ac8b1c8af8348c55ac37b1db2779457e2014647eb9719df3327f2f"
 
 [[files]]
+file = "kubejs/server_scripts/minecraft.js"
+hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
+
+[[files]]
 file = "kubejs/server_scripts/neapolitan.js"
 hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
 
@@ -569,7 +573,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "10b3806965691bfa3d0de63b563c45077bbede9963a096d094fee88d39fa25a4"
+hash = "d59efc266bf1949c2834fd05448ff6ca06f602f15633d5aea03390173157ac5b"
 metafile = true
 
 [[files]]
