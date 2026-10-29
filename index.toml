@@ -369,7 +369,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "8bf59e3bacf4bae409bd4f26aa77cdd3d8a61b67e1174b25200a558b0daba725"
+hash = "0c563d1391d159a332b59e6ce67792ed5f008d5d86616b3682629fc5aafcb65b"
 metafile = true
 
 [[files]]
@@ -514,7 +514,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "385e7d9da242de82c155495b28d8eb75a5825cd812961ae28e2598b03b2b7336"
+hash = "45d3bc7051ed6546e492e5be236f0271031dd0e45328cf8eecbb035d521e345c"
 metafile = true
 
 [[files]]
@@ -544,7 +544,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "d37a576e8345f7c7fe6ad9364d8da15309a7085bfda05f91558556791e33f24c"
+hash = "253fdc7ff789fb53519914b19e9d05a088323b9df7159e0c9d38d69a9ce33487"
 metafile = true
 
 [[files]]
@@ -569,7 +569,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "d59efc266bf1949c2834fd05448ff6ca06f602f15633d5aea03390173157ac5b"
+hash = "10b3806965691bfa3d0de63b563c45077bbede9963a096d094fee88d39fa25a4"
 metafile = true
 
 [[files]]
@@ -589,7 +589,7 @@ metafile = true
 
 [[files]]
 file = "mods/mezzconfig.pw.toml"
-hash = "7cc4b699a816b1dcee290ceb5951f404079edfefd0dd844955056fbf93b82629"
+hash = "81a9a360cfea30ef1243b21c3623f7ee26ba9547f3c987da8612eec0daf40b17"
 metafile = true
 
 [[files]]
