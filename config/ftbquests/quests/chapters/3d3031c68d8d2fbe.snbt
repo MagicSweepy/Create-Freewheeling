@@ -593,5 +593,175 @@
 			x: -2.5d
 			y: 15.0d
 		}
+		{
+			dependencies: ["71B30D1F4C433134"]
+			id: "21C723DC80E28D77"
+			tasks: [
+				{
+					id: "0A88D44C00B62B3D"
+					item: { count: 1, id: "createnuclear:enriched_soul_soil" }
+					type: "item"
+				}
+				{
+					id: "0DF64EA387F4A0FF"
+					item: { count: 1, id: "create_connected:fan_enriched_catalyst" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C42D179E12CECB1"
+					item: { count: 1, id: "createnuclear:enriching_campfire" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["21C723DC80E28D77"]
+			id: "1AAC522A23705297"
+			tasks: [
+				{
+					id: "17757A74555D892F"
+					item: { count: 1, id: "createnuclear:yellowcake" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7BB042DAED8CFFAF"
+					item: { count: 1, id: "createnuclear:enriched_yellowcake" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4877F76EAB3FAE2F"
+					item: { count: 1, id: "createnuclear:uranium_rod" }
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0129441E33AC78C2"]
+			id: "1DAA431B72EB2B94"
+			tasks: [{
+				id: "72182B9CB7566988"
+				item: { count: 1, id: "createnuclear:steel_ingot" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DAA431B72EB2B94"]
+			id: "19870A7CB1593597"
+			tasks: [{
+				id: "132BD1D50E54C0A2"
+				item: { count: 1, id: "createnuclear:reactor_casing" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"19870A7CB1593597"
+				"1AAC522A23705297"
+			]
+			id: "153454309353ABCE"
+			tasks: [
+				{
+					id: "0A6ADA303FF3A7AF"
+					item: { count: 1, id: "createnuclear:reactor_controller" }
+					type: "item"
+				}
+				{
+					id: "5DD594D1B0658869"
+					item: { count: 1, id: "createnuclear:reactor_core" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "37EA6E9F2169064C"
+					item: { count: 1, id: "createnuclear:reactor_frame" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B9E13C0745489C5"
+					item: { count: 1, id: "createnuclear:reactor_cooler" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E91E6E349D2A6C0"
+					item: { count: 1, id: "createnuclear:reactor_rod_input" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3A74BACBBC6DB4EF"
+					item: { count: 1, id: "createnuclear:reactor_fluid_input" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A93BE3970B0E3DB"
+					item: { count: 1, id: "createnuclear:reactor_output" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B3DF5C67534CA3C"
+					item: { count: 1, id: "createnuclear:reactor_alarm" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"1DAA431B72EB2B94"
+				"05C7313C92310FD9"
+			]
+			id: "5B1800B224DEB6B6"
+			tasks: [{
+				id: "278BEB22A809200F"
+				item: { count: 1, id: "create:sturdy_sheet" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B1800B224DEB6B6"]
+			id: "7D728E2E2CF5D096"
+			size: 5.0d
+			tasks: [{
+				id: "5EC62E5F984FB52A"
+				item: { count: 1, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5B1800B224DEB6B6"
+				"6B4C3566623E66B5"
+			]
+			id: "13F3BA802FFB239A"
+			tasks: [{
+				id: "2A121EA6E3CA63C4"
+				item: { count: 1, id: "fluidlogistics:infinite_fluid_tank" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.0d
+		}
 	]
 }

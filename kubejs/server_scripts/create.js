@@ -89,4 +89,16 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: 'create:encased_chain_drive' })
     event.shapeless('create:encased_chain_drive', [ 'create:andesite_casing', '#c:chains' ])
+
+    var incomplete = 'kubejs:incomplete_sturdy_sheet'
+
+    event.remove({ id: 'create:sequenced_assembly/sturdy_sheet' })
+    event.recipes.create.sequenced_assembly([ 'create:sturdy_sheet' ], 'kubejs:steel_sheet',
+    [
+        event.recipes.create.filling(incomplete, [ incomplete, Fluid.of('minecraft:lava', 250) ]),
+        event.recipes.create.deploying(incomplete, [ incomplete, 'create:powdered_obsidian' ]),
+        event.recipes.create.pressing(incomplete, [ incomplete ])
+    ])
+    .transitionalItem(incomplete)
+    .loops(1)
 })

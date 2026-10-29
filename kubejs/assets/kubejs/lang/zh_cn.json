@@ -3,6 +3,9 @@
     "item.kubejs.unfilled_cake_mechanism": "未填充蛋糕构件",
     "item.kubejs.plastic_ingot": "塑料条",
     "item.kubejs.plastic_sheet": "塑料片",
+    "item.kubejs.steel_sheet": "钢板",
+    "item.kubejs.steel_rod": "钢杆",
+    "item.kubejs.incomplete_sturdy_sheet": "热锻中坚固板",
 
     "item.kubejs.ethylene_bucket": "乙烯桶",
     "fluid.kubejs.ethylene": "乙烯",

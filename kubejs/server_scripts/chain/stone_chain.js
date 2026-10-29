@@ -33,4 +33,13 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'create:compacting/diorite_from_flint' })
     event.recipes.create.compacting('minecraft:diorite', [ 'minecraft:flint', 'minecraft:calcite', Fluid.of('minecraft:lava', 250) ]).heated()
+
+    event.remove({ id: 'create:crushing/tuff_recycling' })
+    event.remove({ id: 'create:crushing/tuff' })
+    event.recipes.create.compacting('minecraft:tuff', [ 'createnuclear:lead_ingot', 'minecraft:gravel', Fluid.of('minecraft:lava', 250) ]).heated()
+    event.recipes.create.crushing([ '2x create:crushed_raw_lead', CreateItem.of('minecraft:flint', 0.25) ], 'minecraft:tuff')
+
+    event.remove({ id: 'createnuclear:crushing/nitrate' })
+    event.recipes.create.compacting('create:limestone', [ 'createnuclear:nitrate', 'minecraft:cobblestone', Fluid.of('minecraft:lava', 250) ]).heated()
+    event.recipes.create.crushing([ '2x createnuclear:nitrate', 'minecraft:calcite' ], 'create:limestone')
 })

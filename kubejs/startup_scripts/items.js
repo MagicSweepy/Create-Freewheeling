@@ -9,4 +9,8 @@ StartupEvents.registry('item', event => {
 
     event.create('plastic_ingot').tag('c:ingots/plastic')
     event.create('plastic_sheet').tag('c:plates/plastic')
+    event.create('steel_sheet').tag('c:plates/steel')
+    event.create('steel_rod').tag('c:rods/steel')
+    
+    event.create('incomplete_sturdy_sheet', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
 })

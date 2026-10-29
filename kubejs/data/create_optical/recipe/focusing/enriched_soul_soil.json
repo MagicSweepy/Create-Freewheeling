@@ -1,0 +1,15 @@
+{
+  "type": "create_optical:focusing",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_soil"
+    }
+  ],
+  "mode": 2,
+  "processing_time": 50,
+  "results": [
+    {
+      "id": "createnuclear:enriched_soul_soil"
+    }
+  ]
+}

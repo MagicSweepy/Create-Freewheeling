@@ -3,6 +3,9 @@
     "item.kubejs.unfilled_cake_mechanism": "Unfilled Cake Mechanism",
     "item.kubejs.plastic_ingot": "Plastic Bar",
     "item.kubejs.plastic_sheet": "Plastic Sheet",
+    "item.kubejs.steel_sheet": "Steel Plate",
+    "item.kubejs.steel_rod": "Steel Rod",
+    "item.kubejs.incomplete_sturdy_sheet": "Hot Forging Sturdy Sheet",
 
     "item.kubejs.ethylene_bucket": "Ethylene Bucket",
     "fluid.kubejs.ethylene": "Ethylene",

@@ -10,4 +10,19 @@ ServerEvents.recipes(event => {
 
     event.remove({ output: 'fluidlogistics:oscillating_steam_engine' })
     event.shapeless('fluidlogistics:oscillating_steam_engine', [ '#create:steam_engines', 'create:precision_mechanism' ])
+
+    event.remove({ id: 'fluidlogistics:mechanical_crafting/infinite_fluid_tank' })
+    event.recipes.create.mechanical_crafting('fluidlogistics:infinite_fluid_tank',
+    [
+        'PEP',
+        'SFS',
+        'PMP'
+    ],
+    {
+        P: 'create:sturdy_sheet',
+        F: '#create:fluid_tanks',
+        S: 'kubejs:steel_rod',
+        M: 'create:precision_mechanism',
+        E: 'create:electron_tube'
+    })
 })

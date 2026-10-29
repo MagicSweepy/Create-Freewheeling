@@ -412,5 +412,89 @@
 			x: -10.0d
 			y: 10.0d
 		}
+		{
+			dependencies: ["4DE47167FA860A0C"]
+			id: "5D600CD1807943BF"
+			tasks: [{
+				id: "142FDEAC1B13002A"
+				item: { count: 1, id: "minecraft:tuff" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["135CEA86A4DC8F5C"]
+			icon: {
+				id: "create:crushed_raw_uranium"
+			}
+			id: "010D003336132755"
+			size: 3.0d
+			tasks: [{
+				id: "4BC6E0D4A2ECFA8C"
+				item: { count: 1, id: "createnuclear:uranium_powder" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5D600CD1807943BF"]
+			id: "53C2D4FE66125881"
+			size: 3.0d
+			tasks: [{
+				id: "73BCC85C50BA57D6"
+				item: { count: 1, id: "create:crushed_raw_lead" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["007A22A64F861BA9"]
+			id: "664C46D1A7A873CE"
+			tasks: [{
+				id: "33BF70D1508B69E7"
+				item: { count: 1, id: "create:limestone" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["664C46D1A7A873CE"]
+			id: "7D5AAF8666715790"
+			tasks: [{
+				id: "0AF82159487F6E75"
+				item: { count: 1, id: "minecraft:calcite" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["664C46D1A7A873CE"]
+			id: "672F6714BEDE26C1"
+			size: 3.0d
+			tasks: [{
+				id: "1C1A6B6210CC461E"
+				item: { count: 1, id: "createnuclear:nitrate" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D5AAF8666715790"]
+			id: "2B34866195E1D464"
+			size: 3.0d
+			tasks: [{
+				id: "59D7B69860D6B3EE"
+				item: { count: 1, id: "minecraft:bone_meal" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: 0.0d
+		}
 	]
 }
