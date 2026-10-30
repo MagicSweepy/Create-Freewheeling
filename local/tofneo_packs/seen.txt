@@ -2,7 +2,7 @@
 # Deleting this file applies the modpack defaults again at next launch.
 on file/CreateSophBackpacks.zip
 on file/CreateSophiStorage.zip
-on file/create_mcGUI_2.1.0.zip
+on file/create_mcGUI_2.5.0.zip
 on file/Tom's Create Style 1.2 - 1.21.zip
 on file/Create FTB Quests 1.0.zip
 on file/【1.21.1】§l§n§a§oCreate Functional Storage §c§lv1.0.0.zip

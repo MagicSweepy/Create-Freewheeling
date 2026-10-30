@@ -74,7 +74,7 @@ hash = "d9aecebae2bef8e2eb5927228c06591a8ce3a7be11e793307f73fbdc3e4017d6"
 
 [[files]]
 file = "config/tofneo_packs.json"
-hash = "c3105723ee8a13215f52208e6d4a5c1079b2433beb88a547b90fe554e9a965ea"
+hash = "396c20edb4a2b40d4c0d06e3c27e87b7d632f833e0f6e54f692f9315fcf519ae"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -410,7 +410,7 @@ hash = "c8ec8780aa37b60e0bee3f98cfe5108f4cb76730c7a413fdb0a7454c2f585262"
 
 [[files]]
 file = "local/tofneo_packs/seen.txt"
-hash = "502264b84b545bb6b3f2d8d35cf93105c51d2111ff6626d73ad5474d895d4087"
+hash = "e08dd978c7c89090ccdaabc737f55bb3d4465c05765f7ebf07c80ed3630355dc"
 
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
@@ -824,7 +824,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/create-mcgui.pw.toml"
-hash = "f1b28378eb5b1e56000bc080a11113c480426de5b5f5c511be1a5e3ec751d606"
+hash = "51853068c28e1854ea9e5c6addd57634d426b49c55780130d9782a18f677c341"
 metafile = true
 
 [[files]]
