@@ -17,4 +17,36 @@ ServerEvents.recipes(event => {
     ])
     .transitionalItem(incomplete)
     .loops(1)
+
+    event.recipes.create.mechanical_crafting('mmcr:large_crusher_controller',
+    [
+        'ADDDA',
+        'DUOUD',
+        'DCBCD',
+        'DUEUD',
+        'ADDDA'
+    ],
+    {
+        B: 'mmcr:basic_casing',
+        C: 'create:crushing_wheel',
+        O: 'create_connected:control_chip',
+        U: 'create_connected:brass_chute',
+        A: 'create:brass_casing',
+        D: 'create:brass_sheet',
+        E: 'create:precision_mechanism'
+    })
+
+    event.shaped('mmcr:large_rolling_mill_controller',
+    [
+        'CAC',
+        'DBD',
+        'CWC'
+    ],
+    {
+        B: 'mmcr:basic_casing',
+        W: 'createaddition:rolling_mill',
+        A: '#create:presses',
+        C: '#c:plates/industrial_iron',
+        D: '#create:chain_drives'
+    })
 })

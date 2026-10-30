@@ -5,5 +5,5 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('kubejs:plastic_ingot', Fluid.of('kubejs:ethylene', 250)).heated()
     event.recipes.create.mixing(Fluid.of('kubejs:ethylene', 500), [ Fluid.of('kubejs:sulfuric_acid', 250), Fluid.of('createdieselgenerators:ethanol', 250) ]).heated()
 
-    event.recipes.create.compacting('kubejs:plastic_sheet', 'kubejs:plastic_ingot')
+    event.recipes.create.pressing('kubejs:plastic_sheet', 'kubejs:plastic_ingot')
 })

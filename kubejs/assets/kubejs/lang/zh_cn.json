@@ -16,7 +16,13 @@
     "fluid_type.kubejs.sulfuric_acid": "硫酸",
     "block.kubejs.sulfuric_acid": "流动的硫酸",
 
-    "block.mmcr.large_assembler_controller": "大型装配机控制器",
-    "machine.kubejs.large_assembler.name": "大型装配机",
-    "recipe_pool.kubejs.large_assembler": "大型装配机"
+    "block.mmcr.large_assembler_controller": "批量装配机控制器",
+    "machine.kubejs.large_assembler.name": "批量装配机",
+    "recipe_pool.kubejs.large_assembler": "批量装配机",
+    "block.mmcr.large_crusher_controller": "电动粉碎槽控制器",
+    "machine.kubejs.large_crusher.name": "电动粉碎槽",
+    "recipe_pool.kubejs.large_crusher": "电动粉碎槽",
+    "block.mmcr.large_rolling_mill_controller": "多辊式轧机控制器",
+    "machine.kubejs.large_rolling_mill.name": "多辊式轧机",
+    "recipe_pool.kubejs.large_rolling_mill": "多辊式轧机"
 }

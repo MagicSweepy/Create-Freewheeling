@@ -38,5 +38,27 @@
 			x: 2.5d
 			y: -5.0d
 		}
+		{
+			dependencies: ["72F04F7F6B16249E"]
+			id: "06AC610781311661"
+			tasks: [{
+				id: "7EB7BED4505C62D6"
+				item: { count: 1, id: "mmcr:large_crusher_controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72F04F7F6B16249E"]
+			id: "3E97815398955D93"
+			tasks: [{
+				id: "6874284BEBA22A0A"
+				item: { count: 1, id: "mmcr:large_rolling_mill_controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
 	]
 }

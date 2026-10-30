@@ -16,7 +16,13 @@
     "fluid_type.kubejs.sulfuric_acid": "Sulfuric Acid",
     "block.kubejs.sulfuric_acid": "Flowing Sulfuric Acid",
 
-    "block.mmcr.large_assembler_controller": "Large Assembler Controller",
-    "machine.kubejs.large_assembler.name": "Large Assembler",
-    "recipe_pool.kubejs.large_assembler": "Large Assembler"
+    "block.mmcr.large_assembler_controller": "Batch Assembler Controller",
+    "machine.kubejs.large_assembler.name": "Batch Assembler",
+    "recipe_pool.kubejs.large_assembler": "Batch Assembler",
+    "block.mmcr.large_crusher_controller": "Electric Crushing Tank Controller",
+    "machine.kubejs.large_crusher.name": "Electric Crushing Tank",
+    "recipe_pool.kubejs.large_crusher": "Electric Crushing Tank",
+    "block.mmcr.large_rolling_mill_controller": "Rolling Bender Controller",
+    "machine.kubejs.large_rolling_mill.name": "Rolling Bender",
+    "recipe_pool.kubejs.large_rolling_mill": "Rolling Bender"
 }
