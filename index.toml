@@ -17,6 +17,10 @@ file = "config/curios-common.toml"
 hash = "d8d755ee9da66b79d5d3b84705a5410d3311e5377f48c35f071595f7a3324628"
 
 [[files]]
+file = "config/frequency-client.toml"
+hash = "c8d882437240c4048fe30068f77ce5fed5c03f629a1495380a1ff6f69c3fa450"
+
+[[files]]
 file = "config/ftbchunks-world.snbt"
 hash = "2b515fc43ca4947089b5ccaeba940746679b8964d496698c79cd6eae8fe7c335"
 
@@ -131,6 +135,10 @@ hash = "71dc63ad2afb5e96afb7fe5addfd0303e9241f3df4eb7a9c5b67c9fdeffc8faf"
 [[files]]
 file = "kubejs/assets/extra_gauges/lang/zh_cn.json"
 hash = "ead57830604c29579bbe817f511208a36c83174edc59f9eee28ac39fa826083f"
+
+[[files]]
+file = "kubejs/assets/frequency/lang/zh_cn.json"
+hash = "fe149b217b601dba454c729285afb8fea044855831bcb430050f72349779b530"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/shapes/hexagon/background.png"
@@ -523,6 +531,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
+metafile = true
+
+[[files]]
+file = "mods/frequency-create.pw.toml"
+hash = "8f6b028cfb4b4e7e44e0c0e330c45725e438d00399c3e4c66e731daa8c6edd4e"
 metafile = true
 
 [[files]]

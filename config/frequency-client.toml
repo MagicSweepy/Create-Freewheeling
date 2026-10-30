@@ -1,0 +1,4 @@
+#Set to false to disable the startup welcome message
+enableStartupMessage = false
+#Set to false to disable the automatic version check
+enableVersionCheck = false
