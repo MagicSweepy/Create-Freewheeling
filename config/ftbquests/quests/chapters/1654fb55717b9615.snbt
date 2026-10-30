@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
+	default_quest_size: 4.0d
 	filename: "1654fb55717b9615"
 	group: "10F403E42D9782F3"
 	icon: {
@@ -10,5 +11,32 @@
 	images: [ ]
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7D728E2E2CF5D096"
+				"3D84BA05931EFFB0"
+			]
+			id: "72F04F7F6B16249E"
+			size: 5.0d
+			tasks: [{
+				id: "6446C7A3F2018D34"
+				item: { count: 1, id: "mmcr:basic_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72F04F7F6B16249E"]
+			id: "7CFDBFE4F5E37F19"
+			tasks: [{
+				id: "69D03D696380F2E8"
+				item: { count: 1, id: "mmcr:large_assembler_controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+	]
 }

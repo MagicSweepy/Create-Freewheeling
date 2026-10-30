@@ -14,5 +14,9 @@
     "item.kubejs.sulfuric_acid_bucket": "硫酸桶",
     "fluid.kubejs.sulfuric_acid": "硫酸",
     "fluid_type.kubejs.sulfuric_acid": "硫酸",
-    "block.kubejs.sulfuric_acid": "流动的硫酸"
+    "block.kubejs.sulfuric_acid": "流动的硫酸",
+
+    "block.mmcr.large_assembler_controller": "大型装配机控制器",
+    "machine.kubejs.large_assembler.name": "大型装配机",
+    "recipe_pool.kubejs.large_assembler": "大型装配机"
 }

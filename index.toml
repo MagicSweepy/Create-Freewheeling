@@ -34,7 +34,7 @@ hash = "143e8b6808c5c6a483581195a9bdfdd7a72ca92c6733f8c28d14c3f533e8a7db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1654fb55717b9615.snbt"
-hash = "a386b703a54c536600c25b1cf0e02ab9f05981faac3f2c0171c5daf1a90cefdc"
+hash = "fec3fb73209c01c0f0c4e2947cf079c4282af4cb169680bb7d1979b9f8bf621c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
@@ -62,7 +62,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "41101efa1c25833ab0d3227a4ed648cd29c419300ba773910277042dd021723b"
+hash = "62476db7768328692419cc27570532763bfb356afe4a47f0943e4d2320e75d1d"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -166,11 +166,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "5e7bef751ba930a0a0b009aa46392e38bf71b5320f4648983bc65ee6da50c45a"
+hash = "95dce357b538e5579f878e588dc435e769f3481cf9f14c843903e8d897a80b64"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "c890c48ac34690d26c2bf0efbd4a4d479ecee4bd6425291e1abf733f9f7bc278"
+hash = "12f1cdb918537a3b84b67fbd2d81b7c40433b018753103d4a5face781af0ac8f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/cake_mechanism.png"
@@ -219,6 +219,22 @@ hash = "5bc982969fba2764dabf3b039439e65b71ad95953b6190e873afc033aac94cd2"
 [[files]]
 file = "kubejs/client_scripts/incomplete_item_renderer.js"
 hash = "21c974ef2cd0b1808f9b3dcd290af21804c4124d8b8c21ff88b87521c008cec4"
+
+[[files]]
+file = "kubejs/data/create/recipe/item_application/refined_radiance_casing_from_log.json"
+hash = "d1a9ed6c9bc2ab2bebbf123645e2eaa90663e8b1a9cf8b24c35d99e1376dd5e0"
+
+[[files]]
+file = "kubejs/data/create/recipe/item_application/refined_radiance_casing_from_wood.json"
+hash = "48759eb64739a567ef69118e2017a6712d0201124c5e3b5b72a91e6c4bfd6fdd"
+
+[[files]]
+file = "kubejs/data/create/recipe/item_application/shadow_steel_casing_from_log.json"
+hash = "fea19e4d725a3f94102fb8621641d157a91397b194d064a40c85179bd3a21ed8"
+
+[[files]]
+file = "kubejs/data/create/recipe/item_application/shadow_steel_casing_from_wood.json"
+hash = "32698144c1c485ee3cbb6df6dc0bce2f45a95f19257d49479066ab64394d66f4"
 
 [[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
@@ -342,11 +358,19 @@ hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
 
 [[files]]
 file = "kubejs/server_scripts/modular_machinery.js"
-hash = "b2b1c804b8eb62ee083b952bfa047eb02c3c3f2dadbedd26a10841b3ae9896a4"
+hash = "457bcf05ae527133e8af3934549d5486c56a5fc0b6075180cbb0382c9548f8b4"
 
 [[files]]
 file = "kubejs/server_scripts/neapolitan.js"
 hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
+hash = "69224c3dc2af30f11c30c073e75137f2db248f2abdfdaf8b2ad5cd34dbf66da8"
+
+[[files]]
+file = "kubejs/server_scripts/structure/large_assembler.js"
+hash = "96b70c93242f7313cf1c3ac1af91cf63ad9c0e83e1698432285d3ba3d656dabe"
 
 [[files]]
 file = "kubejs/server_scripts/toms_simple_storage.js"
@@ -359,6 +383,10 @@ hash = "623e1e0435f70b5548890ceff13d0825447030a3be50867ae09e76db8fab3242"
 [[files]]
 file = "kubejs/startup_scripts/items.js"
 hash = "2a1841b5b12b8b3361a4a21544eb77fdf6f4309d23f5d55353085cdf79da75d4"
+
+[[files]]
+file = "kubejs/startup_scripts/machines.js"
+hash = "7fab554c9d36614a807cdda7f4897e6db1a713df7b7eeead635c0eb7b6da3714"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"
