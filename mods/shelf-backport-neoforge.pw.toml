@@ -1,0 +1,13 @@
+name = "Shelf Backport [NeoForge]"
+filename = "shelvesbackport-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6951ccf6b875b54b89c6b3b406709ece850ad762"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8866425
+project-id = 1651164

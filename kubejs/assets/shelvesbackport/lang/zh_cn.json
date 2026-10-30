@@ -1,0 +1,16 @@
+{
+  "itemGroup.shelvesbackport": "展示架（移植）",
+  "container.shelvesbackport.shelf": "展示架",
+  "block.shelvesbackport.oak_shelf": "橡木展示架",
+  "block.shelvesbackport.spruce_shelf": "云杉木展示架",
+  "block.shelvesbackport.birch_shelf": "白桦木展示架",
+  "block.shelvesbackport.jungle_shelf": "丛林木展示架",
+  "block.shelvesbackport.acacia_shelf": "金合欢木展示架",
+  "block.shelvesbackport.dark_oak_shelf": "深色橡木展示架",
+  "block.shelvesbackport.mangrove_shelf": "红树木展示架",
+  "block.shelvesbackport.cherry_shelf": "樱花木展示架",
+  "block.shelvesbackport.bamboo_shelf": "竹展示架",
+  "block.shelvesbackport.crimson_shelf": "绯红木展示架",
+  "block.shelvesbackport.warped_shelf": "诡异木展示架",
+  "block.shelvesbackport.pale_oak_shelf": "苍白橡木展示架"
+}

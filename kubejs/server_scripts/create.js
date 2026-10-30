@@ -101,4 +101,17 @@ ServerEvents.recipes(event => {
     ])
     .transitionalItem(incomplete)
     .loops(1)
+
+    event.remove({ id: 'create:mechanical_crafter' })
+    event.shaped('3x create:mechanical_crafter',
+    [
+        ' E ',
+        ' C ',
+        ' R '
+    ],
+    {
+        E: 'create:electron_tube',
+        C: 'create:brass_casing',
+        R: 'minecraft:crafter'
+    })
 })
