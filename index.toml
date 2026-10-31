@@ -634,7 +634,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "253fdc7ff789fb53519914b19e9d05a088323b9df7159e0c9d38d69a9ce33487"
+hash = "62637d9fa6059eee6042ffe48185a94621d4f45e0c3e77397b4e19cbbcbc59fb"
 metafile = true
 
 [[files]]
@@ -659,7 +659,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "d59efc266bf1949c2834fd05448ff6ca06f602f15633d5aea03390173157ac5b"
+hash = "10b3806965691bfa3d0de63b563c45077bbede9963a096d094fee88d39fa25a4"
 metafile = true
 
 [[files]]
@@ -709,7 +709,7 @@ metafile = true
 
 [[files]]
 file = "mods/neo-eco-ae-extension.pw.toml"
-hash = "8830df466f76f083fcbb42ba28221f79c81a4f24ea55ca3dcac1071ec1d883c8"
+hash = "2973549e9f0c5d328baf51e4fa78fb52c9f4d75068ef3a0ca5eee18d7f4990fc"
 metafile = true
 
 [[files]]
