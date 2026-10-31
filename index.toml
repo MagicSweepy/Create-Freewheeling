@@ -818,6 +818,10 @@ hash = "62eaf7c193d20dbec89944f6e1401ce64a80d8d704830a988d24c1498d8316e2"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "d548af5c5878244a584b05d756bc3e64dddcd5f0db1dd4d04898fc58da3cbe55"
+
+[[files]]
 file = "resourcepacks/create-functional-storage.pw.toml"
 hash = "9866ab398d3cd665f6f733f267f27a133b6e8f4858ab7c555d10f32ed1f7d5b8"
 metafile = true
