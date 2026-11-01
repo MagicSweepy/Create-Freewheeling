@@ -64,4 +64,624 @@ ServerEvents.recipes(event => {
         C: '#c:plates/industrial_iron',
         D: '#create:chain_drives'
     })
+
+    // #region Input Buses
+
+    event.remove({ output: 'mmcr:item_input_bus_tiny' })
+    event.shaped('mmcr:item_input_bus_tiny', [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create:chute',
+        C: '#c:chests/wooden'
+    })
+
+    event.remove({ output: 'mmcr:item_input_bus_small' })
+    event.shaped('mmcr:item_input_bus_small',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create:chute',
+        C: '#sophisticated_tags:copper_chest'
+    })    
+
+    event.remove({ output: 'mmcr:item_input_bus' })
+    event.shaped('mmcr:item_input_bus',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create:chute',
+        C: '#sophisticated_tags:iron_chest'
+    })
+
+    event.remove({ output: 'mmcr:item_input_bus_reinforced' })
+    event.shaped('mmcr:item_input_bus_reinforced',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create:chute',
+        C: '#sophisticated_tags:gold_chest'
+    })
+    
+    event.remove({ output: 'mmcr:item_input_bus_big' })
+    event.shaped('mmcr:item_input_bus_big',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create_connected:brass_chute',
+        C: '#sophisticated_tags:diamond_chest'
+    })
+
+    event.remove({ output: 'mmcr:item_input_bus_huge' })
+    event.shaped('mmcr:item_input_bus_huge',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create_connected:brass_chute',
+        C: '#sophisticated_tags:netherite_chest'
+    })
+
+    event.remove({ output: 'mmcr:item_input_bus_ludicrous' })
+    event.shaped('mmcr:item_input_bus_ludicrous',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create_connected:brass_chute',
+        C: 'ae2:chest'
+    })
+
+    // #endregion
+
+    // #region Output Buses
+
+    event.remove({ output: 'mmcr:item_output_bus_tiny' })
+    event.shaped('mmcr:item_output_bus_tiny', [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create:chute',
+        C: '#c:chests/wooden'
+    })
+
+    event.remove({ output: 'mmcr:item_output_bus_small' })
+    event.shaped('mmcr:item_output_bus_small',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create:chute',
+        C: '#sophisticated_tags:copper_chest'
+    })    
+
+    event.remove({ output: 'mmcr:item_output_bus' })
+    event.shaped('mmcr:item_output_bus',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create:chute',
+        C: '#sophisticated_tags:iron_chest'
+    })
+
+    event.remove({ output: 'mmcr:item_output_bus_reinforced' })
+    event.shaped('mmcr:item_output_bus_reinforced',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create:chute',
+        C: '#sophisticated_tags:gold_chest'
+    })
+    
+    event.remove({ output: 'mmcr:item_output_bus_big' })
+    event.shaped('mmcr:item_output_bus_big',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create_connected:brass_chute',
+        C: '#sophisticated_tags:diamond_chest'
+    })
+
+    event.remove({ output: 'mmcr:item_output_bus_huge' })
+    event.shaped('mmcr:item_output_bus_huge',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create_connected:brass_chute',
+        C: '#sophisticated_tags:netherite_chest'
+    })
+
+    event.remove({ output: 'mmcr:item_output_bus_ludicrous' })
+    event.shaped('mmcr:item_output_bus_ludicrous',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        U: 'create_connected:brass_chute',
+        C: 'ae2:chest'
+    })
+
+    // #endregion
+
+    // #region Fluid Input Hatches
+
+    event.remove({ output: 'mmcr:fluid_input_hatch_tiny' })
+    event.shaped('mmcr:fluid_input_hatch_tiny',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#c:barrels/wooden',
+        U: '#create:mechanical_pumps'
+    })
+
+    event.remove({ output: 'mmcr:fluid_input_hatch_small' })
+    event.shaped('mmcr:fluid_input_hatch_small',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:copper_barrel',
+        U: '#create:mechanical_pumps'
+    })
+
+    event.remove({ output: 'mmcr:fluid_input_hatch' })
+    event.shaped('mmcr:fluid_input_hatch',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:iron_barrel',
+        U: '#create:mechanical_pumps'
+    })
+
+    event.remove({ output: 'mmcr:fluid_input_hatch_reinforced' })
+    event.shaped('mmcr:fluid_input_hatch_reinforced',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:gold_barrel',
+        U: '#create:mechanical_pumps'
+    })
+    
+    event.remove({ output: 'mmcr:fluid_input_hatch_big' })
+    event.shaped('mmcr:fluid_input_hatch_big',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:diamond_barrel',
+        U: '#create:mechanical_pumps'
+    })
+
+    event.remove({ output: 'mmcr:fluid_input_hatch_huge' })
+    event.shaped('mmcr:fluid_input_hatch_huge',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:netherite_barrel',
+        U: 'createaddition:electric_pump'
+    })
+
+    event.remove({ output: 'mmcr:fluid_input_hatch_ludicrous' })
+    event.shaped('mmcr:fluid_input_hatch_ludicrous',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'ae2:chest',
+        U: 'createaddition:electric_pump',
+    })
+
+    event.remove({ output: 'mmcr:fluid_input_hatch_vacuum' })
+    event.shaped('mmcr:fluid_input_hatch_vacuum',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'ae2:drive',
+        U: 'createaddition:electric_pump',
+    })
+
+    // #endregion
+
+    // #region Fluid Output Hatches
+
+    event.remove({ output: 'mmcr:fluid_output_hatch_tiny' })
+    event.shaped('mmcr:fluid_output_hatch_tiny',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#c:barrels/wooden',
+        U: '#create:mechanical_pumps'
+    })
+
+    event.remove({ output: 'mmcr:fluid_output_hatch_small' })
+    event.shaped('mmcr:fluid_output_hatch_small',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:copper_barrel',
+        U: '#create:mechanical_pumps'
+    })
+
+    event.remove({ output: 'mmcr:fluid_output_hatch' })
+    event.shaped('mmcr:fluid_output_hatch',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:iron_barrel',
+        U: '#create:mechanical_pumps'
+    })
+
+    event.remove({ output: 'mmcr:fluid_output_hatch_reinforced' })
+    event.shaped('mmcr:fluid_output_hatch_reinforced',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:gold_barrel',
+        U: '#create:mechanical_pumps'
+    })
+    
+    event.remove({ output: 'mmcr:fluid_output_hatch_big' })
+    event.shaped('mmcr:fluid_output_hatch_big',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:diamond_barrel',
+        U: '#create:mechanical_pumps'
+    })
+
+    event.remove({ output: 'mmcr:fluid_output_hatch_huge' })
+    event.shaped('mmcr:fluid_output_hatch_huge',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: '#sophisticated_tags:netherite_barrel',
+        U: 'createaddition:electric_pump'
+    })
+
+    event.remove({ output: 'mmcr:fluid_output_hatch_ludicrous' })
+    event.shaped('mmcr:fluid_output_hatch_ludicrous',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'ae2:chest',
+        U: 'createaddition:electric_pump',
+    })
+
+    event.remove({ output: 'mmcr:fluid_output_hatch_vacuum' })
+    event.shaped('mmcr:fluid_output_hatch_vacuum',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'ae2:drive',
+        U: 'createaddition:electric_pump',
+    })
+
+    // #endregion
+
+    // #region Energy Input Hatches
+
+    event.remove({ output: 'mmcr:energy_input_hatch_tiny' })
+    event.shaped('mmcr:energy_input_hatch_tiny',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/iron'
+    })
+
+    event.remove({ output: 'mmcr:energy_input_hatch_small' })
+    event.shaped('mmcr:energy_input_hatch_small',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/industrial_iron'
+    })
+
+    event.remove({ output: 'mmcr:energy_input_hatch' })
+    event.shaped('mmcr:energy_input_hatch',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/andesite_alloy'
+    })
+
+    event.remove({ output: 'mmcr:energy_input_hatch_reinforced' })
+    event.shaped('mmcr:energy_input_hatch_reinforced',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/brass'
+    })
+
+    event.remove({ output: 'mmcr:energy_input_hatch_big' })
+    event.shaped('mmcr:energy_input_hatch_big',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/electrum'
+    })
+
+    event.remove({ output: 'mmcr:energy_input_hatch_huge' })
+    event.shaped('mmcr:energy_input_hatch_huge',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/steel'
+    })
+
+    event.remove({ output: 'mmcr:energy_input_hatch_ludicrous' })
+    event.shaped('mmcr:energy_input_hatch_ludicrous',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/aluminum'
+    })
+
+    event.remove({ output: 'mmcr:energy_input_hatch_ultimate' })
+    event.shaped('mmcr:energy_input_hatch_ultimate',
+    [
+        ' U ',
+        ' H ',
+        ' C '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/tungsten'
+    })
+
+    // #endregion
+
+    // #region Energy Output Hatches
+
+    event.remove({ output: 'mmcr:energy_output_hatch_tiny' })
+    event.shaped('mmcr:energy_output_hatch_tiny',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/iron'
+    })
+
+    event.remove({ output: 'mmcr:energy_output_hatch_small' })
+    event.shaped('mmcr:energy_output_hatch_small',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/industrial_iron'
+    })
+
+    event.remove({ output: 'mmcr:energy_output_hatch' })
+    event.shaped('mmcr:energy_output_hatch',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/andesite_alloy'
+    })
+
+    event.remove({ output: 'mmcr:energy_output_hatch_reinforced' })
+    event.shaped('mmcr:energy_output_hatch_reinforced',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/brass'
+    })
+
+    event.remove({ output: 'mmcr:energy_output_hatch_big' })
+    event.shaped('mmcr:energy_output_hatch_big',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/electrum'
+    })
+
+    event.remove({ output: 'mmcr:energy_output_hatch_huge' })
+    event.shaped('mmcr:energy_output_hatch_huge',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/steel'
+    })
+
+    event.remove({ output: 'mmcr:energy_output_hatch_ludicrous' })
+    event.shaped('mmcr:energy_output_hatch_ludicrous',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/aluminum'
+    })
+
+    event.remove({ output: 'mmcr:energy_output_hatch_ultimate' })
+    event.shaped('mmcr:energy_output_hatch_ultimate',
+    [
+        ' C ',
+        ' H ',
+        ' U '
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        C: 'createaddition:modular_accumulator',
+        U: '#c:plates/tungsten'
+    })
+
+    // #endregion
 })

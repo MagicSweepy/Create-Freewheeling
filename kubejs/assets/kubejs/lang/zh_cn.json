@@ -6,6 +6,8 @@
     "item.kubejs.steel_sheet": "钢板",
     "item.kubejs.steel_rod": "钢杆",
     "item.kubejs.incomplete_sturdy_sheet": "热锻中坚固板",
+    "item.kubejs.aluminum_sheet": "铝板",
+    "item.kubejs.tungsten_sheet": "钨板",
 
     "item.kubejs.ethylene_bucket": "乙烯桶",
     "fluid.kubejs.ethylene": "乙烯",
@@ -24,5 +26,8 @@
     "recipe_pool.kubejs.large_crusher": "电动粉碎槽",
     "block.mmcr.large_rolling_mill_controller": "多辊式轧机控制器",
     "machine.kubejs.large_rolling_mill.name": "多辊式轧机",
-    "recipe_pool.kubejs.large_rolling_mill": "多辊式轧机"
+    "recipe_pool.kubejs.large_rolling_mill": "多辊式轧机",
+
+    "kubejs.tooltip.mmcr_item_io_bus": "可以使用任意木材种类的箱子进行合成",
+    "kubejs.tooltip.mmcr_fluid_io_bus": "可以使用任意木材种类的桶进行合成"
 }

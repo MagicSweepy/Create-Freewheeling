@@ -1,0 +1,13 @@
+name = "Sophisticated Tags"
+filename = "sophisticated_tags-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "edb5e51bb3a001cdf828ad91016124a395edbdbe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6940342
+project-id = 1337047

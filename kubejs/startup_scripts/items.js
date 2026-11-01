@@ -13,4 +13,7 @@ StartupEvents.registry('item', event => {
     event.create('steel_rod').tag('c:rods/steel')
     
     event.create('incomplete_sturdy_sheet', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
+
+    event.create('aluminum_sheet').tag('c:plates/aluminum')
+    event.create('tungsten_sheet').tag('c:plates/tungsten')
 })

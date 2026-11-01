@@ -89,6 +89,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('functionalstorage:dripping_upgrade')
     event.remove('functionalstorage:water_generator_upgrade')
     event.remove('functionalstorage:obsidian_upgrade')
+    event.remove('mmcr:modularium')
 })
 
 RecipeViewerEvents.removeCategories(event => {

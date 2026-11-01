@@ -3,9 +3,11 @@
     "item.kubejs.unfilled_cake_mechanism": "Unfilled Cake Mechanism",
     "item.kubejs.plastic_ingot": "Plastic Bar",
     "item.kubejs.plastic_sheet": "Plastic Sheet",
-    "item.kubejs.steel_sheet": "Steel Plate",
+    "item.kubejs.steel_sheet": "Steel Sheet",
     "item.kubejs.steel_rod": "Steel Rod",
     "item.kubejs.incomplete_sturdy_sheet": "Hot Forging Sturdy Sheet",
+    "item.kubejs.aluminum_sheet": "Aluminum Sheet",
+    "item.kubejs.tungsten_sheet": "Tungsten Sheet",
 
     "item.kubejs.ethylene_bucket": "Ethylene Bucket",
     "fluid.kubejs.ethylene": "Ethylene",
@@ -24,5 +26,8 @@
     "recipe_pool.kubejs.large_crusher": "Electric Crushing Tank",
     "block.mmcr.large_rolling_mill_controller": "Rolling Bender Controller",
     "machine.kubejs.large_rolling_mill.name": "Rolling Bender",
-    "recipe_pool.kubejs.large_rolling_mill": "Rolling Bender"
+    "recipe_pool.kubejs.large_rolling_mill": "Rolling Bender",
+
+    "kubejs.tooltip.mmcr_item_io_bus": "Any Wood Type of Chest can be used for craft",
+    "kubejs.tooltip.mmcr_fluid_io_bus": "Any Wood Type of Barrel can be used for craft"
 }

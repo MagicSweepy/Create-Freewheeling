@@ -166,11 +166,15 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "f703c273aaff08b7b984a43ebe46abbedd6c4232ef52967f73b083e2f76bd222"
+hash = "9b8a2bb1a1ed2b77a3915253e521773fab575b4eec8afeb6a2664790c9aa7dc3"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "5d8cf6a87f6879533070aef849b3f9098d24faac3807518097195a9522a51aec"
+hash = "648872e8b4b7451f60c7b9e9ffa097a9d13f51ed52d4b06dd8f2e0876c3003aa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/aluminum_sheet.png"
+hash = "1996325f9873516c71169ecef888913df23a8457939d8e5dc955a13e1f433e59"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/cake_mechanism.png"
@@ -197,6 +201,10 @@ file = "kubejs/assets/kubejs/textures/item/steel_sheet.png"
 hash = "1f033896ba083f21eb03f49744b1bd037755fcb384f6830c9d8ea522ec6ad086"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/tungsten_sheet.png"
+hash = "7cb9de591e954f27b1e51184e029d84d5443d1cce60626d50fdd2a4e6e513362"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/unfilled_cake_mechanism.png"
 hash = "4c173c012b3339877b8724ea1b3922df1020bf173c2f52359f47495b01a717e2"
 
@@ -219,6 +227,10 @@ hash = "5bc982969fba2764dabf3b039439e65b71ad95953b6190e873afc033aac94cd2"
 [[files]]
 file = "kubejs/client_scripts/incomplete_item_renderer.js"
 hash = "21c974ef2cd0b1808f9b3dcd290af21804c4124d8b8c21ff88b87521c008cec4"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips.js"
+hash = "9a2d9a03c3b8f30ba0754d2dd7b8e7ac934f293eb4ae31c019cf4830541289af"
 
 [[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
@@ -330,7 +342,7 @@ hash = "ace1882e75b4898d91953158704874338f5fb076836b40e7b00e3a5c7b52000f"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "03d43ab336c4f46e89c24cd455cc8dada475dbb32008508c64b6856678e708df"
+hash = "b1684d31e7f1ddbefce6b81d4ffe7a27b7367cd8b3049f9b37133971317b0447"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
@@ -342,11 +354,15 @@ hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
 
 [[files]]
 file = "kubejs/server_scripts/modular_machinery.js"
-hash = "503a1745c7b50efd28f4187a514ce6126358fda8e47a801c3f1ea1bcd4e22400"
+hash = "50dd3406096c4eb4af9798df2f71fa2eeb6551ef0d18270adf5e113a7aca0d41"
 
 [[files]]
 file = "kubejs/server_scripts/neapolitan.js"
 hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
+
+[[files]]
+file = "kubejs/server_scripts/neo_eco_ae_extension.js"
+hash = "f45fda2e0691067c51c208b3985f36d231312bbc575a28ad404be078f7a911bc"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
@@ -382,7 +398,7 @@ hash = "623e1e0435f70b5548890ceff13d0825447030a3be50867ae09e76db8fab3242"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "2a1841b5b12b8b3361a4a21544eb77fdf6f4309d23f5d55353085cdf79da75d4"
+hash = "2e8b1699b84ace4ba84a125246e775232fdf5343b020fab5a07a0b7433889917"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
@@ -784,6 +800,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "5fb2ee1d02b9f7de257b181194069b0f687e52c49fac35b908d0debe4416c06a"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-tags.pw.toml"
+hash = "190b7d4c3e2d893cbaa1069c965a1accddfb3c23e5fe616abe5102bbe14068f2"
 metafile = true
 
 [[files]]
