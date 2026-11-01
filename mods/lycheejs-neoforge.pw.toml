@@ -1,0 +1,13 @@
+name = "LycheeJS NeoForge"
+filename = "lycheejs-1.21.1-2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "39cd0a3d4d44c7785a54e225bdfcced0b35e9798"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8919988
+project-id = 1456917

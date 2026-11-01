@@ -3,7 +3,22 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'mmcr:modularium' })
 
     event.remove({ id: 'mmcr:basic_casing' })
-    event.recipes.create.deploying('mmcr:basic_casing', [ 'create:railway_casing', 'neoecoae:aluminum_ingot' ])
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'create:railway_casing'
+            },
+            {
+                tag: 'c:ingots/aluminum'
+            }
+        ],
+        results: [
+            {
+                id: 'mmcr:basic_casing'
+            }
+        ]
+    })
 
     var incomplete = 'create:railway_casing'
 

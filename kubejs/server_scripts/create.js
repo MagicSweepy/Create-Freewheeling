@@ -114,4 +114,38 @@ ServerEvents.recipes(event => {
         C: 'create:brass_casing',
         R: 'minecraft:crafter'
     })
+
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'createcasing:zinc_casing'
+            },
+            {
+                item: 'create:shadow_steel'
+            }
+        ],
+        results: [
+            {
+                id: 'create:shadow_steel_casing'
+            }
+        ]
+    })
+
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'mmcr:basic_casing'
+            },
+            {
+                item: 'create:refined_radiance'
+            }
+        ],
+        results: [
+            {
+                id: 'create:refined_radiance_casing'
+            }
+        ]
+    })
 })
