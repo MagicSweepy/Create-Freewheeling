@@ -99,6 +99,45 @@ ServerEvents.recipes(event => {
         D: 'create:precision_mechanism'
     })
 
+    event.shaped('mmcr:atmospheric_collector_controller',
+    [
+        ' C ',
+        'PBP',
+        ' M '
+    ],
+    {
+        C: 'create:copper_casing',
+        P: 'create:fluid_pipe',
+        B: 'mmcr:basic_casing',
+        M: 'create:mechanical_pump'
+    })
+
+    event.shaped('mmcr:atmospheric_diffuser_controller',
+    [
+        ' F ',
+        'PBP',
+        ' C '
+    ],
+    {
+        F: 'create:encased_fan',
+        P: 'create:fluid_pipe',
+        B: 'create:brass_casing',
+        C: 'create:copper_casing'
+    })
+
+    event.shaped('mmcr:chemical_reactor_controller',
+    [
+        'PMP',
+        'CBC',
+        'PMP'
+    ],
+    {
+        P: 'create:fluid_pipe',
+        M: 'create:precision_mechanism',
+        C: 'create:copper_casing',
+        B: 'mmcr:basic_casing'
+    })
+
     // #region Input Buses
 
     event.remove({ output: 'mmcr:item_input_bus_tiny' })

@@ -36,4 +36,18 @@ ItemEvents.modifyTooltips(event => {
     ], Text.translate('kubejs.tooltip.mmcr_fluid_io_bus'))
 
     event.add('kubejs:lightning_trigger', Text.translate('kubejs.tooltip.lightning_trigger'))
+
+    event.add('mmcr:atmospheric_collector_controller', Text.translate('kubejs.tooltip.atmospheric_collector'))
+
+    event.add('mmcr:atmospheric_diffuser_controller', Text.translate('kubejs.tooltip.atmospheric_diffuser'))
+    event.add('mmcr:atmospheric_diffuser_controller', Text.translate('kubejs.tooltip.atmospheric_diffuser.gases.1'))
+    event.add('mmcr:atmospheric_diffuser_controller', Text.translate('kubejs.tooltip.atmospheric_diffuser.gases.2'))
+    event.add('mmcr:atmospheric_diffuser_controller', Text.translate('kubejs.tooltip.atmospheric_diffuser.gases.3'))
+    event.add('mmcr:atmospheric_diffuser_controller', Text.translate('kubejs.tooltip.atmospheric_diffuser.gases.4'))
+    event.add('mmcr:atmospheric_diffuser_controller', Text.translate('kubejs.tooltip.atmospheric_diffuser.gases.5'))
+    event.add('mmcr:atmospheric_diffuser_controller', Text.translate('kubejs.tooltip.atmospheric_diffuser.gases.6'))
+    event.add('mmcr:atmospheric_diffuser_controller', Text.translate('kubejs.tooltip.atmospheric_diffuser.range', 8))
+
+    event.add('mmcr:chemical_reactor_controller', Text.translate('kubejs.tooltip.chemical_reactor'))
+    event.add('mmcr:chemical_reactor_controller', Text.translate('kubejs.tooltip.chemical_reactor.range'))
 })

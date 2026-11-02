@@ -166,11 +166,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "3f819df61af0fad1513e92c4595df4aea5c0fb192c96759a32c95a8c54615417"
+hash = "2118df4297c057598d4a6551783e834c0446123b115261305ac927c98b05b2a0"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "c0fc018ab3777bd394c3d732c2875a3446c2f28a6292c496867c01a2510334c8"
+hash = "f79ab1571dfffe31dc049c71643a6dc575b113607e86283b1b9bf670a33c3391"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminum_nugget.png"
@@ -261,8 +261,12 @@ file = "kubejs/client_scripts/incomplete_item_renderer.js"
 hash = "21c974ef2cd0b1808f9b3dcd290af21804c4124d8b8c21ff88b87521c008cec4"
 
 [[files]]
+file = "kubejs/client_scripts/recipe_pool_infos.js"
+hash = "683608f1b6a8ccf82eb6b2c2bac1d521beb10adba33a56ab71b2a5ef0eb16d39"
+
+[[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "781e902a5ffab51820eeaa09b3c110123f197f0ab047d7731108fc1c492c5843"
+hash = "e5855f75789a293f1ab0ab65849e08f84a720351d8b5b35a2920d358639e3246"
 
 [[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
@@ -307,6 +311,10 @@ hash = "7b565ebceb26a557baf8c290341dde20f03d306cc7081eb835e6d56683740a6c"
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
 hash = "44be7e8a74ecab5e521a5e686b3b0d99731c0636857ff8f3ce5690cdd00ad370"
+
+[[files]]
+file = "kubejs/server_scripts/atmosphere.js"
+hash = "f732f18c3fe302fb924c1a7cba84b004d643982de0c3affcbfcdc90f2117837f"
 
 [[files]]
 file = "kubejs/server_scripts/avaritia.js"
@@ -398,7 +406,7 @@ hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
 
 [[files]]
 file = "kubejs/server_scripts/modular_machinery.js"
-hash = "d76185dc36810e70e45376901c536c465c7d674a10c60b13469926c6c062a6a0"
+hash = "46f05ee24f4314e959968d84f82352e8edc25f27ec6c03d2d6fb415460e30f1e"
 
 [[files]]
 file = "kubejs/server_scripts/neapolitan.js"
@@ -407,6 +415,10 @@ hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
 [[files]]
 file = "kubejs/server_scripts/neo_eco_ae_extension.js"
 hash = "69612f8dd0b6b45356ab94393aefaff14afb377a6a753774eeb7d19a12197615"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_pool/chemical_reactor.js"
+hash = "76b57855408a684ff8e5875c6322b0055bcaf800ab0b0385b3ce3af87098a4d3"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
@@ -419,6 +431,18 @@ hash = "765b8f4202039394ba23ef30137db317e9d393960985d63071125f8cb6707320"
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_rolling_mill.js"
 hash = "efff56f8807528a19cf2916d026bd085c916d28976e8aa12aadf2a521fb320e0"
+
+[[files]]
+file = "kubejs/server_scripts/structure/atmospheric_collector.js"
+hash = "874250eb2c636dc1f9bbe47daca3d8b2ed80816deb96aca98f75c027277e9807"
+
+[[files]]
+file = "kubejs/server_scripts/structure/atmospheric_diffuser.js"
+hash = "7d278f2f389c530a9a63c36103530e702c8b01197a98506c103015d8e3087116"
+
+[[files]]
+file = "kubejs/server_scripts/structure/chemical_reactor.js"
+hash = "699db29ff107d790a53b399d52c808971a32899464fb28c59a28589026bbc462"
 
 [[files]]
 file = "kubejs/server_scripts/structure/large_alloy_smelter.js"
@@ -441,8 +465,12 @@ file = "kubejs/server_scripts/toms_simple_storage.js"
 hash = "95360fc5e9988aafaf86e690ca93dd3470ad025388b7c969a60903454fb70965"
 
 [[files]]
+file = "kubejs/startup_scripts/atmosphere.js"
+hash = "084a90c4045c96c8e60823601b1f1b5dabc36d0560cea9ad072626d9daa3ebd9"
+
+[[files]]
 file = "kubejs/startup_scripts/fluids.js"
-hash = "623e1e0435f70b5548890ceff13d0825447030a3be50867ae09e76db8fab3242"
+hash = "51b199a7927a29c67c690fa41b83a8947a557a5636c0243e72c3a86cf5f99979"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
@@ -450,7 +478,7 @@ hash = "c1e48afdf4a3d2b58b127ee15c4843e9496237eb677e581c0594d3c59bf8cc3a"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
-hash = "b999081f175f8d0d36cc2d83ffb8ffe99b31e3ec4c15216104fed87e193d8486"
+hash = "3b577755eafad6d07614a90cf1f5ab887c8e67f21d41eefdd5789061647c20b8"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"
