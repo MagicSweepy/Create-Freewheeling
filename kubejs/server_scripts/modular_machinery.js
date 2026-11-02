@@ -81,6 +81,24 @@ ServerEvents.recipes(event => {
         D: '#create:chain_drives'
     })
 
+    event.recipes.create.mechanical_crafting('mmcr:large_alloy_smelter_controller',
+    [
+        'BDB',
+        'S S',
+        'BCB',
+        'G G',
+        'AHA'
+    ],
+    {
+        H: 'mmcr:basic_casing',
+        G: 'create:metal_girder',
+        A: '#c:plates/aluminum',
+        B: '#c:plates/tungsten',
+        S: '#c:rods/tungsten',
+        C: 'create_connected:control_chip',
+        D: 'create:precision_mechanism'
+    })
+
     // #region Input Buses
 
     event.remove({ output: 'mmcr:item_input_bus_tiny' })

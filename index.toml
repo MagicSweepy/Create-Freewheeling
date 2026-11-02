@@ -166,15 +166,19 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "6cb34ac9e8441090af7c51e7b4d9845346d0e7b44a79c560d16015856ad4f0de"
+hash = "3f819df61af0fad1513e92c4595df4aea5c0fb192c96759a32c95a8c54615417"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "d663ed4b667db58efa334b1db6012051259c00c732ebc11b83679ed6189f7f16"
+hash = "c0fc018ab3777bd394c3d732c2875a3446c2f28a6292c496867c01a2510334c8"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminum_nugget.png"
 hash = "0b4ad7c841acabc27553664472cd738aa4a516bc463ef18eb65972a2cacf6de7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/aluminum_rod.png"
+hash = "ef545681657a34b33d91ac1b38a44b4d1044295f6ab223390f95759e443474f7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminum_sheet.png"
@@ -193,8 +197,16 @@ file = "kubejs/assets/kubejs/textures/item/crushed_raw_tungsten.png"
 hash = "cebefcc9e46f7dc46e6058a47bc596caee152ebaca76caa22ae871d66e6b8bdc"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_lightning_trigger.png"
+hash = "027f42e35a983a54fe645960fda215c6c95bf6ab0071a34b887705c8c80e3cf4"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_sturdy_sheet.png"
 hash = "2ddf831e9be69fe7fc3c7c4562b8f7b844db97bba8d12178f97bd7607d445826"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/lightning_trigger.png"
+hash = "ac5269f3dbf280a8a6ce9eec01a866104d63431bba751b6407ae5c7bb46cdd65"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/plastic_ingot.png"
@@ -215,6 +227,10 @@ hash = "1f033896ba083f21eb03f49744b1bd037755fcb384f6830c9d8ea522ec6ad086"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tungsten_nugget.png"
 hash = "1b6ae977b66c31ac1228192fc907833dbc805d45b13b2b2881089cafa834f989"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tungsten_rod.png"
+hash = "09297405251609cb77ea85770c537fd7ebfc164b2ef10e5a97092cc7c8f14312"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/tungsten_sheet.png"
@@ -246,7 +262,7 @@ hash = "21c974ef2cd0b1808f9b3dcd290af21804c4124d8b8c21ff88b87521c008cec4"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "9a2d9a03c3b8f30ba0754d2dd7b8e7ac934f293eb4ae31c019cf4830541289af"
+hash = "781e902a5ffab51820eeaa09b3c110123f197f0ab047d7731108fc1c492c5843"
 
 [[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
@@ -269,8 +285,16 @@ file = "kubejs/data/createaddition/recipe/liquid_burning/gasoline.json"
 hash = "c33c30bb8f2f52dad417d5afc193e469bf191b2a3471b3af95bf24056ff3e5db"
 
 [[files]]
+file = "kubejs/data/createaddition/recipe/rolling/aluminum_rod.json"
+hash = "2ce913618dbbb74c186c019a82d95816dc5f38c6243fe9daf7373b93468e2612"
+
+[[files]]
 file = "kubejs/data/createaddition/recipe/rolling/steel_rod.json"
 hash = "98ab3ff87a8ea7052f54c4d8acd02515cb479b07947139b341aac5a5ea0a939c"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/rolling/tungsten_rod.json"
+hash = "741877fa8d773171f7f07595550aca52c1ba64b2bcf3f1dff60ab9061bc72bb5"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/recipe/distillation/crude_oil.json"
@@ -279,6 +303,10 @@ hash = "e3fca38d3870169fcd011ff3f14bc79d571af82fbb63c67075d0d0f4ff61290c"
 [[files]]
 file = "kubejs/data/fluidlogistics/recipe/cooling/small_smethyst_bud.json"
 hash = "7b565ebceb26a557baf8c290341dde20f03d306cc7081eb835e6d56683740a6c"
+
+[[files]]
+file = "kubejs/server_scripts/applied_energistics.js"
+hash = "44be7e8a74ecab5e521a5e686b3b0d99731c0636857ff8f3ce5690cdd00ad370"
 
 [[files]]
 file = "kubejs/server_scripts/avaritia.js"
@@ -358,11 +386,11 @@ hash = "ace1882e75b4898d91953158704874338f5fb076836b40e7b00e3a5c7b52000f"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "3a463262a3cf6f6c5bc50120effa065688539cc163bd171a364f4dac4a4320eb"
+hash = "69e21b897bb3264eabfead529bc1d6749d224f1d219c5da9bd54d7badf9f1cbf"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
-hash = "27637a8740ac8b1c8af8348c55ac37b1db2779457e2014647eb9719df3327f2f"
+hash = "c6b9011a44d79fe0f0075553fd0b118475af9566731f19ae5e1f7b62f49dda26"
 
 [[files]]
 file = "kubejs/server_scripts/minecraft.js"
@@ -370,7 +398,7 @@ hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
 
 [[files]]
 file = "kubejs/server_scripts/modular_machinery.js"
-hash = "aefafc559b13f51ca7fcaca4f10b46c1a43a40840f402204ad74a247bfcad557"
+hash = "d76185dc36810e70e45376901c536c465c7d674a10c60b13469926c6c062a6a0"
 
 [[files]]
 file = "kubejs/server_scripts/neapolitan.js"
@@ -390,7 +418,11 @@ hash = "765b8f4202039394ba23ef30137db317e9d393960985d63071125f8cb6707320"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_rolling_mill.js"
-hash = "91922a0489c2b6461cd030e87d9b479e6c2002dfe062794fcbf94940af6f0f0e"
+hash = "efff56f8807528a19cf2916d026bd085c916d28976e8aa12aadf2a521fb320e0"
+
+[[files]]
+file = "kubejs/server_scripts/structure/large_alloy_smelter.js"
+hash = "9917534c10c6b7c347100af69dc26ee2f4743e7518c29181f1c2c6a20970f3c7"
 
 [[files]]
 file = "kubejs/server_scripts/structure/large_assembler.js"
@@ -414,11 +446,11 @@ hash = "623e1e0435f70b5548890ceff13d0825447030a3be50867ae09e76db8fab3242"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "de1fcf7f48d567dd18f226bebbd3eb1256c21695a52b9bfaa317c91d0b7babba"
+hash = "c1e48afdf4a3d2b58b127ee15c4843e9496237eb677e581c0594d3c59bf8cc3a"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
-hash = "c4e19a7df106874b43cec375e7a6a6427aab22bef671d519cba68a0e4164ef37"
+hash = "b999081f175f8d0d36cc2d83ffb8ffe99b31e3ec4c15216104fed87e193d8486"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"

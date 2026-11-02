@@ -1,5 +1,4 @@
 MMCREvents.startup(event => {
-
     event.createMachine('kubejs:large_assembler')
         .displayNameKey('machine.kubejs.large_assembler.name')
         .recipePool('kubejs:large_assembler')
@@ -25,6 +24,14 @@ MMCREvents.startup(event => {
         .recipePool('kubejs:large_rolling_mill')
         .controllerBaseTexture('createcasing:block/casing/zinc')
         .formedPortBaseTexture('createcasing:block/casing/zinc')
+        .allowMultithreading()
+        .allowParallelism()
+        .maxParallelAmount(64)
+        .register()
+
+    event.createMachine('kubejs:large_alloy_smelter')
+        .displayNameKey('machine.kubejs.large_alloy_smelter.name')
+        .recipePool('kubejs:large_alloy_smelter')
         .allowMultithreading()
         .allowParallelism()
         .maxParallelAmount(64)

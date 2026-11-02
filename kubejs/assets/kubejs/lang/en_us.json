@@ -8,9 +8,13 @@
     "item.kubejs.incomplete_sturdy_sheet": "Hot Forging Sturdy Sheet",
     "item.kubejs.aluminum_sheet": "Aluminum Sheet",
     "item.kubejs.tungsten_sheet": "Tungsten Sheet",
+    "item.kubejs.aluminum_rod": "Aluminum Rod",
+    "item.kubejs.tungsten_rod": "Tungsten Rod",
     "item.kubejs.crushed_raw_tungsten": "Crushed Raw Tungsten",
     "item.kubejs.aluminum_nugget": "Aluminum Nugget",
     "item.kubejs.tungsten_nugget": "Tungsten Nugget",
+    "item.kubejs.lightning_trigger": "Lightning Trigger",
+    "item.kubejs.incomplete_lightning_trigger": "Unfilled Lightning Trigger",
 
     "item.kubejs.ethylene_bucket": "Ethylene Bucket",
     "fluid.kubejs.ethylene": "Ethylene",
@@ -30,7 +34,11 @@
     "block.mmcr.large_rolling_mill_controller": "Rolling Bender Controller",
     "machine.kubejs.large_rolling_mill.name": "Rolling Bender",
     "recipe_pool.kubejs.large_rolling_mill": "Rolling Bender",
+    "block.mmcr.large_alloy_smelter_controller": "Alloy Blast Smelter Controller",
+    "machine.kubejs.large_alloy_smelter.name": "Alloy Blast Smelter Controller",
+    "recipe_pool.kubejs.large_alloy_smelter": "Alloy Blast Smelter Controller",
 
     "kubejs.tooltip.mmcr_item_io_bus": "Any Wood Type of Chest can be used for craft",
-    "kubejs.tooltip.mmcr_fluid_io_bus": "Any Wood Type of Barrel can be used for craft"
+    "kubejs.tooltip.mmcr_fluid_io_bus": "Any Wood Type of Barrel can be used for craft",
+    "kubejs.tooltip.lightning_trigger": "Click block to Summon Lightning (Can trigger it with Deployer)"
 }

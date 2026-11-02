@@ -16,7 +16,12 @@ StartupEvents.registry('item', event => {
 
     event.create('aluminum_sheet').tag('c:plates').tag('c:plates/aluminum')
     event.create('tungsten_sheet').tag('c:plates').tag('c:plates/tungsten')
+    event.create('aluminum_rod').tag('c:rods').tag('c:rods/aluminum')
+    event.create('tungsten_rod').tag('c:rods').tag('c:rods/tungsten')
     event.create('crushed_raw_tungsten').tag('create:crushed_raw_materials')
     event.create('aluminum_nugget').tag('c:nuggets').tag('c:nuggets/aluminum')
     event.create('tungsten_nugget').tag('c:nuggets').tag('c:nuggets/tungsten')
+
+    event.create('lightning_trigger')
+    event.create('incomplete_lightning_trigger').tag('kubejs:incomplete_items')
 })

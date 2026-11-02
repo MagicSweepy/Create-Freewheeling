@@ -8,9 +8,13 @@
     "item.kubejs.incomplete_sturdy_sheet": "热锻中坚固板",
     "item.kubejs.aluminum_sheet": "铝板",
     "item.kubejs.tungsten_sheet": "钨板",
+    "item.kubejs.aluminum_rod": "铝杆",
+    "item.kubejs.tungsten_rod": "钨杆",
     "item.kubejs.crushed_raw_tungsten": "粉碎粗钨",
     "item.kubejs.aluminum_nugget": "铝粒",
     "item.kubejs.tungsten_nugget": "钨粒",
+    "item.kubejs.lightning_trigger": "雷击引发器",
+    "item.kubejs.incomplete_lightning_trigger": "未填充雷击引发器",
 
     "item.kubejs.ethylene_bucket": "乙烯桶",
     "fluid.kubejs.ethylene": "乙烯",
@@ -30,7 +34,11 @@
     "block.mmcr.large_rolling_mill_controller": "多辊式轧机控制器",
     "machine.kubejs.large_rolling_mill.name": "多辊式轧机",
     "recipe_pool.kubejs.large_rolling_mill": "多辊式轧机",
+    "block.mmcr.large_alloy_smelter_controller": "合金冶炼炉控制器",
+    "machine.kubejs.large_alloy_smelter.name": "合金冶炼炉",
+    "recipe_pool.kubejs.large_alloy_smelter": "合金冶炼炉",
 
     "kubejs.tooltip.mmcr_item_io_bus": "可以使用任意木材种类的箱子进行合成",
-    "kubejs.tooltip.mmcr_fluid_io_bus": "可以使用任意木材种类的桶进行合成"
+    "kubejs.tooltip.mmcr_fluid_io_bus": "可以使用任意木材种类的桶进行合成",
+    "kubejs.tooltip.lightning_trigger": "点击方块以引来雷击（可以通过机械手触发）"
 }

@@ -14,6 +14,8 @@ ServerEvents.recipes(event => {
     addPlateRecipe('chorium', 'createcasing:chorium_ingot', 'createcasing:chorium_sheet')
     addPlateRecipe('rubber', 'rubberworks:rubber', 'rubberworks:rubber_sheet')
     addPlateRecipe('plastic', 'kubejs:plastic_ingot', 'kubejs:plastic_sheet')
+    addPlateRecipe('aluminum', 'neoecoae:aluminum_ingot', 'kubejs:aluminum_sheet')
+    addPlateRecipe('tungsten', 'neoecoae:tungsten_ingot', 'kubejs:tungsten_sheet')
 
     addRodRecipe('copper', 'minecraft:copper_ingot', 'createaddition:copper_rod')
     addRodRecipe('iron', 'minecraft:iron_ingot', 'createaddition:iron_rod')
@@ -21,6 +23,8 @@ ServerEvents.recipes(event => {
     addRodRecipe('electrum', 'createaddition:electrum_ingot', 'createaddition:electrum_rod')
     addRodRecipe('brass', 'create:brass_ingot', 'createaddition:brass_rod')
     addRodRecipe('steel', 'createnuclear:steel_ingot', 'kubejs:steel_rod')
+    addRodRecipe('aluminum', 'neoecoae:aluminum_ingot', 'kubejs:aluminum_rod')
+    addRodRecipe('tungsten', 'neoecoae:tungsten_ingot', 'kubejs:tungsten_rod')
 
     addWireRecipe('copper', 'minecraft:copper_ingot', 'create:copper_sheet', 'createaddition:copper_wire')
     addWireRecipe('iron', 'minecraft:iron_ingot', 'create:iron_sheet', 'createaddition:iron_wire')

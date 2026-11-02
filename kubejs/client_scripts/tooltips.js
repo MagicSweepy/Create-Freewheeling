@@ -34,4 +34,6 @@ ItemEvents.modifyTooltips(event => {
         // 'mmcr:fluid_output_hatch_ludicrous',
         // 'mmcr:fluid_output_hatch_vacuum'
     ], Text.translate('kubejs.tooltip.mmcr_fluid_io_bus'))
+
+    event.add('kubejs:lightning_trigger', Text.translate('kubejs.tooltip.lightning_trigger'))
 })
