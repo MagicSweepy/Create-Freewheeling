@@ -266,7 +266,7 @@ hash = "683608f1b6a8ccf82eb6b2c2bac1d521beb10adba33a56ab71b2a5ef0eb16d39"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "e5855f75789a293f1ab0ab65849e08f84a720351d8b5b35a2920d358639e3246"
+hash = "3bc558ebd7a1575d8b136f41c298c37b7cd4cf343d958751037098fff3484103"
 
 [[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
