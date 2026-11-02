@@ -50,4 +50,51 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'createnuclear:mixing/liquid_nitrogen' })
     event.recipes.create.mixing(Fluid.of('createnuclear:nitrogen', 100), [ 'createnuclear:cooled_nitrogen_concentrate', 'neapolitan:ice_cubes' ])
+
+    event.remove({ id: 'createnuclear:crafting/reactor_blueprint_item' })
+    event.shapeless('createnuclear:reactor_blueprint_item', [ 'create:empty_schematic', '#c:plates/steel' ])
+
+    event.remove({ id: 'createnuclear:crushing/raw_copper' })
+    event.remove({ id: 'createnuclear:crushing/raw_zinc' })
+    event.remove({ id: 'create:crushing/lead_ore' })
+
+    event.recipes.create.crushing([
+        'create:crushed_raw_lead',
+        CreateItem.of('create:crushed_raw_lead', 0.75),
+        CreateItem.of('create:experience_nugget', 0.75),
+        CreateItem.of('minecraft:cobblestone', 0.12)
+    ], 'createnuclear:lead_ore')
+
+    event.recipes.create.crushing([
+        '2x create:crushed_raw_lead',
+        CreateItem.of('create:crushed_raw_lead', 0.25),
+        CreateItem.of('create:experience_nugget', 0.75),
+        CreateItem.of('minecraft:cobbled_deepslate', 0.12)
+    ], 'createnuclear:deepslate_lead_ore')
+
+    event.recipes.create.crushing([
+        '9x create:crushed_raw_lead',
+        CreateItem.of('9x create:experience_nugget', 0.75)
+    ], 'createnuclear:raw_lead_block')
+
+    event.remove({ id: 'create:crushing/uranium_ore' })
+
+    event.recipes.create.crushing([
+        'create:crushed_raw_uranium',
+        CreateItem.of('create:crushed_raw_uranium', 0.75),
+        CreateItem.of('create:experience_nugget', 0.75),
+        CreateItem.of('minecraft:cobblestone', 0.12)
+    ], 'createnuclear:uranium_ore')
+
+    event.recipes.create.crushing([
+        '2x create:crushed_raw_uranium',
+        CreateItem.of('create:crushed_raw_uranium', 0.25),
+        CreateItem.of('create:experience_nugget', 0.75),
+        CreateItem.of('minecraft:cobbled_deepslate', 0.12)
+    ], 'createnuclear:deepslate_uranium_ore')
+
+    event.recipes.create.crushing([
+        '9x create:crushed_raw_uranium',
+        CreateItem.of('9x create:experience_nugget', 0.75)
+    ], 'createnuclear:raw_uranium_block')
 })

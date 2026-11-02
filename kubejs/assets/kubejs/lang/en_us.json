@@ -8,6 +8,9 @@
     "item.kubejs.incomplete_sturdy_sheet": "Hot Forging Sturdy Sheet",
     "item.kubejs.aluminum_sheet": "Aluminum Sheet",
     "item.kubejs.tungsten_sheet": "Tungsten Sheet",
+    "item.kubejs.crushed_raw_tungsten": "Crushed Raw Tungsten",
+    "item.kubejs.aluminum_nugget": "Aluminum Nugget",
+    "item.kubejs.tungsten_nugget": "Tungsten Nugget",
 
     "item.kubejs.ethylene_bucket": "Ethylene Bucket",
     "fluid.kubejs.ethylene": "Ethylene",

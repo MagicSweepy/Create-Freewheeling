@@ -20,6 +20,22 @@ ServerEvents.recipes(event => {
         ]
     })
 
+    event.remove({ output: 'mmcr:terminal' })
+    event.shaped('mmcr:terminal',
+    [
+        ' T ',
+        ' P ',
+        ' C '
+    ],
+    {
+        P: '#c:plates/aluminum',
+        T: 'create:transmitter',
+        C: 'create_optical:golden_coil'
+    })
+
+    event.remove({ id: 'mmcr:blueprint' })
+    event.shapeless('mmcr:blueprint', [ 'create:empty_schematic', '#c:plates/aluminum' ])
+
     var incomplete = 'create:railway_casing'
 
     event.recipes.create.sequenced_assembly([ 'mmcr:large_assembler_controller' ], 'mmcr:basic_casing',
@@ -681,6 +697,36 @@ ServerEvents.recipes(event => {
         H: 'mmcr:basic_casing',
         C: 'createaddition:modular_accumulator',
         U: '#c:plates/tungsten'
+    })
+
+    // #endregion
+
+    // #region Stress Interfaces
+
+    event.remove({ output: 'mmcr:create_stress_input_interface' })
+    event.shaped('mmcr:create_stress_input_interface',
+    [
+        ' P ',
+        ' C ',
+        ' D '
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        D: 'create:encased_chain_drive',
+        P: '#c:plates/aluminum'
+    })
+
+    event.remove({ output: 'mmcr:create_stress_output_interface' })
+    event.shaped('mmcr:create_stress_output_interface',
+    [
+        ' D ',
+        ' C ',
+        ' P '
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        D: 'create:encased_chain_drive',
+        P: '#c:plates/aluminum'
     })
 
     // #endregion

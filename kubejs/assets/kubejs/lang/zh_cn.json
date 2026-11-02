@@ -8,6 +8,9 @@
     "item.kubejs.incomplete_sturdy_sheet": "热锻中坚固板",
     "item.kubejs.aluminum_sheet": "铝板",
     "item.kubejs.tungsten_sheet": "钨板",
+    "item.kubejs.crushed_raw_tungsten": "粉碎粗钨",
+    "item.kubejs.aluminum_nugget": "铝粒",
+    "item.kubejs.tungsten_nugget": "钨粒",
 
     "item.kubejs.ethylene_bucket": "乙烯桶",
     "fluid.kubejs.ethylene": "乙烯",
