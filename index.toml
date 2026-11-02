@@ -262,7 +262,7 @@ hash = "839be7c49f0696ff961db8a9884543921c1aed43c0866da9246923a969198186"
 
 [[files]]
 file = "kubejs/data/createaddition/recipe/liquid_burning/biofuel.json"
-hash = "6c251c6112922f285c952878ea2edf01626ea1da6da5b0bc6af336f15872b84e"
+hash = "7165390502ca71109efc0491210ed6966f19237bb3f7533cabc58444a1855060"
 
 [[files]]
 file = "kubejs/data/createaddition/recipe/liquid_burning/gasoline.json"
@@ -314,11 +314,11 @@ hash = "f15c19148de2b2ccf1458b142dae90a073b04887ffc5123f43b19c0e7877947b"
 
 [[files]]
 file = "kubejs/server_scripts/create_crafts_n_additions.js"
-hash = "8114dcb1adb1009c68e0612e380ff79de58ba9975add6e845633bb58fe1c6b16"
+hash = "13cb98673abc9c2d31f502ceb7070ff5baf24bb0723e5f066a526ac69b01525b"
 
 [[files]]
 file = "kubejs/server_scripts/create_diesel_generators.js"
-hash = "12c8a7b9bea5e9906fd53d5347539bcad11cfa1c0c833f21d2d66325809e2ff7"
+hash = "d9fa56afccbec29e6622e7332ad5f769f0d66c54aaafad2436103d4c64ece972"
 
 [[files]]
 file = "kubejs/server_scripts/create_dragons_plus.js"
@@ -338,7 +338,7 @@ hash = "19b4a23b7c9e5103b2c8e07b654cea6bdd82c720e79cfaad4d660d6de70a43ec"
 
 [[files]]
 file = "kubejs/server_scripts/create_nuclear.js"
-hash = "124df497e8ddc4d86959c2a325514eb1edc4074d05f32f345bee5939dd371a96"
+hash = "4472d378761aef4b6a889ba35e9d942ad241cee6e2bfcce3d29949df29b12dd2"
 
 [[files]]
 file = "kubejs/server_scripts/create_optical.js"
@@ -358,7 +358,7 @@ hash = "ace1882e75b4898d91953158704874338f5fb076836b40e7b00e3a5c7b52000f"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "b1684d31e7f1ddbefce6b81d4ffe7a27b7367cd8b3049f9b37133971317b0447"
+hash = "3a463262a3cf6f6c5bc50120effa065688539cc163bd171a364f4dac4a4320eb"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"

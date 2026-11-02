@@ -97,4 +97,7 @@ ServerEvents.recipes(event => {
         '9x create:crushed_raw_uranium',
         CreateItem.of('9x create:experience_nugget', 0.75)
     ], 'createnuclear:raw_uranium_block')
+
+    event.remove({ id: 'createnuclear:mixing/steel'})
+    event.recipes.create.mixing('createnuclear:steel_ingot', [ 'minecraft:iron_ingot', 'createnuclear:coal_dust' ]).heated()
 })

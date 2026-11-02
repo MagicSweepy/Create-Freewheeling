@@ -36,4 +36,7 @@ ServerEvents.recipes(event => {
     ])
     .transitionalItem(incomplete)
     .loops(1)
+
+    event.remove({ id: 'createaddition:mixing/bioethanol' })
+    event.recipes.create.mixing(Fluid.of('createaddition:bioethanol', 1000), [ 'createaddition:biomass', 'minecraft:bone_meal' ])
 })

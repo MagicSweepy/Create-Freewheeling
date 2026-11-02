@@ -1,3 +1,15 @@
+ServerEvents.tags('item', event => {
+    event.add('createdieselgenerators:fermentable', 'neapolitan:strawberries')
+    event.add('createdieselgenerators:fermentable', 'neapolitan:white_strawberries')
+    event.add('createdieselgenerators:fermentable', 'neapolitan:banana')
+    event.add('createdieselgenerators:fermentable', 'neapolitan:adzuki_beans')
+})
+
+ServerEvents.tags('fluid', event => {
+    event.remove('c:plantoil', 'createaddition:seed_oil')
+    event.remove('c:ignites', 'createaddition:seed_oil')
+})
+
 ServerEvents.recipes(event => {
     event.remove({ output: 'createdieselgenerators:wire_cutters' })
     event.remove({ output: 'createdieselgenerators:hammer' })
@@ -50,4 +62,59 @@ ServerEvents.recipes(event => {
         I: '#c:ingots/andesite_alloy',
         Q: '#c:plates/plastic'
     })
+
+    event.remove({ id: 'createdieselgenerators:basin_fermenting/fermentable' })
+    event.custom({
+        type: 'createdieselgenerators:basin_fermenting',
+        ingredients: [
+            {
+                tag: 'createdieselgenerators:fermentable'
+            }
+        ],
+        processing_time: 200,
+        results: [
+            {
+                id: 'createdieselgenerators:ethanol',
+                amount: 200
+            }
+        ]
+    })
+
+    event.remove({ id: 'createdieselgenerators:bulk_fermenting/fermentable' })
+    event.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                tag: 'createdieselgenerators:fermentable'
+            }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                id: "createdieselgenerators:ethanol",
+                amount: 400
+            }
+        ]
+    })
+    
+    event.remove({ output: 'createaddition:biomass' })
+    event.custom({
+        type: "rubberworks:compressing",
+        ingredients: [
+            {
+                type: 'neoforge:single',
+                amount: 200,
+                fluid: 'createdieselgenerators:plant_oil'
+            }
+        ],
+        results: [
+            {
+                count: 1,
+                id: 'createaddition:biomass'
+            }
+        ],
+        heat_requirement: 'heated'
+    })
+
+    event.remove({ output: 'createaddition:seed_oil_bucket' })
 })
