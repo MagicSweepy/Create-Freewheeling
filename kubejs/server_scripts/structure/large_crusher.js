@@ -10,12 +10,12 @@ MMCREvents.server(event => {
         .pattern("    XXXXXXX", "    XXXXXXX", "    XXXXXXX")
         .set('X', api.anyOf(
             api.block('create:brass_casing'),
-            api.block('mmcr:item_input_bus'),
-            api.block('mmcr:item_output_bus'),
-            api.block('mmcr:energy_input_hatch'),
-            api.block('mmcr:parallel_controller_normal'),
-            api.block('mmcr:parallel_controller_plus'),
-            api.block('mmcr:parallel_controller_reinforced')))
+            api.tag('mmcr:item_input_ports'),
+            api.tag('mmcr:item_output_ports'),
+            api.tag('mmcr:neoforge_energy_input_ports'),
+            api.block('mmcr:parallel_controller_normal'), // 4
+            api.block('mmcr:parallel_controller_plus'), // 16
+            api.block('mmcr:parallel_controller_reinforced'))) // 64
         .set('A', api.state('createaddition:modular_accumulator[bottom=true,top=false]'))
         .set('B', api.state('createaddition:modular_accumulator[bottom=false,top=false]'))
         .set('D', api.state('createaddition:modular_accumulator[bottom=false,top=true]'))

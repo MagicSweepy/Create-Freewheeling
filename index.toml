@@ -378,15 +378,15 @@ hash = "91922a0489c2b6461cd030e87d9b479e6c2002dfe062794fcbf94940af6f0f0e"
 
 [[files]]
 file = "kubejs/server_scripts/structure/large_assembler.js"
-hash = "96b70c93242f7313cf1c3ac1af91cf63ad9c0e83e1698432285d3ba3d656dabe"
+hash = "2c879f4b50f2bbb79fc368c301a9114c98765f053374fe9c1270c6b449a87fba"
 
 [[files]]
 file = "kubejs/server_scripts/structure/large_crusher.js"
-hash = "872001dc1bfba7db95555bac50eff24ef5234dad81ba52d4a9308ecefa22d169"
+hash = "a172eac9e703e8b0bef94b9bd07619f8f48f30b75c2358ae2de5e6af0ba4d84c"
 
 [[files]]
 file = "kubejs/server_scripts/structure/large_rolling_mill.js"
-hash = "6780235769780b327cd5c90eb2033559dee165510d550bca0e0ea09b6bff39d3"
+hash = "2808fb898f70ee3f04495eb57525db65397488249ba6c2eb0a84fd565633cbd2"
 
 [[files]]
 file = "kubejs/server_scripts/toms_simple_storage.js"
@@ -569,7 +569,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "9cb28f80dbca7495978b03760c372d41c97a8675dcfb4093277737f6ba106fe3"
+hash = "34060f845cd0e451231f2ca2f9d702b890f06cf98267275ff62324f20d85dd38"
 metafile = true
 
 [[files]]
@@ -709,7 +709,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "c9ed4d8d48e3bf7e151e2f98bca39bb6a194099ddccb26ff511551b9f0b98465"
+hash = "43b0bdc3563762a8d7319874827a392739618ab389bb58ab1beaa34339587958"
 metafile = true
 
 [[files]]

@@ -11,11 +11,11 @@ MMCREvents.server(event => {
         .pattern("XXCXX", "     ", "     ", "     ", "     ")
         .set('X', api.anyOf(
             api.block('createcasing:zinc_casing'),
-            api.block('mmcr:item_input_bus'),
-            api.block('mmcr:item_output_bus'),
-            api.block('mmcr:parallel_controller_normal'),
-            api.block('mmcr:parallel_controller_plus'),
-            api.block('mmcr:parallel_controller_reinforced')))
+            api.tag('mmcr:item_input_ports'),
+            api.tag('mmcr:item_output_ports'),
+            api.block('mmcr:parallel_controller_normal'), // 4
+            api.block('mmcr:parallel_controller_plus'), // 16
+            api.block('mmcr:parallel_controller_reinforced'))) // 64
         .set('A', api.anyOf(
             api.state('create:encased_chain_drive[axis=z,axis_along_first=false]'),
             api.state('createcasing:brass_encased_chain_drive[axis=z,axis_along_first=false]'),
