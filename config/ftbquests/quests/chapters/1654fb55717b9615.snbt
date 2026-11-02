@@ -60,5 +60,82 @@
 			x: 2.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["06AC610781311661"]
+			id: "6D973C7D4B510875"
+			tasks: [{
+				id: "74935D6038AD5DF2"
+				item: { count: 1, id: "neoecoae:tungsten_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6D973C7D4B510875"
+				"7CFDBFE4F5E37F19"
+			]
+			id: "688098C327A5779D"
+			tasks: [{
+				id: "46131F92365222DF"
+				item: { count: 1, id: "mmcr:large_alloy_smelter_controller" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D973C7D4B510875"]
+			id: "50B71A3F18796564"
+			tasks: [
+				{
+					id: "295A4F750ED424A6"
+					item: { count: 1, id: "kubejs:lightning_trigger" }
+					type: "item"
+				}
+				{
+					id: "06E80597D9A44924"
+					item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["72F04F7F6B16249E"]
+			id: "0D3FF0DA73505800"
+			tasks: [{
+				id: "2CA436ADE2FB7441"
+				item: { count: 1, id: "mmcr:atmospheric_collector_controller" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0D3FF0DA73505800"]
+			id: "37BEEDBD86AFFC4A"
+			tasks: [{
+				id: "50E5DAAB9E1CC163"
+				item: { count: 1, id: "mmcr:atmospheric_diffuser_controller" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["37BEEDBD86AFFC4A"]
+			id: "0439006BDBAFAA0C"
+			tasks: [{
+				id: "4CCB868231BA2433"
+				item: { count: 1, id: "mmcr:chemical_reactor_controller" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
 	]
 }
