@@ -166,11 +166,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "2118df4297c057598d4a6551783e834c0446123b115261305ac927c98b05b2a0"
+hash = "ae1a047d881dc413c43fa9efcea364fe1118b84e9f779c24d5b02603c3d21f87"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "f79ab1571dfffe31dc049c71643a6dc575b113607e86283b1b9bf670a33c3391"
+hash = "e43243881bb50959c8403a7138df3d5a70b3f26469c759961f3a61b8d481dacc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminum_nugget.png"
@@ -301,8 +301,24 @@ file = "kubejs/data/createaddition/recipe/rolling/tungsten_rod.json"
 hash = "741877fa8d773171f7f07595550aca52c1ba64b2bcf3f1dff60ab9061bc72bb5"
 
 [[files]]
+file = "kubejs/data/createdieselgenerators/recipe/distillation/air.json"
+hash = "e4e9a1c19962320246ce6b00cdee90f0344eed28abe5bd5ba2e6afbd9475f482"
+
+[[files]]
 file = "kubejs/data/createdieselgenerators/recipe/distillation/crude_oil.json"
 hash = "e3fca38d3870169fcd011ff3f14bc79d571af82fbb63c67075d0d0f4ff61290c"
+
+[[files]]
+file = "kubejs/data/createdieselgenerators/recipe/distillation/end_air.json"
+hash = "63820c2563540235aec61f525917df90531b6042854268da69edea0bf68e01ad"
+
+[[files]]
+file = "kubejs/data/createdieselgenerators/recipe/distillation/nether_air.json"
+hash = "fabc257bb4963c78d29e2a3230dd10064625e8eb1ba0e35ccb8e0571e3a44084"
+
+[[files]]
+file = "kubejs/data/fluidlogistics/recipe/cooling/cold_air.json"
+hash = "53dd9cfd92b1fabc3dded9aba0ef22df9965aac456bc71469a9a94f1e4d17dec"
 
 [[files]]
 file = "kubejs/data/fluidlogistics/recipe/cooling/small_smethyst_bud.json"
@@ -323,6 +339,10 @@ hash = "de58aba2df8639faf71d708f1e9394860ce6bb9c3156c15b0ba0c119b7231391"
 [[files]]
 file = "kubejs/server_scripts/chain/amethyst_chain.js"
 hash = "e8e08a9b4bb21950ba2b202a59aad3fecd584b4c177be26994d462dc96560ceb"
+
+[[files]]
+file = "kubejs/server_scripts/chain/atmosphere_gas_chain.js"
+hash = "4a790e3d2586a6ad38e6b6ffaae38036e304449e4600fde615d8680e55655e04"
 
 [[files]]
 file = "kubejs/server_scripts/chain/blaze_chain.js"
@@ -418,7 +438,7 @@ hash = "69612f8dd0b6b45356ab94393aefaff14afb377a6a753774eeb7d19a12197615"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/chemical_reactor.js"
-hash = "76b57855408a684ff8e5875c6322b0055bcaf800ab0b0385b3ce3af87098a4d3"
+hash = "dde177da6cbf891e9411b269fc8b031d4ea88cd403377ecf5a6507ab854456f2"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
@@ -470,7 +490,7 @@ hash = "084a90c4045c96c8e60823601b1f1b5dabc36d0560cea9ad072626d9daa3ebd9"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
-hash = "51b199a7927a29c67c690fa41b83a8947a557a5636c0243e72c3a86cf5f99979"
+hash = "f340600625d559bb10e4f917cd0e2ce5c213712ce1c5b6f7b5bca83cdf4480a2"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
@@ -785,7 +805,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "43b0bdc3563762a8d7319874827a392739618ab389bb58ab1beaa34339587958"
+hash = "3e121ddfc447ccc93bc19803c910388418dd7b239645cc525f0be2d46b62422f"
 metafile = true
 
 [[files]]

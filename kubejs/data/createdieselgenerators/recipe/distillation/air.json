@@ -1,0 +1,25 @@
+{
+    "type": "createdieselgenerators:distillation",
+    "ingredients": [
+        {
+            "type": "fluid_tag",
+            "fluid_tag": "c:air",
+            "amount": 500
+        }
+    ],
+    "processing_time": 120,
+    "results": [
+        {
+            "id": "createnuclear:nitrogen",
+            "amount": 390
+        },
+        {
+            "id": "kubejs:oxygen",
+            "amount": 105
+        },
+        {
+            "id": "kubejs:argon",
+            "amount": 5
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "type": "createdieselgenerators:distillation",
+    "ingredients": [
+        {
+            "type": "fluid_tag",
+            "fluid_tag": "c:nether_air",
+            "amount": 500
+        }
+    ],
+    "processing_time": 120,
+    "results": [
+        {
+            "id": "kubejs:sulfuric_acid",
+            "amount": 180
+        },
+        {
+            "id": "kubejs:oxygen",
+            "amount": 200
+        },
+        {
+            "id": "kubejs:hydrogen",
+            "amount": 60
+        },
+        {
+            "id": "kubejs:ethylene",
+            "amount": 60
+        }
+    ]
+}

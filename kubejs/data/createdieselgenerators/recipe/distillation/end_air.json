@@ -1,0 +1,33 @@
+{
+    "type": "createdieselgenerators:distillation",
+    "ingredients": [
+        {
+            "type": "fluid_tag",
+            "fluid_tag": "c:end_air",
+            "amount": 500
+        }
+    ],
+    "processing_time": 120,
+    "results": [
+        {
+            "id": "kubejs:fluorine",
+            "amount": 300
+        },
+        {
+            "id": "kubejs:argon",
+            "amount": 100
+        },
+        {
+            "id": "createnuclear:nitrogen",
+            "amount": 60
+        },
+        {
+            "id": "kubejs:ethylene",
+            "amount": 20
+        },
+        {
+            "id": "createnuclear:uranium",
+            "amount": 20
+        }
+    ]
+}

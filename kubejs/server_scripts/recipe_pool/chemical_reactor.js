@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-    // Test
     event.custom({
         type: 'mmcr:machine_recipe',
         recipe_pool: 'kubejs:chemical_reactor',
@@ -9,14 +8,14 @@ ServerEvents.recipes(event => {
             {
                 type: 'minecraft:fluid',
                 io: 'input',
-                fluid: { fluid: 'kubejs:ethylene' },
-                amount: 250
+                fluid: { fluid: 'createnuclear:nitrogen' },
+                amount: 1000
             },
             {
                 type: 'minecraft:fluid',
                 io: 'input',
-                fluid: { fluid: 'minecraft:water' },
-                amount: 250
+                fluid: { fluid: 'kubejs:hydrogen' },
+                amount: 3000
             },
             {
                 type: 'neoforge:energy',
@@ -27,21 +26,21 @@ ServerEvents.recipes(event => {
                 type: 'mmcr:smart_interface',
                 io: 'input',
                 interface_type: 'environment',
-                min_value: 1,
-                max_value: 1
+                min_value: 2,
+                max_value: 2
             },
             {
                 type: 'minecraft:fluid',
                 io: 'output',
-                stack: { id: 'createdieselgenerators:ethanol', amount: 500 }
+                stack: { id: 'kubejs:ammonia', amount: 4000 }
             }
         ]
-    }).id('kubejs:chemical_reactor/ethanol_from_ethylene')
+    }).id('kubejs:chemical_reactor/ammonia')
 
     event.custom({
         type: 'mmcr:machine_recipe',
         recipe_pool: 'kubejs:chemical_reactor',
-        tick_time: 100,
+        tick_time: 800,
         parallelized: true,
         requirements: [
             {
@@ -53,7 +52,88 @@ ServerEvents.recipes(event => {
             {
                 type: 'neoforge:energy',
                 io: 'input',
-                fe_per_tick: 16
+                fe_per_tick: 64
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 1,
+                max_value: 1
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'kubejs:hydrogen', amount: 2000 }
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'kubejs:oxygen', amount: 1000 }
+            }
+        ]
+    }).id('kubejs:chemical_reactor/water_electrolysis')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:chemical_reactor',
+        tick_time: 200,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:sulfuric_acid' },
+                amount: 1000
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'createdieselgenerators:ethanol' },
+                amount: 1000
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 48
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 1,
+                max_value: 1
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'kubejs:ethylene', amount: 2000 }
+            }
+        ]
+    }).id('kubejs:chemical_reactor/ethylene')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:chemical_reactor',
+        tick_time: 200,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:ethylene' },
+                amount: 2000
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:oxygen' },
+                amount: 500
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 64
             },
             {
                 type: 'mmcr:smart_interface',
@@ -65,10 +145,11 @@ ServerEvents.recipes(event => {
             {
                 type: 'minecraft:item',
                 io: 'output',
-                stack: { id: 'minecraft:ice', count: 1 }
+                stack: {
+                    id: 'kubejs:plastic_ingot',
+                    count: 16
+                },
             }
         ]
-    }).id('kubejs:chemical_reactor/ice_from_water')
-
-    // #endregion
+    }).id('kubejs:chemical_reactor/plastic_oxidization')
 })
