@@ -44,6 +44,13 @@ ServerEvents.recipes(event => {
         parallelized: true,
         requirements: [
             {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'kubejs:lightning_trigger' },
+                count: 1,
+                consume_chance: 0.0
+            },
+            {
                 type: 'minecraft:fluid',
                 io: 'input',
                 fluid: { fluid: 'minecraft:water' },
