@@ -34,7 +34,7 @@ hash = "143e8b6808c5c6a483581195a9bdfdd7a72ca92c6733f8c28d14c3f533e8a7db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1654fb55717b9615.snbt"
-hash = "74a2bb6722002ce9d5b007add828f76da8ab300b2a2c1992fd7e8409a4687b78"
+hash = "37d1c90d89c65651da73c2badb5c2a9d14a99c96cb833dddd342b2228c8063e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
@@ -62,7 +62,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "febff90dfed0200d650af7e952353ff965c2b9149c664088c9893afbfda7143a"
+hash = "946ec300afaf6431733825f870aa0fbd05fb44c88492caeeb6875ac549cd0e34"
 
 [[files]]
 file = "config/jade/jade.json"

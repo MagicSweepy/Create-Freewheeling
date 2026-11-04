@@ -137,5 +137,141 @@
 			x: 15.0d
 			y: 10.0d
 		}
+		{
+			dependencies: [
+				"0439006BDBAFAA0C"
+				"0D3FF0DA73505800"
+				"50B71A3F18796564"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "kubejs:hydrogen_bucket"
+			}
+			id: "70B51178E735FE33"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "kubejs:hydrogen"
+				}
+				id: "388E3FAFE71C5989"
+				type: "fluid"
+			}]
+			x: 20.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0439006BDBAFAA0C"]
+			icon: {
+				id: "kubejs:chorusic_acid_bucket"
+			}
+			id: "5D55844C24609406"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "kubejs:chorusic_acid"
+				}
+				id: "2AC0CC6B4720DD1D"
+				type: "fluid"
+			}]
+			x: 17.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5D55844C24609406"]
+			id: "12F0EDE7DC904C58"
+			tasks: [{
+				id: "1B73325AE6CE6FFF"
+				item: { count: 1, id: "createcasing:chorium_ingot" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["12F0EDE7DC904C58"]
+			id: "702B45B36975C275"
+			size: 5.0d
+			tasks: [
+				{
+					id: "4A4B39B66544BC69"
+					item: { count: 1, id: "create:chromatic_compound" }
+					type: "item"
+				}
+				{
+					id: "48423915B96FB2E0"
+					item: { count: 1, id: "kubejs:chorium_attuned" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27020011C5049919"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:chorium_pairs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "43C180EC1AF5DE37"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:chorium_singles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["702B45B36975C275"]
+			id: "655292E27C151017"
+			tasks: [{
+				id: "7C778139F8EB4FFB"
+				item: { count: 1, id: "create:refined_radiance" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["702B45B36975C275"]
+			id: "46022EE8AD1A8951"
+			tasks: [{
+				id: "10CA5CE834EE4EAA"
+				item: { count: 1, id: "create:shadow_steel" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["655292E27C151017"]
+			id: "035EBD59A8B7AF66"
+			tasks: [{
+				id: "3B00B4C7C8763F64"
+				item: { count: 1, id: "create:refined_radiance_casing" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["46022EE8AD1A8951"]
+			id: "433DCA8B0FFA84CE"
+			tasks: [{
+				id: "4B9CD29B461C87C0"
+				item: { count: 1, id: "create:shadow_steel_casing" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["50B71A3F18796564"]
+			id: "0665899A8F3183EE"
+			tasks: [{
+				id: "432F4B133B7B3609"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
 	]
 }
