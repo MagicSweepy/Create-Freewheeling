@@ -21,6 +21,12 @@ ServerEvents.recipes(event => {
     ])
     .transitionalItem(incomplete2)
     .loops(1)
+
+    event.recipes.create.milling('kubejs:zinc_dust', 'create:zinc_ingot')
+    event.recipes.create.crushing('kubejs:zinc_dust', 'create:zinc_ingot')
+
+    event.recipes.create.milling('kubejs:copper_dust', 'minecraft:copper_ingot')
+    event.recipes.create.crushing('kubejs:copper_dust', 'minecraft:copper_ingot')
 })
 
 BlockEvents.rightClicked(event => {

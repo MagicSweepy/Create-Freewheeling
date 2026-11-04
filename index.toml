@@ -166,11 +166,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "ae1a047d881dc413c43fa9efcea364fe1118b84e9f779c24d5b02603c3d21f87"
+hash = "46830c8e722e023e7c406f0b9065704ef88b1b0210971da33c8a74a44a043457"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "e43243881bb50959c8403a7138df3d5a70b3f26469c759961f3a61b8d481dacc"
+hash = "1c47a390e3e76b78be93405f905a121bd14fec96c24463758fade841d2d583e3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminum_nugget.png"
@@ -187,6 +187,10 @@ hash = "1996325f9873516c71169ecef888913df23a8457939d8e5dc955a13e1f433e59"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/cake_mechanism.png"
 hash = "0b1369e7bbd8bb5415c3175a7d39bef44f4c7618c06a404920f9678a468bc31d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/copper_dust.png"
+hash = "7b97785ebf71660637a247408d8c4661ef85260c3a255dda5f017372c998fbce"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crushed_raw_aluminum.png"
@@ -239,6 +243,10 @@ hash = "7cb9de591e954f27b1e51184e029d84d5443d1cce60626d50fdd2a4e6e513362"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/unfilled_cake_mechanism.png"
 hash = "4c173c012b3339877b8724ea1b3922df1020bf173c2f52359f47495b01a717e2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/zinc_dust.png"
+hash = "96f577e82fdc47824101d93d1e0632c4ebfb213a40e693868594df4451afa862"
 
 [[files]]
 file = "kubejs/assets/mmcr/lang/en_us.json"
@@ -326,7 +334,7 @@ hash = "7b565ebceb26a557baf8c290341dde20f03d306cc7081eb835e6d56683740a6c"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
-hash = "44be7e8a74ecab5e521a5e686b3b0d99731c0636857ff8f3ce5690cdd00ad370"
+hash = "a76f12de13a08781c7a7b9fc1ebdd039142ea0f0c7c9ef740c09b21d71e39537"
 
 [[files]]
 file = "kubejs/server_scripts/atmosphere.js"
@@ -405,6 +413,10 @@ file = "kubejs/server_scripts/create_rubber_works.js"
 hash = "7752509fbdcfa4c393087a38c5a531bdb4cc40c5ebf533dbe95d1e3a3d7b6c35"
 
 [[files]]
+file = "kubejs/server_scripts/extended_ae.js"
+hash = "7e1cfe4a06bc0d4d61774cfe64223a149e17a5be09314d9084fc8ac65d32aeb6"
+
+[[files]]
 file = "kubejs/server_scripts/farmers_delight.js"
 hash = "9ab62db6f5ee4dc1bd01c99550973a81d24c133eb268ebf2ea61d097a82fb5b2"
 
@@ -418,7 +430,7 @@ hash = "69e21b897bb3264eabfead529bc1d6749d224f1d219c5da9bd54d7badf9f1cbf"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
-hash = "c6b9011a44d79fe0f0075553fd0b118475af9566731f19ae5e1f7b62f49dda26"
+hash = "5a5550965b4e89a8bd7c61c8bffa8dfa2c9533273bd9de510f160674c8396094"
 
 [[files]]
 file = "kubejs/server_scripts/minecraft.js"
@@ -434,11 +446,15 @@ hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
 
 [[files]]
 file = "kubejs/server_scripts/neo_eco_ae_extension.js"
-hash = "69612f8dd0b6b45356ab94393aefaff14afb377a6a753774eeb7d19a12197615"
+hash = "05c831d93b4345b2d389108ed591d8fde620f68c57eb9b63d17d6104e2580c21"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/chemical_reactor.js"
-hash = "dde177da6cbf891e9411b269fc8b031d4ea88cd403377ecf5a6507ab854456f2"
+hash = "8b302ea8556a245ce9a564bbf3f444758e7d855fe1b6cc4ed9414ec00935cff7"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_pool/large_alloy_smelter.js"
+hash = "658e8a831fe6cb868497c97c94bdd3ce6b01f3c8087baedbe1a5e554d230996d"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
@@ -494,7 +510,7 @@ hash = "f340600625d559bb10e4f917cd0e2ce5c213712ce1c5b6f7b5bca83cdf4480a2"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "c1e48afdf4a3d2b58b127ee15c4843e9496237eb677e581c0594d3c59bf8cc3a"
+hash = "c9f3edea2a9da78c1e56aee1ccb111d3682f6d17b67bf5ba6bf81ed3636518a4"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"

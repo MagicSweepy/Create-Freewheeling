@@ -24,4 +24,7 @@ StartupEvents.registry('item', event => {
 
     event.create('lightning_trigger')
     event.create('incomplete_lightning_trigger').tag('kubejs:incomplete_items')
+
+    event.create('zinc_dust').tag('c:dusts').tag('c:dusts/zinc')
+    event.create('copper_dust').tag('c:dusts').tag('c:dusts/copper')
 })

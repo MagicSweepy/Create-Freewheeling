@@ -43,4 +43,34 @@ ServerEvents.recipes(event => {
     {
         N: 'kubejs:tungsten_nugget'
     })
+
+    event.remove({ id: 'neoecoae:inscriber/iron_dust' })
+    event.recipes.create.milling('neoecoae:iron_dust', 'minecraft:iron_ingot')
+    event.recipes.create.crushing('neoecoae:iron_dust', 'minecraft:iron_ingot')
+
+    event.remove({ id: 'neoecoae:inscriber/aluminum_dust' })
+    event.recipes.create.milling('neoecoae:aluminum_dust', 'neoecoae:aluminum_ingot')
+    event.recipes.create.crushing('neoecoae:aluminum_dust', 'neoecoae:aluminum_ingot')
+
+    event.remove({ id: 'neoecoae:inscriber/tungsten_dust' })
+    event.recipes.create.milling('neoecoae:tungsten_dust', 'neoecoae:tungsten_ingot')
+    event.recipes.create.crushing('neoecoae:tungsten_dust', 'neoecoae:tungsten_ingot')
+
+    event.remove({ id: 'neoecoae:aluminum_alloy_dust' })
+    event.remove({ id: 'neoecoae:inscriber/aluminum_alloy_dust' })
+    event.recipes.create.milling('neoecoae:aluminum_alloy_dust', 'neoecoae:aluminum_alloy_ingot')
+    event.recipes.create.crushing('neoecoae:aluminum_alloy_dust', 'neoecoae:aluminum_alloy_ingot')
+    
+    event.remove({ id: 'neoecoae:black_tungsten_alloy_dust' })
+    event.remove({ id: 'neoecoae:inscriber/black_tungsten_alloy_dust' })
+    event.recipes.create.milling('neoecoae:black_tungsten_alloy_dust', 'neoecoae:black_tungsten_alloy_ingot')
+    event.recipes.create.crushing('neoecoae:black_tungsten_alloy_dust', 'neoecoae:black_tungsten_alloy_ingot')
+
+    event.remove({ id: 'neoecoae:inscriber/energized_crystal_dust' })
+    event.recipes.create.milling('neoecoae:energized_crystal_dust', 'neoecoae:energized_crystal')
+    event.recipes.create.crushing('neoecoae:energized_crystal_dust', 'neoecoae:energized_crystal')
+
+    event.remove({ id: 'neoecoae:inscriber/energized_fluix_crystal_dust' })
+    event.recipes.create.milling('neoecoae:energized_fluix_crystal_dust', 'neoecoae:energized_fluix_crystal')
+    event.recipes.create.crushing('neoecoae:energized_fluix_crystal_dust', 'neoecoae:energized_fluix_crystal')
 })
