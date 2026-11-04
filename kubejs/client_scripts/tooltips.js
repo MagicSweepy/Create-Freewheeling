@@ -50,4 +50,22 @@ ItemEvents.modifyTooltips(event => {
 
     event.add('mmcr:chemical_reactor_controller', Text.translate('kubejs.tooltip.chemical_reactor').gray())
     event.add('mmcr:chemical_reactor_controller', Text.translate('kubejs.tooltip.chemical_reactor.range').gray())
+
+    const DYES = ['red', 'yellow', 'blue', 'brown', 'white', 'black']
+
+    const halfIds = []
+    const pairIds = []
+
+    DYES.forEach(dye => { halfIds.push('kubejs:chorium_' + dye) })
+
+    for (let i = 0; i < DYES.length; i++) {
+        for (let j = i + 1; j < DYES.length; j++) {
+            pairIds.push('kubejs:chorium_' + DYES[i] + '_' + DYES[j])
+        }
+    }
+
+    event.add(halfIds, Text.translate('kubejs.tooltip.chorium_half').gray())
+    event.add(pairIds, Text.translate('kubejs.tooltip.chorium_dyed').gray())
+    event.add('create:chromatic_compound', Text.translate('kubejs.tooltip.chromatic_compound.dyed.1').gray())
+    event.add('create:chromatic_compound', Text.translate('kubejs.tooltip.chromatic_compound.dyed.2').gray())
 })

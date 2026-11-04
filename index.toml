@@ -166,11 +166,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "46830c8e722e023e7c406f0b9065704ef88b1b0210971da33c8a74a44a043457"
+hash = "f865c0c5a8208078887bce27aa71dd9023d62e606fcffea27e78333f3a53be77"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "1c47a390e3e76b78be93405f905a121bd14fec96c24463758fade841d2d583e3"
+hash = "0fe3d5547823ac63f9c8551609ee8026814aa0e087a3d6e0b955b032530fa3b5"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminum_nugget.png"
@@ -189,6 +189,102 @@ file = "kubejs/assets/kubejs/textures/item/cake_mechanism.png"
 hash = "0b1369e7bbd8bb5415c3175a7d39bef44f4c7618c06a404920f9678a468bc31d"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_attuned.png"
+hash = "d76a9099ce346a155b3d3481c47513dcd9bc7e2904327e3b7a3f70fbb7012bc7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_attuned.png.mcmeta"
+hash = "b55786707e5fa04d12d7f9fefc3fd569a1bfee477a1b190e8f1949d9eef1d72c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_black.png"
+hash = "deeeecb180d5ae55bf1b928ac69083a0422214923045db7afd9f175e538dceb9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_blue.png"
+hash = "5fb1f9108f5d4d1292eac8244bbc6c6bc8c83b8197bfdb388444d68adbd997d5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_blue_black.png"
+hash = "dfa766e7ff295c4e2329138b46977ae62681f3d55bd33d8058aa67ca23163ba0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_blue_brown.png"
+hash = "ff0ca24f0428c4793aa595938949db7113756711cb787e370284ad699a1eb2e2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_blue_white.png"
+hash = "f74414e8142436cf8710c3dfe41fa6d667439e33d8bad1ddcf8cfda73a3d2bcb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_brown.png"
+hash = "9946b729304aacf44badabee99e5f100c45a4d7c4b2f97de8f2783a5252f8890"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_brown_black.png"
+hash = "8bee81037a91396df16c8197f3d4adee09f304396af3281540fede1723fb035d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_brown_white.png"
+hash = "dff12fe03146b729b47cc570ab9762fdc246d336c3f9b5f46cad12830382e617"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_ingot.png"
+hash = "f91755652680f7ebfcca51c0320f4470130ea4303e4d87481e45e376f319c0bd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_red.png"
+hash = "a4e32099a790eb9c4b76775708cc2d21a96577a7fd551d2ce937144c1a24702b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_red_black.png"
+hash = "1497e4eb5507ce82c7e0cbad3bb6ae76f3cd6c3d511378a4e06916be0e6b8995"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_red_blue.png"
+hash = "0bb7fdbc997d4065a3f5bb7e46e352555337e0adbd33ab11d0c730c2b8981168"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_red_brown.png"
+hash = "e527bfd47cb512a8a8e5af5488c05e4066084f2997d70fe18bd51ec9c708f4ff"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_red_white.png"
+hash = "d67d178f179263a6eebfc78a6157eeafa704e35d9724f20c60714d205e2da799"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_red_yellow.png"
+hash = "1752b198c56e3c7ef5d25ad32a26304be7a265f022c739fc0773f3e464c0a02c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_white.png"
+hash = "07982bdff362f64d44d82fde42595127f92d50653c01650a6342538f264d84ba"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_white_black.png"
+hash = "7b2fb86e1134b78cde510d8696351972cadf800f8a058d370094cc00e8cdb614"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_yellow.png"
+hash = "a71f3be35504ecf631240c76bf2963b605dc31a1064d4869df6735bea4b58925"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_yellow_black.png"
+hash = "1d24a707d1837722ff3da1a10b623901b38a91cea3220d63cffb4d4e2e301837"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_yellow_blue.png"
+hash = "b634a49fb5ac34e1e701d581eb167808cd26fc21f0b23181e979b47ae7960415"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_yellow_brown.png"
+hash = "ca28679636e23d67e9fb87da64a41e46b715697e3e34bbeb77adfd24e10b0f51"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chorium_yellow_white.png"
+hash = "e10bc369d078883d8f1daea9808cc3b0ad27d283dcac676102106596c7108fba"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/copper_dust.png"
 hash = "7b97785ebf71660637a247408d8c4661ef85260c3a255dda5f017372c998fbce"
 
@@ -199,6 +295,10 @@ hash = "470fbbc1ed2f3210309da6839baac07da5e59e75a5cc69f757ab31c8d3aa3919"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crushed_raw_tungsten.png"
 hash = "cebefcc9e46f7dc46e6058a47bc596caee152ebaca76caa22ae871d66e6b8bdc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_chorium_ingot.png"
+hash = "34b04229162f0fa2d03cafe89a608868ebb9226a12fd80eab9a7fa79aadfa748"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_lightning_trigger.png"
@@ -274,7 +374,7 @@ hash = "683608f1b6a8ccf82eb6b2c2bac1d521beb10adba33a56ab71b2a5ef0eb16d39"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "3bc558ebd7a1575d8b136f41c298c37b7cd4cf343d958751037098fff3484103"
+hash = "fb5284ee75e8f222c640673e3a4e6f6d4e9c85b689aceeb2725d8caaea9a527b"
 
 [[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
@@ -357,6 +457,14 @@ file = "kubejs/server_scripts/chain/blaze_chain.js"
 hash = "ee3f6abe7f5741e181d895dd570dd727010ef2ae016f2e452f12b0ba973ca7bd"
 
 [[files]]
+file = "kubejs/server_scripts/chain/chorus_chain.js"
+hash = "72a7a54fbe353182337a5455ccc3f4cf67a18ea7a7a4672b98f6f172d2197556"
+
+[[files]]
+file = "kubejs/server_scripts/chain/chromatic_route.js"
+hash = "52ddc4c10bbf7946634edd05c868c25c7ec6788480d6a8c91c4b6e6b24c9cdcd"
+
+[[files]]
 file = "kubejs/server_scripts/chain/oil_chain.js"
 hash = "08cd1bde8569d157d1c85cb46a1f730dfc18143135d3f03467a3ce4c95814758"
 
@@ -426,7 +534,7 @@ hash = "ace1882e75b4898d91953158704874338f5fb076836b40e7b00e3a5c7b52000f"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "69e21b897bb3264eabfead529bc1d6749d224f1d219c5da9bd54d7badf9f1cbf"
+hash = "2619b46b282c84e72921e20e6fdab1d13f49ae362941451742988ac2ab1c846a"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
@@ -505,12 +613,16 @@ file = "kubejs/startup_scripts/atmosphere.js"
 hash = "084a90c4045c96c8e60823601b1f1b5dabc36d0560cea9ad072626d9daa3ebd9"
 
 [[files]]
+file = "kubejs/startup_scripts/chromatic_route_judge.js"
+hash = "adbe5684640c8e166274970a3c1f6b8566b69962b3b888d6414ad8de8c0dcbfb"
+
+[[files]]
 file = "kubejs/startup_scripts/fluids.js"
-hash = "f340600625d559bb10e4f917cd0e2ce5c213712ce1c5b6f7b5bca83cdf4480a2"
+hash = "d1a9b56a269383a13bd8edf84ade167f9d1555160f1b2c0ef3953e0ff099f7da"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "c9f3edea2a9da78c1e56aee1ccb111d3682f6d17b67bf5ba6bf81ed3636518a4"
+hash = "3be3f0fa0620aa1fa0152415920f7614b45b392d1573898429dd16ff17f1ffae"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"

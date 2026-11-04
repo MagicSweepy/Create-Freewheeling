@@ -21,4 +21,5 @@ StartupEvents.registry('fluid', event => {
     fluidOf('fluorine', 0x00FF80, 'c:fluorine')
     fluidOf('argon', 0x99004C, 'c:argon')
     fluidOf('ammonia', 0x009999, 'c:ammonia')
+    fluidOf('chorusic_acid', 0x8B678E, 'c:chorusic_acid')
 })

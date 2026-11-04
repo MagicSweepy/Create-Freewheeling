@@ -1,3 +1,5 @@
+const CHROMATIC_DYES = [ 'red', 'yellow', 'blue', 'brown', 'white', 'black' ]
+
 StartupEvents.registry('item', event => {
     event.create('cake_mechanism').food(food => { food
         .nutrition(12)
@@ -27,4 +29,15 @@ StartupEvents.registry('item', event => {
 
     event.create('zinc_dust').tag('c:dusts').tag('c:dusts/zinc')
     event.create('copper_dust').tag('c:dusts').tag('c:dusts/copper')
+
+    CHROMATIC_DYES.forEach(dye => { event.create('chorium_' + dye).tag('kubejs:chorium_singles') })
+
+    for (let i = 0; i < CHROMATIC_DYES.length; i++) {
+        for (let j = i + 1; j < CHROMATIC_DYES.length; j++) {
+            event.create('chorium_' + CHROMATIC_DYES[i] + '_' + CHROMATIC_DYES[j]).tag('kubejs:chorium_pairs')
+        }
+    }
+
+    event.create('chorium_attuned')
+    event.create('incomplete_chorium_ingot', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
 })
