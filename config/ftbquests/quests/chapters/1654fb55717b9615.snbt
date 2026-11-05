@@ -106,12 +106,44 @@
 		}
 		{
 			dependencies: ["72F04F7F6B16249E"]
+			icon: {
+				id: "mmcr:atmospheric_collector_controller"
+			}
 			id: "0D3FF0DA73505800"
-			tasks: [{
-				id: "2CA436ADE2FB7441"
-				item: { count: 1, id: "mmcr:atmospheric_collector_controller" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2CA436ADE2FB7441"
+					item: { count: 1, id: "mmcr:atmospheric_collector_controller" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "kubejs:air"
+					}
+					id: "4E23C4D9E3B88E9B"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "kubejs:nether_air"
+					}
+					id: "6CAA1899710AAC00"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "kubejs:end_air"
+					}
+					id: "007C37CCB4C2DAED"
+					optional_task: true
+					type: "fluid"
+				}
+			]
 			x: 5.0d
 			y: 10.0d
 		}
@@ -173,18 +205,21 @@
 				id: "2AC0CC6B4720DD1D"
 				type: "fluid"
 			}]
-			x: 17.5d
+			x: 12.5d
 			y: 15.0d
 		}
 		{
-			dependencies: ["5D55844C24609406"]
+			dependencies: [
+				"5D55844C24609406"
+				"70B51178E735FE33"
+			]
 			id: "12F0EDE7DC904C58"
 			tasks: [{
 				id: "1B73325AE6CE6FFF"
 				item: { count: 1, id: "createcasing:chorium_ingot" }
 				type: "item"
 			}]
-			x: 22.5d
+			x: 17.5d
 			y: 15.0d
 		}
 		{
@@ -212,6 +247,7 @@
 				{
 					id: "43C180EC1AF5DE37"
 					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:chorium_singles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -272,6 +308,106 @@
 			}]
 			x: 17.5d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0665899A8F3183EE"
+				"70B51178E735FE33"
+			]
+			id: "4832DF6BCE36471A"
+			tasks: [{
+				id: "74433B1B7FAA6BAD"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4832DF6BCE36471A"]
+			id: "6537711576665400"
+			tasks: [
+				{
+					id: "4DF6A62A1A22D476"
+					item: { count: 1, id: "ae2:printed_calculation_processor" }
+					type: "item"
+				}
+				{
+					id: "5994668098333563"
+					item: { count: 1, id: "ae2:printed_engineering_processor" }
+					type: "item"
+				}
+				{
+					id: "4E2C4ACF24BCA503"
+					item: { count: 1, id: "ae2:printed_logic_processor" }
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CFDBFE4F5E37F19"]
+			id: "5635F0C0F51B06FF"
+			tasks: [{
+				id: "1A62EFBC4D212986"
+				item: { count: 1, id: "kubejs:integrated_circuit" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6537711576665400"
+				"5635F0C0F51B06FF"
+			]
+			id: "7BDF91E2FE09BC7A"
+			tasks: [
+				{
+					id: "6CE0B67AD7101B7A"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					id: "620D77BF73AF2158"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+				{
+					id: "4BF2004DF70E57FA"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7BDF91E2FE09BC7A"
+				"433DCA8B0FFA84CE"
+			]
+			id: "79305079B0D3A0AE"
+			size: 5.0d
+			tasks: [{
+				id: "0E8E35C67E7FC2A1"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12F0EDE7DC904C58"]
+			id: "54A13C39BFDD6CCD"
+			tasks: [{
+				id: "353DF195B360BC21"
+				item: { count: 1, id: "createcasing:creative_casing" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 15.0d
 		}
 	]
 }

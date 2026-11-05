@@ -8,6 +8,7 @@ ServerEvents.tags('item', event => {
 ServerEvents.tags('fluid', event => {
     event.remove('c:plantoil', 'createaddition:seed_oil')
     event.remove('c:ignites', 'createaddition:seed_oil')
+    event.add('create:bottomless/allow', 'createdieselgenerators:crude_oil')
 })
 
 ServerEvents.recipes(event => {

@@ -37,8 +37,12 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "143e8b6808c5c6a483581195a9bdfdd7a72ca92c6733f8c28d14c3f533e8a7db"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/1447f4a377d057b9.snbt"
+hash = "d15108bd5a7afc71df4ca188acf3669965c38dc92dcc1e64fe234544317bd9bc"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/1654fb55717b9615.snbt"
-hash = "37d1c90d89c65651da73c2badb5c2a9d14a99c96cb833dddd342b2228c8063e7"
+hash = "ae5e49e295a419e3851871c2dc1998070bf3545b71ef8e12edd8c77339d6d737"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
@@ -54,7 +58,7 @@ hash = "f5e92c5666b8db74706d008e210d04346d600c00a4caadfeeea6c39b9a69a4b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/612770933324c0f0.snbt"
-hash = "ff9f6b3edfe0d44cbc1717ed021e8e4630a071ad9f8944ed2fcc325b98569bf3"
+hash = "95a9558ef5eb3b5b8efddeb07ee3f0fc173f436b050059e33c71f6eee8e38c4b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -66,7 +70,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "946ec300afaf6431733825f870aa0fbd05fb44c88492caeeb6875ac549cd0e34"
+hash = "bf99a58231bbf981164b68ac91b2556bfb75d97139d77006e8aaf622b3cb078f"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -478,7 +482,7 @@ hash = "e3fca38d3870169fcd011ff3f14bc79d571af82fbb63c67075d0d0f4ff61290c"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/recipe/distillation/end_air.json"
-hash = "63820c2563540235aec61f525917df90531b6042854268da69edea0bf68e01ad"
+hash = "e70aeb87899c19205ebdd88b01fe103f6984632c5412566168bd183195f6e7f5"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/recipe/distillation/nether_air.json"
@@ -554,7 +558,7 @@ hash = "13cb98673abc9c2d31f502ceb7070ff5baf24bb0723e5f066a526ac69b01525b"
 
 [[files]]
 file = "kubejs/server_scripts/create_diesel_generators.js"
-hash = "d9fa56afccbec29e6622e7332ad5f769f0d66c54aaafad2436103d4c64ece972"
+hash = "912caf425076927d4461ccabbf4431e2924083bf26b19601cf39a613a26b788b"
 
 [[files]]
 file = "kubejs/server_scripts/create_dragons_plus.js"

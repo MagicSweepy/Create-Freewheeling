@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_quest_size: 4.0d
+	filename: "1447f4a377d057b9"
+	group: "4C199C837851BE40"
+	icon: {
+		id: "create:shadow_steel_casing"
+	}
+	id: "1447F4A377D057B9"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"7BDF91E2FE09BC7A"
+			"433DCA8B0FFA84CE"
+		]
+		id: "4582B8D26530770F"
+		size: 5.0d
+		tasks: [{
+			id: "26741C5CC4F6F8F0"
+			item: { count: 1, id: "ae2:controller" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
