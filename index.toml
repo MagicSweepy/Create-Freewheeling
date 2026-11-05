@@ -13,6 +13,10 @@ file = "config/create_connected-common.toml"
 hash = "297f0fc61743172f35c68a80bfb90df58daafe9e6d011b089a3157f8191b474f"
 
 [[files]]
+file = "config/create_optical-server.toml"
+hash = "86af43af392509cadb77b0844067b165f2e07fd95b430f9ea61e8760a1b27867"
+
+[[files]]
 file = "config/curios-common.toml"
 hash = "d8d755ee9da66b79d5d3b84705a5410d3311e5377f48c35f071595f7a3324628"
 
@@ -462,7 +466,11 @@ hash = "72a7a54fbe353182337a5455ccc3f4cf67a18ea7a7a4672b98f6f172d2197556"
 
 [[files]]
 file = "kubejs/server_scripts/chain/chromatic_route.js"
-hash = "52ddc4c10bbf7946634edd05c868c25c7ec6788480d6a8c91c4b6e6b24c9cdcd"
+hash = "f91c375a7fb7b855bf87ce90cfabf0744fe0dabb918e29b24a21bc0af3d9d94e"
+
+[[files]]
+file = "kubejs/server_scripts/chain/chromatic_route_debug.js"
+hash = "3e58054319cf091fdae96fde462acbe4b6f04306cf7382e5d1b9e804000bccab"
 
 [[files]]
 file = "kubejs/server_scripts/chain/oil_chain.js"
@@ -614,7 +622,7 @@ hash = "084a90c4045c96c8e60823601b1f1b5dabc36d0560cea9ad072626d9daa3ebd9"
 
 [[files]]
 file = "kubejs/startup_scripts/chromatic_route_judge.js"
-hash = "adbe5684640c8e166274970a3c1f6b8566b69962b3b888d6414ad8de8c0dcbfb"
+hash = "fc1b4cd720cc63d522128dc9c87fa32f50d48fbdc0eea78955b62d11846b5260"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"

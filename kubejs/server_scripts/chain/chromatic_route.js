@@ -90,16 +90,14 @@ ServerEvents.recipes(event => {
     }, 'kubejs:chromatic_route/judge')
 
     // 5
-    DYES.forEach(dye => {
-        custom({
-            type: 'lychee:item_inside',
-            item_in: halfId(dye),
-            block_in: 'minecraft:water',
-            time: 1,
-            post: [
-                { type: 'drop_item', id: BASE },
-                { type: 'drop_item', id: dyeId(dye) }
-            ]
-        }, 'kubejs:chromatic_route/wash_' + dye)
-    })
+    custom({
+        type: 'lychee:item_inside',
+        item_in: '#kubejs:chorium_singles',
+        block_in: 'minecraft:water',
+        time: 1,
+        post: [
+            { type: 'custom', id: 'chromatic_judge' },
+            'prevent_default'
+        ]
+    }, 'kubejs:chromatic_route/wash')
 })

@@ -1,6 +1,7 @@
 const CHROMATIC_ROUTE_DYES = ['red', 'yellow', 'blue', 'brown', 'white', 'black']
 
 const $LootContextParams = Java.loadClass('net.minecraft.world.level.storage.loot.parameters.LootContextParams')
+const $ItemEntity = Java.loadClass('net.minecraft.world.entity.item.ItemEntity')
 
 const chromaticData = server => server.persistentData
 
@@ -55,6 +56,45 @@ const samePair = (x, y) => {
     return (a[0] === b[0] && a[1] === b[1]) || (a[0] === b[1] && a[1] === b[0])
 }
 
+const halfDyeOf = stack => {
+    const id = itemIdOf(stack)
+    const prefix = 'kubejs:chorium_'
+    if (id.indexOf(prefix) !== 0)
+        return null
+    const name = id.substring(prefix.length)
+    return CHROMATIC_ROUTE_DYES.indexOf(name) >= 0 ? name : null
+}
+
+const countOf = stack => {
+    let n = 1
+    try {
+        n = stack.getCount()
+    } catch (countError) {
+        try {
+            n = stack.count
+        } catch (countError2) {
+            n = 1
+        }
+    }
+    return n > 0 ? n : 1
+}
+
+const stackOf = (id, count) => {
+    const stack = Item.of(id)
+    try {
+        stack.setCount(count)
+    } catch (setError) {
+        console.warn('Failed to set stack count: ' + setError)
+    }
+    return stack
+}
+
+const dropStack = (level, found, stack) => {
+    if (!found.entity)
+        return
+    level.addFreshEntity(new $ItemEntity(level, found.entity.x, found.entity.y + 0.4, found.entity.z, stack))
+}
+
 const judgeRead = ctx => {
     let entity = null
     let slotStack = null
@@ -92,6 +132,8 @@ LycheeEvents.customAction('chromatic_judge', event => {
         let judged = false
         let answer = null
         let dyePair = null
+        let halfDye = null
+        let count = 1
 
         try {
             level = ctx.get(LycheeContextKey.LEVEL)
@@ -101,11 +143,22 @@ LycheeEvents.customAction('chromatic_judge', event => {
                 return
             }
 
+            count = countOf(found.stack)
+            if (count > 1)
+                console.info('Checking a stack of ' + count)
             dyePair = pairOf(found.stack)
-            answer = currentAnswer(level.server)
-            judged = !!dyePair && samePair(dyePair, answer)
 
-            judgeWrite(ctx, found, Item.of(judged ? 'kubejs:chorium_attuned' : 'createcasing:chorium_ingot'))
+            if (dyePair) {
+                answer = currentAnswer(level.server)
+                judged = samePair(dyePair, answer)
+                judgeWrite(ctx, found, stackOf(judged ? 'kubejs:chorium_attuned' : 'createcasing:chorium_ingot', count))
+            } else {
+                halfDye = halfDyeOf(found.stack)
+                if (!halfDye)
+                    return
+                judgeWrite(ctx, found, stackOf('createcasing:chorium_ingot', count))
+                dropStack(level, found, stackOf('minecraft:' + halfDye + '_dye', count))
+            }
         } catch (judgeError) {
             console.error('Failed to check item: ' + judgeError)
             return
