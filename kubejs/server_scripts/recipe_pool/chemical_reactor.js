@@ -159,4 +159,42 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:chemical_reactor/plastic_oxidization')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:chemical_reactor',
+        tick_time: 200,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:hydrogen' },
+                amount: 1000
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:fluorine' },
+                amount: 1000
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 64
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 5,
+                max_value: 5
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'kubejs:fluoric_acid', amount: 2000 }
+            }
+        ]
+    }).id('kubejs:chemical_reactor/fluoric_acid')
 })

@@ -787,4 +787,142 @@ ServerEvents.recipes(event => {
     })
 
     // #endregion
+
+    event.remove({ output: 'mmcr:factory_controller' })
+    event.shaped('mmcr:factory_controller',
+    [
+        'EIE',
+        'BCB',
+        'EAE'
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        I: 'kubejs:integrated_circuit',
+        A: 'ae2:calculation_processor',
+        B: 'createcasing:shadow_steel_sheet',
+        E: 'createcasing:refined_radiance_sheet'
+    })
+
+    // #region Parallel Controller
+
+    event.remove({ output: 'mmcr:parallel_controller_normal' })
+    event.shaped('mmcr:parallel_controller_normal',
+    [
+        'AIA',
+        'BCB',
+        'AXA'
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        I: 'kubejs:integrated_circuit',
+        X: 'create:precision_mechanism',
+        A: '#c:plates/aluminum',
+        B: '#c:plates/fluix'
+    })
+
+    event.remove({ output: 'mmcr:parallel_controller_plus' })
+    event.shaped('mmcr:parallel_controller_plus',
+    [
+        'BIB',
+        'ACA',
+        'BXB'
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        A: 'mmcr:parallel_controller_normal',
+        B: '#c:plates/tungsten',
+        I: 'kubejs:integrated_circuit',
+        X: 'create:precision_mechanism'
+    })
+
+    event.remove({ output: 'mmcr:parallel_controller_reinforced' })
+    event.shaped('mmcr:parallel_controller_reinforced',
+    [
+        'BIB',
+        'ACA',
+        'BAB'
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        A: 'mmcr:parallel_controller_plus',
+        B: '#c:plates/chorium',
+        I: 'kubejs:integrated_circuit',
+    })
+
+    event.remove({ output: 'mmcr:parallel_controller_pro' })
+    event.shaped('mmcr:parallel_controller_pro',
+    [
+        'AIA',
+        'BCB',
+        'AXA'
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        A: 'mmcr:parallel_controller_reinforced',
+        B: '#c:plates/aluminum_alloy',
+        I: 'kubejs:integrated_circuit',
+        X: 'ae2:logic_processor'
+    })
+
+    event.remove({ output: 'mmcr:parallel_controller_elite' })
+    event.shaped('mmcr:parallel_controller_elite',
+    [
+        'AIA',
+        'BCB',
+        'AXA'
+    ],
+    {
+        C: 'create:shadow_steel_casing',
+        I: 'kubejs:integrated_circuit',
+        X: 'ae2:engineering_processor',
+        A: '#c:plates/black_tungsten_alloy',
+        B: '#c:plates/energized_fluix'
+    })
+
+    event.remove({ output: 'mmcr:parallel_controller_fantasy' })
+    event.shaped('mmcr:parallel_controller_fantasy',
+    [
+        'BIB',
+        'ACA',
+        'BXB'
+    ],
+    {
+        C: 'create:shadow_steel_casing',
+        A: 'mmcr:parallel_controller_elite',
+        B: '#c:plates/energized_superconductive',
+        I: 'extendedae:concurrent_processor',
+        X: 'create:precision_mechanism'
+    })
+
+    event.remove({ output: 'mmcr:parallel_controller_max'})
+    event.shaped('mmcr:parallel_controller_max',
+    [
+        'BIB',
+        'ACA',
+        'BAB'
+    ],
+    {
+        C: 'create:refined_radiance_casing',
+        A: 'mmcr:parallel_controller_fantasy',
+        B: '#c:ingots/neutronium',
+        I: 'neoecoae:superconducting_processor',
+    })
+
+    // TODO: Change to Avaritia Extreme Smithing Forge?
+    // event.remove({ output: 'mmcr:parallel_controller_ultimate' })
+    // event.shaped('mmcr:parallel_controller_ultimate',
+    // [
+    //     'AIA',
+    //     'BCB',
+    //     'AXA'
+    // ],
+    // {
+    //     C: 'create:refined_radiance_casing',
+    //     A: 'mmcr:parallel_controller_max',
+    //     B: '#c:plates/infinity',
+    //     I: 'kubejs:mainframe',
+    //     X: ''
+    // })
+    
+    // #endregion
 })

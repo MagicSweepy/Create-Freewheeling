@@ -16,6 +16,9 @@ ServerEvents.recipes(event => {
     addPlateRecipe('plastic', 'kubejs:plastic_ingot', 'kubejs:plastic_sheet')
     addPlateRecipe('aluminum', 'neoecoae:aluminum_ingot', 'kubejs:aluminum_sheet')
     addPlateRecipe('tungsten', 'neoecoae:tungsten_ingot', 'kubejs:tungsten_sheet')
+    addPlateRecipe('aluminum_alloy', 'neoecoae:aluminum_alloy_ingot', 'kubejs:aluminum_alloy_sheet')
+    addPlateRecipe('black_tungsten_alloy', 'neoecoae:black_tungsten_alloy_ingot', 'kubejs:black_tungsten_alloy_sheet')
+    addPlateRecipe('energized_superconductive', 'neoecoae:energized_superconductive_ingot', 'kubejs:energized_superconductive_sheet')
 
     addRodRecipe('copper', 'minecraft:copper_ingot', 'createaddition:copper_rod')
     addRodRecipe('iron', 'minecraft:iron_ingot', 'createaddition:iron_rod')

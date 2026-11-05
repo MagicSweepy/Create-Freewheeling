@@ -1,4 +1,7 @@
 ServerEvents.recipes(event => {
+    let postBuilder = PostBuilder.create()
+    let contextualBuilder = ContextualBuilder.create()
+
     event.recipes.create.pressing('kubejs:aluminum_sheet', 'neoecoae:aluminum_ingot')
     event.recipes.create.pressing('kubejs:tungsten_sheet', 'neoecoae:tungsten_ingot')
 
@@ -73,4 +76,17 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'neoecoae:inscriber/energized_fluix_crystal_dust' })
     event.recipes.create.milling('neoecoae:energized_fluix_crystal_dust', 'neoecoae:energized_fluix_crystal')
     event.recipes.create.crushing('neoecoae:energized_fluix_crystal_dust', 'neoecoae:energized_fluix_crystal')
+
+    event.recipes.create.pressing('kubejs:aluminum_alloy_sheet', 'neoecoae:aluminum_alloy_ingot')
+    event.recipes.create.pressing('kubejs:black_tungsten_alloy_sheet', 'neoecoae:black_tungsten_alloy_ingot')
+    event.recipes.create.cutting('kubejs:energized_certus_quartz_sheet', 'neoecoae:energized_crystal')
+    event.recipes.create.cutting('kubejs:energized_fluix_sheet', 'neoecoae:energized_fluix_crystal')
+    event.recipes.create.pressing('kubejs:energized_superconductive_sheet', 'neoecoae:energized_superconductive_ingot')
+
+    event.remove({ id: 'neoecoae:transform/energized_fluix_crystal' })
+    event.remove({ id: 'neoecoae:transform/energized_superconductive_ingot' })
+    event.remove({ id: 'neoecoae:crystal_ingot' })
+
+    event.recipes.lychee.block_clicking( [ SizedIngredientWrapper.of('neoecoae:energized_fluix_crystal') ],
+        BlockPredicateWrapper.block('extendedae:entro_block'), [ postBuilder.dropItem('neoecoae:crystal_ingot') ]).ghost(true)
 })
