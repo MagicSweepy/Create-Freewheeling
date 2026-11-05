@@ -1,0 +1,12 @@
+{
+  "type": "extendedae:circuit_cutter",
+  "input": {
+    "ingredient": {
+      "item": "neoecoae:energized_crystal"
+    }
+  },
+  "output": {
+    "count": 1,
+    "id": "kubejs:energized_certus_quartz_sheet"
+  }
+}

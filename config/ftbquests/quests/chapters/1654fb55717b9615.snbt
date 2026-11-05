@@ -409,5 +409,42 @@
 			x: 22.5d
 			y: 15.0d
 		}
+		{
+			dependencies: [
+				"5635F0C0F51B06FF"
+				"0665899A8F3183EE"
+			]
+			id: "46DDCE3963FE6D95"
+			tasks: [
+				{
+					id: "4D90A38EC1BB0E52"
+					item: { count: 1, id: "mmcr:parallel_controller_normal" }
+					type: "item"
+				}
+				{
+					id: "517153E1719AE542"
+					item: { count: 1, id: "mmcr:parallel_controller_plus" }
+					type: "item"
+				}
+				{
+					id: "7657B5FEA7E88F5E"
+					item: { count: 1, id: "mmcr:parallel_controller_reinforced" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BDF91E2FE09BC7A"]
+			id: "3D9E9116FF9A4AFC"
+			tasks: [{
+				id: "279F10358F9F3F03"
+				item: { count: 1, id: "mmcr:factory_controller" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
 	]
 }

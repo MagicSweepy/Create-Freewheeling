@@ -1,0 +1,12 @@
+{
+  "type": "extendedae:circuit_cutter",
+  "input": {
+    "ingredient": {
+      "tag": "c:plates/diamond"
+    }
+  },
+  "output": {
+    "count": 2,
+    "id": "ae2:printed_engineering_processor"
+  }
+}

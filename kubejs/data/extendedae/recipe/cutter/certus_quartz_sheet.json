@@ -1,0 +1,12 @@
+{
+  "type": "extendedae:circuit_cutter",
+  "input": {
+    "ingredient": {
+      "tag": "c:gems/certus_quartz"
+    }
+  },
+  "output": {
+    "count": 1,
+    "id": "kubejs:certus_quartz_sheet"
+  }
+}

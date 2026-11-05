@@ -496,5 +496,20 @@
 			x: -20.0d
 			y: 0.0d
 		}
+		{
+			dependencies: [
+				"1C15EB43589EEA0C"
+				"1E65784B75CF663D"
+			]
+			id: "5D2995E2932F10F8"
+			size: 3.0d
+			tasks: [{
+				id: "2DE82BB544D79CD4"
+				item: { count: 1, id: "minecraft:basalt" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
 	]
 }

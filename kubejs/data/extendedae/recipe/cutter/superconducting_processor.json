@@ -1,0 +1,12 @@
+{
+  "type": "extendedae:circuit_cutter",
+  "input": {
+    "ingredient": {
+      "tag": "c:plates/energized_superconductive"
+    }
+  },
+  "output": {
+    "count": 2,
+    "id": "neoecoae:superconducting_processor_print"
+  }
+}

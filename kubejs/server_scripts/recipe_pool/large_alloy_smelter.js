@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
             {
                 type: 'minecraft:item',
                 io: 'input',
-                item: { item: 'extendedae:quartz_blend' },
+                item: { item: 'neoecoae:energized_crystal_dust' },
                 count: 16
             },
             {

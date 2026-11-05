@@ -85,8 +85,8 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'neoecoae:transform/energized_fluix_crystal' })
     event.remove({ id: 'neoecoae:transform/energized_superconductive_ingot' })
-    event.remove({ id: 'neoecoae:crystal_ingot' })
+    event.remove({ id: 'neoecoae:transform/crystal_ingot' })
 
     event.recipes.lychee.block_clicking( [ SizedIngredientWrapper.of('neoecoae:energized_fluix_crystal') ],
-        BlockPredicateWrapper.block('extendedae:entro_block'), [ postBuilder.dropItem('neoecoae:crystal_ingot') ]).ghost(true)
+        BlockPredicateWrapper.block('extendedae:entro_block'), [ postBuilder.dropItem('neoecoae:crystal_ingot') ])
 })

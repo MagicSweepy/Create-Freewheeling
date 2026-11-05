@@ -1,0 +1,12 @@
+{
+  "type": "extendedae:circuit_cutter",
+  "input": {
+    "ingredient": {
+      "tag": "c:gems/entro"
+    }
+  },
+  "output": {
+    "count": 1,
+    "id": "kubejs:entro_sheet"
+  }
+}

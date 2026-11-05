@@ -11,19 +11,464 @@
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"7BDF91E2FE09BC7A"
-			"433DCA8B0FFA84CE"
-		]
-		id: "4582B8D26530770F"
-		size: 5.0d
-		tasks: [{
-			id: "26741C5CC4F6F8F0"
-			item: { count: 1, id: "ae2:controller" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"7BDF91E2FE09BC7A"
+				"433DCA8B0FFA84CE"
+			]
+			id: "4582B8D26530770F"
+			size: 5.0d
+			tasks: [{
+				id: "26741C5CC4F6F8F0"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4582B8D26530770F"]
+			id: "72DD6511270E462A"
+			tasks: [{
+				id: "01C19A2D89AA7B95"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4582B8D26530770F"]
+			id: "68242DCFB987DD8E"
+			tasks: [{
+				id: "24A945064C9FAAA8"
+				item: { count: 1, id: "ae2:storage_bus" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4582B8D26530770F"]
+			id: "43A7EEDBE1F006D2"
+			tasks: [{
+				id: "4BA48360DDDD86B4"
+				item: { count: 1, id: "ae2:growth_accelerator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["43A7EEDBE1F006D2"]
+			id: "609E0C50662EFBFB"
+			tasks: [{
+				id: "1B5492894B472B7C"
+				item: { count: 1, id: "neoecoae:energized_crystal" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["43A7EEDBE1F006D2"]
+			id: "7657887E579F81BC"
+			tasks: [{
+				id: "0CEC2A815A6738C3"
+				item: { count: 1, id: "extendedae:entro_crystal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["64E2E9FD4DD6EF6F"]
+			id: "4BE10B847F73DE83"
+			tasks: [{
+				id: "04CECAC8F53DE730"
+				item: { count: 1, id: "neoecoae:energized_fluix_crystal" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["609E0C50662EFBFB"]
+			id: "64E2E9FD4DD6EF6F"
+			size: 5.0d
+			tasks: [{
+				id: "02F882983CDE3F09"
+				item: { count: 1, id: "mmcr:lightning_processor_controller" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4582B8D26530770F"]
+			id: "4BCE1C0B3447FB09"
+			tasks: [
+				{
+					id: "09DAB66E35E2073B"
+					item: { count: 1, id: "ae2:crafting_terminal" }
+					type: "item"
+				}
+				{
+					id: "5ED569BB092E1CCF"
+					item: { count: 1, id: "ae2:pattern_encoding_terminal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "549BAF1110243791"
+					item: { count: 1, id: "ae2:pattern_access_terminal" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["609E0C50662EFBFB"]
+			id: "0214FE10F11EBFD3"
+			tasks: [{
+				id: "4C182CCFC061AD45"
+				item: { count: 1, id: "ae2:energy_cell" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4582B8D26530770F"]
+			id: "599D8A1C7A15F995"
+			tasks: [
+				{
+					id: "552AF79902DDC47F"
+					item: { count: 1, id: "ae2:formation_core" }
+					type: "item"
+				}
+				{
+					id: "3F5C3859BFE851CA"
+					item: { count: 1, id: "ae2:annihilation_core" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["599D8A1C7A15F995"]
+			id: "3C47964C195FB395"
+			tasks: [{
+				id: "6526F9B6BAE1BE9E"
+				item: { count: 1, id: "ae2:interface" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["599D8A1C7A15F995"]
+			id: "52858A20AD9FF052"
+			tasks: [{
+				id: "3BA14A60EE052D12"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0214FE10F11EBFD3"
+				"4BE10B847F73DE83"
+			]
+			id: "0FAA443674CBC1A3"
+			tasks: [{
+				id: "25D9487DF3135165"
+				item: { count: 1, id: "ae2:dense_energy_cell" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["599D8A1C7A15F995"]
+			id: "39A46C5D1EFE3063"
+			tasks: [{
+				id: "725DEAEBC1B0ABE8"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4582B8D26530770F"]
+			id: "3BA0364FBB7CE17D"
+			tasks: [
+				{
+					id: "24A6D57014F78096"
+					item: { count: 1, id: "ae2:crafting_unit" }
+					type: "item"
+				}
+				{
+					id: "68E9E27D959CD33C"
+					item: { count: 1, id: "ae2:blank_pattern" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7657887E579F81BC"]
+			id: "59BDB61AED5856AD"
+			tasks: [{
+				id: "20EF2E7D9D3941E9"
+				item: { count: 1, id: "extendedae:concurrent_processor" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"59BDB61AED5856AD"
+				"4BE10B847F73DE83"
+			]
+			id: "511978010C26D792"
+			tasks: [{
+				id: "19B2D7CB1D95A7EB"
+				item: { count: 1, id: "extendedae:circuit_cutter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"59BDB61AED5856AD"
+				"70FC5CDF05A4D610"
+			]
+			id: "20D1B2B48865ABCD"
+			tasks: [{
+				id: "75B9F2FD6E10FC0D"
+				item: { count: 1, id: "extendedae:ex_inscriber" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["59BDB61AED5856AD"]
+			id: "1D8459F3EE0C93D8"
+			tasks: [
+				{
+					count: 2L
+					id: "7165BDCE8C806454"
+					item: { count: 1, id: "extendedae:wireless_connect" }
+					type: "item"
+				}
+				{
+					id: "7861BBB0E70E767A"
+					item: { count: 1, id: "extendedae:wireless_hub" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FDC06D06C62C788"
+					item: { count: 1, id: "extendedae:wireless_tool" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["59BDB61AED5856AD"]
+			id: "453A4925D5C22C9A"
+			tasks: [{
+				id: "4FC4279E414F3468"
+				item: { count: 1, id: "extendedae:crystal_fixer" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4BE10B847F73DE83"]
+			id: "5F9AA47C590AD0AA"
+			tasks: [{
+				id: "3FD4B67FAC003750"
+				item: { count: 1, id: "neoecoae:energized_superconductive_ingot" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7657887E579F81BC"
+				"4BE10B847F73DE83"
+			]
+			id: "0225CCC480D03D2A"
+			tasks: [{
+				id: "663F1703F6805903"
+				item: { count: 1, id: "neoecoae:crystal_ingot" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["609E0C50662EFBFB"]
+			id: "1A7AFFF4A1A544E8"
+			tasks: [{
+				id: "352B24358AF22EE6"
+				item: { count: 1, id: "neoecoae:aluminum_alloy_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BE10B847F73DE83"]
+			id: "4273A88320357AED"
+			tasks: [{
+				id: "096B460AB98E4C03"
+				item: { count: 1, id: "neoecoae:black_tungsten_alloy_ingot" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A7AFFF4A1A544E8"
+				"4273A88320357AED"
+				"5F9AA47C590AD0AA"
+			]
+			dependency_requirement: "one_completed"
+			id: "34790A29655EB2CE"
+			tasks: [
+				{
+					id: "58C396F39C221646"
+					item: { count: 1, id: "mmcr:parallel_controller_pro" }
+					type: "item"
+				}
+				{
+					id: "5B4C422008951755"
+					item: { count: 1, id: "mmcr:parallel_controller_elite" }
+					type: "item"
+				}
+				{
+					id: "1E179CF909E5CB89"
+					item: { count: 1, id: "mmcr:parallel_controller_fantasy" }
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["599D8A1C7A15F995"]
+			id: "7F7E39CF90F2B144"
+			tasks: [
+				{
+					id: "3E3B4D31E48290EF"
+					item: { count: 1, id: "ae2:import_bus" }
+					type: "item"
+				}
+				{
+					id: "2074F4D47E49C55D"
+					item: { count: 1, id: "ae2:export_bus" }
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F9AA47C590AD0AA"]
+			id: "2788F68D7D72C5F9"
+			tasks: [{
+				id: "7E647C529477B03F"
+				item: { count: 1, id: "kubejs:supercapacitor" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1A7AFFF4A1A544E8"
+				"4273A88320357AED"
+				"0225CCC480D03D2A"
+			]
+			id: "1DC677381B823CEC"
+			size: 5.0d
+			tasks: [
+				{
+					id: "5055A25A23C240D5"
+					item: { count: 1, id: "neoecoae:aluminum_alloy_casing" }
+					type: "item"
+				}
+				{
+					id: "0D91207CEDF34128"
+					item: { count: 1, id: "neoecoae:black_tungsten_alloy_casing" }
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5F9AA47C590AD0AA"
+				"5C6755FD44B0D612"
+			]
+			id: "76AFBD963D8EDF9B"
+			tasks: [{
+				id: "51DFAB0B7B3C8410"
+				item: { count: 1, id: "neoecoae:superconducting_processor" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0225CCC480D03D2A"]
+			id: "5C6755FD44B0D612"
+			tasks: [{
+				id: "63E3300E03E7A4D0"
+				item: { count: 1, id: "neoecoae:crystal_matrix" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4582B8D26530770F"]
+			id: "70FC5CDF05A4D610"
+			tasks: [
+				{
+					id: "0AFF894B712B3F35"
+					item: { count: 1, id: "ae2:basic_card" }
+					type: "item"
+				}
+				{
+					id: "656BC7EDBBFADA45"
+					item: { count: 1, id: "ae2:advanced_card" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+	]
 }
