@@ -40,6 +40,11 @@
     "item.kubejs.chorium_white_black": "Dyed Chorium Ingot (White+§8Black§f)",
     "item.kubejs.chorium_attuned": "§bAttuned Chorium Ingot",
     "item.kubejs.incomplete_chorium_ingot": "Self-Chorified Polished Rose Quartz",
+    "item.kubejs.fluix_coil": "Fluix Coil",
+    "item.kubejs.incomplete_fluix_coil": "Incomplete Fluix Coil",
+    "item.kubejs.diamond_sheet": "Diamond Sheet",
+    "item.kubejs.certus_quartz_sheet": "Certus Quartz Sheet",
+    "item.kubejs.integrated_circuit": "Integrated Circuit",
 
     "item.kubejs.ethylene_bucket": "Ethylene Bucket",
     "fluid.kubejs.ethylene": "Ethylene",

@@ -40,6 +40,11 @@
     "item.kubejs.chorium_white_black": "双染紫颂锭（白+§8黑§f）",
     "item.kubejs.chorium_attuned": "§b共振紫颂锭",
     "item.kubejs.incomplete_chorium_ingot": "半紫颂化磨制玫瑰石英",
+    "item.kubejs.fluix_coil": "福鲁伊克斯线圈",
+    "item.kubejs.incomplete_fluix_coil": "未完成福鲁伊克斯线圈",
+    "item.kubejs.diamond_sheet": "钻石板",
+    "item.kubejs.certus_quartz_sheet": "赛特斯石英板",
+    "item.kubejs.integrated_circuit": "集成电路",
 
     "item.kubejs.ethylene_bucket": "乙烯桶",
     "fluid.kubejs.ethylene": "乙烯",

@@ -78,6 +78,7 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('kubejs:incomplete_sturdy_sheet')
     event.remove('kubejs:incomplete_lightning_trigger')
     event.remove('kubejs:incomplete_chorium_ingot')
+    event.remove('kubejs:incomplete_fluix_coil')
 })
 
 RecipeViewerEvents.removeEntriesCompletely('item', event => {

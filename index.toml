@@ -170,11 +170,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "f865c0c5a8208078887bce27aa71dd9023d62e606fcffea27e78333f3a53be77"
+hash = "dd123be7aa07160cd5087c7b0285a843b0d69c2530427dd5fd9b682eaec26be7"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "0fe3d5547823ac63f9c8551609ee8026814aa0e087a3d6e0b955b032530fa3b5"
+hash = "3f7d877881a10a569a5d77492ad7765d68870d800c1ce888c0f21a48385387a3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminum_nugget.png"
@@ -191,6 +191,10 @@ hash = "1996325f9873516c71169ecef888913df23a8457939d8e5dc955a13e1f433e59"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/cake_mechanism.png"
 hash = "0b1369e7bbd8bb5415c3175a7d39bef44f4c7618c06a404920f9678a468bc31d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/certus_quartz_sheet.png"
+hash = "9d532f7922df32c3487b5f267b47c42a7f54779d21a43c1bb5b03de825119ada"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/chorium_attuned.png"
@@ -301,8 +305,28 @@ file = "kubejs/assets/kubejs/textures/item/crushed_raw_tungsten.png"
 hash = "cebefcc9e46f7dc46e6058a47bc596caee152ebaca76caa22ae871d66e6b8bdc"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/diamond_sheet.png"
+hash = "1fc1a5af71593f684efcb0f0f0467c95b117b424cbb3bbe92df1042e0a571185"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fluix_coil.png"
+hash = "f684dc28bf5d7c469c744622e767fd42dce2b19a02c323239b8fc3ca4ed0f101"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fluix_coil.png.mcmeta"
+hash = "51491e84b55a9063b0c6e857986d0b0b068a7c404b3db7c4b944b0e1891186a8"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_chorium_ingot.png"
 hash = "34b04229162f0fa2d03cafe89a608868ebb9226a12fd80eab9a7fa79aadfa748"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_fluix_coil.png"
+hash = "e1b32ed9debc2eeaed1eb7adc558d544c4000c434d6c8d0d7818fd49999a222f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_fluix_coil.png.mcmeta"
+hash = "51491e84b55a9063b0c6e857986d0b0b068a7c404b3db7c4b944b0e1891186a8"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_lightning_trigger.png"
@@ -311,6 +335,10 @@ hash = "027f42e35a983a54fe645960fda215c6c95bf6ab0071a34b887705c8c80e3cf4"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_sturdy_sheet.png"
 hash = "2ddf831e9be69fe7fc3c7c4562b8f7b844db97bba8d12178f97bd7607d445826"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/integrated_circuit.png"
+hash = "d55b48d9cb1cbeb89433e59994923c617d8503155c6da51cbd90b0d6c3cd02a6"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/lightning_trigger.png"
@@ -381,12 +409,40 @@ file = "kubejs/client_scripts/tooltips.js"
 hash = "fb5284ee75e8f222c640673e3a4e6f6d4e9c85b689aceeb2725d8caaea9a527b"
 
 [[files]]
+file = "kubejs/data/ae2/recipe/inscriber/calculation_processor.json"
+hash = "c9786479e57b8fbc8b48d9582024682a14ac369d7d7e7a7c21c7bf70f1d8ec36"
+
+[[files]]
+file = "kubejs/data/ae2/recipe/inscriber/calculation_processor_print.json"
+hash = "e865e02fa2f3973f808be3c1a6229297d7e15c2834c337f7ae28d6230746dff8"
+
+[[files]]
+file = "kubejs/data/ae2/recipe/inscriber/engineering_processor.json"
+hash = "15439d2c25fbd8ff4e8ee0ea5807c2c2406a7c381b693c940f95205426db3b66"
+
+[[files]]
+file = "kubejs/data/ae2/recipe/inscriber/engineering_processor_print.json"
+hash = "484a68f61a0fc95e49c827bcd51f89b77f6ca5bcd26004e058c2fc34db5d31f7"
+
+[[files]]
+file = "kubejs/data/ae2/recipe/inscriber/logic_processor.json"
+hash = "7e287594edb709523c14e5bea30dbfaa5d751f74a71ea32984a071c0ced0216a"
+
+[[files]]
+file = "kubejs/data/ae2/recipe/inscriber/logic_processor_print.json"
+hash = "03ae5015d2c986fd2e893a3efdd61325cf7fb197b80b2c473f24765342ceef91"
+
+[[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
 hash = "94067ba409b7ce0728252ab09d215e7b23bb9546019b47950574909df9c00297"
 
 [[files]]
 file = "kubejs/data/create_optical/recipe/focusing/enriched_soul_soil.json"
 hash = "5b5a419f6ac5f344e709868c668b4d974e89cec6e209b3e758a5d3e29809d28d"
+
+[[files]]
+file = "kubejs/data/create_optical/recipe/sequenced_assembly/fluix_coil.json"
+hash = "a71c57ee5b8815ab8e40f1c25e4c5a8b40ce5997a66586c5b5473cd9002a891c"
 
 [[files]]
 file = "kubejs/data/create_optical/recipe/sequenced_assembly/rose_quartz_catalyst_coil.json"
@@ -438,7 +494,7 @@ hash = "7b565ebceb26a557baf8c290341dde20f03d306cc7081eb835e6d56683740a6c"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
-hash = "a76f12de13a08781c7a7b9fc1ebdd039142ea0f0c7c9ef740c09b21d71e39537"
+hash = "f81ae3a0f6994022ad6a7f6b6374435aee31041a509e0d7a4c67acab171af1b9"
 
 [[files]]
 file = "kubejs/server_scripts/atmosphere.js"
@@ -542,7 +598,7 @@ hash = "ace1882e75b4898d91953158704874338f5fb076836b40e7b00e3a5c7b52000f"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "2619b46b282c84e72921e20e6fdab1d13f49ae362941451742988ac2ab1c846a"
+hash = "2848f3e19c50f18b4f77465328db90e5a3a76ed1fdddb21f107e501e3f04a278"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
@@ -574,7 +630,7 @@ hash = "658e8a831fe6cb868497c97c94bdd3ce6b01f3c8087baedbe1a5e554d230996d"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
-hash = "7ffa42868f638bff98c02fc921db88aef43aeba444f5bcb8520e47bf92a34fa3"
+hash = "6d29c452d02c92297f991c5f55f502530f2b63c9aa9b40afcccdcc839629a397"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_crusher.js"
@@ -630,7 +686,7 @@ hash = "d1a9b56a269383a13bd8edf84ade167f9d1555160f1b2c0ef3953e0ff099f7da"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "3be3f0fa0620aa1fa0152415920f7614b45b392d1573898429dd16ff17f1ffae"
+hash = "aaf12bbb4929bf2d5b2c8c22bd49c7c8836ae0b2b48ece74c25ac8602e5ad7ec"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"

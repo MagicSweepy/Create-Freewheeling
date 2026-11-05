@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:aluminum_rod"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "kubejs:fluix_coil"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_fluix_coil"
+        },
+        {
+          "item": "ae2:fluix_crystal"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_fluix_coil"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_fluix_coil"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "kubejs:ammonia"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_fluix_coil"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_fluix_coil"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_fluix_coil"
+        }
+      ]
+    },
+    {
+      "type": "create_optical:focusing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_fluix_coil"
+        }
+      ],
+      "mode": 3,
+      "results": [
+        {
+          "id": "kubejs:incomplete_fluix_coil"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:incomplete_fluix_coil"
+  }
+}

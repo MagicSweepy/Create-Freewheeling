@@ -884,4 +884,27 @@ ServerEvents.recipes(event => {
     // #endregion
 
     // TODO: Create: Fluid Logistics recipes?
+
+    new $MachineRecipeBuilderJS('kubejs:large_assembler/integrated_circuit')
+        .recipePool('kubejs:large_assembler')
+        .itemInput('create:sturdy_sheet', 4)
+        .itemInput('create:electron_tube', 8)
+        .itemInput('create_optical:copper_coil', 2)
+        .fluidInput('createnuclear:nitrogen', 500)
+        .itemOutput('kubejs:integrated_circuit', 16)
+        .iFEt(48)
+        .tickTime(500)
+        .parallelized()
+        .build()
+
+    new $MachineRecipeBuilderJS('kubejs:large_assembler/control_chip')
+        .recipePool('kubejs:large_assembler')
+        .tagInput('c:plates/electrum', 16)
+        .tagInput('c:plates/andesite_alloy', 16)
+        .itemInput('kubejs:integrated_circuit', 16)
+        .itemOutput('create_connected:control_chip', 64)
+        .iFEt(48)
+        .tickTime(500)
+        .parallelized()
+        .build()
 })

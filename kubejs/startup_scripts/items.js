@@ -40,4 +40,10 @@ StartupEvents.registry('item', event => {
 
     event.create('chorium_attuned')
     event.create('incomplete_chorium_ingot', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
+
+    event.create('fluix_coil')
+    event.create('incomplete_fluix_coil', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
+    event.create('diamond_sheet').tag('c:plates').tag('c:plates/diamond')
+    event.create('certus_quartz_sheet').tag('c:plates').tag('c:plates/certus_quartz')
+    event.create('integrated_circuit')
 })
