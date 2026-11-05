@@ -482,7 +482,7 @@ hash = "e3fca38d3870169fcd011ff3f14bc79d571af82fbb63c67075d0d0f4ff61290c"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/recipe/distillation/end_air.json"
-hash = "e70aeb87899c19205ebdd88b01fe103f6984632c5412566168bd183195f6e7f5"
+hash = "d4fdf7bb663e6000c18cf4dd7ac6f0031eaa101c05e34ca04fa7dd9fdbaa398a"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/recipe/distillation/nether_air.json"
