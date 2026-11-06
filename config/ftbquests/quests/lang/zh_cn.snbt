@@ -1,8 +1,9 @@
 {
-	chapter.1447F4A377D057B9.title: "暗影钢时代"
+	chapter.1447F4A377D057B9.title: "异彩时代"
 	chapter.1654FB55717B9615.title: "铝时代"
 	chapter.1D6C23F01387180B.title: "安山时代"
 	chapter.3D3031C68D8D2FBE.title: "黄铜时代"
+	chapter.43A3962E352AE163.title: "合金时代"
 	chapter.57F6B3854384D3BF.title: "产线自动化"
 	chapter.612770933324C0F0.title: "蛙港物流与自动化"
 	chapter_group.1076DA646B9BA11C.title: "无尽贪婪"
@@ -82,6 +83,7 @@
 	quest.3BA0364FBB7CE17D.title: "样板与自动化"
 	quest.3D84BA05931EFFB0.title: "获得铝"
 	quest.3D9E9116FF9A4AFC.title: "多线程"
+	quest.3E319270C4E0908B.title: "插件"
 	quest.3E5FE7486C52DD72.title: "动力钻头"
 	quest.3E97815398955D93.quest_subtitle: "辊弯，而后是锤击"
 	quest.3E97815398955D93.title: "多辊式轧机"
@@ -102,6 +104,7 @@
 	quest.485907A036513FA6.title: "流体物流"
 	quest.4D7EEF0C589780DA.quest_subtitle: "优良的金属板材"
 	quest.4DE47167FA860A0C.title: "无限沙砾"
+	quest.50A1B2A7B0262870.title: "装配矩阵"
 	quest.50B71A3F18796564.quest_desc: ["你可能已经见过&b&n赛特斯石英&r的晶洞了，而想要为其充能，需要让其被雷电击中。在巨量的瞬时能量轰击后，会产出&e&n充能赛特斯石英水晶&r。为了自动化这个过程，你需要制作一个&9雷击引发器&r，这也是在&6化学反应釜&r中电解水的催化剂。"]
 	quest.50B71A3F18796564.quest_subtitle: "避雷针的反方向"
 	quest.50B71A3F18796564.title: "雷电加工"
@@ -112,6 +115,7 @@
 	quest.51EAAB669848352A.title: "注液器"
 	quest.53153530CFEF63E0.title: "柴油与柴油引擎"
 	quest.53C2D4FE66125881.title: "铅循环"
+	quest.543B0C625C5B1AF8.title: "更好的ME机器"
 	quest.54A13C39BFDD6CCD.quest_desc: ["嗯...如你所见，&d&n创造机壳&r其实并不能用来制作那些创造模式专用的机器，只能为你的机器换上一套新的皮肤。"]
 	quest.54A13C39BFDD6CCD.quest_subtitle: "不创造的创造机壳"
 	quest.55AB9379D33FA275.title: "硫酸"
@@ -228,4 +232,5 @@
 	task.7B0DECC288DC33E8.title: "任意材质的六向齿轮箱"
 	task.7B360F06F3707D65.title: "任意种类的木板"
 	task.7FE1EDE9787FB2DB.title: "任意种类的原木"
+	task.7FE9AFC3857A4A18.title: "任意插件"
 }

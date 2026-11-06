@@ -1,7 +1,7 @@
 MMCREvents.server(event => {
     const api = event.getAPI()
     event.createStructure("kubejs:large_alloy_smelter")
-        .pattern(" XXX ", "     ", " AAA ", " XXX ", " XBX ", " XXX ", " AAA ")
+        .pattern(" XUX ", "     ", " AAA ", " XXX ", " XBX ", " XXX ", " AAA ")
         .pattern("XXXXX", " D D ", "AAAAA", "X   X", "XEEEX", "X   X", "AAAAA")
         .pattern("XXXXX", "     ", "AAAAA", "X E X", "FE EF", "X E X", "AAAAA")
         .pattern("XXXXX", " D D ", "AAAAA", "X   X", "XEEEX", "X   X", "AAAAA")
@@ -16,6 +16,9 @@ MMCREvents.server(event => {
             api.block('mmcr:parallel_controller_normal'), // 4
             api.block('mmcr:parallel_controller_plus'), // 16
             api.block('mmcr:parallel_controller_reinforced'))) // 64
+        .set('U', api.anyOf(
+            api.block('mmcr:basic_casing'),
+            api.block('mmcr:upgrade_bus_normal'))) // 4
         .set('A', api.block('createnuclear:reactor_casing'))
         .set('B', api.anyOf(
             api.state('create:encased_chain_drive[axis=z,axis_along_first=true]'),

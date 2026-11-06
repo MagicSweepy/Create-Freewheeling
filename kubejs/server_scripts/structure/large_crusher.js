@@ -5,7 +5,7 @@ MMCREvents.server(event => {
         .pattern("AAA XXXXXXX", "BBB E     E", "DDD X F F X")
         .pattern("AAA XXXXXXX", "BBBGE     E", "DDD X F F X")
         .pattern("XXX XXXXXXX", "XXX E     E", "    X F F X")
-        .pattern("XXX XXXXXXX", "XCXGE     E", " H  X F F X")
+        .pattern("XUX XXXXXXX", "XCXGE     E", " H  X F F X")
         .pattern("    XXXXXXX", "    E     E", "    X F F X")
         .pattern("    XXXXXXX", "    XXXXXXX", "    XXXXXXX")
         .set('X', api.anyOf(
@@ -16,6 +16,9 @@ MMCREvents.server(event => {
             api.block('mmcr:parallel_controller_normal'), // 4
             api.block('mmcr:parallel_controller_plus'), // 16
             api.block('mmcr:parallel_controller_reinforced'))) // 64
+        .set('U', api.anyOf(
+            api.block('create:brass_casing'),
+            api.block('mmcr:upgrade_bus_reinforced'))) // 6
         .set('A', api.state('createaddition:modular_accumulator[bottom=true,top=false]'))
         .set('B', api.state('createaddition:modular_accumulator[bottom=false,top=false]'))
         .set('D', api.state('createaddition:modular_accumulator[bottom=false,top=true]'))

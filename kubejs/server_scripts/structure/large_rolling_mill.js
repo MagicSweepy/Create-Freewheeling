@@ -1,7 +1,7 @@
 MMCREvents.server(event => {
     const api = event.getAPI()
     event.createStructure("kubejs:large_rolling_mill")
-        .pattern("XXXXX", "     ", "     ", "     ", "     ")
+        .pattern("XXUXX", "     ", "     ", "     ", "     ")
         .pattern("XXXXX", " A A ", " A A ", " A A ", " A A ")
         .pattern("XXXXX", "     ", " E E ", "     ", " E E ")
         .pattern("XXXXX", "     ", " E E ", "     ", " E E ")
@@ -16,6 +16,9 @@ MMCREvents.server(event => {
             api.block('mmcr:parallel_controller_normal'), // 4
             api.block('mmcr:parallel_controller_plus'), // 16
             api.block('mmcr:parallel_controller_reinforced'))) // 64
+        .set('U', api.anyOf(
+            api.block('createcasing:zinc_casing'),
+            api.block('mmcr:upgrade_bus_normal'))) // 4
         .set('A', api.anyOf(
             api.state('create:encased_chain_drive[axis=z,axis_along_first=false]'),
             api.state('createcasing:brass_encased_chain_drive[axis=z,axis_along_first=false]'),

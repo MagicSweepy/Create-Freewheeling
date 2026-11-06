@@ -4,7 +4,7 @@ MMCREvents.server(event => {
         .pattern(" AAXXXXXX", " BBXXXXXX", " BBXXXXXX", " DDXXXXX ")
         .pattern("XAAEFFFGE", "XBBE    E", "XBBEHHHIE", " DDXEEEX ")
         .pattern("XXXEFFFGE", "X XE    E", "XXXEHHHIE", "   XEEEX ")
-        .pattern("XXXXXXXXX", "XCXXJJJJX", "XXXXJJJJX", " K XXXXX ")
+        .pattern("XUXXXXXXX", "XCXXJJJJX", "XXXXJJJJX", " K XXXXX ")
         .set('X', api.anyOf(
             api.block('create:railway_casing'),
             api.tag('mmcr:item_input_ports'),
@@ -14,6 +14,9 @@ MMCREvents.server(event => {
             api.block('mmcr:parallel_controller_normal'), // 4
             api.block('mmcr:parallel_controller_plus'), // 16
             api.block('mmcr:parallel_controller_reinforced'))) // 64
+        .set('U', api.anyOf(
+            api.block('create:railway_casing'),
+            api.block('mmcr:upgrade_bus_normal'))) // 4
         .set('A', api.state('createaddition:modular_accumulator[bottom=true,top=false]'))
         .set('B', api.state('createaddition:modular_accumulator[bottom=false,top=false]'))
         .set('D', api.state('createaddition:modular_accumulator[bottom=false,top=true]'))

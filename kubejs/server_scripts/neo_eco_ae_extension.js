@@ -89,4 +89,6 @@ ServerEvents.recipes(event => {
 
     event.recipes.lychee.block_clicking( [ SizedIngredientWrapper.of('neoecoae:energized_fluix_crystal') ],
         BlockPredicateWrapper.block('extendedae:entro_block'), [ postBuilder.dropItem('neoecoae:crystal_ingot') ])
+
+    event.remove({ id: 'neoecoae:crystal_matrix' })
 })

@@ -1,0 +1,33 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_fluid": {
+    "amount": 200,
+    "ingredient": {
+      "fluid": "createnuclear:nitrogen"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "create:refined_radiance_casing"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "tag": "c:plates/aluminum_alloy"
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "tag": "c:plates/entro"
+      }
+    }
+  ],
+  "output": {
+    "count": 2,
+    "id": "extendedae:assembler_matrix_frame"
+  }
+}

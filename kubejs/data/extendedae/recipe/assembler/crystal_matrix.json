@@ -1,0 +1,21 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_fluid": {
+    "amount": 200,
+    "ingredient": {
+      "fluid": "kubejs:oxygen"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 5,
+      "ingredient": {
+        "item": "neoecoae:crystal_ingot"
+      }
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "neoecoae:crystal_matrix"
+  }
+}

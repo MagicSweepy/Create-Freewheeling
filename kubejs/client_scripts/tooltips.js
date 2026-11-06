@@ -68,4 +68,49 @@ ItemEvents.modifyTooltips(event => {
     event.add(pairIds, Text.translate('kubejs.tooltip.chorium_dyed').gray())
     event.add('create:chromatic_compound', Text.translate('kubejs.tooltip.chromatic_compound.dyed.1').gray())
     event.add('create:chromatic_compound', Text.translate('kubejs.tooltip.chromatic_compound.dyed.2').gray())
+
+    event.add('kubejs:speed_module_mk1', [
+        Text.translate('kubejs.tooltip.module.duration_mul', '§f0.96').gray(),
+        Text.translate('kubejs.tooltip.module.energy_mul', '§e1.08').gray(),
+        Text.translate('kubejs.tooltip.module.hint').darkGray() ])
+
+    event.add('kubejs:speed_module_mk2', [
+        Text.translate('kubejs.tooltip.module.duration_mul', '§f0.93').gray(),
+        Text.translate('kubejs.tooltip.module.energy_mul', '§e1.15').gray(),
+        Text.translate('kubejs.tooltip.module.hint').darkGray() ])
+
+    event.add('kubejs:speed_module_mk3', [
+        Text.translate('kubejs.tooltip.module.duration_mul', '§f0.90').gray(),
+        Text.translate('kubejs.tooltip.module.energy_mul', '§e1.25').gray(),
+        Text.translate('kubejs.tooltip.module.hint').darkGray() ])
+
+    event.add('kubejs:productivity_module_mk1', [
+        Text.translate('kubejs.tooltip.module.output_mul', '§d1.04').gray(),
+        Text.translate('kubejs.tooltip.module.duration_mul', '§f1.05').gray(),
+        Text.translate('kubejs.tooltip.module.energy_mul', '§e1.10').gray(),
+        Text.translate('kubejs.tooltip.module.hint').darkGray() ])
+
+    event.add('kubejs:productivity_module_mk2', [
+        Text.translate('kubejs.tooltip.module.output_mul', '§d1.06').gray(),
+        Text.translate('kubejs.tooltip.module.duration_mul', '§f1.08').gray(),
+        Text.translate('kubejs.tooltip.module.energy_mul', '§e1.15').gray(),
+        Text.translate('kubejs.tooltip.module.hint').darkGray() ])
+
+    event.add('kubejs:productivity_module_mk3', [
+        Text.translate('kubejs.tooltip.module.output_mul', '§d1.08').gray(),
+        Text.translate('kubejs.tooltip.module.duration_mul', '§f1.12').gray(),
+        Text.translate('kubejs.tooltip.module.energy_mul', '§e1.22').gray(),
+        Text.translate('kubejs.tooltip.module.hint').darkGray() ])
+
+    event.add('kubejs:efficiency_module_mk1', [
+        Text.translate('kubejs.tooltip.module.energy_mul', '§e0.96').gray(),
+        Text.translate('kubejs.tooltip.module.hint').darkGray() ])
+
+    event.add('kubejs:efficiency_module_mk2', [
+        Text.translate('kubejs.tooltip.module.energy_mul', '§e0.93').gray(),
+        Text.translate('kubejs.tooltip.module.hint').darkGray() ])
+
+    event.add('kubejs:efficiency_module_mk3', [
+        Text.translate('kubejs.tooltip.module.energy_mul', '§e0.90').gray(),
+        Text.translate('kubejs.tooltip.module.hint').darkGray() ])
 })

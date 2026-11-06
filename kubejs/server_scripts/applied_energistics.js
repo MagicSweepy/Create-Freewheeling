@@ -77,5 +77,77 @@ ServerEvents.recipes(event => {
         B: 'ae2:fluix_block'
     })
 
+    event.remove({ id: 'ae2:network/blocks/pattern_providers_interface' })
+    event.shaped('ae2:pattern_provider',
+    [
+        'PXP',
+        'ACB',
+        'PWP'
+    ],
+    {
+        C: 'create:stock_ticker',
+        A: 'ae2:annihilation_core',
+        B: 'ae2:formation_core',
+        W: '#ae2:glass_cable',
+        X: 'ae2:calculation_processor',
+        P: '#c:plates/refined_radiance'
+    })
 
+    event.remove({ id: 'ae2:network/blocks/interfaces_interface' })
+    event.shaped('ae2:interface',
+    [
+        'PXP',
+        'ACB',
+        'PWP'
+    ],
+    {
+        A: 'ae2:annihilation_core',
+        B: 'ae2:formation_core',
+        C: 'create:package_frogport',
+        W: '#ae2:glass_cable',
+        X: 'ae2:engineering_processor',
+        P: '#c:plates/refined_radiance'
+    })
+
+    event.remove({ id: 'ae2:network/crafting/molecular_assembler' })
+    event.shaped('ae2:molecular_assembler',
+    [
+        'PGP',
+        'ACB',
+        'PWP'
+    ],
+    {
+        C: 'create:mechanical_crafter',
+        W: '#ae2:glass_cable',
+        P: '#c:plates/refined_radiance',
+        A: 'ae2:annihilation_core',
+        B: 'ae2:formation_core',
+        G: 'ae2:quartz_glass'
+    })
+
+    event.remove({ id: 'ae2:network/parts/import_bus' })
+    event.shaped('ae2:import_bus',
+    [
+        '   ',
+        ' A ',
+        'PFP'
+    ],
+    {
+        A: 'ae2:annihilation_core',
+        F: 'create:brass_funnel',
+        P: '#c:plates/certus_quartz'
+    })
+
+    event.remove({ id: 'ae2:network/parts/export_bus' })
+    event.shaped('ae2:export_bus',
+    [
+        '   ',
+        'PAP',
+        ' F '
+    ],
+    {
+        F: 'create:brass_funnel',
+        P: '#c:plates/certus_quartz',
+        A: 'ae2:formation_core'
+    })
 })

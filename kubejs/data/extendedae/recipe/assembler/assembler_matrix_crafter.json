@@ -1,0 +1,31 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_items": [
+    {
+      "ingredient": {
+        "item": "extendedae:assembler_matrix_wall"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "extendedae:ex_molecular_assembler"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "extendedae:concurrent_processor"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "kubejs:productivity_module_mk1"
+      }
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "extendedae:assembler_matrix_crafter"
+  }
+}

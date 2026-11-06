@@ -442,7 +442,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["0225CCC480D03D2A"]
+			dependencies: [
+				"0225CCC480D03D2A"
+				"1DB3A9F80BBE0A10"
+			]
 			id: "5C6755FD44B0D612"
 			tasks: [{
 				id: "63E3300E03E7A4D0"
@@ -469,6 +472,140 @@
 			]
 			x: -5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59BDB61AED5856AD"
+				"5C6755FD44B0D612"
+				"76AFBD963D8EDF9B"
+			]
+			id: "3E319270C4E0908B"
+			tasks: [
+				{
+					id: "7FE9AFC3857A4A18"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:modules)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "10AB85EB9D1EF66C"
+					item: { count: 1, id: "mmcr:upgrade_bus_normal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17BF6BA03D3F5E3A"
+					item: { count: 1, id: "mmcr:upgrade_bus_reinforced" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["59BDB61AED5856AD"]
+			id: "1DB3A9F80BBE0A10"
+			tasks: [{
+				id: "091F956BDA8249BB"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"1DB3A9F80BBE0A10"
+				"76AFBD963D8EDF9B"
+			]
+			id: "50A1B2A7B0262870"
+			tasks: [
+				{
+					id: "3B0C36964CC21050"
+					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+					type: "item"
+				}
+				{
+					id: "4B3743DED6B3B7CB"
+					item: { count: 1, id: "extendedae:assembler_matrix_wall" }
+					type: "item"
+				}
+				{
+					id: "26EBDA70D232ED90"
+					item: { count: 1, id: "extendedae:assembler_matrix_glass" }
+					type: "item"
+				}
+				{
+					id: "30F6AE858C7B6340"
+					item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
+					type: "item"
+				}
+				{
+					id: "47B68E9D93A1F853"
+					item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
+					type: "item"
+				}
+				{
+					id: "5EE155F4679A9114"
+					item: { count: 1, id: "extendedae:assembler_matrix_speed" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1DB3A9F80BBE0A10"]
+			id: "543B0C625C5B1AF8"
+			tasks: [
+				{
+					id: "7C36B4823EF37848"
+					item: { count: 1, id: "extendedae:ex_drive" }
+					type: "item"
+				}
+				{
+					id: "53BBA6266EF45A28"
+					item: { count: 1, id: "extendedae:ex_molecular_assembler" }
+					type: "item"
+				}
+				{
+					id: "1EDD48039AF5BE00"
+					item: { count: 1, id: "extendedae:ex_pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "6E2CC73E62C1227A"
+					item: { count: 1, id: "extendedae:ex_interface" }
+					type: "item"
+				}
+				{
+					id: "6822955E8374939D"
+					item: { count: 1, id: "extendedae:oversize_interface" }
+					type: "item"
+				}
+				{
+					id: "41ACF46CC5702ACA"
+					item: { count: 1, id: "extendedae:vacuum_interface" }
+					type: "item"
+				}
+				{
+					id: "5C5E299B3F9A132D"
+					item: { count: 1, id: "extendedae:ex_io_port" }
+					type: "item"
+				}
+				{
+					id: "59B06EF93F84B6AE"
+					item: { count: 1, id: "extendedae:ex_import_bus_part" }
+					type: "item"
+				}
+				{
+					id: "7C1E652E46061A0D"
+					item: { count: 1, id: "extendedae:ex_export_bus_part" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 20.0d
 		}
 	]
 }

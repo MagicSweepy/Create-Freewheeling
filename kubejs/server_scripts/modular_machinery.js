@@ -138,6 +138,20 @@ ServerEvents.recipes(event => {
         B: 'mmcr:basic_casing'
     })
 
+    event.shaped('mmcr:lightning_processor_controller',
+    [
+        'ALA',
+        'DCD',
+        'AEA'
+    ],
+    {
+        C: 'create:shadow_steel_casing',
+        D: '#c:plates/energized_certus_quartz',
+        A: '#c:plates/shadow_steel',
+        L: 'ae2:logic_processor',
+        E: 'ae2:engineering_processor'
+    })
+
     // #region Input Buses
 
     event.remove({ output: 'mmcr:item_input_bus_tiny' })
@@ -924,5 +938,38 @@ ServerEvents.recipes(event => {
     //     X: ''
     // })
     
+    // #endregion
+
+    // #region Upgrade Bus
+
+    event.remove({ output: 'mmcr:upgrade_bus_normal' })
+    event.shaped('mmcr:upgrade_bus_normal',
+    [
+        'PMP',
+        'ACA',
+        'PBP'
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        M: 'neoecoae:crystal_matrix',
+        A: 'neoecoae:superconducting_processor',
+        B: 'extendedae:concurrent_processor',
+        P: '#c:plates/energized_fluix'
+    })
+
+    event.remove({ output: 'mmcr:upgrade_bus_reinforced' })
+    event.shaped('mmcr:upgrade_bus_reinforced',
+    [
+        'PAP',
+        'BCB',
+        'PAP'
+    ],
+    {
+        C: 'mmcr:upgrade_bus_normal',
+        A: 'neoecoae:superconducting_processor',
+        B: 'extendedae:concurrent_processor',
+        P: '#c:plates/energized_superconductive'
+    })
+
     // #endregion
 })

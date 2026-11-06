@@ -1,0 +1,27 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_items": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "ae2:molecular_assembler"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "createimp:batch_mechanical_crafter"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "extendedae:concurrent_processor"
+      }
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "extendedae:ex_molecular_assembler"
+  }
+}

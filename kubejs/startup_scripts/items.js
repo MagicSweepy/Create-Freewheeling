@@ -1,4 +1,6 @@
 const CHROMATIC_DYES = [ 'red', 'yellow', 'blue', 'brown', 'white', 'black' ]
+const MODULE_FAMILIES = ['speed', 'productivity', 'efficiency']
+const MODULE_TIERS = ['mk1', 'mk2', 'mk3']
 
 StartupEvents.registry('item', event => {
     event.create('cake_mechanism').food(food => { food
@@ -55,4 +57,10 @@ StartupEvents.registry('item', event => {
     event.create('energized_superconductive_sheet').tag('c:plates').tag('c:plates/energized_superconductive')
     event.create('entro_sheet').tag('c:plates').tag('c:plates/entro')
     event.create('supercapacitor')
+
+    MODULE_FAMILIES.forEach(family => {
+        MODULE_TIERS.forEach(tier => {
+            event.create(`${family}_module_${tier}`).tag('kubejs:modules').maxStackSize(1)
+        })
+    })
 })

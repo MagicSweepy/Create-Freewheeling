@@ -1,0 +1,15 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_quest_size: 4.0d
+	filename: "43a3962e352ae163"
+	group: "4C199C837851BE40"
+	icon: {
+		id: "neoecoae:aluminum_alloy_casing"
+	}
+	id: "43A3962E352AE163"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

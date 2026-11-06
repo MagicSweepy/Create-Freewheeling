@@ -100,4 +100,39 @@ ServerEvents.recipes(event => {
         P: 'extendedae:concurrent_processor',
         A: '#c:plates/aluminum_alloy'
     })
+
+    event.remove({ output: 'extendedae:crystal_assembler' })
+    event.shaped('extendedae:crystal_assembler',
+    [
+        'PTP',
+        'LCE',
+        'PXP'
+    ],
+    {
+        C: 'create:refined_radiance_casing',
+        T: 'ae2:crafting_terminal',
+        P: '#c:plates/entro',
+        X: 'extendedae:concurrent_processor',
+        L: 'ae2:logic_processor',
+        E: 'ae2:engineering_processor'
+    })
+
+    event.remove({ id: 'extendedae:assembler/concurrent_press' })
+    event.recipes.create.deploying('extendedae:concurrent_processor_press', [ 'ae2:silicon_press', 'kubejs:entro_sheet' ])
+
+    event.remove({ id: 'extendedae:assembler/fluix_transformation' })
+    event.remove({ id: 'extendedae:assembler/logic_processor' })
+    event.remove({ id: 'extendedae:assembler/engineering_processor' })
+    event.remove({ id: 'extendedae:assembler/concurrent_processor' })
+    event.remove({ id: 'neoecoae:crystal_assembler/superconducting_processor' })
+
+    event.remove({ id: 'extendedae:transform/entro_ingot' })
+    event.remove({ id: 'extendedae:assembler/entro_ingot_transformation' })
+    event.remove({ id: 'extendedae:machine_frame' })
+    event.remove({ id: 'extendedae:machine_frame_mirror' })
+
+    event.remove({ id: 'extendedae:assembler_matrix_frame' })
+    event.remove({ id: 'extendedae:assembler_matrix_wall' })
+    event.remove({ id: 'extendedae:assembler_matrix_glass' })
+    event.recipes.create.deploying('extendedae:assembler_matrix_glass', [ 'extendedae:assembler_matrix_wall', 'createnuclear:reinforced_glass' ])
 })

@@ -7,7 +7,7 @@ MMCREvents.server(event => {
         .pattern("XXXXXXX", " AXBXA ", " AXBXA ", " AXXXA ", "   C   ")
         .pattern("  XXX  ", "  XXX  ", "  XXX  ", "  XXX  ", "       ")
         .pattern("   X   ", "   A   ", "   A   ", "   A   ", "       ")
-        .pattern("   X   ", "       ", "       ", "       ", "       ")
+        .pattern("   U   ", "       ", "       ", "       ", "       ")
         .set('X', api.anyOf(
             api.block('create:shadow_steel_casing'),
             api.tag('mmcr:item_input_ports'),
@@ -19,6 +19,9 @@ MMCREvents.server(event => {
             api.block('mmcr:parallel_controller_reinforced'), // 64
             api.block('mmcr:parallel_controller_pro'), // 256
             api.block('mmcr:factory_controller'))) 
+        .set('U', api.anyOf(
+            api.block('create:shadow_steel_casing'),
+            api.block('mmcr:upgrade_bus_reinforced'))) // 6
         .set('A', api.anyOf(
             api.block('neoecoae:energized_crystal_block'),
             api.block('neoecoae:energized_fluix_crystal_block'),
