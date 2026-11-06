@@ -1,0 +1,13 @@
+name = "Lopy's Create Style Pipez"
+filename = "Lopy-Create-Pipez.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "beb8333c34b897f1e5dfd0a607753ac73d66e4b9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4691998
+project-id = 901091

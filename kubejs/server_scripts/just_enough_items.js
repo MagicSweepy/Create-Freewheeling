@@ -94,6 +94,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('functionalstorage:obsidian_upgrade')
     event.remove('mmcr:modularium')
     event.remove('createaddition:seed_oil_bucket')
+    event.remove('pipez:wrench')
+    event.remove('pipez:gas_pipe')
 })
 
 RecipeViewerEvents.removeEntriesCompletely('fluid', event => {

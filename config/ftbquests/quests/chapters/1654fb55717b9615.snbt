@@ -446,5 +446,23 @@
 			x: 30.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["5635F0C0F51B06FF"]
+			id: "2B2D6B4837283777"
+			tasks: [
+				{
+					id: "66F9A73F1CED1C27"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kubejs:pipes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4E6F5E21BA56EF91"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pipez:upgrades)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -5.0d
+		}
 	]
 }

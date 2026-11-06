@@ -38,11 +38,11 @@ hash = "2368e1bedb2641710ad6765f0c0d9bb2e503e5218913293a97cefa74e78a4b43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1447f4a377d057b9.snbt"
-hash = "17ce0a31c65ef12651a750a6f58cecd80f7fb447ada4fc8c3b2a7922f0c9ba2d"
+hash = "bf8c9697c706e05ac7ca140f99f134d4a162e8e6a8ee0b8263699533d9952044"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1654fb55717b9615.snbt"
-hash = "329fce4c8b8615a7d817b4151f91ea573b7ab52a8858816e5fedf13e42fc86ae"
+hash = "de72d4778de9955ff4d01ab68ec1f7f762b594ff63d48c0031738d7562854af9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
@@ -74,7 +74,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "bc71c0e7f79a5a135a75ad33c696b49a0e202832428d204a2049d92f3ca3e9af"
+hash = "142384891c9022718d0b8f039ddf3a3fc54d21c36b33ef78cebd092b178a9ece"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -86,7 +86,7 @@ hash = "d9aecebae2bef8e2eb5927228c06591a8ce3a7be11e793307f73fbdc3e4017d6"
 
 [[files]]
 file = "config/tofneo_packs.json"
-hash = "256f4268f63ecfcc377b9eba3bd0192f596f094f0bd4100344ca2ce806f3c0b9"
+hash = "976cedef0516c6e73e567bd6444ba997c92a32f1843112b7e00d8cc214a60c05"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -794,7 +794,7 @@ hash = "ace1882e75b4898d91953158704874338f5fb076836b40e7b00e3a5c7b52000f"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "2848f3e19c50f18b4f77465328db90e5a3a76ed1fdddb21f107e501e3f04a278"
+hash = "c2e9a07ff1cebda89f56db85c482f7209f263a4d9d558c3adf7b22897be6d08c"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
@@ -815,6 +815,10 @@ hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
 [[files]]
 file = "kubejs/server_scripts/neo_eco_ae_extension.js"
 hash = "2a8c89e3d76d9c2ff8d2b5495a1e6cbab95b100e0b26caf41203ff04160bb190"
+
+[[files]]
+file = "kubejs/server_scripts/pipez.js"
+hash = "9bc7248ed45671579930185e4052d2dd099083977d5033713ee6a334f6f7e5ff"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/chemical_reactor.js"
@@ -906,7 +910,7 @@ hash = "16c8499cee9faea7c6df57fecea36af55682a484ddeb91c7d288c3b070859d98"
 
 [[files]]
 file = "local/tofneo_packs/seen.txt"
-hash = "cca085046d4ed147b61c2eabaf2e4029c89b188fa7eae661c952268980125694"
+hash = "fdf9266c402a514093190996f4c00930463394a81f91336829ffb55c9f451a7a"
 
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
@@ -1229,6 +1233,11 @@ hash = "4654c205037b88fb22c0dfe3b86f54e1b01d5d35c272494e9ad7abb68594e4c6"
 metafile = true
 
 [[files]]
+file = "mods/pipez.pw.toml"
+hash = "3c4fbbd6d5cfcb5ac1faaf56fc85ae79194f3c0155013afc39e4fed20a3812c1"
+metafile = true
+
+[[files]]
 file = "mods/re-avaritia.pw.toml"
 hash = "d9d78cb442bc4c7b2a5917f2e57968750762558eb381a2a630dd0d5e6244e0cc"
 metafile = true
@@ -1340,7 +1349,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "d548af5c5878244a584b05d756bc3e64dddcd5f0db1dd4d04898fc58da3cbe55"
+hash = "ca259a32b9b3f9cf0630e4a2906425002b57d3835d7df1c23b797dfa900440dd"
 
 [[files]]
 file = "resourcepacks/create-functional-storage.pw.toml"
@@ -1350,6 +1359,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/create-mcgui.pw.toml"
 hash = "2d6b980b2291ff09376f7475390770b83b4394668e472cd95a3f374e6c079630"
+metafile = true
+
+[[files]]
+file = "resourcepacks/create-pipez.pw.toml"
+hash = "707206288e14264223567b168688472d1514f6376c53a02b603cae7845a268a7"
 metafile = true
 
 [[files]]
