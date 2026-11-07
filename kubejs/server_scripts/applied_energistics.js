@@ -150,4 +150,46 @@ ServerEvents.recipes(event => {
         P: '#c:plates/certus_quartz',
         A: 'ae2:formation_core'
     })
+
+    event.remove({ id: 'ae2:tools/network_memory_card' })
+    event.shaped('ae2:memory_card',
+    [
+        '   ',
+        'XPP',
+        'ARA'
+    ],
+    {
+        X: 'ae2:calculation_processor',
+        P: '#c:plates/aluminum',
+        A: '#c:plates/electrum',
+        R: 'kubejs:integrated_circuit'
+    })
+
+    event.remove({ id: 'ae2:materials/basiccard' })
+    event.shaped('4x ae2:basic_card',
+    [
+        'AP ',
+        'RXP',
+        'AP '
+    ],
+    {
+        A: '#c:plates/electrum',
+        P: '#c:plates/aluminum',
+        X: 'ae2:calculation_processor',
+        R: 'kubejs:integrated_circuit'
+    })
+
+    event.remove({ id: 'ae2:materials/advancedcard' })
+    event.shaped('4x ae2:advanced_card',
+    [
+        'AP ',
+        'RXP',
+        'AP '
+    ],
+    {
+        A: '#c:plates/diamond',
+        P: '#c:plates/aluminum_alloy',
+        X: 'ae2:calculation_processor',
+        R: 'kubejs:integrated_circuit'
+    })
 })

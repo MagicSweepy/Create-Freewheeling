@@ -14,3 +14,6 @@ ServerEvents.tags('block', event => {
     event.add('create:wrench_pickup', 'avaritia:nether_crafting_table')
     event.add('create:wrench_pickup', 'avaritia:extreme_crafting_table')
 })
+
+ServerEvents.recipes(event => {
+})

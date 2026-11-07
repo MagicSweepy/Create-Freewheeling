@@ -182,7 +182,7 @@ MMCREvents.startup(event => {
         .register()
 
     event.createMachine('kubejs:lightning_processor')
-        .displayNameKey('machine.kubejs.lightning_processor')
+        .displayNameKey('machine.kubejs.lightning_processor.name')
         .recipePool('kubejs:lightning_processor')
         .controllerBaseTexture('create:block/shadow_steel_casing')
         .formedPortBaseTexture('create:block/shadow_steel_casing')

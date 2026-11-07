@@ -863,7 +863,30 @@ ServerEvents.recipes(event => {
         .priority(3)
         .build()
 
-    // #region Sequenced Assembly Contents
+    // #region Misc Contents
+
+    new $MachineRecipeBuilderJS('kubejs:large_assembler/basin')
+        .recipePool('kubejs:large_assembler')
+        .notConsumableItemInput('frequency:brass_symbol_5', 1)
+        .tagInput('c:ingots/andesite_alloy', 80)
+        .itemOutput('create:basin', 16)
+        .iFEt(32)
+        .tickTime(100)
+        .parallelized()
+        .priority(2)
+        .build()
+
+    new $MachineRecipeBuilderJS('kubejs:large_assembler/copper_basin')
+        .recipePool('kubejs:large_assembler')
+        .notConsumableItemInput('frequency:brass_symbol_6', 1)
+        .tagInput('c:ingots/andesite_alloy', 48)
+        .tagInput('c:ingots/copper', 64)
+        .itemOutput('fluidlogistics:copper_basin', 16)
+        .iFEt(32)
+        .tickTime(100)
+        .parallelized()
+        .priority(2)
+        .build()
 
     new $MachineRecipeBuilderJS('kubejs:large_assembler/precision_mechanism')
         .recipePool('kubejs:large_assembler')
@@ -879,11 +902,50 @@ ServerEvents.recipes(event => {
         .priority(2)
         .build()
 
+    new $MachineRecipeBuilderJS('kubejs:large_assembler/mechanical_arm')
+        .recipePool('kubejs:large_assembler')
+        .notConsumableItemInput('frequency:brass_symbol_4', 1)
+        .itemInput('create:brass_casing', 16)
+        .itemInput('create:precision_mechanism', 16)
+        .tagInput('c:plates/brass', 48)
+        .tagInput('c:ingots/andesite_alloy', 16)
+        .itemOutput('create:mechanical_arm', 16)
+        .iFEt(32)
+        .tickTime(200)
+        .parallelized()
+        .priority(2)
+        .build()
+    
+    new $MachineRecipeBuilderJS('kubejs:large_assembler/rotation_speed_controller')
+        .recipePool('kubejs:large_assembler')
+        .notConsumableItemInput('frequency:brass_symbol_2', 1)
+        .itemInput('create:brass_casing', 16)
+        .itemInput('create:precision_mechanism', 16)
+        .itemOutput('create:rotation_speed_controller', 16)
+        .iFEt(32)
+        .tickTime(200)
+        .parallelized()
+        .priority(2)
+        .build()
+
+    new $MachineRecipeBuilderJS('kubejs:large_assembler/mechanical_fluid_gun')
+        .recipePool('kubejs:large_assembler')
+        .notConsumableItemInput('frequency:brass_symbol_3', 1)
+        .itemInput('create:copper_casing', 16)
+        .itemInput('create:precision_mechanism', 16)
+        .tagInput('create:spounts', 16)
+        .itemOutput('fluidlogistics:mechanical_fluid_gun', 16)
+        .iFEt(32)
+        .tickTime(200)
+        .parallelized()
+        .priority(2)
+        .build()
+
     // TODO: Other recipes when Sequenced Assembly part modification finished.
 
-    // #endregion
-
     // TODO: Create: Fluid Logistics recipes?
+
+    // #endregion
 
     new $MachineRecipeBuilderJS('kubejs:large_assembler/integrated_circuit')
         .recipePool('kubejs:large_assembler')

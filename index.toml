@@ -533,6 +533,22 @@ file = "kubejs/data/ae2/recipe/inscriber/logic_processor_print.json"
 hash = "03ae5015d2c986fd2e893a3efdd61325cf7fb197b80b2c473f24765342ceef91"
 
 [[files]]
+file = "kubejs/data/avaritia/recipe/extended_energy_input_hatch_ultimate.json"
+hash = "e889540c6f59931436172ef304a6100b821f3c3f7d27db5788d49ceb4ba037fc"
+
+[[files]]
+file = "kubejs/data/avaritia/recipe/extended_energy_output_hatch_ultimate.json"
+hash = "8e5244d638377e124e5f7727b8ae06029f1d892a62ebc91eae097dae8d8e8abb"
+
+[[files]]
+file = "kubejs/data/avaritia/recipe/parallel_controller_ultimate.json"
+hash = "d57741d8dd6d657b06f5033036229e1caa487356a0bd94d1b4e413415600baa4"
+
+[[files]]
+file = "kubejs/data/avaritia/recipe/upgrade_bus_ultimate.json"
+hash = "56da37c577f4abb5f717ad5d879657e0a3528f118485527cc6399e0a775b0006"
+
+[[files]]
 file = "kubejs/data/create/recipe/sequenced_assembly/precision_mechanism.json"
 hash = "94067ba409b7ce0728252ab09d215e7b23bb9546019b47950574909df9c00297"
 
@@ -690,7 +706,7 @@ hash = "7b565ebceb26a557baf8c290341dde20f03d306cc7081eb835e6d56683740a6c"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
-hash = "435d81bafa9f1857907f0e6cd9426610f31d14cabde182ef461694de2cf04ee0"
+hash = "90f4efaa89ab461e1d8b1ac8808bfa3939ce42a32be5d4ef436d7c8ff3374a3a"
 
 [[files]]
 file = "kubejs/server_scripts/atmosphere.js"
@@ -698,7 +714,7 @@ hash = "f732f18c3fe302fb924c1a7cba84b004d643982de0c3affcbfcdc90f2117837f"
 
 [[files]]
 file = "kubejs/server_scripts/avaritia.js"
-hash = "de58aba2df8639faf71d708f1e9394860ce6bb9c3156c15b0ba0c119b7231391"
+hash = "ce425cfe7314d941b456400fb9ba4d0c4fa827d13e11299f2874b698fb150ee3"
 
 [[files]]
 file = "kubejs/server_scripts/chain/amethyst_chain.js"
@@ -806,7 +822,7 @@ hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
 
 [[files]]
 file = "kubejs/server_scripts/modular_machinery.js"
-hash = "a3cd2e852d5a97b047dea0e8f3eb60688e6a5b75e1a05deb5b78189c253bd4b9"
+hash = "a29fbdc33261be5675cf0f168ac0f0a025ac6e611a7ae9ec46e41affade5a5d1"
 
 [[files]]
 file = "kubejs/server_scripts/neapolitan.js"
@@ -830,7 +846,7 @@ hash = "6d7a42922b4cc27ae3cb47c434aed67dbcf9e2f366c51fc3599245214ca04fcf"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
-hash = "6c5311d6bc5e3c7b6d0e3ce58316955b7fc7e7f62277f5199d32ff73f8b74a48"
+hash = "4940065f3d02a77430d509d17a9152541361f61d55636dd745dcaff819f9eca8"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_crusher.js"
@@ -842,7 +858,7 @@ hash = "98190cff659d86132532b54902aa84540f6a29ada570a3e0f99e200e616ebefb"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/lightning_processor.js"
-hash = "20f0d7485b273d618511735b0451c7aca664ba99ab82ca937a81e66437b280d2"
+hash = "f87d3f59d49bdea95353e958f6a4ac9fd1708e158ed11f6f92f928dda838a395"
 
 [[files]]
 file = "kubejs/server_scripts/structure/atmospheric_collector.js"
@@ -902,7 +918,7 @@ hash = "936485f72806e75fa6ea46e40a2e98f674ac4e8fbf292ce33fbeac23aac61f5f"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
-hash = "a4b70685f371b314a464c8d1dc655c1dcc15c1b2c70c2dcd46610b82ec6a6974"
+hash = "eed49f9ed4b2fddee6ff8605468c3b37b43ea861825d461ce2bcb919500ba327"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"

@@ -922,21 +922,7 @@ ServerEvents.recipes(event => {
         I: 'neoecoae:superconducting_processor',
     })
 
-    // TODO: Change to Avaritia Extreme Smithing Forge?
-    // event.remove({ output: 'mmcr:parallel_controller_ultimate' })
-    // event.shaped('mmcr:parallel_controller_ultimate',
-    // [
-    //     'AIA',
-    //     'BCB',
-    //     'AXA'
-    // ],
-    // {
-    //     C: 'create:refined_radiance_casing',
-    //     A: 'mmcr:parallel_controller_max',
-    //     B: '#c:plates/infinity',
-    //     I: 'kubejs:mainframe',
-    //     X: ''
-    // })
+    event.remove({ id: 'mmcr:parallel_controller_ultimate' })
     
     // #endregion
 
@@ -971,5 +957,495 @@ ServerEvents.recipes(event => {
         P: '#c:plates/energized_superconductive'
     })
 
+    event.remove({ output: 'mmcr:upgrade_bus_elite' })
+    event.shaped('mmcr:upgrade_bus_elite',
+    [
+        'PAP',
+        'BCD',
+        'PEP'
+    ],
+    {
+        C: 'mmcr:upgrade_bus_reinforced',
+        A: 'neoecoae:superconducting_processor',
+        B: 'kubejs:speed_module_mk1',
+        D: 'kubejs:productivity_module_mk1',
+        E: 'kubejs:efficiency_module_mk1',
+        P: '#plates/energized_superconductive'
+    })
+
+    event.remove({ output: 'mmcr:upgrade_bus_super' })
+    event.shaped('mmcr:upgrade_bus_super',
+    [
+        'PAP',
+        'BCD',
+        'PEP'
+    ],
+    {
+        C: 'mmcr:upgrade_bus_elite',
+        A: 'neoecoae:superconducting_processor',
+        B: 'kubejs:speed_module_mk3',
+        D: 'kubejs:productivity_module_mk3',
+        E: 'kubejs:efficiency_module_mk3',
+        P: '#plates/energized_superconductive'
+    })
+
+    event.remove({ id: 'mmcr:upgrade_bus_ultimate' })
+
     // #endregion
+
+    event.remove({ output: 'mmcr:data_storage' })
+    event.shaped('mmcr:data_storage',
+    [
+        ' D ',
+        ' C ',
+        ' L '
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        D: 'create:display_board',
+        L: 'create:display_link'
+    })
+
+    event.remove({ output: 'mmcr:network_interface' })
+    event.shaped('mmcr:network_interface',
+    [
+        ' D ',
+        ' C ',
+        ' L '
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        D: 'create:display_board',
+        L: 'extra_gauges:display_collector'
+    })
+
+    event.remove({ output: 'mmcr:smart_interface' })
+    event.shaped('mmcr:smart_interface',
+    [
+        ' X ',
+        ' C ',
+        ' O '
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        O: 'create:content_observer',
+        X: 'create:precision_mechanism'
+    })
+
+    // #region Extended Item Input Bus
+
+    event.remove({ output: 'mmcr:extended_item_input_bus_basic' })
+    event.shaped('mmcr:extended_item_input_bus_basic',
+    [
+        ' T ',
+        ' C ',
+        ' B '
+    ],
+    {
+        C: 'mmcr:item_input_bus_reinforced',
+        T: '#c:plates/tungsten',
+        B: 'create_connected:inventory_bridge'
+    })
+
+    event.remove({ output: 'mmcr:extended_item_input_bus_advanced' })
+    event.shaped('mmcr:extended_item_input_bus_advanced',
+    [
+        ' T ',
+        ' C ',
+        ' B '
+    ],
+    {
+        C: 'mmcr:item_input_bus_big',
+        T: '#c:plates/fluix',
+        B: 'create_connected:inventory_bridge'
+    })
+
+    event.remove({ output: 'mmcr:extended_item_input_bus_reinforced' })
+    event.shaped('mmcr:extended_item_input_bus_reinforced',
+    [
+        ' T ',
+        ' C ',
+        ' B '
+    ],
+    {
+        C: 'mmcr:item_input_bus_huge',
+        T: '#c:plates/chorium',
+        B: 'create_connected:inventory_bridge'
+    })
+
+    event.remove({ output: 'mmcr:extended_item_input_bus_ultimate' })
+    event.shaped('mmcr:extended_item_input_bus_ultimate',
+    [
+        ' T ',
+        ' C ',
+        ' B '
+    ],
+    {
+        C: 'mmcr:item_input_bus_ludicrous',
+        T: '#c:plates/energized_certus_quartz',
+        B: 'create_connected:inventory_bridge'
+    })
+
+    // #endregion
+
+    // #region Extended Item Output Bus
+
+    event.remove({ output: 'mmcr:extended_item_output_bus_basic' })
+    event.shaped('mmcr:extended_item_output_bus_basic',
+    [
+        ' B ',
+        ' C ',
+        ' T '
+    ],
+    {
+        C: 'mmcr:item_output_bus_reinforced',
+        T: '#c:plates/tungsten',
+        B: 'create_connected:inventory_bridge'
+    })
+
+    event.remove({ output: 'mmcr:extended_item_output_bus_advanced' })
+    event.shaped('mmcr:extended_item_output_bus_advanced',
+    [
+        ' B ',
+        ' C ',
+        ' T '
+    ],
+    {
+        C: 'mmcr:item_output_bus_big',
+        T: '#c:plates/fluix',
+        B: 'create_connected:inventory_bridge'
+    })
+
+    event.remove({ output: 'mmcr:extended_item_output_bus_reinforced' })
+    event.shaped('mmcr:extended_item_output_bus_reinforced',
+    [
+        ' B ',
+        ' C ',
+        ' T '
+    ],
+    {
+        C: 'mmcr:item_output_bus_huge',
+        T: '#c:plates/chorium',
+        B: 'create_connected:inventory_bridge'
+    })
+
+    event.remove({ output: 'mmcr:extended_item_output_bus_ultimate' })
+    event.shaped('mmcr:extended_item_output_bus_ultimate',
+    [
+        ' B ',
+        ' C ',
+        ' T '
+    ],
+    {
+        C: 'mmcr:item_output_bus_ludicrous',
+        T: '#c:plates/energized_certus_quartz',
+        B: 'create_connected:inventory_bridge'
+    })
+
+    // #endregion
+
+    // #region Extended Fluid Input Hatch
+
+    event.remove({ output: 'mmcr:extended_fluid_input_hatch_basic' })
+    event.shaped('mmcr:extended_fluid_input_hatch_basic',
+    [
+        ' T ',
+        ' C ',
+        ' B '
+    ],
+    {
+        C: 'mmcr:fluid_input_hatch_reinforced',
+        T: '#c:plates/tungsten',
+        B: 'fluidlogistics:multi_fluid_access_port'
+    })
+
+    event.remove({ output: 'mmcr:extended_fluid_input_hatch_advanced' })
+    event.shaped('mmcr:extended_fluid_input_hatch_advanced',
+    [
+        ' T ',
+        ' C ',
+        ' B '
+    ],
+    {
+        C: 'mmcr:fluid_input_hatch_big',
+        T: '#c:plates/fluix',
+        B: 'fluidlogistics:multi_fluid_access_port'
+    })
+
+    event.remove({ output: 'mmcr:extended_fluid_input_hatch_reinforced' })
+    event.shaped('mmcr:extended_fluid_input_hatch_reinforced',
+    [
+        ' T ',
+        ' C ',
+        ' B '
+    ],
+    {
+        C: 'mmcr:fluid_input_hatch_huge',
+        T: '#c:plates/chorium',
+        B: 'fluidlogistics:multi_fluid_access_port'
+    })
+
+    event.remove({ output: 'mmcr:extended_fluid_input_hatch_ultimate' })
+    event.shaped('mmcr:extended_fluid_input_hatch_ultimate',
+    [
+        ' T ',
+        ' C ',
+        ' B '
+    ],
+    {
+        C: 'mmcr:fluid_input_hatch_ludicrous',
+        T: '#c:plates/energized_certus_quartz',
+        B: 'fluidlogistics:multi_fluid_access_port'
+    })
+
+    // #endregion
+
+    // #region Extended Fluid Output Hatch
+
+    event.remove({ output: 'mmcr:extended_fluid_output_hatch_basic' })
+    event.shaped('mmcr:extended_fluid_output_hatch_basic',
+    [
+        ' B ',
+        ' C ',
+        ' T '
+    ],
+    {
+        C: 'mmcr:fluid_output_hatch_reinforced',
+        T: '#c:plates/tungsten',
+        B: 'fluidlogistics:multi_fluid_access_port'
+    })
+
+    event.remove({ output: 'mmcr:extended_fluid_output_hatch_advanced' })
+    event.shaped('mmcr:extended_fluid_output_hatch_advanced',
+    [
+        ' B ',
+        ' C ',
+        ' T '
+    ],
+    {
+        C: 'mmcr:fluid_output_hatch_big',
+        T: '#c:plates/fluix',
+        B: 'fluidlogistics:multi_fluid_access_port'
+    })
+
+    event.remove({ output: 'mmcr:extended_fluid_output_hatch_reinforced' })
+    event.shaped('mmcr:extended_fluid_output_hatch_reinforced',
+    [
+        ' B ',
+        ' C ',
+        ' T '
+    ],
+    {
+        C: 'mmcr:fluid_output_hatch_huge',
+        T: '#c:plates/chorium',
+        B: 'fluidlogistics:multi_fluid_access_port'
+    })
+
+    event.remove({ output: 'mmcr:extended_fluid_output_hatch_ultimate' })
+    event.shaped('mmcr:extended_fluid_output_hatch_ultimate',
+    [
+        ' B ',
+        ' C ',
+        ' T '
+    ],
+    {
+        C: 'mmcr:fluid_output_hatch_ludicrous',
+        T: '#c:plates/energized_certus_quartz',
+        B: 'fluidlogistics:multi_fluid_access_port'
+    })
+
+    // #endregion
+
+    // #region Extended Energy Hatch
+
+    event.remove({ output: 'mmcr:extended_energy_input_hatch_reinforced' })
+    event.shaped('mmcr:extended_energy_input_hatch_reinforced',
+    [
+        ' P ',
+        ' C ',
+        ' M '
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        P: '#c:ingots/neutronium',
+        M: 'kubejs:supercapacitor'
+    })
+
+    event.remove({ id: 'mmcr:extended_energy_input_hatch_ultimate' })
+
+    event.remove({ output: 'mmcr:extended_energy_output_hatch_reinforced' })
+    event.shaped('mmcr:extended_energy_output_hatch_reinforced',
+    [
+        ' M ',
+        ' C ',
+        ' P '
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        P: '#c:ingots/neutronium',
+        M: 'kubejs:supercapacitor'
+    })
+
+    event.remove({ id: 'mmcr:extended_energy_output_hatch_ultimate' })
+
+    // #endregion
+
+    // #region Combined Input Buffer
+
+    event.remove({ output: 'mmcr:combined_input_basic' })
+    event.shapeless('mmcr:combined_input_basic', [ 'mmcr:item_input_bus_reinforced', 'mmcr:fluid_input_hatch_reinforced' ])
+
+    event.remove({ output: 'mmcr:combined_input_advanced' })
+    event.shapeless('mmcr:combined_input_advanced', [ 'mmcr:item_input_bus_big', 'mmcr:fluid_input_hatch_big' ])
+
+    event.remove({ output: 'mmcr:combined_input_reinforced' })
+    event.shapeless('mmcr:combined_input_reinforced', [ 'mmcr:item_input_bus_huge', 'mmcr:fluid_input_hatch_huge' ])
+
+    event.remove({ output: 'mmcr:combined_input_ultimate' })
+    event.shapeless('mmcr:combined_input_ultimate', [ 'mmcr:item_input_bus_ludicrous', 'mmcr:fluid_input_hatch_ludicrous' ])
+
+    // #endregion
+
+    // #region Combined Output Buffer
+
+    event.remove({ output: 'mmcr:combined_output_basic' })
+    event.shapeless('mmcr:combined_output_basic', [ 'mmcr:item_output_bus_reinforced', 'mmcr:fluid_output_hatch_reinforced' ])
+
+    event.remove({ output: 'mmcr:combined_output_advanced' })
+    event.shapeless('mmcr:combined_output_advanced', [ 'mmcr:item_output_bus_big', 'mmcr:fluid_output_hatch_big' ])
+
+    event.remove({ output: 'mmcr:combined_output_reinforced' })
+    event.shapeless('mmcr:combined_output_reinforced', [ 'mmcr:item_output_bus_huge', 'mmcr:fluid_output_hatch_huge' ])
+
+    event.remove({ output: 'mmcr:combined_output_ultimate' })
+    event.shapeless('mmcr:combined_output_ultimate', [ 'mmcr:item_output_bus_ludicrous', 'mmcr:fluid_output_hatch_ludicrous' ])
+
+    // #endregion
+
+    // #region Extended Combined Input Buffer
+
+    event.remove({ output: 'mmcr:extended_combined_input_advanced' })
+    event.shaped('mmcr:extended_combined_input_advanced',
+    [
+        ' P ',
+        'ACB',
+        ' X '
+    ],
+    {
+        C: 'mmcr:combined_input_advanced',
+        A: 'create_connected:inventory_bridge',
+        B: 'fluidlogistics:multi_fluid_access_port',
+        P: '#c:plates/energized_certus_quartz',
+        X: 'ae2:logic_processor'
+    })
+
+    event.remove({ output: 'mmcr:extended_combined_input_reinforced' })
+    event.shaped('mmcr:extended_combined_input_reinforced',
+    [
+        ' P ',
+        'ACB',
+        ' X '
+    ],
+    {
+        C: 'mmcr:combined_input_reinforced',
+        A: 'create_connected:inventory_bridge',
+        B: 'fluidlogistics:multi_fluid_access_port',
+        P: '#c:plates/energized_fluix',
+        X: 'extendedae:concurrent_processor'
+    })
+
+    event.remove({ output: 'mmcr:extended_combined_input_ultimate' })
+    event.shaped('mmcr:extended_combined_input_ultimate',
+    [
+        ' P ',
+        'ACB',
+        ' X '
+    ],
+    {
+        C: 'mmcr:combined_input_ultimate',
+        A: 'create_connected:inventory_bridge',
+        B: 'fluidlogistics:multi_fluid_access_port',
+        P: '#c:plates/energized_superconductive',
+        X: 'neoecoae:superconducting_processor'
+    })
+
+    // #endregion
+
+    // #region Extended Combined Output Buffer
+
+    event.remove({ output: 'mmcr:extended_combined_output_advanced' })
+    event.shaped('mmcr:extended_combined_output_advanced',
+    [
+        ' X ',
+        'ACB',
+        ' P '
+    ],
+    {
+        C: 'mmcr:combined_output_advanced',
+        A: 'create_connected:inventory_bridge',
+        B: 'fluidlogistics:multi_fluid_access_port',
+        P: '#c:plates/energized_certus_quartz',
+        X: 'ae2:logic_processor'
+    })
+
+    event.remove({ output: 'mmcr:extended_combined_output_reinforced' })
+    event.shaped('mmcr:extended_combined_output_reinforced',
+    [
+        ' X ',
+        'ACB',
+        ' P '
+    ],
+    {
+        C: 'mmcr:combined_output_reinforced',
+        A: 'create_connected:inventory_bridge',
+        B: 'fluidlogistics:multi_fluid_access_port',
+        P: '#c:plates/energized_fluix',
+        X: 'extendedae:concurrent_processor'
+    })
+
+    event.remove({ output: 'mmcr:extended_combined_output_ultimate' })
+    event.shaped('mmcr:extended_combined_output_ultimate',
+    [
+        ' X ',
+        'ACB',
+        ' P '
+    ],
+    {
+        C: 'mmcr:combined_output_ultimate',
+        A: 'create_connected:inventory_bridge',
+        B: 'fluidlogistics:multi_fluid_access_port',
+        P: '#c:plates/energized_superconductive',
+        X: 'neoecoae:superconducting_processor'
+    })
+
+    // #endregion
+
+    event.remove({ output: 'mmcr:thread_disperser' })
+    event.shaped('mmcr:thread_disperser',
+    [
+        'PAP',
+        'RCR',
+        'PBP'
+    ],
+    {
+        C: 'kubejs:integrated_circuit',
+        A: 'ae2:calculation_processor',
+        B: 'ae2:logic_processor',
+        P: '#c:plates/aluminum',
+        R: '#c:rods/aluminum'
+    })
+
+    event.remove({ output: 'mmcr:key_card' })
+    event.shaped('mmcr:key_card',
+    [
+        '   ',
+        'XPP',
+        'ARA'
+    ],
+    {
+        R: 'kubejs:integrated_circuit',
+        A: '#c:plates/gold',
+        X: 'ae2:logic_processor',
+        P: '#c:plates/iron'
+    })
 })
