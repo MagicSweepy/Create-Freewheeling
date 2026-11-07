@@ -123,6 +123,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'extendedae:assembler/fluix_transformation' })
     event.remove({ id: 'extendedae:assembler/logic_processor' })
     event.remove({ id: 'extendedae:assembler/engineering_processor' })
+    event.remove({ id: 'extendedae:assembler/calculation_processor' })
     event.remove({ id: 'extendedae:assembler/concurrent_processor' })
     event.remove({ id: 'neoecoae:crystal_assembler/superconducting_processor' })
 

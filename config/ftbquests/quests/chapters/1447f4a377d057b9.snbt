@@ -618,5 +618,16 @@
 			x: 0.0d
 			y: 10.0d
 		}
+		{
+			dependencies: ["2788F68D7D72C5F9"]
+			id: "3B84B15DD34F155F"
+			tasks: [{
+				id: "758E1984C06E6231"
+				item: { count: 1, id: "mmcr:crystal_energy_storage_controller" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -5.0d
+		}
 	]
 }

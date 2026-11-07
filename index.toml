@@ -38,7 +38,7 @@ hash = "2368e1bedb2641710ad6765f0c0d9bb2e503e5218913293a97cefa74e78a4b43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1447f4a377d057b9.snbt"
-hash = "bf8c9697c706e05ac7ca140f99f134d4a162e8e6a8ee0b8263699533d9952044"
+hash = "750d515f12fd182e2f606a816e8d02aa83d160376fb8e7aa638f894c4f63f02d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1654fb55717b9615.snbt"
@@ -74,7 +74,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "142384891c9022718d0b8f039ddf3a3fc54d21c36b33ef78cebd092b178a9ece"
+hash = "0db1e7c19315d3c7487c3515fb421d7be0bb1798f937c7a90a150d27bd2bf55f"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -178,11 +178,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "94d5f25884681c8160fce34e0ef72e2fa81a04dfb1552bb1dc01b672be4afb27"
+hash = "155ed1a44db054f64c4b1c931249d2ed7782fe9b461557d6bb4c53afe2d39ff5"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "204dbab0d16d01e35061f460d57efd89efbc34d220ab0ac6a35d97933c2f1788"
+hash = "5345ec39f7e21e20d918398b214e94c6365399df70bc69dfc8d432d546103ac7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminum_alloy_sheet.png"
@@ -498,7 +498,7 @@ hash = "683608f1b6a8ccf82eb6b2c2bac1d521beb10adba33a56ab71b2a5ef0eb16d39"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "332c92d2d84b7242d8e7ba6253173becc9397c8aa23a6e8779d6457d84aef5e7"
+hash = "3e99251c78c4543dc600ea8f2d7fba958b484a71730837e245349c6447302a7a"
 
 [[files]]
 file = "kubejs/data/ae2/recipe/inscriber/calculation_processor.json"
@@ -782,7 +782,7 @@ hash = "7752509fbdcfa4c393087a38c5a531bdb4cc40c5ebf533dbe95d1e3a3d7b6c35"
 
 [[files]]
 file = "kubejs/server_scripts/extended_ae.js"
-hash = "e4b3945829a730c8e0d5d4eb853a233b0fed971ae8b08abec74dd1da2024f4de"
+hash = "9407a2ec3442feb15d26b52fc3310a037c92b39efef89bafffc2a27e4f357499"
 
 [[files]]
 file = "kubejs/server_scripts/farmers_delight.js"
@@ -857,6 +857,10 @@ file = "kubejs/server_scripts/structure/chemical_reactor.js"
 hash = "5eaf978cee2f922e4508c23bc2f0036f712dc5ffeba8c4cc0d8d6bbb4dd1ed94"
 
 [[files]]
+file = "kubejs/server_scripts/structure/crystal_energy_storage.js"
+hash = "8740291ab7437cdf3d2a964826de545524004091209846f24c5eb7d880ca4617"
+
+[[files]]
 file = "kubejs/server_scripts/structure/large_alloy_smelter.js"
 hash = "bebf2d33f907ae3036ccc9c727a5a9c06723d9a4ef2777fa8d8b190417153d7d"
 
@@ -898,7 +902,7 @@ hash = "936485f72806e75fa6ea46e40a2e98f674ac4e8fbf292ce33fbeac23aac61f5f"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
-hash = "259852480826207ec7cf9650995ddb90a437e09f0e3af9d1a6fbae6bd055542f"
+hash = "a4b70685f371b314a464c8d1dc655c1dcc15c1b2c70c2dcd46610b82ec6a6974"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"
@@ -1214,7 +1218,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "3e121ddfc447ccc93bc19803c910388418dd7b239645cc525f0be2d46b62422f"
+hash = "f0a1d86271f3faf5fdf994ff363da037dd217e3f769cae8c1a5e7c848bfe7b43"
 metafile = true
 
 [[files]]

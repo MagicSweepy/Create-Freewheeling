@@ -1,7 +1,39 @@
 const $Long = Java.loadClass('java.lang.Long')
+const $BigInteger = Java.loadClass('java.math.BigInteger')
+
+const ENERGY_CORE_TIERS = [
+    { id: 'ae2:quartz_block', capacity: $BigInteger.TEN.pow(6), nameKey: 'kubejs.crystal_energy_storage.tier.quartz' },
+    { id: 'ae2:fluix_block', capacity: $BigInteger.TEN.pow(7), nameKey: 'kubejs.crystal_energy_storage.tier.fluix' },
+    { id: 'neoecoae:energized_crystal_block', capacity: $BigInteger.TEN.pow(8), nameKey: 'kubejs.crystal_energy_storage.tier.energized_crystal' },
+    { id: 'neoecoae:energized_fluix_crystal_block', capacity: $BigInteger.TEN.pow(9), nameKey: 'kubejs.crystal_energy_storage.tier.energized_fluix' },
+    { id: 'neoecoae:energized_superconductive_block', capacity: $BigInteger.TEN.pow(10), nameKey: 'kubejs.crystal_energy_storage.tier.energized_superconductive' }
+]
+
+// ~2^53
+const ENERGY_CORE_TRANSFER = 9000000000000000
+
+function energyCoreState(ctx) {
+    var total = $BigInteger.ZERO
+    var topTier = -1
+    var kinds = 0
+
+    for (var i = 0; i < ENERGY_CORE_TIERS.length; i++) {
+        var tier = ENERGY_CORE_TIERS[i]
+        var count = ctx.countStructureBlocks(tier.id)
+        if (count > 0) {
+            total = total.add(tier.capacity.multiply($BigInteger.valueOf(count)))
+            topTier = i
+            kinds++
+        }
+    }
+
+    return { total: total, topTier: topTier, kinds: kinds }
+}
 
 MMCREvents.startup(event => {
     const api = event.getAPI()
+    const RecipeIO = api.recipeIO()
+    const OutputPolicy = api.outputPolicy()
 
     event.createMachine('kubejs:large_assembler')
         .displayNameKey('machine.kubejs.large_assembler.name')
@@ -158,5 +190,123 @@ MMCREvents.startup(event => {
         .allowMultithreading()
         .allowParallelism()
         .maxParallelAmount(256)
+        .register()
+
+    event.createMachine('kubejs:crystal_energy_storage')
+        .displayNameKey('machine.kubejs.crystal_energy_storage.name')
+        .recipePool('kubejs:crystal_energy_storage')
+        .controllerBaseTexture('create:block/refined_radiance_casing')
+        .formedPortBaseTexture('create:block/refined_radiance_casing')
+        .tickBehavior(behavior => behavior.serverTick(ctx => {
+            var storage = ctx.dataStorage()
+            if (storage == null) return
+
+            if (!ctx.isDue(5)) return
+
+            var saved = storage.get('energy')
+            var stored = saved.isPresent()
+                ? saved.get().asBigInteger().orElse($BigInteger.ZERO)
+                : $BigInteger.ZERO
+
+            var state = energyCoreState(ctx)
+            var capacity = state.total
+            var charged = 0
+            var discharged = 0
+
+            var room = capacity.subtract(stored)
+            if (room.signum() > 0) {
+                var available = ctx.ioView().energyInput()
+                var roomLong = room.min($BigInteger.valueOf(ENERGY_CORE_TRANSFER)).longValue()
+                var maxRequest = Math.min(available, roomLong)
+
+                if (maxRequest > 0) {
+                    var low = 0
+                    var high = maxRequest
+                    while (low < high) {
+                        var candidate = low + Math.ceil((high - low) / 2)
+                        var probe = ctx.ioPlan()
+                        probe.addInput(api.energyRequirement(RecipeIO.INPUT, candidate))
+                        if (probe.simulate().energySatisfied()) {
+                            low = candidate
+                        } else {
+                            high = candidate - 1
+                        }
+                    }
+
+                    if (low > 0) {
+                        var next = stored.add($BigInteger.valueOf(low))
+                        var inputPlan = ctx.ioPlan()
+                        inputPlan.addInput(api.energyRequirement(RecipeIO.INPUT, low))
+
+                        if (inputPlan.simulate().energySatisfied()
+                            && inputPlan.commitData(transaction => {
+                                storage.set('energy', next, transaction)
+                            }).successful()) {
+                            stored = next
+                            charged = low
+                        }
+                    }
+                }
+            }
+
+            if (stored.signum() > 0) {
+                var outputCapacity = ctx.ioView().energyOutputCapacity()
+                if (outputCapacity > 0) {
+                    var request = stored.min($BigInteger.valueOf(Math.min(outputCapacity, ENERGY_CORE_TRANSFER)))
+                    var requested = request.longValue()
+
+                    if (requested > 0) {
+                        var outputPlan = ctx.ioPlan()
+                        outputPlan.addOutput(
+                            api.energyRequirement(RecipeIO.OUTPUT, requested),
+                            OutputPolicy.ALLOW_PARTIAL)
+
+                        var simulation = outputPlan.simulate()
+                        var outputs = simulation.outputs()
+
+                        if (!outputs.isEmpty()) {
+                            var accepted = outputs.get(0).accepted()
+                            if (accepted > 0) {
+                                var nextStored = stored.subtract($BigInteger.valueOf(accepted))
+
+                                if (outputPlan.commitData(transaction => {
+                                    storage.set('energy', nextStored, transaction)
+                                }).successful()) {
+                                    stored = nextStored
+                                    discharged = accepted
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            var tierText
+            if (state.kinds <= 0) {
+                tierText = Text.translatable('kubejs.crystal_energy_storage.tier.none')
+            } else if (state.kinds > 1) {
+                tierText = Text.translatable('kubejs.crystal_energy_storage.tier.mixed')
+            } else {
+                tierText = Text.translatable(ENERGY_CORE_TIERS[state.topTier].nameKey)
+            }
+
+            ctx.screenText().append(
+                api.screenScope().CONTROLLER,
+                api.id('kubejs:crystal_energy_storage.status'),
+                Text.translatable(
+                    'kubejs.crystal_energy_storage.status',
+                    api.readableNumberBigInt(stored),
+                    api.readableNumberBigInt(capacity)))
+
+            ctx.screenText().append(
+                api.screenScope().CONTROLLER,
+                api.id('kubejs:crystal_energy_storage.crystal_type'),
+                Text.translatable('kubejs.crystal_energy_storage.crystal_type', tierText))
+
+            ctx.screenText().append(
+                api.screenScope().CONTROLLER,
+                api.id('kubejs:crystal_energy_storage.flow'),
+                Text.translatable('kubejs.crystal_energy_storage.flow', charged, discharged))
+        }))
         .register()
 })

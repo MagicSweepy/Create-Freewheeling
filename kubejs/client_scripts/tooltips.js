@@ -113,4 +113,14 @@ ItemEvents.modifyTooltips(event => {
     event.add('kubejs:efficiency_module_mk3', [
         Text.translate('kubejs.tooltip.module.energy_mul', '§e0.90').gray(),
         Text.translate('kubejs.tooltip.module.hint').darkGray() ])
+
+    event.add('mmcr:crystal_energy_storage_controller', [
+        Text.translate('kubejs.tooltip.crystal_energy_storage').gray(),
+        Text.translate('kubejs.tooltip.crystal_energy_storage.capacity').gray(),
+        Text.translate('kubejs.tooltip.crystal_energy_storage.tier.certus_quartz'),
+        Text.translate('kubejs.tooltip.crystal_energy_storage.tier.fluix'),
+        Text.translate('kubejs.tooltip.crystal_energy_storage.tier.energized_crystal'),
+        Text.translate('kubejs.tooltip.crystal_energy_storage.tier.energized_fluix'),
+        Text.translate('kubejs.tooltip.crystal_energy_storage.tier.energized_superconductive'),
+        Text.translate('kubejs.tooltip.crystal_energy_storage.data').darkGray() ])
 })
