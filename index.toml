@@ -74,7 +74,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "0db1e7c19315d3c7487c3515fb421d7be0bb1798f937c7a90a150d27bd2bf55f"
+hash = "2a54619e110848c56229d6151eb1f5893b4820321a605dd3c97b06584b63dac8"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -846,7 +846,7 @@ hash = "6d7a42922b4cc27ae3cb47c434aed67dbcf9e2f366c51fc3599245214ca04fcf"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
-hash = "4940065f3d02a77430d509d17a9152541361f61d55636dd745dcaff819f9eca8"
+hash = "cbe2478a462e122c02696fad666f0de70a6d9220817cd8fe07f340a232042d78"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_crusher.js"

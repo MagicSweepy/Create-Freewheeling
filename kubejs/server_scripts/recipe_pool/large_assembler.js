@@ -933,7 +933,7 @@ ServerEvents.recipes(event => {
         .notConsumableItemInput('frequency:brass_symbol_3', 1)
         .itemInput('create:copper_casing', 16)
         .itemInput('create:precision_mechanism', 16)
-        .tagInput('create:spounts', 16)
+        .tagInput('create:spouts', 16)
         .itemOutput('fluidlogistics:mechanical_fluid_gun', 16)
         .iFEt(32)
         .tickTime(200)
