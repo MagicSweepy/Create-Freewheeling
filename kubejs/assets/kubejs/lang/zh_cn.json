@@ -63,6 +63,8 @@
     "item.kubejs.efficiency_module_mk2": "§a节能插件 MK2",
     "item.kubejs.efficiency_module_mk3": "§a节能插件 MK3",
 
+    "block.kubejs.half_bedrock_budding_sky_stone_block": "半基岩化的陨石块",
+
     "item.kubejs.ethylene_bucket": "乙烯桶",
     "fluid.kubejs.ethylene": "乙烯",
     "fluid_type.kubejs.ethylene": "乙烯",
@@ -131,10 +133,22 @@
     "fluid.kubejs.chorusic_acid": "紫颂酸",
     "fluid_type.kubejs.chorusic_acid": "紫颂酸",
     "block.kubejs.chorusic_acid": "流动的紫颂酸",
-    "item.kubejs.fluoric_acid": "氢氟酸桶",
+    "item.kubejs.fluoric_acid_bucket": "氢氟酸桶",
     "fluid.kubejs.fluoric_acid": "氢氟酸",
     "fluid_type.kubejs.fluoric_acid": "氢氟酸",
     "block.kubejs.fluoric_acid": "流动的氢氟酸",
+    "item.kubejs.sky_stone_solution_bucket": "陨石溶液",
+    "fluid.kubejs.sky_stone_solution": "陨石溶液",
+    "fluid_type.kubejs.sky_stone_solution": "陨石溶液",
+    "block.kubejs.sky_stone_solution": "流动的陨石溶液",
+    "item.kubejs.cosmic_water_bucket": "太空水桶",
+    "fluid.kubejs.cosmic_water": "太空水",
+    "fluid_type.kubejs.cosmic_water": "太空水",
+    "block.kubejs.cosmic_water": "流动的太空水",
+    "item.kubejs.cosmic_waste_water_bucket": "太空污水桶",
+    "fluid.kubejs.cosmic_waste_water": "太空污水",
+    "fluid_type.kubejs.cosmic_waste_water": "太空污水",
+    "block.kubejs.cosmic_waste_water": "流动的太空污水",
 
     "block.mmcr.large_assembler_controller": "批量装配机控制器",
     "machine.kubejs.large_assembler.name": "批量装配机",
@@ -163,6 +177,9 @@
     "block.mmcr.crystal_energy_storage_controller": "晶体能量存储器控制器",
     "machine.kubejs.crystal_energy_storage.name": "晶体能量存储器",
     "recipe_pool.kubejs.crystal_energy_storage": "晶体能量存储器",
+    "block.mmcr.bio_chamber_controller": "生物培养仓控制器",
+    "machine.kubejs.bio_chamber.name": "生物培养仓",
+    "recipe_pool.kubejs.bio_chamber": "生物培养仓",
 
     "kubejs.tooltip.mmcr_item_io_bus": "可以使用任意木材种类的箱子进行合成",
     "kubejs.tooltip.mmcr_fluid_io_bus": "可以使用任意木材种类的桶进行合成",
@@ -194,6 +211,7 @@
     "kubejs.tooltip.crystal_energy_storage.tier.energized_fluix": "  §5盈能福鲁伊克斯§7：§e10⁹ FE",
     "kubejs.tooltip.crystal_energy_storage.tier.energized_superconductive": "  §a盈能超导§7：§e10¹⁰ FE",
     "kubejs.tooltip.crystal_energy_storage.data": "警告：电量保存在结构中的数据存储器内，破坏数据存储器会丢失存储电量",
+    "kubejs.tooltip.bio_chamber": "需要处于对应环境才能进行生物培养",
 
     "atmosphere.kubejs.collecting": "正在收集大气",
     "atmosphere.kubejs.output_full": "输出仓已满",
@@ -228,5 +246,6 @@
     "kubejs.jei.chemical_reactor.info.4": "3 湿润环境（高湿度气体）",
     "kubejs.jei.chemical_reactor.info.5": "4 干燥环境（脱水气体）",
     "kubejs.jei.chemical_reactor.info.6": "5 酸性环境（腐蚀性气体）",
-    "kubejs.jei.chemical_reactor.info.7": "6 碱性环境（富氨气体）"
+    "kubejs.jei.chemical_reactor.info.7": "6 碱性环境（富氨气体）",
+    "kubejs.jei.bio_chamber.info": "需要处于对应环境才能进行生物培养"
 }

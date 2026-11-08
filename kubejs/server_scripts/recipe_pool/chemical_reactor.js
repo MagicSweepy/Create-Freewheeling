@@ -197,4 +197,42 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:chemical_reactor/fluoric_acid')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:chemical_reactor',
+        tick_time: 400,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'ae2:sky_dust' },
+                count: 16
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'minecraft:water' },
+                amount: 4000
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 96
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 6,
+                max_value: 6
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'kubejs:sky_stone_solution', amount: 1000 }
+            }
+        ]
+    }).id('kubejs:chemical_reactor/sky_stone_solution')
 })

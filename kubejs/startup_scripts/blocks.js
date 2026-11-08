@@ -1,0 +1,13 @@
+StartupEvents.registry('block', event => {
+    event.create('half_bedrock_budding_sky_stone_block')
+        .soundType('stone')
+        .hardness(4)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .tagBlock('minecraft:needs_diamond_tool')
+        .tagBlock('minecraft:incorrect_for_wooden_tool')
+        .tagBlock('minecraft:incorrect_for_stone_tool')
+        .tagBlock('minecraft:incorrect_for_gold_tool')
+        .tagBlock('minecraft:incorrect_for_iron_tool')
+        .tagBlock('minecraft:wither_immune')
+        .tagBlock('minecraft:dragon_immune')
+})

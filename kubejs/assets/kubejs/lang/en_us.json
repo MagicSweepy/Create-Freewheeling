@@ -63,6 +63,8 @@
     "item.kubejs.efficiency_module_mk2": "§aEfficiency Module MK2",
     "item.kubejs.efficiency_module_mk3": "§aEfficiency Module MK3",
 
+    "block.kubejs.half_bedrock_budding_sky_stone_block": "Half Bedrock Budding Sky Stone Block",
+
     "item.kubejs.ethylene_bucket": "Ethylene Bucket",
     "fluid.kubejs.ethylene": "Ethylene",
     "fluid_type.kubejs.ethylene": "Ethylene",
@@ -127,7 +129,7 @@
     "fluid_type.kubejs.ammonia": "Ammonia",
     "block.kubejs.ammonia": "Flowing Ammonia",
     "item.kubejs.ammonia_bucket": "Ammonia Bucket",
-    "item.kubejs.fluoric_acid": "Fluoric Acid Bucket",
+    "item.kubejs.fluoric_acid_bucket": "Fluoric Acid Bucket",
     "fluid.kubejs.fluoric_acid": "Fluoric Acid",
     "fluid_type.kubejs.fluoric_acid": "Fluoric Acid",
     "block.kubejs.fluoric_acid": "Flowing Fluoric Acid",
@@ -135,6 +137,18 @@
     "fluid.kubejs.chorusic_acid": "Chorusic Acid",
     "fluid_type.kubejs.chorusic_acid": "Chorusic Acid",
     "block.kubejs.chorusic_acid": "Flowing Chorusic Acid",
+    "item.kubejs.sky_stone_solution_bucket": "Sky Stone Solution Bucket",
+    "fluid.kubejs.sky_stone_solution": "Sky Stone Solution",
+    "fluid_type.kubejs.sky_stone_solution": "Sky Stone Solution",
+    "block.kubejs.sky_stone_solution": "Flowing Sky Stone Solution",
+    "item.kubejs.cosmic_water_bucket": "Cosmic Water Bucket",
+    "fluid.kubejs.cosmic_water": "Cosmic Water",
+    "fluid_type.kubejs.cosmic_water": "Cosmic Water",
+    "block.kubejs.cosmic_water": "Flowing Cosmic Water",
+    "item.kubejs.cosmic_waste_water_bucket": "Cosmic Waste Water Bucket",
+    "fluid.kubejs.cosmic_waste_water": "Cosmic Waste Water",
+    "fluid_type.kubejs.cosmic_waste_water": "Cosmic Waste Water",
+    "block.kubejs.cosmic_waste_water": "Flowing Cosmic Waste Water",
 
     "block.mmcr.large_assembler_controller": "Batch Assembler Controller",
     "machine.kubejs.large_assembler.name": "Batch Assembler",
@@ -163,6 +177,9 @@
     "block.mmcr.crystal_energy_storage_controller": "Crystal Energy Storage Controller",
     "machine.kubejs.crystal_energy_storage.name": "Crystal Energy Storage",
     "recipe_pool.kubejs.crystal_energy_storage": "Crystal Energy Storage",
+    "block.mmcr.bio_chamber_controller": "Bio Chamber Controller",
+    "machine.kubejs.bio_chamber.name": "Bio Chamber",
+    "recipe_pool.kubejs.bio_chamber": "Bio Chamber",
 
     "kubejs.tooltip.mmcr_item_io_bus": "Any Wood Type of Chest can be used for craft",
     "kubejs.tooltip.mmcr_fluid_io_bus": "Any Wood Type of Barrel can be used for craft",
@@ -194,6 +211,7 @@
     "kubejs.tooltip.module.energy_mul": "Energy Consume: §e×%s",
     "kubejs.tooltip.module.output_mul": "Product: §d×%s",
     "kubejs.tooltip.module.hint": "All module effects are multiply, and will round automatically",
+    "kubejs.tooltip.bio_chamber": "Requires the Matching Environment to perform Bio Cultivation",
 
     "atmosphere.kubejs.collecting": "Collecting atmosphere",
     "atmosphere.kubejs.output_full": "Output tank is full",
@@ -228,5 +246,6 @@
     "kubejs.jei.chemical_reactor.info.4": "3 Humid Environment (Humid Gas)",
     "kubejs.jei.chemical_reactor.info.5": "4 Dry Environment (Dry Gas)",
     "kubejs.jei.chemical_reactor.info.6": "5 Acidic Environment (Corrosive Gas)",
-    "kubejs.jei.chemical_reactor.info.7": "6 Alkaline Environment (Ammonia-Rich Gas)"
+    "kubejs.jei.chemical_reactor.info.7": "6 Alkaline Environment (Ammonia-Rich Gas)",
+    "kubejs.jei.bio_chamber.info": "Requires the Matching Environment to perform Bio Cultivation"
 }

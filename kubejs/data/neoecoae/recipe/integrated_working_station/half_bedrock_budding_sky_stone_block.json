@@ -1,0 +1,22 @@
+{
+  "type": "neoecoae:integrated_working_station",
+  "energy": 2560,
+  "inputFluid": {
+    "amount": 1000,
+    "tag": "c:sky_stone_solution"
+  },
+  "inputItems": [
+    {
+      "count": 1,
+      "item": "ae2:sky_stone_block"
+    },
+    {
+      "count": 4,
+      "tag": "c:silicon"
+    }
+  ],
+  "itemOutput": {
+    "count": 1,
+    "id": "kubejs:half_bedrock_budding_sky_stone_block"
+  }
+}

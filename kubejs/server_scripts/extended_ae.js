@@ -136,4 +136,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'extendedae:assembler_matrix_wall' })
     event.remove({ id: 'extendedae:assembler_matrix_glass' })
     event.recipes.create.deploying('extendedae:assembler_matrix_glass', [ 'extendedae:assembler_matrix_wall', 'createnuclear:reinforced_glass' ])
+
+    event.remove({ id: 'extendedae:inscriber/crush_entro' })
 })

@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "fluidlogistics:feature_enabled",
+      "feature": "fluidlogistics:snow_golem_freezer"
+    }
+  ],
+  "type": "fluidlogistics:cooling_mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:half_bedrock_budding_sky_stone_block"
+    },
+    {
+      "item": "neoecoae:cryotheum"
+    }
+  ],
+  "results": [
+    {
+      "id": "neoecoae:cryotheum_crystal"
+    },
+    {
+      "id": "ae2:sky_stone_block"
+    }
+  ]
+}

@@ -94,4 +94,28 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'neoecoae:aluminum_alloy_casing' })
     event.remove({ id: 'neoecoae:black_tungsten_alloy_casing' })
+
+    event.remove({ id: 'neoecoae:integrated_working_station' })
+    event.recipes.create.mechanical_crafting('neoecoae:integrated_working_station',
+    [
+        'LKJKL',
+        'KEGFK',
+        'JACBJ',
+        'KHDIK',
+        'LKJKL'
+    ],
+    {
+        C: 'neoecoae:aluminum_alloy_casing',
+        A: 'extendedae:ex_inscriber',
+        B: 'extendedae:ex_charger',
+        D: 'ae2:cell_workbench',
+        E: 'extendedae:crystal_assembler',
+        F: 'extendedae:circuit_cutter',
+        G: 'extendedae:crystal_fixer',
+        H: 'ae2:condenser',
+        I: 'extendedae:ex_molecular_assembler',
+        J: 'neoecoae:superconducting_processor',
+        K: '#c:plates/black_tungsten_alloy',
+        L: 'neoecoae:crystal_matrix'
+    })
 })

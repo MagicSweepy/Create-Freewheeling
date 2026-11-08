@@ -123,4 +123,8 @@ ItemEvents.modifyTooltips(event => {
         Text.translate('kubejs.tooltip.crystal_energy_storage.tier.energized_fluix'),
         Text.translate('kubejs.tooltip.crystal_energy_storage.tier.energized_superconductive'),
         Text.translate('kubejs.tooltip.crystal_energy_storage.data').darkGray() ])
+
+    event.add('mmcr:bio_chamber_controller', [
+        Text.translate('kubejs.tooltip.bio_chamber').gray(),
+        Text.translate('kubejs.tooltip.chemical_reactor.range').gray() ])
 })

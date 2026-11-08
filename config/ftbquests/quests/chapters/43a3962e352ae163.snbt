@@ -11,5 +11,246 @@
 	images: [ ]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1A7AFFF4A1A544E8"
+				"4273A88320357AED"
+				"5C6755FD44B0D612"
+			]
+			id: "1DEC2E9CE5716BE9"
+			size: 5.0d
+			tasks: [
+				{
+					id: "5853D9E25EC514D8"
+					item: { count: 1, id: "neoecoae:aluminum_alloy_casing" }
+					type: "item"
+				}
+				{
+					id: "11FB7AB371C9E376"
+					item: { count: 1, id: "neoecoae:black_tungsten_alloy_casing" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DEC2E9CE5716BE9"]
+			id: "7C67F8A36B318408"
+			tasks: [{
+				id: "77CF6ADF3BCD71FD"
+				item: { count: 1, id: "neoecoae:integrated_working_station" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C67F8A36B318408"]
+			id: "4DB46E65CDAC43F4"
+			tasks: [{
+				id: "4F945143A88E5605"
+				item: { count: 1, id: "neoecoae:large_integrated_working_station_casing" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4DB46E65CDAC43F4"]
+			id: "5175AA847336EC82"
+			tasks: [{
+				id: "748EC786986D7934"
+				item: { count: 1, id: "neoecoae:integrated_working_station_module_extendedae" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AAF670D401C7383"]
+			id: "097F52A7178DCBFE"
+			tasks: [{
+				id: "070C416EDF0CC143"
+				item: { count: 1, id: "extendedae:entro_ingot" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C67F8A36B318408"]
+			id: "470EDE05370A4D18"
+			tasks: [{
+				id: "3ECB4692C0C24516"
+				item: { count: 1, id: "neoecoae:storage_system_l4" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"470EDE05370A4D18"
+				"097F52A7178DCBFE"
+				"50688B9784D5EBAC"
+			]
+			id: "49A72F0B77B8C1F6"
+			tasks: [{
+				id: "2A07FF7BEE6538A2"
+				item: { count: 1, id: "neoecoae:storage_system_l6" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C67F8A36B318408"]
+			id: "2AAF670D401C7383"
+			tasks: [{
+				id: "71C733F0FFFCC643"
+				item: { count: 1, id: "kubejs:half_bedrock_budding_sky_stone_block" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49A72F0B77B8C1F6"]
+			id: "244A85C6BF4137C8"
+			tasks: [{
+				id: "0B7B976E725B7723"
+				item: { count: 1, id: "neoecoae:storage_system_l9" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C67F8A36B318408"]
+			id: "0704650CE58481E5"
+			tasks: [{
+				id: "731B43057D64D268"
+				item: { count: 1, id: "neoecoae:computation_system_l4" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"0704650CE58481E5"
+				"097F52A7178DCBFE"
+				"50688B9784D5EBAC"
+			]
+			id: "57BD0615B6F5C2A9"
+			tasks: [{
+				id: "21225C37BF984D1E"
+				item: { count: 1, id: "neoecoae:computation_system_l6" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["57BD0615B6F5C2A9"]
+			id: "182A377767417E35"
+			tasks: [{
+				id: "026B2B30B0AB4A5A"
+				item: { count: 1, id: "neoecoae:computation_system_l9" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C67F8A36B318408"]
+			id: "54AE939B79B136C1"
+			tasks: [{
+				id: "4B1BD9FA42CCD330"
+				item: { count: 1, id: "neoecoae:crafting_system_l4" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"54AE939B79B136C1"
+				"097F52A7178DCBFE"
+				"50688B9784D5EBAC"
+			]
+			id: "2C3D19215EAF8782"
+			tasks: [{
+				id: "1B7E35BE3F38CCDF"
+				item: { count: 1, id: "neoecoae:crafting_system_l6" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2C3D19215EAF8782"]
+			id: "248033138BE84337"
+			tasks: [{
+				id: "08D9FCA028C5982F"
+				item: { count: 1, id: "neoecoae:crafting_system_l9" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2AAF670D401C7383"]
+			id: "01F65CE9782C0C0D"
+			tasks: [{
+				id: "6FABFC97BFE157FC"
+				item: { count: 1, id: "neoecoae:cryotheum_crystal" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01F65CE9782C0C0D"]
+			id: "50688B9784D5EBAC"
+			tasks: [{
+				id: "21A3B8635180FA56"
+				item: { count: 1, id: "neoecoae:phase_change_air_cooler" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["50688B9784D5EBAC"]
+			id: "3B4288E274F1CE46"
+			size: 5.0d
+			tasks: [{
+				id: "0780B96B68C3B7B6"
+				item: { count: 1, id: "mmcr:bio_chamber_controller" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["01F65CE9782C0C0D"]
+			icon: {
+				id: "kubejs:cosmic_water_bucket"
+			}
+			id: "1DD2A250C9DA29CE"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "kubejs:cosmic_water"
+				}
+				id: "5840FBCFBEC7286A"
+				type: "fluid"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+	]
 }

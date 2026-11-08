@@ -1,0 +1,39 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_fluid": {
+    "amount": 4000,
+    "ingredient": {
+      "fluid": "fluidlogistics:powder_snow"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "neapolitan:ice_cubes"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ae2:certus_quartz_dust"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ae2:sky_dust"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "neoecoae:energized_crystal_dust"
+      }
+    }
+  ],
+  "output": {
+    "count": 2,
+    "id": "neoecoae:cryotheum"
+  }
+}

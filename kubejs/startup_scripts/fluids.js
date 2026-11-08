@@ -23,4 +23,7 @@ StartupEvents.registry('fluid', event => {
     fluidOf('ammonia', 0x009999, 'c:ammonia')
     fluidOf('chorusic_acid', 0x8B678E, 'c:chorusic_acid')
     fluidOf('fluoric_acid', 0x47BD7A, 'c:fluoric_acid')
+    fluidOf('sky_stone_solution', 0x404040, 'c:sky_stone_solution')
+    fluidOf('cosmic_water', 0x1162CB, 'c:cosmic_water')
+    fluidOf('cosmic_waste_water', 0x013170, 'c:cosmic_waste_water')
 })

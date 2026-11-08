@@ -6,4 +6,12 @@ MMCREvents.client(event => {
     event.addRecipePoolInfo('kubejs:chemical_reactor', 'kubejs.jei.chemical_reactor.info.5')
     event.addRecipePoolInfo('kubejs:chemical_reactor', 'kubejs.jei.chemical_reactor.info.6')
     event.addRecipePoolInfo('kubejs:chemical_reactor', 'kubejs.jei.chemical_reactor.info.7')
+
+    event.addRecipePoolInfo('kubejs:bio_chamber', 'kubejs.jei.bio_chamber.info')
+    event.addRecipePoolInfo('kubejs:bio_chamber', 'kubejs.jei.chemical_reactor.info.2')
+    event.addRecipePoolInfo('kubejs:bio_chamber', 'kubejs.jei.chemical_reactor.info.3')
+    event.addRecipePoolInfo('kubejs:bio_chamber', 'kubejs.jei.chemical_reactor.info.4')
+    event.addRecipePoolInfo('kubejs:bio_chamber', 'kubejs.jei.chemical_reactor.info.5')
+    event.addRecipePoolInfo('kubejs:bio_chamber', 'kubejs.jei.chemical_reactor.info.6')
+    event.addRecipePoolInfo('kubejs:bio_chamber', 'kubejs.jei.chemical_reactor.info.7')
 })

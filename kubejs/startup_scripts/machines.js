@@ -309,4 +309,29 @@ MMCREvents.startup(event => {
                 Text.translatable('kubejs.crystal_energy_storage.flow', charged, discharged))
         }))
         .register()
+    
+    event.createMachine('kubejs:bio_chamber')
+        .displayNameKey('machine.kubejs.bio_chamber.name')
+        .recipePool('kubejs:bio_chamber')
+        .allowModifiers()
+        .allowMultithreading()
+        .allowParallelism()
+        .maxParallelAmount(256)
+        .recipeBehavior(behavior => {})
+        .smartInterface('environment', 0, 6).valueType('integer').end()
+        .preServerTick(ctx => {
+            if (!ctx.isDue(Atmosphere.PULSE))
+                return
+
+            const field = Atmosphere.at(ctx.level(), ctx.controllerPos(), ctx.gameTime())
+            Atmosphere.write(ctx, field === null ? 0 : field.code)
+
+            ctx.screenText().append(api.screenScope().CONTROLLER, 
+                api.id('kubejs:environment_status'),
+                field === null
+                    ? Text.translatable('environment.kubejs.none')
+                    : Text.translatable(field.nameKey))
+        })
+        .register()
+
 })
