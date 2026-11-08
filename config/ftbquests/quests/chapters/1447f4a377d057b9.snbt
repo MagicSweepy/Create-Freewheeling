@@ -408,7 +408,7 @@
 			dependencies: [
 				"1A7AFFF4A1A544E8"
 				"4273A88320357AED"
-				"0225CCC480D03D2A"
+				"5C6755FD44B0D612"
 			]
 			id: "1DC677381B823CEC"
 			size: 5.0d
@@ -628,6 +628,45 @@
 			}]
 			x: 27.5d
 			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4BE10B847F73DE83"
+				"6CB57EBDC893377B"
+			]
+			id: "2403DD7B062DD9AC"
+			tasks: [
+				{
+					id: "3460EA9166AFAA34"
+					item: { count: 1, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "5CF0A87A23B7D1DD"
+					item: { count: 1, id: "ae2:quantum_link" }
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["427C8FB3A3DFAE38"]
+			id: "6CB57EBDC893377B"
+			tasks: [
+				{
+					id: "4790AE25ACF50F9E"
+					item: { count: 1, id: "ae2:singularity" }
+					type: "item"
+				}
+				{
+					id: "24A2D4E5F243EDE6"
+					item: { count: 1, id: "ae2wtlib:wireless_universal_terminal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 20.0d
 		}
 	]
 }

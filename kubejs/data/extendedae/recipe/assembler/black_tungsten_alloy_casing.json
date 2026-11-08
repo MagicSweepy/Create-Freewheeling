@@ -1,0 +1,39 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_fluid": {
+    "amount": 200,
+    "ingredient": {
+      "fluid": "kubejs:fluorine"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "neoecoae:crystal_matrix"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ae2:quartz_vibrant_glass"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "tag": "c:plates/black_tungsten_alloy"
+      }
+    },
+    {
+      "amount": 8,
+      "ingredient": {
+        "tag": "c:plates/tungsten"
+      }
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "neoecoae:black_tungsten_alloy_casing"
+  }
+}

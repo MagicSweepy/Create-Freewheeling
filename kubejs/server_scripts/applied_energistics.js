@@ -192,4 +192,32 @@ ServerEvents.recipes(event => {
         X: 'ae2:calculation_processor',
         R: 'kubejs:integrated_circuit'
     })
+
+    event.remove({ id: 'ae2:network/blocks/quantum_ring' })
+    event.shaped('2x ae2:quantum_ring',
+    [
+        'PLP',
+        'ECX',
+        'PLP'
+    ],
+    {
+        C: 'neoecoae:energized_fluix_crystal_block',
+        P: '#c:plates/black_tungsten_alloy',
+        L: 'ae2:logic_processor',
+        E: 'ae2:engineering_processor',
+        X: '#ae2:smart_dense_cable'
+    })
+
+    event.remove({ id: 'ae2:network/blocks/io_condenser' })
+    event.shaped('ae2:condenser',
+    [
+        'PXP',
+        'XCX',
+        'PXP'
+    ],
+    {
+        C: 'create:shadow_steel_casing',
+        X: 'kubejs:fluix_coil',
+        P: '#c:plates/aluminum'
+    })
 })

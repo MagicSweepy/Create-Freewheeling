@@ -714,11 +714,18 @@
 				"6EC8BF51FACA3108"
 			]
 			id: "5B2B9ACFF8F69DCD"
-			tasks: [{
-				id: "55C00629652DDB7E"
-				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:barrel" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "55C00629652DDB7E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:barrels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "195F2BAE8514EE56"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 10.0d
 		}

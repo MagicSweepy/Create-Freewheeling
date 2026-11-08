@@ -38,7 +38,7 @@ hash = "2368e1bedb2641710ad6765f0c0d9bb2e503e5218913293a97cefa74e78a4b43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1447f4a377d057b9.snbt"
-hash = "750d515f12fd182e2f606a816e8d02aa83d160376fb8e7aa638f894c4f63f02d"
+hash = "d2bad84c418165e5e32d1298b8c153223db342b2f9c72f5fd23387b36f12d07e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1654fb55717b9615.snbt"
@@ -46,7 +46,7 @@ hash = "de72d4778de9955ff4d01ab68ec1f7f762b594ff63d48c0031738d7562854af9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
-hash = "8ec8a9bb8c8e09200dd3a674a39eb545bf1691a9d5a30aad457b990eeb72a847"
+hash = "95e3a82bea6a48c0e05f515cf69e72480a809803949523452fef3f57ea858066"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
@@ -74,7 +74,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "2a54619e110848c56229d6151eb1f5893b4820321a605dd3c97b06584b63dac8"
+hash = "2a7434c74b4bed249f87b8f902e940c22aadafc7944af2c48c7af3fca4f52050"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -601,6 +601,10 @@ file = "kubejs/data/createdieselgenerators/recipe/distillation/nether_air.json"
 hash = "fabc257bb4963c78d29e2a3230dd10064625e8eb1ba0e35ccb8e0571e3a44084"
 
 [[files]]
+file = "kubejs/data/extendedae/recipe/assembler/aluminum_alloy_casing.json"
+hash = "627af7cf2dedb0a125b615baaa26bc84e72bf1c387f516be32d871f59b999255"
+
+[[files]]
 file = "kubejs/data/extendedae/recipe/assembler/assembler_matrix_crafter.json"
 hash = "b8d05d88bd64f4e4185366d0938c637a0746abde1e852b7cbd07785a560a9ffb"
 
@@ -619,6 +623,10 @@ hash = "1d4d807096442acbe8bf1afabefeb9089c5c603503a14bc8fe3c90735dc2a0de"
 [[files]]
 file = "kubejs/data/extendedae/recipe/assembler/assembler_matrix_wall.json"
 hash = "fe41e7da6ae1662a7d73dae8362a12e3e90dfb4b73acc9352f9792933bfa9b58"
+
+[[files]]
+file = "kubejs/data/extendedae/recipe/assembler/black_tungsten_alloy_casing.json"
+hash = "c33d1bc03b393d67f449001554287e4e20f5489db2fa8a612943406f6588709e"
 
 [[files]]
 file = "kubejs/data/extendedae/recipe/assembler/crystal_matrix.json"
@@ -706,7 +714,7 @@ hash = "7b565ebceb26a557baf8c290341dde20f03d306cc7081eb835e6d56683740a6c"
 
 [[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
-hash = "90f4efaa89ab461e1d8b1ac8808bfa3939ce42a32be5d4ef436d7c8ff3374a3a"
+hash = "012b1df21ebe65750a73ceb845df334e7f327809a52472acc1a8111aae3b285f"
 
 [[files]]
 file = "kubejs/server_scripts/atmosphere.js"
@@ -830,7 +838,7 @@ hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
 
 [[files]]
 file = "kubejs/server_scripts/neo_eco_ae_extension.js"
-hash = "2a8c89e3d76d9c2ff8d2b5495a1e6cbab95b100e0b26caf41203ff04160bb190"
+hash = "ed61ab5d86b39d836410ea939e5f679062e4a9363393f8e237e488fd24a094dc"
 
 [[files]]
 file = "kubejs/server_scripts/pipez.js"
@@ -935,6 +943,11 @@ hash = "fdf9266c402a514093190996f4c00930463394a81f91336829ffb55c9f451a7a"
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
 hash = "491974dc6adba0e893fb755f55dfe833a1076ba49fdf9e4f92b8b9fa069ce9b5"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+hash = "3c20a0801a1a000e6f55deb28d3c9e6165b4370bff93c7d59b054413f72272e9"
 metafile = true
 
 [[files]]
@@ -1074,7 +1087,7 @@ metafile = true
 
 [[files]]
 file = "mods/createnuclear.pw.toml"
-hash = "21ac1923bd543d6e50a982fa1e5ee6b427ca2e0ebc3fe8de2a0dba97641e78a9"
+hash = "8f84b6788d9876ea1d7fa527b667482b6e26bb14af6735c4c79138d164442e68"
 metafile = true
 
 [[files]]
@@ -1355,6 +1368,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "cfc3d0abc9c387a708d246bef5f90481cd62adee3b6ed7e0932042de2bdbcc3e"
+metafile = true
+
+[[files]]
+file = "mods/wearable-toolbox.pw.toml"
+hash = "6b05cb431ef5ddcee9d9d91f72d2f38d6884c2b6c12f3c06472f5dfd6f22b16c"
 metafile = true
 
 [[files]]

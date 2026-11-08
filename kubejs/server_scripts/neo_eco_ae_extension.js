@@ -91,4 +91,7 @@ ServerEvents.recipes(event => {
         BlockPredicateWrapper.block('extendedae:entro_block'), [ postBuilder.dropItem('neoecoae:crystal_ingot') ])
 
     event.remove({ id: 'neoecoae:crystal_matrix' })
+
+    event.remove({ id: 'neoecoae:aluminum_alloy_casing' })
+    event.remove({ id: 'neoecoae:black_tungsten_alloy_casing' })
 })
