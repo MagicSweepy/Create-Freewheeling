@@ -196,6 +196,9 @@
     "block.mmcr.industrial_centrifuge_controller": "工业离心机控制器",
     "machine.kubejs.industrial_centrifuge.name": "工业离心机",
     "recipe_pool.kubejs.industrial_centrifuge": "工业离心机",
+    "block.mmcr.large_alternator_controller": "大型交流发电机控制器",
+    "machine.kubejs.large_alternator.name": "大型交流发电机",
+    "recipe_pool.kubejs.large_alternator": "大型交流发电机",
 
     "kubejs.tooltip.mmcr_item_io_bus": "可以使用任意木材种类的箱子进行合成",
     "kubejs.tooltip.mmcr_fluid_io_bus": "可以使用任意木材种类的桶进行合成",

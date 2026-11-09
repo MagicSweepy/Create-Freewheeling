@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
+	default_quest_size: 4.0d
 	filename: "52dcc5c078582d43"
 	group: "1076DA646B9BA11C"
 	icon: {
@@ -10,5 +11,32 @@
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"22126D209869A824"
+				"6718CAD2CEBE6BB5"
+			]
+			id: "15527E03AB1025F6"
+			size: 5.0d
+			tasks: [{
+				id: "38FAD2E06B000F93"
+				item: { count: 1, id: "avaritia:extreme_crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15527E03AB1025F6"]
+			id: "63ABB85ACD862A10"
+			tasks: [{
+				id: "218ED2576EFFCB49"
+				item: { count: 1, id: "avaritia:neutron_collector" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
 }

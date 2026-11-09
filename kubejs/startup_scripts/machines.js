@@ -344,4 +344,11 @@ MMCREvents.startup(event => {
         .allowParallelism()
         .maxParallelAmount(256)
         .register()
+
+    event.createMachine('kubejs:large_alternator')
+        .displayNameKey('machine.kubejs.large_alternator.name')
+        .recipePool('kubejs:large_alternator')
+        .controllerBaseTexture('create:block/andesite_casing')
+        .formedPortBaseTexture('create:block/andesite_casing')
+        .register()
 })

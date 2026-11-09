@@ -196,6 +196,9 @@
     "block.mmcr.industrial_centrifuge_controller": "Industrial Centrifuge Controller",
     "machine.kubejs.industrial_centrifuge.name": "Industrial Centrifuge",
     "recipe_pool.kubejs.industrial_centrifuge": "Industrial Centrifuge",
+    "block.mmcr.large_alternator_controller": "Large Alternator Controller",
+    "machine.kubejs.large_alternator.name": "Large Alternator",
+    "recipe_pool.kubejs.large_alternator": "Large Alternator",
 
     "kubejs.tooltip.mmcr_item_io_bus": "Any Wood Type of Chest can be used for craft",
     "kubejs.tooltip.mmcr_fluid_io_bus": "Any Wood Type of Barrel can be used for craft",

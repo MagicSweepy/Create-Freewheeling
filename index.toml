@@ -54,7 +54,7 @@ hash = "787ff80993d129af05bf2413cb8b811af43d68ad19414b040c46f454f8c38c4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
-hash = "d7ba88d365bb520ab5cdebcd01ddb20fe01f773997539e90e919893468b5dd14"
+hash = "9389d8793f2c81973db74302a7dbd30176a60a457ef11ffbcbb4b45cf0df9a94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/43a3962e352ae163.snbt"
@@ -62,7 +62,7 @@ hash = "7bd030298b5c2f0162e54f91d0758d291df1c70d64e613145bb790a3a3e357af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/52dcc5c078582d43.snbt"
-hash = "08e5c167a826a77c12bf7209984cd1e308910e0292cf06aaf7ef85fd9400e887"
+hash = "ac021c01a24864577825d300b4775f05c058af47e3c4b45462533d07b0a86aaa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
@@ -82,7 +82,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "78643f0cfa1e1e617d274f68cb9348a31f894bf15ccf9a100fe47d801870bf00"
+hash = "6a7d5837a5dd962317bff24456fc7fb2bae5a49e55d474c40d6306e1971aba3a"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -186,11 +186,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "5c8cc6def3cd2827e701bab3e4540a61216afe00413d167369b1ec6fd6bb6f07"
+hash = "b898ceaa5b8c0681ef5890a5007a2a05b7dcdf7c1f35c3001c5ca2a92e410b07"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "9172e44d3449957be070c9b8a0f212bf0bd0bdc5fa65aa2a5d25dcd9765d8085"
+hash = "438736b0600b1047435ede50fe4c6389e88af0c7f32727257942fcdbba918041"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/half_bedrock_budding_sky_stone_block.png"
@@ -934,7 +934,7 @@ hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
 
 [[files]]
 file = "kubejs/server_scripts/modular_machinery.js"
-hash = "a29fbdc33261be5675cf0f168ac0f0a025ac6e611a7ae9ec46e41affade5a5d1"
+hash = "ee25d264ee90f217899a998e7b0340b255a36d80127a2b0deb5394382c54ac65"
 
 [[files]]
 file = "kubejs/server_scripts/neapolitan.js"
@@ -963,6 +963,10 @@ hash = "6430eed94b5fa0de38bf718ebea96dad32e2e38b720cdab984938172a534d78b"
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_alloy_smelter.js"
 hash = "6d7a42922b4cc27ae3cb47c434aed67dbcf9e2f366c51fc3599245214ca04fcf"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_pool/large_alternator.js"
+hash = "fc23a15ad9672c272b1e34c49bd41a20b37d37018e4147dee7cf5f2d87581104"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
@@ -1009,6 +1013,10 @@ file = "kubejs/server_scripts/structure/large_alloy_smelter.js"
 hash = "bebf2d33f907ae3036ccc9c727a5a9c06723d9a4ef2777fa8d8b190417153d7d"
 
 [[files]]
+file = "kubejs/server_scripts/structure/large_alternator.js"
+hash = "50a966607b86b3d00660ef046a2f2d4e90e5619c595a8ab405f36a317626668e"
+
+[[files]]
 file = "kubejs/server_scripts/structure/large_assembler.js"
 hash = "12327bd1cb4441d2c6507f625491f7f9c2f7f2270a4a2a85e6252106ce2c7c96"
 
@@ -1050,7 +1058,7 @@ hash = "fb53825641876cfe2af98275e09c4141a221949ab2ee10fe1ac4f24ffca6f1c9"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
-hash = "2b4c5a5bf1f2788c3d42bff4922062a4e7f4149f5a988fa3b401f8f837482608"
+hash = "003e20f1cac15aadf979fa0f65854f327a59710c49018f01e84c645ffd47672e"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"

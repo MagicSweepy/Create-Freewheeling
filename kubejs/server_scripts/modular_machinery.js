@@ -152,6 +152,18 @@ ServerEvents.recipes(event => {
         E: 'ae2:engineering_processor'
     })
 
+    event.shaped('mmcr:large_alternator_controller',
+    [
+        'APA',
+        'PCP',
+        'APA'
+    ],
+    {
+        C: 'createaddition:capacitor',
+        A: 'createaddition:alternator',
+        P: '#c:plates/steel'
+    })
+
     // #region Input Buses
 
     event.remove({ output: 'mmcr:item_input_bus_tiny' })

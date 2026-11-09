@@ -853,5 +853,20 @@
 			x: 42.5d
 			y: 15.0d
 		}
+		{
+			dependencies: [
+				"5DEBF8444B43C16D"
+				"3F5BCE25FF6C0842"
+				"1DAA431B72EB2B94"
+			]
+			id: "5FC965B38E18AD99"
+			tasks: [{
+				id: "057D7EF0973FE020"
+				item: { count: 1, id: "mmcr:large_alternator_controller" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: -5.0d
+		}
 	]
 }
