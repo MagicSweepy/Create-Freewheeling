@@ -127,4 +127,6 @@ ItemEvents.modifyTooltips(event => {
     event.add('mmcr:bio_chamber_controller', [
         Text.translate('kubejs.tooltip.bio_chamber').gray(),
         Text.translate('kubejs.tooltip.chemical_reactor.range').gray() ])
+
+    event.add('minecraft:sculk', Text.translate('kubejs.tooltip.sculk_info').gray())
 })

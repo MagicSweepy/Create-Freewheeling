@@ -62,6 +62,13 @@
     "item.kubejs.efficiency_module_mk1": "§a节能插件 MK1",
     "item.kubejs.efficiency_module_mk2": "§a节能插件 MK2",
     "item.kubejs.efficiency_module_mk3": "§a节能插件 MK3",
+    "item.kubejs.biochemical_slime": "生化软泥",
+    "item.kubejs.chemical_gel": "化学凝胶",
+    "item.kubejs.nutritional_gel": "营养凝胶",
+    "item.kubejs.sculk_spirillum": "幽匿螺旋菌",
+    "item.kubejs.blaze_thermophile": "烈焰嗜热菌",
+    "item.kubejs.shadebane_streptococcus": "抑影链球菌",
+    "item.kubejs.sculk_vitamin": "幽匿维生素",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "半基岩化的陨石块",
 
@@ -180,6 +187,9 @@
     "block.mmcr.bio_chamber_controller": "生物培养仓控制器",
     "machine.kubejs.bio_chamber.name": "生物培养仓",
     "recipe_pool.kubejs.bio_chamber": "生物培养仓",
+    "block.mmcr.industrial_centrifuge_controller": "工业离心机控制器",
+    "machine.kubejs.industrial_centrifuge.name": "工业离心机",
+    "recipe_pool.kubejs.industrial_centrifuge": "工业离心机",
 
     "kubejs.tooltip.mmcr_item_io_bus": "可以使用任意木材种类的箱子进行合成",
     "kubejs.tooltip.mmcr_fluid_io_bus": "可以使用任意木材种类的桶进行合成",
@@ -212,6 +222,7 @@
     "kubejs.tooltip.crystal_energy_storage.tier.energized_superconductive": "  §a盈能超导§7：§e10¹⁰ FE",
     "kubejs.tooltip.crystal_energy_storage.data": "警告：电量保存在结构中的数据存储器内，破坏数据存储器会丢失存储电量",
     "kubejs.tooltip.bio_chamber": "需要处于对应环境才能进行生物培养",
+    "kubejs.tooltip.sculk_info": "在幽匿催发体半径8格内杀死能掉落经验生物以转化方块",
 
     "atmosphere.kubejs.collecting": "正在收集大气",
     "atmosphere.kubejs.output_full": "输出仓已满",

@@ -235,4 +235,45 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:chemical_reactor/sky_stone_solution')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:chemical_reactor',
+        tick_time: 400,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:cosmic_water' },
+                amount: 900
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'createdieselgenerators:crude_oil' },
+                amount: 100
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 128
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 3,
+                max_value: 3
+            },
+            {
+                type: 'minecraft:item',
+                io: 'output',
+                stack: {
+                    id: 'kubejs:chemical_gel',
+                    count: 16
+                }
+            }
+        ]
+    }).id('kubejs:chemical_reactor/chemical_gel')
 })

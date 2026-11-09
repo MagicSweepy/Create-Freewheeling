@@ -62,6 +62,13 @@
     "item.kubejs.efficiency_module_mk1": "§aEfficiency Module MK1",
     "item.kubejs.efficiency_module_mk2": "§aEfficiency Module MK2",
     "item.kubejs.efficiency_module_mk3": "§aEfficiency Module MK3",
+    "item.kubejs.biochemical_slime": "Biochemical Slime",
+    "item.kubejs.chemical_gel": "Chemical Gel",
+    "item.kubejs.nutritional_gel": "Nutritional Gel",
+    "item.kubejs.sculk_spirillum": "Sculk Spirillum",
+    "item.kubejs.blaze_thermophile": "Blaze Thermophile",
+    "item.kubejs.shadebane_streptococcus": "Shadebane Streptococcus",
+    "item.kubejs.sculk_vitamin": "Sculk Vitamin",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "Half Bedrock Budding Sky Stone Block",
 
@@ -180,6 +187,9 @@
     "block.mmcr.bio_chamber_controller": "Bio Chamber Controller",
     "machine.kubejs.bio_chamber.name": "Bio Chamber",
     "recipe_pool.kubejs.bio_chamber": "Bio Chamber",
+    "block.mmcr.industrial_centrifuge_controller": "Industrial Centrifuge Controller",
+    "machine.kubejs.industrial_centrifuge.name": "Industrial Centrifuge",
+    "recipe_pool.kubejs.industrial_centrifuge": "Industrial Centrifuge",
 
     "kubejs.tooltip.mmcr_item_io_bus": "Any Wood Type of Chest can be used for craft",
     "kubejs.tooltip.mmcr_fluid_io_bus": "Any Wood Type of Barrel can be used for craft",
@@ -212,6 +222,7 @@
     "kubejs.tooltip.module.output_mul": "Product: §d×%s",
     "kubejs.tooltip.module.hint": "All module effects are multiply, and will round automatically",
     "kubejs.tooltip.bio_chamber": "Requires the Matching Environment to perform Bio Cultivation",
+    "kubejs.tooltip.sculk_info": "Kill monsters within radius of 8 blocks of Sculk Catalyst to transform block",
 
     "atmosphere.kubejs.collecting": "Collecting atmosphere",
     "atmosphere.kubejs.output_full": "Output tank is full",

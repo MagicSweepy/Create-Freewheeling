@@ -63,4 +63,12 @@ StartupEvents.registry('item', event => {
             event.create(`${family}_module_${tier}`).tag('kubejs:modules').maxStackSize(1)
         })
     })
+
+    event.create('biochemical_slime')
+    event.create('chemical_gel')
+    event.create('nutritional_gel')
+    event.create('sculk_spirillum').tag('kubejs:bacteria').tag('kubejs:bacteria/sculk')
+    event.create('blaze_thermophile').tag('kubejs:bacteria').tag('kubejs:bacteria/blaze')
+    event.create('shadebane_streptococcus').tag('kubejs:bacteria').tag('kubejs:bacteria/ender_eye')
+    event.create('sculk_vitamin').tag('c:dusts').tag('c:dusts/sculk_vitamin')
 })

@@ -54,7 +54,7 @@ hash = "d7ba88d365bb520ab5cdebcd01ddb20fe01f773997539e90e919893468b5dd14"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/43a3962e352ae163.snbt"
-hash = "80302906ac4a6ee100fa17fb218cd8990c9b76333e61c62365813ff7cd496a79"
+hash = "cb944c6d97072d44c8c3c71d1319dea5ca02979ce9f5e84ce0996a995558c5b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
@@ -74,7 +74,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "15ee48442c0f2f70b7ab2b8a57a9ef6d18bb2611211990ea99cb4c395e67f37e"
+hash = "ff271775830f87c6921b7eddfd815ffb76c83fa1c6c3cd3d97cd78bb3fea799a"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -178,11 +178,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "a44f66dae8042f005e294404877b01b1ca422a4066c4282f37fb0fdc6a100d9c"
+hash = "6c98f817d94a69ce1e8c92fbac6a567291810e6730d55a8c135c15bd4f06de22"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "69b9118a698649d93df476727fa33d592949d37e67ff88ca68a1387a3d30132f"
+hash = "c77eae945723b3b56e9325b44d86ce3b335df8c1ac43f5024f7a9dda0d84bace"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/half_bedrock_budding_sky_stone_block.png"
@@ -205,6 +205,10 @@ file = "kubejs/assets/kubejs/textures/item/aluminum_sheet.png"
 hash = "1996325f9873516c71169ecef888913df23a8457939d8e5dc955a13e1f433e59"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/biochemical_slime.png"
+hash = "74d3b2b5742c0e05459ad1eb0b0aca9339db41f19e7d08b209372c4b8059ba97"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/black_tungsten_alloy_sheet.png"
 hash = "59bed15e47ca4dccba38fdee9e0b8423737f606f39770d7275ebff696f605b99"
 
@@ -215,6 +219,10 @@ hash = "0b1369e7bbd8bb5415c3175a7d39bef44f4c7618c06a404920f9678a468bc31d"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/certus_quartz_sheet.png"
 hash = "76a228a103741595cdb3547790400a990a94710b5c72c54b9bb5b7cce957334f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chemical_gel.png"
+hash = "fdeca977fafb8bfe0aa4f164e5b1b51d61fcfc0a558c8bbbc587db9b677a2aa1"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/chorium_attuned.png"
@@ -413,6 +421,10 @@ file = "kubejs/assets/kubejs/textures/item/lightning_trigger.png"
 hash = "ac5269f3dbf280a8a6ce9eec01a866104d63431bba751b6407ae5c7bb46cdd65"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/nutritional_gel.png"
+hash = "8be96104baf579ba3eefc0dc798cd906f0d22f05228dfc9c93b304d627f19041"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/plastic_ingot.png"
 hash = "96cdaed75ab5ed0a72e54174255dc942a79b9d24e21c4d6495005b51bcdbe344"
 
@@ -431,6 +443,18 @@ hash = "c88cecc54cf4ba463d3d81097b2be46b07d47c396af2f6e51c9e945615a83c63"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/productivity_module_mk3.png"
 hash = "c29049057a4644df44612f884ad2e5856cac1824e1c928b2f10a11d3ab716638"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_spirillum.png"
+hash = "5bfcc2af6ae55fde77e1db0e3868952635f276f06a39def72ba8eb95aabcb3bb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_spirillum.png.mcmeta"
+hash = "e6b3806b0d2638b597afe056bf354a9222d7c03326b05d01250860963e0aaf5f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_vitamin.png"
+hash = "5b6d5a2c8432a974ada6a3a6fa4516c42d5c40b1c6e9fa254ee44564be13f424"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/speed_module_mk1.png"
@@ -502,7 +526,7 @@ hash = "2af8c292ccb76e40998653c351867b21264f39613a0ab844dbf537df9b66487d"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "39f7f8ddbeee895efc444f54d0cde594ee436a0e24a3feb38ceadda575ab6da4"
+hash = "eed682d07547de1641f68f54c4b02e067b4e6538df7ffd698b3bb5ee55031d33"
 
 [[files]]
 file = "kubejs/data/ae2/recipe/inscriber/calculation_processor.json"
@@ -738,7 +762,7 @@ hash = "f732f18c3fe302fb924c1a7cba84b004d643982de0c3affcbfcdc90f2117837f"
 
 [[files]]
 file = "kubejs/server_scripts/avaritia.js"
-hash = "ce425cfe7314d941b456400fb9ba4d0c4fa827d13e11299f2874b698fb150ee3"
+hash = "775fe1994b1670a0d2c1eecf78075f1bef0a1dff1a5c6b6f31ad83469db96b1c"
 
 [[files]]
 file = "kubejs/server_scripts/chain/amethyst_chain.js"
@@ -771,6 +795,10 @@ hash = "f86fa46d050ee70ba0ca40b01b2bf7ffdb06d1bf702668fb59ad5fbb8c531742"
 [[files]]
 file = "kubejs/server_scripts/chain/oil_chain.js"
 hash = "08cd1bde8569d157d1c85cb46a1f730dfc18143135d3f03467a3ce4c95814758"
+
+[[files]]
+file = "kubejs/server_scripts/chain/sculk_chain.js"
+hash = "2a0f6047f14e5ec4f710ee1b29f1923784b71b5c88b98596224edfa1f2ced66e"
 
 [[files]]
 file = "kubejs/server_scripts/chain/sky_stone_chain.js"
@@ -869,8 +897,12 @@ file = "kubejs/server_scripts/pipez.js"
 hash = "9bc7248ed45671579930185e4052d2dd099083977d5033713ee6a334f6f7e5ff"
 
 [[files]]
+file = "kubejs/server_scripts/recipe_pool/bio_chamber.js"
+hash = "aa087696e1bb67cc46de9a2bd7fe61aee7ead657b04058bce23577f7d845e790"
+
+[[files]]
 file = "kubejs/server_scripts/recipe_pool/chemical_reactor.js"
-hash = "e8a77a2cae4002c9cadeb0ee9916668915ee9666f6b391c4f25ce5d8cfa746b8"
+hash = "12c42adaf16ea1a1b48032a49a1e8ff2d8aa2f184d09903b68aa001ed4d7e4fe"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_alloy_smelter.js"
@@ -911,6 +943,10 @@ hash = "5eaf978cee2f922e4508c23bc2f0036f712dc5ffeba8c4cc0d8d6bbb4dd1ed94"
 [[files]]
 file = "kubejs/server_scripts/structure/crystal_energy_storage.js"
 hash = "8740291ab7437cdf3d2a964826de545524004091209846f24c5eb7d880ca4617"
+
+[[files]]
+file = "kubejs/server_scripts/structure/industrial_centrifuge.js"
+hash = "2540c99706bc02ba0308bf8647616996900c240e2c1d28679f7a627a146584b8"
 
 [[files]]
 file = "kubejs/server_scripts/structure/large_alloy_smelter.js"
@@ -954,11 +990,11 @@ hash = "d1bd60815436bea30c965e919864a521c8132d0028119adb6a83422aeaddf111"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "936485f72806e75fa6ea46e40a2e98f674ac4e8fbf292ce33fbeac23aac61f5f"
+hash = "99d5e227049fa72fe4535ba68bbdcc321b9611e8b119d0b9cfb15f2dfb349c16"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
-hash = "385d03ed6a97d1c9fea4cf9fbe1e4c25ad671c3458b9a84349733bffa5fdcdec"
+hash = "2b4c5a5bf1f2788c3d42bff4922062a4e7f4149f5a988fa3b401f8f837482608"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"
@@ -984,7 +1020,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "4b78352cbccdb3400530955a3e1271b2a60aec604e26e2ecdbf840faf0457d47"
+hash = "6207706727f83484fb4af7d22f0d97d055a0f5d8248036618e84a9a7b5e174ae"
 metafile = true
 
 [[files]]
@@ -1029,7 +1065,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "a21d5d0e2e3c1b5662ca1dc907cf496bb9f2a94b368a3f291967e8ba29043eaa"
+hash = "af68f400faa4564bfaa16509dedcb2dbafb8c3a0154d6e4e0b1443bcb4c6d536"
 metafile = true
 
 [[files]]

@@ -252,5 +252,230 @@
 			x: 20.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["6BF9846E5E3ECA68"]
+			icon: {
+				id: "minecraft:sculk"
+			}
+			id: "16780C09A35AB4B4"
+			rewards: [{
+				id: "6DD7EFBFF5BB2CAF"
+				item: {
+					components: {
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:efficiency": 5
+								"minecraft:silk_touch": 1
+							}
+						}
+						"minecraft:repair_cost": 3
+						"minecraft:unbreakable": { }
+					}
+					count: 1
+					id: "neoecoae:aluminum_hoe"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BEB419839EC1B7E"
+					type: "checkmark"
+				}
+				{
+					count: 64L
+					id: "757931F93DC66D68"
+					item: { count: 1, id: "minecraft:sculk" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1DD2A250C9DA29CE"
+				"3B4288E274F1CE46"
+			]
+			id: "592F3FAA41176ED9"
+			tasks: [
+				{
+					id: "396ABF2A592456B9"
+					item: { count: 1, id: "kubejs:biochemical_slime" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D1CAF6324D684A7"
+					item: { count: 1, id: "kubejs:chemical_gel" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6FDD13F8F414E8EC"
+					item: { count: 1, id: "kubejs:nutritional_gel" }
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3528F5F71CFF306A"]
+			id: "3D7794473B9AD50F"
+			tasks: [{
+				id: "09FA74FF0135EE44"
+				item: { count: 1, id: "avaritia:sculk_crafting_table" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1AD6CC2220FEE71F"
+				"09CFF20117531B8E"
+			]
+			id: "0144759EDFB79D36"
+			tasks: [{
+				id: "085BAC66AFE05EDA"
+				item: { count: 1, id: "avaritia:blaze_cube" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"3D7794473B9AD50F"
+				"0144759EDFB79D36"
+			]
+			id: "642A4869DC3C2E93"
+			tasks: [{
+				id: "3B2260E4B280709A"
+				item: { count: 1, id: "avaritia:nether_crafting_table" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4F7D9A6831065C2B"
+				"09CFF20117531B8E"
+			]
+			id: "29EE09A183639AFF"
+			tasks: [{
+				id: "0D36D41044F8BD5D"
+				item: { count: 1, id: "avaritia:endest_pearl" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"642A4869DC3C2E93"
+				"29EE09A183639AFF"
+			]
+			id: "1E397A6EE1B96718"
+			tasks: [{
+				id: "72D119439389C18D"
+				item: { count: 1, id: "avaritia:end_crafting_table" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"16780C09A35AB4B4"
+				"592F3FAA41176ED9"
+			]
+			id: "3BCFE247862AA8F1"
+			tasks: [{
+				id: "63EF35D96BA60D41"
+				item: { count: 1, id: "kubejs:sculk_spirillum" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3BCFE247862AA8F1"
+				"09CFF20117531B8E"
+			]
+			id: "3528F5F71CFF306A"
+			tasks: [{
+				id: "39EE95D774F8F5AE"
+				item: { count: 1, id: "kubejs:sculk_vitamin" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"592F3FAA41176ED9"
+				"1E65784B75CF663D"
+			]
+			id: "1AD6CC2220FEE71F"
+			tasks: [{
+				id: "528F7B41B18746F0"
+				item: { count: 1, id: "kubejs:blaze_thermophile" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"592F3FAA41176ED9"
+				"5D55844C24609406"
+			]
+			id: "4F7D9A6831065C2B"
+			tasks: [{
+				id: "108B9F5B6384BB20"
+				item: { count: 1, id: "kubejs:shadebane_streptococcus" }
+				type: "item"
+			}]
+			x: 32.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["50688B9784D5EBAC"]
+			id: "09CFF20117531B8E"
+			tasks: [{
+				id: "23D0E6A00FAF695D"
+				item: { count: 1, id: "mmcr:industrial_centrifuge_controller" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E397A6EE1B96718"]
+			id: "22126D209869A824"
+			tasks: [{
+				id: "6A9C4670B2B58948"
+				item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+				type: "item"
+			}]
+			x: 42.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22126D209869A824"]
+			id: "13F34B46928617F9"
+			size: 5.0d
+			tasks: [{
+				id: "3F1C4FB6BAF2C203"
+				item: { count: 1, id: "avaritia:extreme_crafting_table" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: -5.0d
+		}
 	]
 }

@@ -16,4 +16,6 @@ ServerEvents.tags('block', event => {
 })
 
 ServerEvents.recipes(event => {
+    event.remove({ output: 'minecraft:sculk' })
+    event.remove({ output: 'minecraft:echo_shard' })
 })
