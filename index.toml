@@ -605,6 +605,10 @@ file = "kubejs/data/avaritia/recipe/extended_energy_output_hatch_ultimate.json"
 hash = "8e5244d638377e124e5f7727b8ae06029f1d892a62ebc91eae097dae8d8e8abb"
 
 [[files]]
+file = "kubejs/data/avaritia/recipe/extreme_crafting_table.json"
+hash = "79e95fce866bd66595798a233e07af8cf9100d144886d9375cdd69067c82dbfc"
+
+[[files]]
 file = "kubejs/data/avaritia/recipe/nether_crafting_table.json"
 hash = "3e58546f528269a54ccc8e75971bc7d3e64ef2bbb2ce539273786017898b657c"
 
@@ -846,7 +850,7 @@ hash = "08cd1bde8569d157d1c85cb46a1f730dfc18143135d3f03467a3ce4c95814758"
 
 [[files]]
 file = "kubejs/server_scripts/chain/sculk_chain.js"
-hash = "9b236f6009aa614504a982dbb584cb218a230799fa48734376dfebd1425b30f1"
+hash = "c5b00e4119e9b239ee3774848c618bd65c51b634edf07e10dd1e49930d82c676"
 
 [[files]]
 file = "kubejs/server_scripts/chain/sky_stone_chain.js"
