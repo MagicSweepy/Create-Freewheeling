@@ -5,7 +5,7 @@
 	filename: "52dcc5c078582d43"
 	group: "1076DA646B9BA11C"
 	icon: {
-		id: "avaritia:neutron"
+		id: "avaritia:infinity"
 	}
 	id: "52DCC5C078582D43"
 	images: [ ]
@@ -37,6 +37,315 @@
 			}]
 			x: 5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6914847A83B19413"]
+			id: "11DAF913BF638C22"
+			tasks: [{
+				id: "20FC4D448F37E883"
+				item: { count: 1, id: "avaritia:dense_neutron_collector" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"11DAF913BF638C22"
+				"2561EFDDF40EBA10"
+			]
+			id: "2AF10A228D7C301F"
+			tasks: [{
+				id: "478C6CDA152D6450"
+				item: { count: 1, id: "avaritia:denser_neutron_collector" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2AF10A228D7C301F"]
+			id: "3F264EC5155DEB54"
+			tasks: [{
+				id: "476BA6943FFA391E"
+				item: { count: 1, id: "avaritia:densest_neutron_collector" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["63ABB85ACD862A10"]
+			id: "6914847A83B19413"
+			tasks: [{
+				id: "0A495E35AED5E706"
+				item: { count: 1, id: "avaritia:neutron_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6914847A83B19413"]
+			id: "2561EFDDF40EBA10"
+			tasks: [{
+				id: "251FFA3D868A6EAD"
+				item: { count: 1, id: "avaritia:neutron_gear" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6914847A83B19413"]
+			id: "6FED2AD207B8A239"
+			tasks: [{
+				id: "2E9963EF1EAD9328"
+				item: { count: 1, id: "avaritia:neutron_compressor" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6FED2AD207B8A239"
+				"2561EFDDF40EBA10"
+			]
+			id: "68846E921DF69485"
+			tasks: [{
+				id: "608CC0A5643E2905"
+				item: { count: 1, id: "avaritia:dense_neutron_compressor" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["68846E921DF69485"]
+			id: "0863DB2B940285B1"
+			tasks: [{
+				id: "2EE396AB8075937F"
+				item: { count: 1, id: "avaritia:denser_neutron_compressor" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"0863DB2B940285B1"
+				"0BC448A741F69F89"
+			]
+			id: "5D8C810C3910F3DC"
+			tasks: [{
+				id: "3E73C5D3AE811CF3"
+				item: { count: 1, id: "avaritia:densest_neutron_compressor" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6FED2AD207B8A239"]
+			id: "3224EB5ECDE3F80B"
+			tasks: [
+				{
+					id: "49399C2951352FE3"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(avaritia:singularity)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50B31BEF30C2FE4E"
+					item: { count: 1, id: "avaritia:eternal_singularity" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3224EB5ECDE3F80B"]
+			id: "46BD3E7BB9FEBEF2"
+			tasks: [{
+				id: "64DD0E0954A1FE21"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63BBD7F4CECC21A4"]
+			id: "0BC448A741F69F89"
+			tasks: [{
+				id: "5E623652D345319E"
+				item: { count: 1, id: "avaritia:infinity_upgrade" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3224EB5ECDE3F80B"]
+			id: "63BBD7F4CECC21A4"
+			tasks: [{
+				id: "33E8DB5E670C5DA4"
+				item: { count: 1, id: "avaritia:star_fuel" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["46BD3E7BB9FEBEF2"]
+			id: "1E560C8985C45B4A"
+			tasks: [{
+				id: "30075CA288CD4D37"
+				item: { count: 1, id: "avaritia:infinity_ingot" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E560C8985C45B4A"]
+			id: "43017E110445EBA2"
+			tasks: [{
+				id: "32E9B091D41D0479"
+				item: { count: 1, id: "avaritia:enhancement_core" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E560C8985C45B4A"]
+			id: "0603509F7423B6EA"
+			tasks: [
+				{
+					id: "31FE0FD8065D4FB8"
+					item: { count: 1, id: "avaritia:extreme_smithing_table" }
+					type: "item"
+				}
+				{
+					id: "282A93BD82E53959"
+					item: { count: 1, id: "avaritia:upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 32.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E560C8985C45B4A"]
+			icon: {
+				id: "avaritia:infinity"
+			}
+			id: "53B90B488B782657"
+			size: 5.0d
+			tasks: [
+				{
+					id: "4C61190AE4158ADE"
+					item: { count: 1, id: "avaritia:infinity_helmet" }
+					type: "item"
+				}
+				{
+					id: "3606C1E877D12571"
+					item: { count: 1, id: "avaritia:infinity_chestplate" }
+					type: "item"
+				}
+				{
+					id: "049E1CB6C591CF6B"
+					item: { count: 1, id: "avaritia:infinity_pants" }
+					type: "item"
+				}
+				{
+					id: "4D6ECD7BA83CDED4"
+					item: { count: 1, id: "avaritia:infinity_boots" }
+					type: "item"
+				}
+				{
+					id: "1509D61912CBE297"
+					item: { components: { "minecraft:custom_data": { mode: { } } }, count: 1, id: "avaritia:infinity_sword" }
+					type: "item"
+				}
+				{
+					id: "1B42BEBD004B0554"
+					item: { components: { "minecraft:custom_data": { mode: { } } }, count: 1, id: "avaritia:infinity_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "34AD7D9F9D3D9CCC"
+					item: { count: 1, id: "avaritia:infinity_axe" }
+					type: "item"
+				}
+				{
+					id: "6FAE00170D04F226"
+					item: { components: { "minecraft:custom_data": { mode: { } } }, count: 1, id: "avaritia:infinity_shovel" }
+					type: "item"
+				}
+				{
+					id: "7C67BCEEEFF06C81"
+					item: { count: 1, id: "avaritia:infinity_hoe" }
+					type: "item"
+				}
+				{
+					id: "39632A3BD4757648"
+					item: { count: 1, id: "avaritia:infinity_ring" }
+					type: "item"
+				}
+			]
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2561EFDDF40EBA10"]
+			id: "46E89301FF91FB7E"
+			tasks: [{
+				id: "77C5371032601C51"
+				item: { count: 1, id: "avaritia:tesseract" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"43017E110445EBA2"
+				"0603509F7423B6EA"
+			]
+			id: "40840EA0561270CF"
+			tasks: [
+				{
+					id: "687DB9C9F5050117"
+					item: { count: 1, id: "create:creative_crate" }
+					type: "item"
+				}
+				{
+					id: "3D1CBB506F8C643D"
+					item: { count: 1, id: "create:creative_fluid_tank" }
+					type: "item"
+				}
+				{
+					id: "2F35E26E070C286A"
+					item: { count: 1, id: "create:creative_motor" }
+					type: "item"
+				}
+				{
+					id: "7DEF655A038B958F"
+					item: { count: 1, id: "createaddition:creative_energy" }
+					type: "item"
+				}
+				{
+					id: "6E3048705CB6A44C"
+					item: { count: 1, id: "createcasing:creative_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 10.0d
 		}
 	]
 }

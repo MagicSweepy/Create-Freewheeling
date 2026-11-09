@@ -1,0 +1,48 @@
+{
+  "type": "avaritia:shaped_table",
+  "key": {
+    "A": {
+      "item": "neoecoae:large_integrated_working_station_casing"
+    },
+    "B": {
+      "item": "neoecoae:computation_casing"
+    },
+    "C": {
+      "item": "neoecoae:storage_casing"
+    },
+    "D": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "E": {
+      "item": "extendedae:entro_ingot"
+    },
+    "F": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "G": {
+      "item": "kubejs:epoxy_resin"
+    },
+    "H": {
+      "item": "avaritia:crystal_matrix"
+    },
+    "I": {
+      "item": "neoecoae:crafting_casing"
+    }
+  },
+  "pattern": [
+    "IGFEDEFGI",
+    "G B   B G",
+    "F C   C F",
+    "E C   C E",
+    "DHB A BHD",
+    "E C   C E",
+    "F C   C F",
+    "G B   B G",
+    "IGFEDEFGI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaritia:neutron_compressor"
+  },
+  "tier": 4
+}

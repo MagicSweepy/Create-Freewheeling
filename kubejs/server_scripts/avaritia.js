@@ -73,4 +73,135 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({ id: 'avaritia:crystal_matrix_ingot_normal' })
+
+    event.remove({ id: 'avaritia:neutron_gear' })
+    event.recipes.create.mechanical_crafting('avaritia:neutron_gear',
+    [
+        'a  b  a',
+        ' cABAc ',
+        ' ACDCA ',
+        'dBDNDBd',
+        ' ACDCA ',
+        ' cABAc ',
+        'a  b  a'
+    ],
+    {
+        A: 'createcasing:andesite_cogwheel',
+        a: 'createcasing:andesite_large_cogwheel',
+        B: 'createcasing:brass_cogwheel',
+        b: 'createcasing:brass_large_cogwheel',
+        C: 'createcasing:copper_cogwheel',
+        c: 'createcasing:copper_large_cogwheel',
+        D: 'createcasing:zinc_cogwheel',
+        d: 'createcasing:zinc_large_cogwheel',
+        N: 'avaritia:neutron_ingot'
+    })
+
+    event.remove({ id: 'avaritia:dense_neutron_collector' })
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'avaritia:neutron_collector'
+            },
+            {
+                item: 'avaritia:neutron_ingot'
+            }
+        ],
+        results: [
+            {
+                id: 'avaritia:dense_neutron_collector'
+            }
+        ]
+    })
+
+    event.remove({ id: 'avaritia:denser_neutron_collector' })
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'avaritia:dense_neutron_collector'
+            },
+            {
+                item: 'avaritia:neutron_gear'
+            }
+        ],
+        results: [
+            {
+                id: 'avaritia:denser_neutron_collector'
+            }
+        ]
+    })
+
+    event.remove({ id: 'avaritia:densest_neutron_collector' })
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'avaritia:denser_neutron_collector'
+            },
+            {
+                item: 'avaritia:neutron'
+            }
+        ],
+        results: [
+            {
+                id: 'avaritia:densest_neutron_collector'
+            }
+        ]
+    })
+
+    event.remove({ id: 'avaritia:dense_neutron_compressor' })
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'avaritia:neutron_compressor'
+            },
+            {
+                item: 'avaritia:neutron_gear'
+            }
+        ],
+        results: [
+            {
+                id: 'avaritia:dense_neutron_compressor'
+            }
+        ]
+    })
+
+    event.remove({ id: 'avaritia:denser_neutron_compressor' })
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'avaritia:dense_neutron_compressor'
+            },
+            {
+                item: 'avaritia:neutron'
+            }
+        ],
+        results: [
+            {
+                id: 'avaritia:denser_neutron_compressor'
+            }
+        ]
+    })
+
+    event.remove({ id: 'avaritia:densest_neutron_compressor' })
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'avaritia:denser_neutron_compressor'
+            },
+            {
+                item: 'avaritia:infinity_upgrade'
+            }
+        ],
+        results: [
+            {
+                id: 'avaritia:densest_neutron_compressor'
+            }
+        ]
+    })
 })

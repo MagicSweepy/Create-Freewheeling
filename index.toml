@@ -49,10 +49,6 @@ file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
 hash = "95e3a82bea6a48c0e05f515cf69e72480a809803949523452fef3f57ea858066"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/3c70863e956ec4ce.snbt"
-hash = "787ff80993d129af05bf2413cb8b811af43d68ad19414b040c46f454f8c38c4e"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/3d3031c68d8d2fbe.snbt"
 hash = "9389d8793f2c81973db74302a7dbd30176a60a457ef11ffbcbb4b45cf0df9a94"
 
@@ -62,7 +58,7 @@ hash = "7bd030298b5c2f0162e54f91d0758d291df1c70d64e613145bb790a3a3e357af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/52dcc5c078582d43.snbt"
-hash = "ac021c01a24864577825d300b4775f05c058af47e3c4b45462533d07b0a86aaa"
+hash = "93e922845f4172ac1b84ca25a12514726e7ac63832766441cc16979919be5785"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
@@ -82,7 +78,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "6a7d5837a5dd962317bff24456fc7fb2bae5a49e55d474c40d6306e1971aba3a"
+hash = "7022717c728934b65da27cae8b69ccf9b1aeaafc488a115e596be614cb4f3c46"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -613,6 +609,14 @@ file = "kubejs/data/avaritia/recipe/nether_crafting_table.json"
 hash = "3e58546f528269a54ccc8e75971bc7d3e64ef2bbb2ce539273786017898b657c"
 
 [[files]]
+file = "kubejs/data/avaritia/recipe/neutron_collector.json"
+hash = "84dca5856c2b4e281e052c66d0f66b086149d7d4c25eee59be537f41e4447fcc"
+
+[[files]]
+file = "kubejs/data/avaritia/recipe/neutron_compressor.json"
+hash = "0bb84a48c137651aba676adde41b0fe4f913701f74a1fed22e726ec072265fcd"
+
+[[files]]
 file = "kubejs/data/avaritia/recipe/parallel_controller_ultimate.json"
 hash = "d57741d8dd6d657b06f5033036229e1caa487356a0bd94d1b4e413415600baa4"
 
@@ -814,7 +818,7 @@ hash = "f732f18c3fe302fb924c1a7cba84b004d643982de0c3affcbfcdc90f2117837f"
 
 [[files]]
 file = "kubejs/server_scripts/avaritia.js"
-hash = "75fc87221113ade57c157b6a9d559d354a55ed79e71e09af8d03906b5375ec19"
+hash = "76611fa171b92a2d01ebca08fdfa4651ffd78c0c06d0c9f4a0fecb3ab96ec7fe"
 
 [[files]]
 file = "kubejs/server_scripts/chain/amethyst_chain.js"
