@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "52dcc5c078582d43"
+	group: "1076DA646B9BA11C"
+	icon: {
+		id: "avaritia:neutron"
+	}
+	id: "52DCC5C078582D43"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -13,4 +13,6 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({ id: 'minecraft:dried_kelp' })
+
+    event.remove({ id: 'rubberworks:compacting/rubber' })
 })

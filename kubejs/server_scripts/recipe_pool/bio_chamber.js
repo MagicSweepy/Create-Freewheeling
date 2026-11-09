@@ -158,6 +158,110 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'mmcr:machine_recipe',
         recipe_pool: 'kubejs:bio_chamber',
+        tick_time: 1600,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'minecraft:blaze_powder' },
+                count: 16
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'kubejs:nutritional_gel' },
+                count: 1
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:cosmic_water' },
+                amount: 4000
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 5760
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 1,
+                max_value: 1
+            },
+            {
+                type: 'minecraft:item',
+                io: 'output',
+                stack: {
+                    id: 'kubejs:blaze_thermophile',
+                    count: 2
+                }
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'kubejs:cosmic_waste_water', amount: 4000 }
+            }
+        ]
+    }).id('kubejs:bio_chamber/blaze_thermophile')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:bio_chamber',
+        tick_time: 1600,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:chorusic_acid' },
+                amount: 16000
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'kubejs:nutritional_gel' },
+                count: 1
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:cosmic_water' },
+                amount: 4000
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 5760
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 6,
+                max_value: 6
+            },
+            {
+                type: 'minecraft:item',
+                io: 'output',
+                stack: {
+                    id: 'kubejs:shadebane_streptococcus',
+                    count: 2
+                }
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'kubejs:cosmic_waste_water', amount: 4000 }
+            }
+        ]
+    }).id('kubejs:bio_chamber/shadebane_streptococcus')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:bio_chamber',
         tick_time: 400,
         parallelized: true,
         requirements: [
@@ -166,6 +270,12 @@ ServerEvents.recipes(event => {
                 io: 'input',
                 item: { item: 'kubejs:sculk_spirillum' },
                 count: 1
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'minecraft:sculk' },
+                count: 4
             },
             {
                 type: 'minecraft:item',
@@ -206,4 +316,120 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:bio_chamber/sculk_spirillum_recycle')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:bio_chamber',
+        tick_time: 400,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'kubejs:blaze_thermophile' },
+                count: 1
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'minecraft:blaze_powder' },
+                count: 4
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'kubejs:nutritional_gel' },
+                count: 1
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:cosmic_water' },
+                amount: 1000
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 2880
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 1,
+                max_value: 1
+            },
+            {
+                type: 'minecraft:item',
+                io: 'output',
+                stack: {
+                    id: 'kubejs:blaze_thermophile',
+                    count: 2
+                }
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'kubejs:cosmic_waste_water', amount: 1000 }
+            }
+        ]
+    }).id('kubejs:bio_chamber/blaze_thermophile_recycle')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:bio_chamber',
+        tick_time: 400,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'kubejs:shadebane_streptococcus' },
+                count: 1
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:chorusic_acid' },
+                amount: 4000
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'kubejs:nutritional_gel' },
+                count: 1
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'kubejs:cosmic_water' },
+                amount: 1000
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 2880
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 6,
+                max_value: 6
+            },
+            {
+                type: 'minecraft:item',
+                io: 'output',
+                stack: {
+                    id: 'kubejs:shadebane_streptococcus',
+                    count: 2
+                }
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'kubejs:cosmic_waste_water', amount: 1000 }
+            }
+        ]
+    }).id('kubejs:bio_chamber/shadebane_streptococcus_recycle')
 })

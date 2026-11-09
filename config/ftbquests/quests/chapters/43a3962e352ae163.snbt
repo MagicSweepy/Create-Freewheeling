@@ -451,11 +451,14 @@
 				item: { count: 1, id: "mmcr:industrial_centrifuge_controller" }
 				type: "item"
 			}]
-			x: 27.5d
-			y: -5.0d
+			x: 30.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1E397A6EE1B96718"]
+			dependencies: [
+				"1E397A6EE1B96718"
+				"097F52A7178DCBFE"
+			]
 			id: "22126D209869A824"
 			tasks: [{
 				id: "6A9C4670B2B58948"
@@ -466,7 +469,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["22126D209869A824"]
+			dependencies: [
+				"22126D209869A824"
+				"6718CAD2CEBE6BB5"
+			]
 			id: "13F34B46928617F9"
 			size: 5.0d
 			tasks: [{
@@ -474,8 +480,19 @@
 				item: { count: 1, id: "avaritia:extreme_crafting_table" }
 				type: "item"
 			}]
-			x: 40.0d
+			x: 37.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["3528F5F71CFF306A"]
+			id: "6718CAD2CEBE6BB5"
+			tasks: [{
+				id: "796C23BFFAFD8FDA"
+				item: { count: 1, id: "kubejs:epoxy_resin" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.0d
 		}
 	]
 }

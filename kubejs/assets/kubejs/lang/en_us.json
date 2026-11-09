@@ -69,6 +69,8 @@
     "item.kubejs.blaze_thermophile": "Blaze Thermophile",
     "item.kubejs.shadebane_streptococcus": "Shadebane Streptococcus",
     "item.kubejs.sculk_vitamin": "Sculk Vitamin",
+    "item.kubejs.cosmic_sludge": "Cosmic Sludge",
+    "item.kubejs.epoxy_resin": "High-Density Epoxy Resin",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "Half Bedrock Budding Sky Stone Block",
 
@@ -156,6 +158,10 @@
     "fluid.kubejs.cosmic_waste_water": "Cosmic Waste Water",
     "fluid_type.kubejs.cosmic_waste_water": "Cosmic Waste Water",
     "block.kubejs.cosmic_waste_water": "Flowing Cosmic Waste Water",
+    "item.kubejs.acidified_vitamin_bucket": "Acidified Vitamin Solution Bucket",
+    "fluid.kubejs.acidified_vitamin": "Acidified Vitamin Solution",
+    "fluid_type.kubejs.acidified_vitamin": "Acidified Vitamin Solution",
+    "block.kubejs.acidified_vitamin": "Flowing Acidified Vitamin Solution",
 
     "block.mmcr.large_assembler_controller": "Batch Assembler Controller",
     "machine.kubejs.large_assembler.name": "Batch Assembler",

@@ -69,6 +69,8 @@
     "item.kubejs.blaze_thermophile": "烈焰嗜热菌",
     "item.kubejs.shadebane_streptococcus": "抑影链球菌",
     "item.kubejs.sculk_vitamin": "幽匿维生素",
+    "item.kubejs.cosmic_sludge": "太空污泥",
+    "item.kubejs.epoxy_resin": "高密度环氧树脂",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "半基岩化的陨石块",
 
@@ -156,6 +158,10 @@
     "fluid.kubejs.cosmic_waste_water": "太空污水",
     "fluid_type.kubejs.cosmic_waste_water": "太空污水",
     "block.kubejs.cosmic_waste_water": "流动的太空污水",
+    "item.kubejs.acidified_vitamin_bucket": "酸化维生素溶液桶",
+    "fluid.kubejs.acidified_vitamin": "酸化维生素溶液",
+    "fluid_type.kubejs.acidified_vitamin": "酸化维生素溶液",
+    "block.kubejs.acidified_vitamin": "流动的酸化维生素溶液",
 
     "block.mmcr.large_assembler_controller": "批量装配机控制器",
     "machine.kubejs.large_assembler.name": "批量装配机",

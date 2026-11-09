@@ -1,0 +1,31 @@
+{
+  "type": "avaritia:shaped_table",
+  "key": {
+    "a": {
+      "tag": "c:plates/diamond"
+    },
+    "b": {
+      "item": "avaritia:diamond_lattice"
+    },
+    "c": {
+      "item": "avaritia:endest_pearl"
+    },
+    "d": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "       ",
+    "aaaaaaa",
+    "acbbbca",
+    "acdddca",
+    "acbbbca",
+    "aaaaaaa",
+    "       "
+  ],
+  "result": {
+    "count": 2,
+    "id": "avaritia:crystal_matrix_ingot"
+  },
+  "tier": 3
+}

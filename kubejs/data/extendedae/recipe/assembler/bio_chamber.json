@@ -1,0 +1,33 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_fluid": {
+    "amount": 4000,
+    "ingredient": {
+      "fluid": "neoecoae:cryotheum_solution"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "neoecoae:storage_casing"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "extendedae:entro_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "neoecoae:phase_change_air_cooler"
+      }
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "mmcr:bio_chamber_controller"
+  }
+}

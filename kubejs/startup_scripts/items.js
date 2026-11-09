@@ -71,4 +71,6 @@ StartupEvents.registry('item', event => {
     event.create('blaze_thermophile').tag('kubejs:bacteria').tag('kubejs:bacteria/blaze')
     event.create('shadebane_streptococcus').tag('kubejs:bacteria').tag('kubejs:bacteria/ender_eye')
     event.create('sculk_vitamin').tag('c:dusts').tag('c:dusts/sculk_vitamin')
+    event.create('cosmic_sludge')
+    event.create('epoxy_resin').tag('c:plates').tag('c:plates/epoxy')
 })

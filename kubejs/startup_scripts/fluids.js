@@ -26,4 +26,5 @@ StartupEvents.registry('fluid', event => {
     fluidOf('sky_stone_solution', 0x404040, 'c:sky_stone_solution')
     fluidOf('cosmic_water', 0x1162CB, 'c:cosmic_water')
     fluidOf('cosmic_waste_water', 0x013170, 'c:cosmic_waste_water')
+    fluidOf('acidified_vitamin', 0x0F725E, 'c:acidified_vitamin')
 })

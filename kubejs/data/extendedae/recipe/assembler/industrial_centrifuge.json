@@ -1,0 +1,33 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_fluid": {
+    "amount": 4000,
+    "ingredient": {
+      "fluid": "kubejs:ammonia"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "neoecoae:large_integrated_working_station_casing"
+      }
+    },
+    {
+      "amount": 16,
+      "ingredient": {
+        "item": "createaddition:servo_motor"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "neoecoae:phase_change_air_cooler"
+      }
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "mmcr:industrial_centrifuge_controller"
+  }
+}
