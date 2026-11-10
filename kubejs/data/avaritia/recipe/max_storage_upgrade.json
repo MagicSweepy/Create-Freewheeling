@@ -1,0 +1,24 @@
+{
+  "type": "avaritia:extreme_smithing",
+  "template": {
+    "item": "avaritia:upgrade_smithing_template"
+  },
+  "base": {
+    "item": "functionalstorage:netherite_upgrade"
+  },
+  "addition": [
+    {
+      "item": "avaritia:infinity_upgrade"
+    },
+    {
+      "item": "avaritia:enhancement_core"
+    },
+    {
+      "item": "avaritia:infinity"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "functionalstorage:max_storage_upgrade"
+  }
+}

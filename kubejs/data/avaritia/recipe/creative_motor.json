@@ -1,0 +1,24 @@
+{
+  "type": "avaritia:extreme_smithing",
+  "template": {
+    "item": "avaritia:upgrade_smithing_template"
+  },
+  "base": {
+    "item": "createaddition:electric_motor"
+  },
+  "addition": [
+    {
+      "item": "avaritia:infinity_upgrade"
+    },
+    {
+      "item": "avaritia:enhancement_core"
+    },
+    {
+      "item": "avaritia:infinity"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:creative_motor"
+  }
+}

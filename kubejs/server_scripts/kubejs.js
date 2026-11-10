@@ -27,6 +27,8 @@ ServerEvents.recipes(event => {
 
     event.recipes.create.milling('kubejs:copper_dust', 'minecraft:copper_ingot')
     event.recipes.create.crushing('kubejs:copper_dust', 'minecraft:copper_ingot')
+
+    event.recipes.create.pressing('4x rubberworks:rubber_sheet', 'kubejs:chemical_gel')
 })
 
 BlockEvents.rightClicked(event => {

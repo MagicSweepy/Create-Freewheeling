@@ -204,4 +204,6 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.remove({ id: 'avaritia:ae2_creative_energy_cell' })
 })

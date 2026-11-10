@@ -96,6 +96,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
     event.remove('createaddition:seed_oil_bucket')
     event.remove('pipez:wrench')
     event.remove('pipez:gas_pipe')
+    event.remove('extendedae:machine_frame')
 })
 
 RecipeViewerEvents.removeEntriesCompletely('fluid', event => {

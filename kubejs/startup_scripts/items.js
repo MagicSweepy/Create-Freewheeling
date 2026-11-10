@@ -73,4 +73,7 @@ StartupEvents.registry('item', event => {
     event.create('sculk_vitamin').tag('c:dusts').tag('c:dusts/sculk_vitamin')
     event.create('cosmic_sludge')
     event.create('epoxy_resin').tag('c:plates').tag('c:plates/epoxy')
+
+    event.create('metal_mixture').tag('c:dusts').tag('c:dusts/metal_mixture')
+    event.create('heavy_metal_residue').tag('c:dusts').tag('c:dusts/heavy_metal_residue')
 })

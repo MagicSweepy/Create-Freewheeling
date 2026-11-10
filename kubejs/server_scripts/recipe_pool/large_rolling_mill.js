@@ -34,6 +34,42 @@ ServerEvents.recipes(event => {
     addWireRecipe('gold', 'minecraft:gold_ingot', 'create:golden_sheet', 'createaddition:gold_wire')
     addWireRecipe('electrum', 'createaddition:electrum_ingot', 'createaddition:electrum_sheet', 'createaddition:electrum_wire')
 
+    event.custom({
+            type: 'mmcr:machine_recipe',
+            recipe_pool: 'kubejs:large_rolling_mill',
+            tick_time: 100,
+            requirements: [
+                {
+                    type: 'minecraft:item',
+                    io: 'input',
+                    item: { item: 'frequency:brass_symbol_1' },
+                    count: 1,
+                    consume_chance: 0.0
+                },
+                {
+                    type: 'minecraft:item',
+                    io: 'input',
+                    item: { item: 'kubejs:chemical_gel' },
+                    count: 16
+                },
+                {
+                    type: 'minecraft:item',
+                    io: 'output',
+                    stack: {
+                        id: 'rubberworks:rubber_sheet',
+                        count: 64
+                    },
+                },
+                {
+                    type: 'create:stress',
+                    io: 'input',
+                    stress: 16.0,
+                    min_rpm: 64
+                }
+            ],
+            priority: 3
+        }).id('kubejs:large_rolling_mill/advanced_rubber_sheet')
+
     function addPlateRecipe(name, input, output) {
         event.custom({
             type: 'mmcr:machine_recipe',

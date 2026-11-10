@@ -315,6 +315,7 @@
 			dependencies: [
 				"43017E110445EBA2"
 				"0603509F7423B6EA"
+				"0BC448A741F69F89"
 			]
 			id: "40840EA0561270CF"
 			tasks: [
@@ -341,6 +342,31 @@
 				{
 					id: "6E3048705CB6A44C"
 					item: { count: 1, id: "createcasing:creative_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "4859F845B08AB8FC"
+					item: { count: 1, id: "ae2:creative_energy_cell" }
+					type: "item"
+				}
+				{
+					id: "12B7EF8D032C538A"
+					item: { count: 1, id: "create:creative_blaze_cake" }
+					type: "item"
+				}
+				{
+					id: "73A2083BD1E79159"
+					item: { count: 1, id: "create:handheld_worldshaper" }
+					type: "item"
+				}
+				{
+					id: "5F95BB5086D5ACF0"
+					item: { count: 1, id: "functionalstorage:max_storage_upgrade" }
+					type: "item"
+				}
+				{
+					id: "71A641AE77E8481D"
+					item: { count: 1, id: "functionalstorage:creative_vending_upgrade" }
 					type: "item"
 				}
 			]

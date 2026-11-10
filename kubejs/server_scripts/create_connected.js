@@ -10,4 +10,7 @@ ServerEvents.recipes(event => {
     ])
     .transitionalItem(incomplete)
     .loops(1)
+
+    event.shapeless('create_connected:creative_fluid_vessel', 'create:creative_fluid_tank')
+    event.shapeless('create:creative_fluid_tank', 'create_connected:creative_fluid_vessel')
 })

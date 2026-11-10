@@ -192,7 +192,10 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["0439006BDBAFAA0C"]
+			dependencies: [
+				"0439006BDBAFAA0C"
+				"13F157AACF36429F"
+			]
 			icon: {
 				id: "kubejs:chorusic_acid_bucket"
 			}
@@ -463,6 +466,17 @@
 			]
 			x: 17.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["739894808CC625F5"]
+			id: "13F157AACF36429F"
+			tasks: [{
+				id: "58D56A9394FA6877"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.0d
 		}
 	]
 }
