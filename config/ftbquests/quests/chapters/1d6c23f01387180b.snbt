@@ -102,6 +102,14 @@
 		{
 			dependencies: ["22527282D4A659E7"]
 			id: "1E67C1D632EC405F"
+			rewards: [{
+				id: "47611C4A447729EE"
+				item: {
+					count: 1
+					id: "naturescompass:naturescompass"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D3127AB6979E6AC"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:shafts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -578,6 +586,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["693019550182A202"]
 			id: "5F4146A80539CF3E"
 			tasks: [{
 				id: "55D898612FE3D94C"
@@ -623,6 +632,14 @@
 		{
 			dependencies: ["72E15A9D30287C44"]
 			id: "39E5BE1D74359EB7"
+			rewards: [{
+				id: "139B9705A3905ED3"
+				item: {
+					count: 1
+					id: "create:rotation_speed_controller"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4E0EA7E9F03E5D07"
 				item: { count: 1, id: "create:large_water_wheel" }

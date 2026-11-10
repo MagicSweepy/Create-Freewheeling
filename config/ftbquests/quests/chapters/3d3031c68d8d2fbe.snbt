@@ -98,6 +98,11 @@
 					item: { count: 1, id: "create:brass_tunnel" }
 					type: "item"
 				}
+				{
+					id: "346FAFF437FF6CB6"
+					item: { count: 1, id: "create_connected:brass_chute" }
+					type: "item"
+				}
 			]
 			x: 2.5d
 			y: -5.0d
@@ -555,6 +560,17 @@
 			dependencies: ["40BA0F9395594249"]
 			hide_details_until_startable: false
 			id: "7C4C61A0939812B3"
+			rewards: [{
+				id: "3FEEB5D74137A144"
+				item: {
+					components: {
+						"create:banktank_air": 900
+					}
+					count: 1
+					id: "create:netherite_backtank"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "233D8278402D2E23"
@@ -564,11 +580,13 @@
 				{
 					id: "1C7A56EE1C62005C"
 					item: { count: 1, id: "create:wand_of_symmetry" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "64A115D95EC42764"
 					item: { count: 1, id: "fluidlogistics:hand_pointer" }
+					optional_task: true
 					type: "item"
 				}
 			]
