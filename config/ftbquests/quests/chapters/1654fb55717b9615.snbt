@@ -478,5 +478,37 @@
 			x: 7.5d
 			y: 15.0d
 		}
+		{
+			dependencies: [
+				"639F1AF3457A657B"
+				"7BDF91E2FE09BC7A"
+			]
+			id: "6EC8513B86DC4DA5"
+			tasks: [
+				{
+					id: "78A028E2C827A010"
+					item: { count: 1, id: "mmcr:fusion_reactor_controller" }
+					type: "item"
+				}
+				{
+					id: "6269D260B7E4F10A"
+					item: { count: 1, id: "mmcr:fusion_generator_controller" }
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CFDBFE4F5E37F19"]
+			id: "639F1AF3457A657B"
+			tasks: [{
+				id: "13AB4EFEA38A1DED"
+				item: { count: 1, id: "kubejs:fusion_rod" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -5.0d
+		}
 	]
 }

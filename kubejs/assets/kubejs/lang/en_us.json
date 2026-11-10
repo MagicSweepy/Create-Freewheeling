@@ -73,6 +73,8 @@
     "item.kubejs.epoxy_resin": "High-Density Epoxy Resin",
     "item.kubejs.metal_mixture": "Metal Mixture",
     "item.kubejs.heavy_metal_residue": "Heavy Metal Residue",
+    "item.kubejs.fusion_rod": "Fusion Fuel Rod",
+    "item.kubejs.depleted_fusion_rod": "Depleted Fusion Fuel Rod",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "Half Bedrock Budding Sky Stone Block",
 
@@ -201,6 +203,12 @@
     "block.mmcr.large_alternator_controller": "Large Alternator Controller",
     "machine.kubejs.large_alternator.name": "Large Alternator",
     "recipe_pool.kubejs.large_alternator": "Large Alternator",
+    "block.mmcr.fusion_reactor_controller": "Fusion Reactor Controller",
+    "machine.kubejs.fusion_reactor.name": "Fusion Reactor",
+    "recipe_pool.kubejs.fusion_reactor": "Fusion Reactor",
+    "block.mmcr.fusion_generator_controller": "Fusion Generator Controller",
+    "machine.kubejs.fusion_generator.name": "Fusion Generator",
+    "recipe_pool.kubejs.fusion_generator": "Fusion Generator",
 
     "kubejs.tooltip.mmcr_item_io_bus": "Any Wood Type of Chest can be used for craft",
     "kubejs.tooltip.mmcr_fluid_io_bus": "Any Wood Type of Barrel can be used for craft",

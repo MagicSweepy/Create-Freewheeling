@@ -164,6 +164,42 @@ ServerEvents.recipes(event => {
         P: '#c:plates/steel'
     })
 
+    event.recipes.create.mechanical_crafting('mmcr:fusion_reactor_controller',
+    [
+        ' QQQ ',
+        ' ZYZ ',
+        ' ZXZ ',
+        ' ACB ',
+        'PQQQP'
+    ],
+    {
+        P: 'mmcr:basic_casing',
+        Q: 'createnuclear:reactor_casing',
+        A: 'create:mechanical_arm',
+        B: 'fluidlogistics:mechanical_fluid_gun',
+        C: 'create_connected:control_chip',
+        X: 'ae2:logic_processor',
+        Y: 'ae2:engineering_processor',
+        Z: 'createnuclear:reactor_frame'
+    })
+
+    event.recipes.create.mechanical_crafting('mmcr:fusion_generator_controller',
+    [
+        '  AYPA',
+        'MOANXC',
+        '  AYPA'
+    ],
+    {
+        A: 'mmcr:basic_casing',
+        M: 'createaddition:modular_accumulator',
+        O: 'createaddition:alternator',
+        N: 'createnuclear:reactor_core',
+        X: 'ae2:calculation_processor',
+        Y: 'ae2:engineering_processor',
+        P: 'createnuclear:reactor_frame',
+        C: 'create_connected:control_chip',
+    })
+
     // #region Input Buses
 
     event.remove({ output: 'mmcr:item_input_bus_tiny' })

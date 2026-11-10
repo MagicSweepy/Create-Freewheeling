@@ -73,6 +73,8 @@
     "item.kubejs.epoxy_resin": "高密度环氧树脂",
     "item.kubejs.metal_mixture": "金属混合物",
     "item.kubejs.heavy_metal_residue": "重金属残余物",
+    "item.kubejs.fusion_rod": "聚变燃料棒",
+    "item.kubejs.depleted_fusion_rod": "枯竭聚变燃料棒",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "半基岩化的陨石块",
 
@@ -201,6 +203,12 @@
     "block.mmcr.large_alternator_controller": "大型交流发电机控制器",
     "machine.kubejs.large_alternator.name": "大型交流发电机",
     "recipe_pool.kubejs.large_alternator": "大型交流发电机",
+    "block.mmcr.fusion_reactor_controller": "聚变反应堆控制器",
+    "machine.kubejs.fusion_reactor.name": "聚变反应堆",
+    "recipe_pool.kubejs.fusion_reactor": "聚变反应堆",
+    "block.mmcr.fusion_generator_controller": "聚变发电机控制器",
+    "machine.kubejs.fusion_generator.name": "聚变发电机",
+    "recipe_pool.kubejs.fusion_generator": "聚变发电机",
 
     "kubejs.tooltip.mmcr_item_io_bus": "可以使用任意木材种类的箱子进行合成",
     "kubejs.tooltip.mmcr_fluid_io_bus": "可以使用任意木材种类的桶进行合成",

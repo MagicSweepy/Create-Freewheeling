@@ -206,4 +206,21 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({ id: 'avaritia:ae2_creative_energy_cell' })
+
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'createaddition:modular_accumulator'
+            },
+            {
+                item: 'avaritia:neutron_gear'
+            }
+        ],
+        results: [
+            {
+                id: 'avaritia:tesseract'
+            }
+        ]
+    })
 })

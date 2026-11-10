@@ -42,7 +42,7 @@ hash = "d2bad84c418165e5e32d1298b8c153223db342b2f9c72f5fd23387b36f12d07e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1654fb55717b9615.snbt"
-hash = "5d50280bc63d1e89b4964449a5f1bb1e72043d35d85338e48f1fc26e77b81bf7"
+hash = "dbfc95503f667ee7df2b4008512a2e8eb49944ad21975d4d2087e1e507ae8b07"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
@@ -78,7 +78,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "03307ef2a56c804824bdf951e5f6bfc42b1df315d922e3f545719d9e2e921a4d"
+hash = "b41ed495d484eee28ab0f3f1c95b6332a72c7ce29fb5e506436045355fb631e6"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -186,11 +186,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "45d58825e464daa33e3e04c43d65fdd875f2057ba59c0d9e5e51e0485ee05fd3"
+hash = "c4cb0ae7179487e98454a4aaf5c0f931a1dd24712f100b5c39b02fa2686ff0dc"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "b9cdda750020bc630c58b100d3c92752676024057c09844c059cc14fbd3e906f"
+hash = "2702832e52cf41f4256b873882835844c495ccdbd038745e7b8c7a6572ab67d9"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/half_bedrock_budding_sky_stone_block.png"
@@ -353,6 +353,10 @@ file = "kubejs/assets/kubejs/textures/item/crushed_raw_tungsten.png"
 hash = "cebefcc9e46f7dc46e6058a47bc596caee152ebaca76caa22ae871d66e6b8bdc"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/depleted_fusion_rod.png"
+hash = "f08d6b1c71d3c9021eff71745ed90fdee6149d142c9713228bcea7ac09ae186f"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/diamond_sheet.png"
 hash = "1fc1a5af71593f684efcb0f0f0467c95b117b424cbb3bbe92df1042e0a571185"
 
@@ -415,6 +419,10 @@ hash = "98af0eccfb0478f92ef18f65c0ff4df7dbf9471d13324bebfa3148ebd2ff4b47"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/fluix_sheet.png.mcmeta"
 hash = "51491e84b55a9063b0c6e857986d0b0b068a7c404b3db7c4b944b0e1891186a8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fusion_rod.png"
+hash = "bd9fe9d13bd319bc3ca8234c168cbd3ea16c2fd7d060ff0fe4405c8515e91d08"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/heavy_metal_residue.png"
@@ -874,7 +882,7 @@ hash = "f732f18c3fe302fb924c1a7cba84b004d643982de0c3affcbfcdc90f2117837f"
 
 [[files]]
 file = "kubejs/server_scripts/avaritia.js"
-hash = "570dbdcded0c90c57b0049b9e34f4f1bf76bb2dc49e5986fbba54fa46b5f2794"
+hash = "17f32c8d8be1b537013df451ce0387adde36aaaabd9a7780776248d6dcb6eca7"
 
 [[files]]
 file = "kubejs/server_scripts/chain/amethyst_chain.js"
@@ -903,6 +911,10 @@ hash = "3e58054319cf091fdae96fde462acbe4b6f04306cf7382e5d1b9e804000bccab"
 [[files]]
 file = "kubejs/server_scripts/chain/cosmic_water_chain.js"
 hash = "f86fa46d050ee70ba0ca40b01b2bf7ffdb06d1bf702668fb59ad5fbb8c531742"
+
+[[files]]
+file = "kubejs/server_scripts/chain/fusion_chain.js"
+hash = "4363279eca11603c9ff89cf7f7483cc5a781de6b4b16b4810d664ca357e465a2"
 
 [[files]]
 file = "kubejs/server_scripts/chain/oil_chain.js"
@@ -998,7 +1010,7 @@ hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
 
 [[files]]
 file = "kubejs/server_scripts/modular_machinery.js"
-hash = "ee25d264ee90f217899a998e7b0340b255a36d80127a2b0deb5394382c54ac65"
+hash = "311c78c97a8cbea6a65f407ae638ff49b620d339e0b69e467b25974997edd8be"
 
 [[files]]
 file = "kubejs/server_scripts/neapolitan.js"
@@ -1021,6 +1033,10 @@ file = "kubejs/server_scripts/recipe_pool/chemical_reactor.js"
 hash = "12c42adaf16ea1a1b48032a49a1e8ff2d8aa2f184d09903b68aa001ed4d7e4fe"
 
 [[files]]
+file = "kubejs/server_scripts/recipe_pool/fusion_generator.js"
+hash = "ab9040c9ca94307cd7b9b950ad06759f2963abe3297e0c2f1c195a32242ed867"
+
+[[files]]
 file = "kubejs/server_scripts/recipe_pool/industrial_centrifuge.js"
 hash = "6430eed94b5fa0de38bf718ebea96dad32e2e38b720cdab984938172a534d78b"
 
@@ -1034,7 +1050,7 @@ hash = "fc23a15ad9672c272b1e34c49bd41a20b37d37018e4147dee7cf5f2d87581104"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
-hash = "cbe2478a462e122c02696fad666f0de70a6d9220817cd8fe07f340a232042d78"
+hash = "96685bf1ee8e29cbe21e89235d3f59702a888a3db5246e538884d2f859bc8c67"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_crusher.js"
@@ -1067,6 +1083,14 @@ hash = "5eaf978cee2f922e4508c23bc2f0036f712dc5ffeba8c4cc0d8d6bbb4dd1ed94"
 [[files]]
 file = "kubejs/server_scripts/structure/crystal_energy_storage.js"
 hash = "8740291ab7437cdf3d2a964826de545524004091209846f24c5eb7d880ca4617"
+
+[[files]]
+file = "kubejs/server_scripts/structure/fusion_generator.js"
+hash = "8a382d217c958c0956562a60986c0bb9aa96876f73b1b178b39e68b04435c96e"
+
+[[files]]
+file = "kubejs/server_scripts/structure/fusion_reactor.js"
+hash = "d03041b799b9fd3e7dde8dc48f987be03b357288a0285b062bc76f3ca3c3566c"
 
 [[files]]
 file = "kubejs/server_scripts/structure/industrial_centrifuge.js"
@@ -1118,11 +1142,11 @@ hash = "8016a103a8758a96c6cf3d8e367058906e8040455214c331816ca94a36c340bb"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "61fefe385c7747b48885f9db7475776e619efaf6f2ca7c35f8fd7b47b49770a9"
+hash = "dc1ba23179a63b2778bcca3faaec343a7f659d9b8e44cca833cbd7179c032ae6"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
-hash = "003e20f1cac15aadf979fa0f65854f327a59710c49018f01e84c645ffd47672e"
+hash = "2497e882bd4b1e51fb58bf4e0cbf4af46535d5c60993fdf5de58561309c084f5"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"

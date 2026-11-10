@@ -76,4 +76,7 @@ StartupEvents.registry('item', event => {
 
     event.create('metal_mixture').tag('c:dusts').tag('c:dusts/metal_mixture')
     event.create('heavy_metal_residue').tag('c:dusts').tag('c:dusts/heavy_metal_residue')
+
+    event.create('fusion_rod').maxStackSize(16)
+    event.create('depleted_fusion_rod').maxStackSize(16)
 })

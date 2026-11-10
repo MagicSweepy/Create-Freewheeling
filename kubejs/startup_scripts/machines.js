@@ -351,4 +351,15 @@ MMCREvents.startup(event => {
         .controllerBaseTexture('create:block/andesite_casing')
         .formedPortBaseTexture('create:block/andesite_casing')
         .register()
+
+    event.createMachine('kubejs:fusion_reactor')
+        .displayNameKey('machine.kubejs.fusion_reactor.name')
+        .host('kubejs:fusion_generator')
+        .register()
+
+    event.createMachine('kubejs:fusion_generator')
+        .displayNameKey('machine.kubejs.fusion_generator.name')
+        .recipePool('kubejs:fusion_generator')
+        .module()
+        .register()
 })
