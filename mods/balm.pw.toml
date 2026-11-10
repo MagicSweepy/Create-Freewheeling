@@ -1,13 +1,13 @@
 name = "Balm"
-filename = "balm-fabric-1.21.1-21.0.67.jar"
+filename = "balm-neoforge-1.21.1-21.0.67.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f839c990308271aa85f7d85b710a1d88388295a0"
+hash = "68c95ca8a6a87d26199d43ff6978bc94949329e3"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9406248
+file-id = 9406246
 project-id = 531761
