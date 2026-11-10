@@ -3,8 +3,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'createendergateway:sequenced_assembly/mechanical_gateway' })
     event.recipes.create.sequenced_assembly([ 'createendergateway:mechanical_gateway' ], 'minecraft:end_stone',
     [
-        event.recipes.create.cutting(incomplete, incomplete),
         event.recipes.create.pressing(incomplete, incomplete),
+        event.recipes.create.cutting(incomplete, incomplete),
         event.recipes.create.filling(incomplete, [ incomplete, Fluid.of('createendergateway:active_ender_solution', 100) ]),
         event.recipes.create.deploying(incomplete, [ incomplete, 'create:precision_mechanism' ]),
     ])

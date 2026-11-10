@@ -71,6 +71,14 @@
 	quest.1E5C348812DB9F35.quest_subtitle: "蒸汽革命"
 	quest.1E65784B75CF663D.quest_subtitle: "让火焰净化一切！"
 	quest.1E65784B75CF663D.title: "下界"
+	quest.1E67C1D632EC405F.quest_desc: [
+		"&b&n传动杆&r可以沿&n轴向&r传递&e应力&r，也用于合成各类&6机械动力&r中的物品与机器。"
+		""
+		"如你所见，在本整合包中几乎所有&6机械动力&r设备都可以&2使用各种材料进行制作&r。如果找不到想使用的木材种类，请使用&a自然罗盘&r进行搜索。"
+		""
+		"需要提醒的是，后续的&e&n传送带&r仅能在&7&n安山合金&r制作的&b&n传动杆&r上才能连接，但所有种类的&b&n传动杆&r&2都具有基本的传动功能等&r。"
+	]
+	quest.1E67C1D632EC405F.quest_subtitle: "机械动力的开始"
 	quest.1E67C1D632EC405F.title: "传动杆"
 	quest.21C723DC80E28D77.title: "浓缩"
 	quest.22126D209869A824.title: "水晶矩阵"
@@ -108,8 +116,16 @@
 	quest.34790A29655EB2CE.title: "更多的并行"
 	quest.34F2791E625E4C0C.title: "烈焰棒循环"
 	quest.36F58FFDE57DF07F.title: "鼓风机"
+	quest.37BEEDBD86AFFC4A.quest_desc: [
+		"&6&n气体散布机&r用于将&b&n环境气体&r散布在附近的空气中，不需要消耗任何&e电力&r或者&2应力&r。"
+		""
+		"{image:kubejs:block/generated/hot_air_still width:16 height:16 align:center}"
+		""
+		"环境气体会均匀散布在附近&e半径8格&r内，用于为&d需要在特殊环境中工作&r的机器提供环境。"
+	]
 	quest.37BEEDBD86AFFC4A.quest_subtitle: "给空气加点料"
 	quest.37BEEDBD86AFFC4A.title: "气体散布机"
+	quest.39E5BE1D74359EB7.quest_subtitle: "水的力量"
 	quest.3AACA1352F0BF424.title: "无限石头"
 	quest.3B4288E274F1CE46.title: "生物培养仓"
 	quest.3B84B15DD34F155F.quest_desc: [
@@ -141,6 +157,7 @@
 	quest.3B84B15DD34F155F.title: "晶体能量存储器"
 	quest.3BA0364FBB7CE17D.title: "样板与自动化"
 	quest.3D84BA05931EFFB0.title: "获得铝"
+	quest.3D9E9116FF9A4AFC.quest_subtitle: "机器的分身术"
 	quest.3D9E9116FF9A4AFC.title: "多线程"
 	quest.3E319270C4E0908B.quest_subtitle: "机器的客制化工具"
 	quest.3E319270C4E0908B.title: "插件"
@@ -160,6 +177,7 @@
 	quest.4665B19516854D27.quest_subtitle: "无穷无尽的流体"
 	quest.4665B19516854D27.title: "软管滑轮与无限流体"
 	quest.46A51CF6E2308357.title: "乙醇"
+	quest.46DDCE3963FE6D95.quest_subtitle: "同时运行更多次配方！"
 	quest.46DDCE3963FE6D95.title: "并行"
 	quest.470EDE05370A4D18.title: "L4 可拓展存储子系统"
 	quest.4832DF6BCE36471A.quest_subtitle: "精密电路压印"
@@ -183,6 +201,8 @@
 	quest.543B0C625C5B1AF8.title: "更好的ME机器"
 	quest.54A13C39BFDD6CCD.quest_desc: ["嗯...如你所见，&d&n创造机壳&r其实并不能用来制作那些创造模式专用的机器，只能为你的机器换上一套新的皮肤。"]
 	quest.54A13C39BFDD6CCD.quest_subtitle: "不创造的创造机壳"
+	quest.55AB9379D33FA275.quest_desc: ["搅拌&4余烬面粉&r与&b水&r让其剧烈放热后形成的特殊溶液，具有强烈的酸性。"]
+	quest.55AB9379D33FA275.quest_subtitle: "强腐蚀"
 	quest.55AB9379D33FA275.title: "硫酸"
 	quest.55C1633C4FFA0A72.quest_subtitle: "压扁它们！"
 	quest.55C1633C4FFA0A72.title: "动力冲压机"
@@ -227,6 +247,13 @@
 	quest.664C46D1A7A873CE.title: "制作石灰岩"
 	quest.688098C327A5779D.quest_subtitle: "不存在什么炉温限制！"
 	quest.688098C327A5779D.title: "合金冶炼炉"
+	quest.696D2AA8F7B26D83.quest_desc: [
+		"相比于主世界的&7&n圆石&r而言，&4&n下界岩&r很软以至于可以研磨成粉状..."
+		""
+		"这种广义上的石头粉末可以用于制作&e&n荧石&r，&c&n红石&r或&8&n火药&r亦或者像面粉那样做成蛋糕胚，&d烈焰人&r或许会乐意吃一些这种另类的蛋糕。"
+	]
+	quest.696D2AA8F7B26D83.quest_subtitle: "可食用？"
+	quest.6BF9846E5E3ECA68.quest_desc: [""]
 	quest.6BF9846E5E3ECA68.quest_subtitle: "从头开始"
 	quest.6BF9846E5E3ECA68.title: "一切的开始"
 	quest.6CB57EBDC893377B.title: "奇点与无线科技"
@@ -250,6 +277,7 @@
 	quest.70B51178E735FE33.quest_subtitle: "气球填充物"
 	quest.70B51178E735FE33.title: "获得氢气"
 	quest.70FC5CDF05A4D610.title: "基础卡与高级卡"
+	quest.72E15A9D30287C44.quest_subtitle: "简易动力源"
 	quest.72F04F7F6B16249E.quest_subtitle: "多方块革命"
 	quest.739894808CC625F5.title: "末地"
 	quest.73AF34F445ABCD86.title: "可选副产物：硅"
@@ -268,6 +296,7 @@
 	quest.7E7726FD9BE884E5.title: "铜循环"
 	quest.7F7E39CF90F2B144.title: "ME输入/输出总线"
 	quest.7FEC01D6E24B9ACA.title: "可选副产物：黏土 + 燧石"
+	task.007C37CCB4C2DAED.title: "1B 末地空气"
 	task.023F21DBF579116A.title: "任意材质的平行齿轮箱"
 	task.02D5C903D9A6814A.title: "1B 硫酸"
 	task.06D98B9560BEDAC1.title: "任意材质的注液器"
@@ -293,6 +322,7 @@
 	task.4A7031F391F05226.title: "任意材质的链式齿轮箱"
 	task.4D3127AB6979E6AC.title: "任意材质的传动杆"
 	task.4D81B095EAB5F770.title: "任意材质的横向流体储罐"
+	task.4E23C4D9E3B88E9B.title: "1B 空气"
 	task.4E6F5E21BA56EF91.title: "任意等级管道升级"
 	task.50E64E9685E825B3.title: "任意材质的动力收割机"
 	task.50F50FEA9A38F866.title: "1B 乙醇"
@@ -306,6 +336,7 @@
 	task.66F9A73F1CED1C27.title: "任意类型管道"
 	task.690C303077DFA228.title: "任意材质的动力冲压机"
 	task.6B9B678EFACE4BA6.title: "任意材质的动力钻头"
+	task.6CAA1899710AAC00.title: "1B 下界空气"
 	task.7134487B9C7A987A.title: "任意材质的流体管道"
 	task.751EB5B7FBFB66D5.title: "任意材质的动力泵"
 	task.7B0DECC288DC33E8.title: "任意材质的六向齿轮箱"

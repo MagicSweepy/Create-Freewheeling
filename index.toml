@@ -78,7 +78,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "f2b8b21e16685a62441454b3fedfd7731050494e97b72d901e7d9630a34c29dc"
+hash = "bf697af5799838ec8766509b973cb09cf7560cb78eb75eb475d1128481699a1e"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -95,6 +95,10 @@ hash = "976cedef0516c6e73e567bd6444ba997c92a32f1843112b7e00d8cc214a60c05"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "dea8d2000b7bf50b4450cfb76aded10079a833fdc08a9d409dfd9b2b8f0aa5f3"
+
+[[files]]
+file = "kubejs/assets/catalogue/lang/zh_cn.json"
+hash = "0c8d0fe2749ad4deef3b80aac62b135ed674e5ab48646d7d8054e54cfb1f0f44"
 
 [[files]]
 file = "kubejs/assets/create/textures/block/glass_fluid_pipe.png"
@@ -946,7 +950,7 @@ hash = "fdb247a784bc2596352d07667d2e362ddf705cb3b303b2036f7ab4eb3120dae3"
 
 [[files]]
 file = "kubejs/server_scripts/create_ender_gateway.js"
-hash = "5d600fd1aa596bb8f085f46b3f337ee1d785c022b7b61b198b4a0efb5d39f784"
+hash = "704aa3391447f62ec1153a68316ce53227f601cd460800d53e57eeb2c5e22184"
 
 [[files]]
 file = "kubejs/server_scripts/create_fluid_logistics.js"
@@ -1170,6 +1174,11 @@ metafile = true
 [[files]]
 file = "mods/blueprint.pw.toml"
 hash = "16ba84aa4357c8ca27afc6f92225b94ae4a965dfef3eed9240c3062436e1fd0f"
+metafile = true
+
+[[files]]
+file = "mods/catalogue.pw.toml"
+hash = "98db626859ef290e5f7be9084d9f8a4b93ef441a8762ff08cebcf36308b36225"
 metafile = true
 
 [[files]]
@@ -1445,6 +1454,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "057044d2179d9e10b616ef8fa4cc870ad350842fc5c325ce0b3766160852cd13"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
 metafile = true
 
 [[files]]
