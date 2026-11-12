@@ -1,13 +1,13 @@
 name = "Neo ECO AE Extension"
-filename = "neoecoae-21.2.15.jar"
+filename = "neoecoae-21.2.16.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5507dd707ad57c7ee15873cb82d2e87ab5a9953b"
+hash = "832dd4f0b7ee586999e3cf94a43bb0117a44dd93"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9455087
+file-id = 9561509
 project-id = 1460639

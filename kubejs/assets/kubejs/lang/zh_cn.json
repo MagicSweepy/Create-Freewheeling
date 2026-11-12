@@ -223,7 +223,7 @@
     "kubejs.tooltip.atmospheric_diffuser.gases.6": "6 碱性环境（富氨气体）",
     "kubejs.tooltip.atmospheric_diffuser.range": "范围：以控制器为中心，半径%1$s格的球体（上下各%1$s格）",
     "kubejs.tooltip.chemical_reactor": "需要处于对应环境才能进行化学合成",
-    "kubejs.tooltip.chemical_reactor.range": "环境范围由附近的大气散布机决定，以反应釜控制器位置判定是否在范围内",
+    "kubejs.tooltip.chemical_reactor.range": "环境范围由附近的气体散布机决定，以反应釜控制器位置判定是否在范围内",
     "kubejs.tooltip.chorium_half": "继续通过动力搅拌器染色以获得双染紫颂锭",
     "kubejs.tooltip.chorium_dyed": "染色完毕，丢入水中以产出共振紫颂锭或褪色",
     "kubejs.tooltip.chromatic_compound.dyed.1": "需要为紫颂锭染上正确的两种颜色",

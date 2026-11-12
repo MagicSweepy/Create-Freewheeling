@@ -190,7 +190,7 @@ hash = "c4cb0ae7179487e98454a4aaf5c0f931a1dd24712f100b5c39b02fa2686ff0dc"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "2702832e52cf41f4256b873882835844c495ccdbd038745e7b8c7a6572ab67d9"
+hash = "7f885edb5aef11e9e268a3f2131440af555ca1e74025d6245641fc79195348d3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/half_bedrock_budding_sky_stone_block.png"
@@ -1252,7 +1252,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "056aacc6cc26cdbb69f91a55c1593cb4fb8106dcd4aaa3c1c0ca2c9019caddd8"
+hash = "114b7064674ad8f1551282bb51689b5d302bf0b6b9ef1a79f632e7dec2e0a7ae"
 metafile = true
 
 [[files]]
@@ -1492,7 +1492,7 @@ metafile = true
 
 [[files]]
 file = "mods/neo-eco-ae-extension.pw.toml"
-hash = "4654c205037b88fb22c0dfe3b86f54e1b01d5d35c272494e9ad7abb68594e4c6"
+hash = "9a5b9866a7a096d9b21b7a80bf7372f9027cd358e5bf05f9add722697ace539c"
 metafile = true
 
 [[files]]
@@ -1502,7 +1502,7 @@ metafile = true
 
 [[files]]
 file = "mods/re-avaritia.pw.toml"
-hash = "d9d78cb442bc4c7b2a5917f2e57968750762558eb381a2a630dd0d5e6244e0cc"
+hash = "c2cebf7fccae8870eb4b4a57dc87be9e4352f6c06b6e0bb621d0ccbfa96074b4"
 metafile = true
 
 [[files]]
