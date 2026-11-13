@@ -998,7 +998,7 @@ hash = "9ab62db6f5ee4dc1bd01c99550973a81d24c133eb268ebf2ea61d097a82fb5b2"
 
 [[files]]
 file = "kubejs/server_scripts/functional_storage.js"
-hash = "ace1882e75b4898d91953158704874338f5fb076836b40e7b00e3a5c7b52000f"
+hash = "e857640c6a983612c74fbfa2ea4ec7c24a62d29f95af97bdc96f2e35bbcf83d1"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
@@ -1070,7 +1070,7 @@ hash = "f87d3f59d49bdea95353e958f6a4ac9fd1708e158ed11f6f92f928dda838a395"
 
 [[files]]
 file = "kubejs/server_scripts/sophisticated_storage.js"
-hash = "f196cd0f6e689695d25f19aec6be9c1866669c0fb87755f42499a23f225bf7d9"
+hash = "86f08f03016082fa4e69320fe1eb4e7f6661e2bdea29699b51c857ad6f6694f5"
 
 [[files]]
 file = "kubejs/server_scripts/structure/atmospheric_collector.js"

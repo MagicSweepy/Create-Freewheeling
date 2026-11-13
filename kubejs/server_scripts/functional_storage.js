@@ -7,6 +7,15 @@ ServerEvents.tags('item', event => {
     event.add('functionalstorage:drawer', 'functionalstorage:fluid_4')
 })
 
+ServerEvents.tags('block', event => {
+    event.add('create:wrench_pickup', 'functionalstorage:fluid_1')
+    event.add('create:wrench_pickup', 'functionalstorage:fluid_2')
+    event.add('create:wrench_pickup', 'functionalstorage:fluid_4')
+    event.add('create:wrench_pickup', 'functionalstorage:framed_fluid_1')
+    event.add('create:wrench_pickup', 'functionalstorage:framed_fluid_2')
+    event.add('create:wrench_pickup', 'functionalstorage:framed_fluid_4')
+})
+
 ServerEvents.recipes(event => {
     event.remove({ output: 'functionalstorage:dripping_upgrade' })
     event.remove({ output: 'functionalstorage:water_generator_upgrade' })
