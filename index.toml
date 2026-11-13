@@ -561,6 +561,10 @@ file = "kubejs/assets/shelvesbackport/lang/zh_cn.json"
 hash = "5bc982969fba2764dabf3b039439e65b71ad95953b6190e873afc033aac94cd2"
 
 [[files]]
+file = "kubejs/assets/sophisticatedstorage/lang/zh_cn.json"
+hash = "212fbabd6ec7d997f00d5f32e37e4de116afeb5a085f1628c64873e506516869"
+
+[[files]]
 file = "kubejs/client_scripts/incomplete_item_renderer.js"
 hash = "21c974ef2cd0b1808f9b3dcd290af21804c4124d8b8c21ff88b87521c008cec4"
 
@@ -1065,6 +1069,10 @@ file = "kubejs/server_scripts/recipe_pool/lightning_processor.js"
 hash = "f87d3f59d49bdea95353e958f6a4ac9fd1708e158ed11f6f92f928dda838a395"
 
 [[files]]
+file = "kubejs/server_scripts/sophisticated_storage.js"
+hash = "f196cd0f6e689695d25f19aec6be9c1866669c0fb87755f42499a23f225bf7d9"
+
+[[files]]
 file = "kubejs/server_scripts/structure/atmospheric_collector.js"
 hash = "874250eb2c636dc1f9bbe47daca3d8b2ed80816deb96aca98f75c027277e9807"
 
@@ -1492,7 +1500,7 @@ metafile = true
 
 [[files]]
 file = "mods/neo-eco-ae-extension.pw.toml"
-hash = "9a5b9866a7a096d9b21b7a80bf7372f9027cd358e5bf05f9add722697ace539c"
+hash = "0710de5cc8cb42cc33f23c14e130b24405f3056e62a7007e812fe404820277e2"
 metafile = true
 
 [[files]]
@@ -1547,7 +1555,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "16d70fa9a31de70bcdb2eae8a622ef2db619ad4377181aee1b22d68bcee90fdb"
+hash = "5595180841498e564236e26c66a5d7d790a2fcd52da68707f0c8ac15fd03e3a2"
 metafile = true
 
 [[files]]
@@ -1572,7 +1580,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "aef93a20593974a84448063b6ad719ae925f6fb4be31d721a4b99339ab5c1776"
+hash = "daf137e8a49ade4dd31c65befa0fe1136cd834e43714a989db482c133f7d45d4"
 metafile = true
 
 [[files]]
