@@ -1629,7 +1629,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "ca259a32b9b3f9cf0630e4a2906425002b57d3835d7df1c23b797dfa900440dd"
+hash = "5c1d736ce37df42b38c9061883dd10a0af7003ff8db42524ed33561a85cd491c"
 
 [[files]]
 file = "resourcepacks/create-functional-storage.pw.toml"
