@@ -242,6 +242,8 @@
     "kubejs.tooltip.crystal_energy_storage.data": "警告：电量保存在结构中的数据存储器内，破坏数据存储器会丢失存储电量",
     "kubejs.tooltip.bio_chamber": "需要处于对应环境才能进行生物培养",
     "kubejs.tooltip.sculk_info": "在幽匿催发体半径8格内杀死能掉落经验生物以转化方块",
+    "kubejs.tooltip.shadow_steel": "将异彩化合物丢入虚空中转化",
+    "kubejs.tooltip.refined_radiance": "将异彩化合物丢在信标上转化",
 
     "atmosphere.kubejs.collecting": "正在收集大气",
     "atmosphere.kubejs.output_full": "输出仓已满",

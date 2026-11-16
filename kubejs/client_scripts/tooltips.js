@@ -129,4 +129,7 @@ ItemEvents.modifyTooltips(event => {
         Text.translate('kubejs.tooltip.chemical_reactor.range').gray() ])
 
     event.add('minecraft:sculk', Text.translate('kubejs.tooltip.sculk_info').gray())
+
+    event.add('create:shadow_steel', Text.translate('kubejs.tooltip.shadow_steel').gray())
+    event.add('create:refined_radiance', Text.translate('kubejs.tooltip.refined_radiance').gray())
 })

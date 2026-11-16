@@ -186,11 +186,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "c4cb0ae7179487e98454a4aaf5c0f931a1dd24712f100b5c39b02fa2686ff0dc"
+hash = "ed52843d41a49710d0afdcdb6e611142d5d07d2a131709451167beee28351912"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "7f885edb5aef11e9e268a3f2131440af555ca1e74025d6245641fc79195348d3"
+hash = "a54d9982cc98215d5ec35e9449139d0fb8958e683482da3e9b3f77dd9d718cc3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/half_bedrock_budding_sky_stone_block.png"
@@ -574,7 +574,7 @@ hash = "2af8c292ccb76e40998653c351867b21264f39613a0ab844dbf537df9b66487d"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "eed682d07547de1641f68f54c4b02e067b4e6538df7ffd698b3bb5ee55031d33"
+hash = "43c09d7fa4945434b327e05f9f0adf122ed24d723049e8c49ad3030dbbb53edd"
 
 [[files]]
 file = "kubejs/data/ae2/recipe/inscriber/calculation_processor.json"
