@@ -973,6 +973,10 @@ file = "kubejs/server_scripts/create_fluid_logistics.js"
 hash = "16212ef3f2f2943715c69435059b6ad1e7fabc3c31cacd840af02a83ee7a9917"
 
 [[files]]
+file = "kubejs/server_scripts/create_frequency.js"
+hash = "02e6d925af2e2121273b579d42e531143054e612dea5b7c2ec2b5d97b741afde"
+
+[[files]]
 file = "kubejs/server_scripts/create_improve.js"
 hash = "19b4a23b7c9e5103b2c8e07b654cea6bdd82c720e79cfaad4d660d6de70a43ec"
 
