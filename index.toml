@@ -1350,7 +1350,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "90d8290ba2c103b55eacba92ed0f08c77a3832795b99fb03e77f9dc3885c7fd9"
+hash = "fe87173e15a7e2a7543c553708cc3f49a346bcb686cec4977fce6c3efafe4521"
 metafile = true
 
 [[files]]
@@ -1480,7 +1480,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "70f8cff0e36daca76c274ea312ba796da0becf39ab8a270841a80016f2143eea"
+hash = "fed91aaaeebd83eb87630a40f882fdc78d54037a4a5c721790bfa0f130b9e3fe"
 metafile = true
 
 [[files]]
@@ -1555,7 +1555,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5595180841498e564236e26c66a5d7d790a2fcd52da68707f0c8ac15fd03e3a2"
+hash = "eb53e55904b817f6fc907109f51f4b17c474ec06084c01a4f6729d2ec1347f33"
 metafile = true
 
 [[files]]
@@ -1605,12 +1605,12 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "cfc3d0abc9c387a708d246bef5f90481cd62adee3b6ed7e0932042de2bdbcc3e"
+hash = "b2af637f4198d9bfee97e9b3b3ee298ac9b5d25d656188c698489d0d56f716f5"
 metafile = true
 
 [[files]]
 file = "mods/wearable-toolbox.pw.toml"
-hash = "6b05cb431ef5ddcee9d9d91f72d2f38d6884c2b6c12f3c06472f5dfd6f22b16c"
+hash = "4bf3cf2ccf8531594961e13a61f9a51fde55dede1ebf356d4bd5c29263d76a42"
 metafile = true
 
 [[files]]
