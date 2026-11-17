@@ -19,6 +19,10 @@ ServerEvents.recipes(event => {
     addPlateRecipe('aluminum_alloy', 'neoecoae:aluminum_alloy_ingot', 'kubejs:aluminum_alloy_sheet')
     addPlateRecipe('black_tungsten_alloy', 'neoecoae:black_tungsten_alloy_ingot', 'kubejs:black_tungsten_alloy_sheet')
     addPlateRecipe('energized_superconductive', 'neoecoae:energized_superconductive_ingot', 'kubejs:energized_superconductive_sheet')
+    addPlateRecipe('blaze_cube', 'avaritia:blaze_cube', 'avaritia_integration:blaze_cube_plate')
+    addPlateRecipe('crystal_matrix', 'avaritia:crystal_matrix_ingot', 'avaritia_integration:crystal_matrix_plate')
+    addPlateRecipe('infinity', 'avaritia:infinity_ingot', 'avaritia_integration:infinity_plate')
+    addPlateRecipe('neutron', 'avaritia:neutron_ingot', 'avaritia_integration:neutron_plate')
 
     addRodRecipe('copper', 'minecraft:copper_ingot', 'createaddition:copper_rod')
     addRodRecipe('iron', 'minecraft:iron_ingot', 'createaddition:iron_rod')
@@ -28,6 +32,10 @@ ServerEvents.recipes(event => {
     addRodRecipe('steel', 'createnuclear:steel_ingot', 'kubejs:steel_rod')
     addRodRecipe('aluminum', 'neoecoae:aluminum_ingot', 'kubejs:aluminum_rod')
     addRodRecipe('tungsten', 'neoecoae:tungsten_ingot', 'kubejs:tungsten_rod')
+    addRodRecipe('blaze_cube', 'avaritia:blaze_cube', 'avaritia_integration:blaze_cube_rod')
+    addRodRecipe('crystal_matrix', 'avaritia:crystal_matrix_ingot', 'avaritia_integration:crystal_matrix_rod')
+    addRodRecipe('infinity', 'avaritia:infinity_ingot', 'avaritia_integration:infinity_rod')
+    addRodRecipe('neutron', 'avaritia:neutron_ingot', 'avaritia_integration:neutron_rod')
 
     addWireRecipe('copper', 'minecraft:copper_ingot', 'create:copper_sheet', 'createaddition:copper_wire')
     addWireRecipe('iron', 'minecraft:iron_ingot', 'create:iron_sheet', 'createaddition:iron_wire')

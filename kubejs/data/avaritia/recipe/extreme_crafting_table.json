@@ -2,47 +2,47 @@
   "type": "avaritia:shaped_table",
   "key": {
     "a": {
-      "item": "avaritia:double_compressed_crafting_table"
+      "item": "avaritia_integration:crystal_matrix_casing"
     },
     "b": {
-      "item": "kubejs:epoxy_resin"
+      "item": "avaritia_integration:crystal_matrix_plate"
     },
     "c": {
-      "item": "avaritia:diamond_lattice"
+      "item": "avaritia_integration:crystal_matrix_rod"
     },
     "d": {
-      "item": "avaritia:crystal_matrix_ingot"
-    },
-    "e": {
       "item": "avaritia:crystal_matrix"
     },
+    "e": {
+      "item": "kubejs:netherite_coil"
+    },
     "f": {
-      "item": "minecraft:recovery_compass"
+      "item": "avaritia_integration:blaze_cube_plate"
     },
     "g": {
-      "item": "minecraft:dragon_egg"
+      "item": "avaritia:endest_pearl"
     },
     "h": {
-      "item": "avaritia:blaze_cube_block"
+      "item": "kubejs:productivity_module_mk3"
     },
     "i": {
-      "item": "minecraft:reinforced_deepslate"
+      "item": "kubejs:efficiency_module_mk3"
     },
     "j": {
-      "item": "minecraft:netherite_block"
+      "item": "kubejs:speed_module_mk3"
     },
     "k": {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "createimp:batch_mechanical_crafter"
     }
   },
   "pattern": [
-    "bccfccb",
-    "cddgddc",
-    "cdihidc",
-    "cdiaidc",
-    "cdjkjdc",
-    "cdddddc",
-    "beeeeeb"
+    "dbcccbd",
+    "bdefedb",
+    "cekhkec",
+    "cfgagfc",
+    "ceigjec",
+    "bdefedb",
+    "dbcccbd"
   ],
   "result": {
     "count": 1,

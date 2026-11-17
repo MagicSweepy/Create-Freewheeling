@@ -54,11 +54,11 @@ hash = "79fd0ba7165a4d0ae621a9fd932e982edf7bd3ba85481476d4df95ef99dd3c47"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/43a3962e352ae163.snbt"
-hash = "7bd030298b5c2f0162e54f91d0758d291df1c70d64e613145bb790a3a3e357af"
+hash = "56e0e7a8fd4ab5a9b1d21f67afa7b581f6322c64b76ef83af6eca3ede90e34bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/52dcc5c078582d43.snbt"
-hash = "58202d8ad6a8852cfc7629853fdef232cbc2df5d120d41eff03b4034b7020d82"
+hash = "2748b67d7913e03c3461225f6c649d3bba667f0fb333efcb7b7f74cb9ce91ee5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
@@ -74,11 +74,11 @@ hash = "360148cc5a53ffbc2cefd68cfc23f4c5a152439419a99b8b171e9f9173ccc0c3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "952a2b207064d4026a9b8c64ad1d3800b7541279b5a722ee9cf5bf7e4ad93d8b"
+hash = "02bb9d0f812b392241a40220c50357d4db308ea9eda75ccdaba5daa13c3d4d8a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "572c42e2a8a70a2d385ac82828281bfba7ee5aae34407de44b728c42ec50dce1"
+hash = "0860b75e73dd94254ed7438dd5c1c954a00efc9080818af0b2f597fb1b801a5c"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -186,11 +186,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "ec2305486e6e449048678200005d12f8690b4f83e4391392b2d7fd55e3624aa2"
+hash = "d9035dbed53986fd63f319aadca39023f145277aead0ff45e6066d1c25d4dcda"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "5c70ad9acdf1fa18f5276ab9f2d17b736bc0baef01455fc55b2bce4bf7306179"
+hash = "09d829ca05eb875e2ade0d34341d44876cc68519d1a10d2f3989cfadaa8a7c94"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/half_bedrock_budding_sky_stone_block.png"
@@ -469,6 +469,14 @@ file = "kubejs/assets/kubejs/textures/item/metal_mixture.png"
 hash = "556041ad9a03361f4a4086808e32ae67c502e9c8cfcd21c542637134823412bf"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/netherite_coil.png"
+hash = "e2fd3c849c4554926498280d189e0d5bbf55e0a2c0420ea7f7db7b3c59d3b5b6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/netherite_coil.png.mcmeta"
+hash = "c06af02e38867b79d733655ee42b013ec034f9b95b675a2f9f23160c164223c7"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/netherite_mixture.png"
 hash = "46e0e008eef06459429c5c7f390d7263d6613552799b122249659901c865ba0b"
 
@@ -483,6 +491,14 @@ hash = "96cdaed75ab5ed0a72e54174255dc942a79b9d24e21c4d6495005b51bcdbe344"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/plastic_sheet.png"
 hash = "5861ca827dce274deff331b3ee3c0349eb9f04c1eb15028ffde8b5b6c7fc38aa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/prismatic_compound.png"
+hash = "3f8d31807ee7951cf7e91c2960517c8d4f0eedffbb75675f33018c40df869b54"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/prismatic_compound.png.mcmeta"
+hash = "c06af02e38867b79d733655ee42b013ec034f9b95b675a2f9f23160c164223c7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/productivity_module_mk1.png"
@@ -670,7 +686,7 @@ hash = "8e5244d638377e124e5f7727b8ae06029f1d892a62ebc91eae097dae8d8e8abb"
 
 [[files]]
 file = "kubejs/data/avaritia/recipe/extreme_crafting_table.json"
-hash = "79e95fce866bd66595798a233e07af8cf9100d144886d9375cdd69067c82dbfc"
+hash = "3b01d4a811fe7c795738a577e68e3273a459c484557d1b6db859ecdd31dcabe0"
 
 [[files]]
 file = "kubejs/data/avaritia/recipe/handheld_world_shaper.json"
@@ -686,11 +702,11 @@ hash = "3e58546f528269a54ccc8e75971bc7d3e64ef2bbb2ce539273786017898b657c"
 
 [[files]]
 file = "kubejs/data/avaritia/recipe/neutron_collector.json"
-hash = "84dca5856c2b4e281e052c66d0f66b086149d7d4c25eee59be537f41e4447fcc"
+hash = "071c1a6b707362f133a8c056620720b89fe7f56ec882db54dad6d8fe91da4db5"
 
 [[files]]
 file = "kubejs/data/avaritia/recipe/neutron_compressor.json"
-hash = "0bb84a48c137651aba676adde41b0fe4f913701f74a1fed22e726ec072265fcd"
+hash = "1d8c0a2b87c2cd6aa09bd33199f68e3b87aace391ba4fc4c1d5f1df483fc56db"
 
 [[files]]
 file = "kubejs/data/avaritia/recipe/parallel_controller_ultimate.json"
@@ -897,6 +913,10 @@ file = "kubejs/data/neoecoae/recipe/integrated_working_station/half_bedrock_budd
 hash = "b352a231fa27820963b682201e25c6e90a89ca49814cacc6397e5ef7a552e454"
 
 [[files]]
+file = "kubejs/data/neoecoae/recipe/integrated_working_station/netherite_coil.json"
+hash = "31615925fc5ec4b16bfdbfa1cdf219b51cccbdbec294830328c8627b0756c772"
+
+[[files]]
 file = "kubejs/server_scripts/applied_energistics.js"
 hash = "012b1df21ebe65750a73ceb845df334e7f327809a52472acc1a8111aae3b285f"
 
@@ -907,6 +927,10 @@ hash = "f732f18c3fe302fb924c1a7cba84b004d643982de0c3affcbfcdc90f2117837f"
 [[files]]
 file = "kubejs/server_scripts/avaritia.js"
 hash = "17f32c8d8be1b537013df451ce0387adde36aaaabd9a7780776248d6dcb6eca7"
+
+[[files]]
+file = "kubejs/server_scripts/avaritia_integration.js"
+hash = "ee1608e8e4492df53c11e87789a287ed84152aa70db78bd0f967970529e8e15c"
 
 [[files]]
 file = "kubejs/server_scripts/chain/amethyst_chain.js"
@@ -1030,7 +1054,7 @@ hash = "e857640c6a983612c74fbfa2ea4ec7c24a62d29f95af97bdc96f2e35bbcf83d1"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "530952a7b1604d21c95d17a13c359ff6453c87275cd58d690c0a62becf3e557e"
+hash = "028f482945e1c2cf3ca8d7638b29964859ec96776456c594c5351df281a72a77"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
@@ -1070,7 +1094,7 @@ hash = "ab9040c9ca94307cd7b9b950ad06759f2963abe3297e0c2f1c195a32242ed867"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/industrial_centrifuge.js"
-hash = "6430eed94b5fa0de38bf718ebea96dad32e2e38b720cdab984938172a534d78b"
+hash = "22e978c3e44309152f0ab2cb19708de02329a21f9e5a70c0901feffabd71f741"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_alloy_smelter.js"
@@ -1090,7 +1114,7 @@ hash = "765b8f4202039394ba23ef30137db317e9d393960985d63071125f8cb6707320"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_rolling_mill.js"
-hash = "d358809174bdf5b585b249ab1070aa6483eafd2bb79c1616cf2f437633c9542e"
+hash = "9c97ddc8b11856f3ff1f9ba78ac6e4bab0993682f97870f8392e3d675604e6a9"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/lightning_processor.js"
@@ -1178,7 +1202,7 @@ hash = "8016a103a8758a96c6cf3d8e367058906e8040455214c331816ca94a36c340bb"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "15fc8864aed1b5a35616dbfbbd1223d06c3e281ed1a684619c6f16dd343abb83"
+hash = "aa8b351e2ebf4253dac47cb903d36e75c0da0514324b351127cccdc51c4ef142"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
@@ -1219,6 +1243,11 @@ metafile = true
 [[files]]
 file = "mods/athena.pw.toml"
 hash = "38bddea8d550568799dd7f208c0bbe10280de3e456016a0d59aa20de112a2345"
+metafile = true
+
+[[files]]
+file = "mods/avaritia-integration.pw.toml"
+hash = "7452cd8887722523fda678fe364b7aaaa8839daed9d9fe6ada81143f8644a50f"
 metafile = true
 
 [[files]]

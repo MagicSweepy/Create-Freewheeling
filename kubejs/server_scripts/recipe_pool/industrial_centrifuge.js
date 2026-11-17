@@ -197,4 +197,145 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:industrial_centrifuge/shadebane_streptococcus')
+
+     event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:industrial_centrifuge',
+        tick_time: 800,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'create:shadow_steel' },
+                count: 8
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'create:refined_radiance' },
+                count: 8
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 5120
+            },
+            {
+                type: 'create:stress',
+                io: 'input',
+                stress: 96.0,
+                min_rpm: 64
+            },
+            {
+                type: 'minecraft:item',
+                io: 'output',
+                stack: {
+                    id: 'kubejs:prismatic_compound',
+                    count: 4
+                }
+            },
+            {
+                type: 'minecraft:item',
+                io: 'output',
+                stack: {
+                    id: 'create:chromatic_compound',
+                    count: 8
+                }
+            }
+        ]
+    }).id('kubejs:industrial_centrifuge/prismatic_compound')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:industrial_centrifuge',
+        tick_time: 200,
+        parallelized: true,
+        requirements: [
+             {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'avaritia_integration:blaze_cube_dust' },
+                count: 1
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 360
+            },
+            {
+                type: 'create:stress',
+                io: 'input',
+                stress: 96.0,
+                min_rpm: 64
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'avaritia_integration:molten_blaze', amount: 250 }
+            }
+        ]
+    }).id('kubejs:industrial_centrifuge/molten_blaze')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:industrial_centrifuge',
+        tick_time: 200,
+        parallelized: true,
+        requirements: [
+             {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'avaritia_integration:crystal_matrix_dust' },
+                count: 1
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 360
+            },
+            {
+                type: 'create:stress',
+                io: 'input',
+                stress: 96.0,
+                min_rpm: 64
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'avaritia_integration:molten_crystal_matrix', amount: 250 }
+            }
+        ]
+    }).id('kubejs:industrial_centrifuge/molten_crystal_matrix')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:industrial_centrifuge',
+        tick_time: 200,
+        parallelized: true,
+        requirements: [
+             {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'avaritia_integration:neutron_dust' },
+                count: 1
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 360
+            },
+            {
+                type: 'create:stress',
+                io: 'input',
+                stress: 96.0,
+                min_rpm: 64
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'avaritia_integration:molten_neutron', amount: 250 }
+            }
+        ]
+    }).id('kubejs:industrial_centrifuge/molten_neutron')
 })

@@ -11,32 +11,35 @@
       "item": "neoecoae:storage_casing"
     },
     "D": {
-      "item": "avaritia:neutron_ingot"
+      "item": "avaritia_integration:neutron_plate"
     },
     "E": {
       "item": "extendedae:entro_ingot"
     },
     "F": {
-      "item": "avaritia:crystal_matrix_ingot"
+      "item": "avaritia_integration:crystal_matrix_plate"
     },
     "G": {
-      "item": "kubejs:epoxy_resin"
+      "item": "kubejs:netherite_coil"
     },
     "H": {
       "item": "avaritia:crystal_matrix"
     },
     "I": {
       "item": "neoecoae:crafting_casing"
+    },
+    "J": {
+      "item": "avaritia_integration:crystal_matrix_rod"
     }
   },
   "pattern": [
     "IGFEDEFGI",
     "G B   B G",
-    "F C   C F",
+    "FJC   CJF",
     "E C   C E",
     "DHB A BHD",
     "E C   C E",
-    "F C   C F",
+    "FJC   CJF",
     "G B   B G",
     "IGFEDEFGI"
   ],

@@ -1,0 +1,13 @@
+name = "Avaritia Integration"
+filename = "Avaritia-Integration-all-neoforge-1.21.1-1.1.1-release.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "27cdaab97c6eb951de802a81a3a11179d49bf2b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9641230
+project-id = 1347675

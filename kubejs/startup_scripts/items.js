@@ -83,4 +83,7 @@ StartupEvents.registry('item', event => {
     event.create('hot_netherite_scrap')
     event.create('netherite_mixture')
     event.create('inert_netherite_ingot')
+
+    event.create('prismatic_compound')
+    event.create('netherite_coil')
 })

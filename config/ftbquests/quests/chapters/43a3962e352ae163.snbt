@@ -465,13 +465,14 @@
 				item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
 				type: "item"
 			}]
-			x: 42.5d
+			x: 40.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
-				"22126D209869A824"
-				"6718CAD2CEBE6BB5"
+				"25F6D1840A2E79B8"
+				"5A3D5AABC2698F6D"
+				"0144759EDFB79D36"
 			]
 			id: "13F34B46928617F9"
 			size: 5.0d
@@ -480,7 +481,7 @@
 				item: { count: 1, id: "avaritia:extreme_crafting_table" }
 				type: "item"
 			}]
-			x: 37.5d
+			x: 42.5d
 			y: -5.0d
 		}
 		{
@@ -493,6 +494,43 @@
 			}]
 			x: 35.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["22126D209869A824"]
+			id: "25F6D1840A2E79B8"
+			tasks: [{
+				id: "6EB51347D7C50E9D"
+				item: { count: 1, id: "avaritia_integration:crystal_matrix_casing" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"57E8D8C30F8965B9"
+				"7789BF5AB859DB42"
+				"6718CAD2CEBE6BB5"
+			]
+			id: "5A3D5AABC2698F6D"
+			tasks: [{
+				id: "5E7DD41BAAAFCDA6"
+				item: { count: 1, id: "kubejs:netherite_coil" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["09CFF20117531B8E"]
+			id: "57E8D8C30F8965B9"
+			tasks: [{
+				id: "69AF1972F00D0D6D"
+				item: { count: 1, id: "kubejs:prismatic_compound" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: -10.0d
 		}
 	]
 }

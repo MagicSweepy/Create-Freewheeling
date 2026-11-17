@@ -1,0 +1,30 @@
+{
+  "type": "neoecoae:integrated_working_station",
+  "energy": 5120,
+  "inputFluid": {
+    "amount": 1000,
+    "tag": "c:cosmic_water"
+  },
+  "inputItems": [
+    {
+      "count": 4,
+      "item": "kubejs:fluix_coil"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "count": 1,
+      "item": "kubejs:prismatic_compound"
+    },
+    {
+      "count": 8,
+      "item": "kubejs:epoxy_resin"
+    }
+  ],
+  "itemOutput": {
+    "count": 2,
+    "id": "kubejs:netherite_coil"
+  }
+}

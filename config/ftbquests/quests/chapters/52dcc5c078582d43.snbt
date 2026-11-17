@@ -177,7 +177,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["63BBD7F4CECC21A4"]
+			dependencies: ["46BD3E7BB9FEBEF2"]
 			id: "0BC448A741F69F89"
 			tasks: [{
 				id: "5E623652D345319E"
@@ -188,15 +188,15 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["3224EB5ECDE3F80B"]
+			dependencies: ["6914847A83B19413"]
 			id: "63BBD7F4CECC21A4"
 			tasks: [{
 				id: "33E8DB5E670C5DA4"
 				item: { count: 1, id: "avaritia:star_fuel" }
 				type: "item"
 			}]
-			x: 22.5d
-			y: 5.0d
+			x: 12.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["46BD3E7BB9FEBEF2"]
@@ -218,7 +218,7 @@
 				type: "item"
 			}]
 			x: 27.5d
-			y: 5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1E560C8985C45B4A"]
@@ -236,69 +236,7 @@
 				}
 			]
 			x: 32.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1E560C8985C45B4A"]
-			icon: {
-				id: "avaritia:infinity"
-			}
-			id: "53B90B488B782657"
-			size: 5.0d
-			tasks: [
-				{
-					id: "4C61190AE4158ADE"
-					item: { count: 1, id: "avaritia:infinity_helmet" }
-					type: "item"
-				}
-				{
-					id: "3606C1E877D12571"
-					item: { count: 1, id: "avaritia:infinity_chestplate" }
-					type: "item"
-				}
-				{
-					id: "049E1CB6C591CF6B"
-					item: { count: 1, id: "avaritia:infinity_pants" }
-					type: "item"
-				}
-				{
-					id: "4D6ECD7BA83CDED4"
-					item: { count: 1, id: "avaritia:infinity_boots" }
-					type: "item"
-				}
-				{
-					id: "1509D61912CBE297"
-					item: { components: { "minecraft:custom_data": { mode: { } } }, count: 1, id: "avaritia:infinity_sword" }
-					type: "item"
-				}
-				{
-					id: "1B42BEBD004B0554"
-					item: { components: { "minecraft:custom_data": { mode: { } } }, count: 1, id: "avaritia:infinity_pickaxe" }
-					type: "item"
-				}
-				{
-					id: "34AD7D9F9D3D9CCC"
-					item: { count: 1, id: "avaritia:infinity_axe" }
-					type: "item"
-				}
-				{
-					id: "6FAE00170D04F226"
-					item: { components: { "minecraft:custom_data": { mode: { } } }, count: 1, id: "avaritia:infinity_shovel" }
-					type: "item"
-				}
-				{
-					id: "7C67BCEEEFF06C81"
-					item: { count: 1, id: "avaritia:infinity_hoe" }
-					type: "item"
-				}
-				{
-					id: "39632A3BD4757648"
-					item: { count: 1, id: "avaritia:infinity_ring" }
-					type: "item"
-				}
-			]
-			x: 35.0d
-			y: 0.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2561EFDDF40EBA10"]
@@ -313,11 +251,11 @@
 		}
 		{
 			dependencies: [
-				"43017E110445EBA2"
 				"0603509F7423B6EA"
-				"0BC448A741F69F89"
+				"496D9C298D9F11C5"
 			]
 			id: "40840EA0561270CF"
+			size: 5.0d
 			tasks: [
 				{
 					id: "687DB9C9F5050117"
@@ -371,7 +309,78 @@
 				}
 			]
 			x: 30.0d
-			y: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6914847A83B19413"]
+			id: "2846C38D567B2F19"
+			tasks: [
+				{
+					id: "33AAA7E73632652A"
+					item: { count: 1, id: "avaritia_integration:neutron_mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "63F4C0902650695B"
+					item: { count: 1, id: "avaritia_integration:matrix_mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "756F83DC0EA22833"
+					item: { count: 1, id: "avaritia_integration:extreme_encased_fan" }
+					type: "item"
+				}
+				{
+					id: "7D0BEC20079D342E"
+					item: { count: 1, id: "avaritia_integration:extreme_crushing_wheel" }
+					type: "item"
+				}
+				{
+					id: "35B95EFEB2A33A57"
+					item: { count: 1, id: "avaritia_integration:extreme_basin" }
+					type: "item"
+				}
+				{
+					id: "020BCD6547809CBA"
+					item: { count: 1, id: "avaritia_integration:extreme_depot" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["63BBD7F4CECC21A4"]
+			id: "1EDAFD8287DBB141"
+			tasks: [
+				{
+					id: "62EBEB26D39AEFED"
+					item: { count: 1, id: "avaritia_integration:extreme_blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "2C92E676ACEC5B47"
+					item: { count: 1, id: "avaritia_integration:star_cake" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1EDAFD8287DBB141"
+				"43017E110445EBA2"
+			]
+			id: "496D9C298D9F11C5"
+			size: 5.0d
+			tasks: [{
+				id: "2D14C33466D60CED"
+				item: { count: 1, id: "avaritia_integration:creative_compound" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -5.0d
 		}
 	]
 }

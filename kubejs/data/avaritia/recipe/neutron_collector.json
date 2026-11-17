@@ -20,24 +20,27 @@
       "item": "neoecoae:aluminum_alloy_casing"
     },
     "G": {
-      "item": "kubejs:epoxy_resin"
+      "item": "kubejs:netherite_coil"
     },
     "H": {
       "item": "extendedae:entro_ingot"
     },
     "I": {
-      "item": "avaritia:crystal_matrix_ingot"
+      "item": "avaritia_integration:crystal_matrix_plate"
+    },
+    "J": {
+      "item": "avaritia_integration:crystal_matrix_rod"
     }
   },
   "pattern": [
     "FFGIHIGFF",
-    "F   E   F",
+    "F  JEJ  F",
     "G  DDD  G",
-    "I DBABD I",
+    "IJDBABDJI",
     "HEDACADEH",
-    "I DBABD I",
+    "IJDBABDJI",
     "G  DDD  G",
-    "F   E   F",
+    "F  JEJ  F",
     "FFGIHIGFF"
   ],
   "result": {
