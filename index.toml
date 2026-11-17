@@ -862,7 +862,7 @@ hash = "3e791536a781bf6e7276043a380b3c541f1a9ddd0e9eaa55fba2f0ab89970af8"
 
 [[files]]
 file = "kubejs/data/fluidlogistics/recipe/cooling/cold_air.json"
-hash = "53dd9cfd92b1fabc3dded9aba0ef22df9965aac456bc71469a9a94f1e4d17dec"
+hash = "e791f98526e671a05670fb56ffe44e2f81934d23eeca3143a85b3de09d965b3c"
 
 [[files]]
 file = "kubejs/data/fluidlogistics/recipe/cooling/cryotheum_crystal.json"

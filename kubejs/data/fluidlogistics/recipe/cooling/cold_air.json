@@ -20,9 +20,8 @@
     ],
     "results": [
         {
-            "type": "fluid_stack",
-            "amount": 1000,
-            "fluid": "kubejs:cold_air"
+            "id": "kubejs:cold_air",
+            "amount": 1000
         }
     ]
 }
