@@ -75,6 +75,9 @@
     "item.kubejs.heavy_metal_residue": "Heavy Metal Residue",
     "item.kubejs.fusion_rod": "Fusion Fuel Rod",
     "item.kubejs.depleted_fusion_rod": "Depleted Fusion Fuel Rod",
+    "item.kubejs.hot_netherite_scrap": "Hot Netherite Scrap",
+    "item.kubejs.netherite_mixture": "Netherite Mixture",
+    "item.kubejs.inert_netherite_ingot": "Inert Netherite Ingot",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "Half Bedrock Budding Sky Stone Block",
 

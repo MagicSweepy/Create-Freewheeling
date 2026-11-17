@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "fluidlogistics:feature_enabled",
+      "feature": "fluidlogistics:snow_golem_freezer"
+    }
+  ],
+  "type": "fluidlogistics:cooling_compacting",
+  "ingredients": [
+    {
+      "item": "kubejs:hot_netherite_scrap"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 500,
+      "fluid": "fluidlogistics:powder_snow"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "kubejs:netherite_mixture"
+    },
+    {
+      "id": "minecraft:netherite_scrap"
+    }
+  ]
+}

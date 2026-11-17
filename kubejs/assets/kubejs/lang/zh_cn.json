@@ -75,6 +75,9 @@
     "item.kubejs.heavy_metal_residue": "重金属残余物",
     "item.kubejs.fusion_rod": "聚变燃料棒",
     "item.kubejs.depleted_fusion_rod": "枯竭聚变燃料棒",
+    "item.kubejs.hot_netherite_scrap": "热下界合金碎片",
+    "item.kubejs.netherite_mixture": "下界合金混合物",
+    "item.kubejs.inert_netherite_ingot": "惰性下界合金锭",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "半基岩化的陨石块",
 

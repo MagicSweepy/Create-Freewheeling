@@ -1,0 +1,15 @@
+{
+  "type": "createaddition:charging",
+  "energy": 64000,
+  "ingredients": [
+    {
+      "item": "kubejs:inert_netherite_ingot"
+    }
+  ],
+  "max_charge_rate": 6400,
+  "results": [
+    {
+      "id": "minecraft:netherite_ingot"
+    }
+  ]
+}

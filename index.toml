@@ -186,11 +186,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "ed52843d41a49710d0afdcdb6e611142d5d07d2a131709451167beee28351912"
+hash = "ec2305486e6e449048678200005d12f8690b4f83e4391392b2d7fd55e3624aa2"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "a54d9982cc98215d5ec35e9449139d0fb8958e683482da3e9b3f77dd9d718cc3"
+hash = "5c70ad9acdf1fa18f5276ab9f2d17b736bc0baef01455fc55b2bce4bf7306179"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/half_bedrock_budding_sky_stone_block.png"
@@ -429,6 +429,10 @@ file = "kubejs/assets/kubejs/textures/item/heavy_metal_residue.png"
 hash = "d3cd782c9fee81eaac60872f134ecc26f4ec7e662827963fdf544fbf2b3cfadf"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/hot_netherite_scrap.png"
+hash = "fc034624df401baeac537b70b0a052ca2366ccf9bac757a28de9a1236c3c688f"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_chorium_ingot.png"
 hash = "34b04229162f0fa2d03cafe89a608868ebb9226a12fd80eab9a7fa79aadfa748"
 
@@ -449,6 +453,10 @@ file = "kubejs/assets/kubejs/textures/item/incomplete_sturdy_sheet.png"
 hash = "2ddf831e9be69fe7fc3c7c4562b8f7b844db97bba8d12178f97bd7607d445826"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/inert_netherite_ingot.png"
+hash = "420b2d69301bc4751277657097acb59b639b2424a80f6efcf75300531ec9c2fb"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/integrated_circuit.png"
 hash = "d55b48d9cb1cbeb89433e59994923c617d8503155c6da51cbd90b0d6c3cd02a6"
 
@@ -459,6 +467,10 @@ hash = "ac5269f3dbf280a8a6ce9eec01a866104d63431bba751b6407ae5c7bb46cdd65"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/metal_mixture.png"
 hash = "556041ad9a03361f4a4086808e32ae67c502e9c8cfcd21c542637134823412bf"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/netherite_mixture.png"
+hash = "46e0e008eef06459429c5c7f390d7263d6613552799b122249659901c865ba0b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/nutritional_gel.png"
@@ -705,6 +717,10 @@ file = "kubejs/data/create_optical/recipe/sequenced_assembly/rose_quartz_catalys
 hash = "839be7c49f0696ff961db8a9884543921c1aed43c0866da9246923a969198186"
 
 [[files]]
+file = "kubejs/data/createaddition/recipe/charging/netherite_ingot.json"
+hash = "2bd62037f832cc1b21885b02eabc8d7ac6803261e31b67e14636e2bd1fb12486"
+
+[[files]]
 file = "kubejs/data/createaddition/recipe/liquid_burning/biofuel.json"
 hash = "7165390502ca71109efc0491210ed6966f19237bb3f7533cabc58444a1855060"
 
@@ -869,6 +885,10 @@ file = "kubejs/data/fluidlogistics/recipe/cooling/cryotheum_crystal.json"
 hash = "b51ec9e9dd83203a8023b75a64362abb0d24dce402bdde5983f2e711f22e3774"
 
 [[files]]
+file = "kubejs/data/fluidlogistics/recipe/cooling/netherite_mixture.json"
+hash = "33bc4402728ba9873d83d24ada9c4cb5e1c1d55631adfe242479a00cc1781fd6"
+
+[[files]]
 file = "kubejs/data/fluidlogistics/recipe/cooling/small_smethyst_bud.json"
 hash = "7b565ebceb26a557baf8c290341dde20f03d306cc7081eb835e6d56683740a6c"
 
@@ -919,6 +939,10 @@ hash = "f86fa46d050ee70ba0ca40b01b2bf7ffdb06d1bf702668fb59ad5fbb8c531742"
 [[files]]
 file = "kubejs/server_scripts/chain/fusion_chain.js"
 hash = "4363279eca11603c9ff89cf7f7483cc5a781de6b4b16b4810d664ca357e465a2"
+
+[[files]]
+file = "kubejs/server_scripts/chain/netherite_chain.js"
+hash = "9eae5581b0cb35e6530a18e64412000d5474645c143e4a9e9f66c521f84040ae"
 
 [[files]]
 file = "kubejs/server_scripts/chain/oil_chain.js"
@@ -1154,7 +1178,7 @@ hash = "8016a103a8758a96c6cf3d8e367058906e8040455214c331816ca94a36c340bb"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "dc1ba23179a63b2778bcca3faaec343a7f659d9b8e44cca833cbd7179c032ae6"
+hash = "15fc8864aed1b5a35616dbfbbd1223d06c3e281ed1a684619c6f16dd343abb83"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"

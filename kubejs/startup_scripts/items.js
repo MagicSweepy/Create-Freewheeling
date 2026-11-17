@@ -79,4 +79,8 @@ StartupEvents.registry('item', event => {
 
     event.create('fusion_rod').maxStackSize(16)
     event.create('depleted_fusion_rod').maxStackSize(16)
+    
+    event.create('hot_netherite_scrap')
+    event.create('netherite_mixture')
+    event.create('inert_netherite_ingot')
 })
