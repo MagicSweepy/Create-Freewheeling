@@ -918,7 +918,7 @@ hash = "4a790e3d2586a6ad38e6b6ffaae38036e304449e4600fde615d8680e55655e04"
 
 [[files]]
 file = "kubejs/server_scripts/chain/blaze_chain.js"
-hash = "ee3f6abe7f5741e181d895dd570dd727010ef2ae016f2e452f12b0ba973ca7bd"
+hash = "87e09bf657e36db30083097b315ee480f37e3c6e711f133d6ad819f3145f575b"
 
 [[files]]
 file = "kubejs/server_scripts/chain/chorus_chain.js"
@@ -958,7 +958,7 @@ hash = "9383d12dda0fa13fc167798fb958423bfb038b2a6aa19a1b986a8093a7941ecc"
 
 [[files]]
 file = "kubejs/server_scripts/chain/stone_chain.js"
-hash = "8cecb719014087039fb8af5ff544f88c5ce3950232816f994730e42ff141d45b"
+hash = "3fefc2fed02e8464660fd77a785ca096b06d14f487ccbfe022dc5c99a6e79cd5"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
@@ -1074,7 +1074,7 @@ hash = "6430eed94b5fa0de38bf718ebea96dad32e2e38b720cdab984938172a534d78b"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_alloy_smelter.js"
-hash = "6d7a42922b4cc27ae3cb47c434aed67dbcf9e2f366c51fc3599245214ca04fcf"
+hash = "32099eaa8830edb9b0c34d71889b07c916450e5384b1e7d8651ea611b42208fa"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_alternator.js"

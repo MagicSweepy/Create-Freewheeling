@@ -46,4 +46,6 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing([ 'kubejs:metal_mixture', CreateItem.of('kubejs:metal_mixture', 0.50) ], 'minecraft:end_stone')
     event.recipes.create.mixing([ 'create:crushed_raw_aluminum', 'kubejs:heavy_metal_residue' ], [ 'kubejs:metal_mixture', Fluid.of('kubejs:chorusic_acid', 250) ]).superheated()
     event.recipes.create.compacting([ CreateItem.of('neoecoae:raw_tungsten_ore', 0.40), 'neoecoae:iron_dust' ], 'kubejs:heavy_metal_residue').superheated()
+
+    event.recipes.create.crushing([ 'minecraft:coal', CreateItem.of('createnuclear:coal_dust', 0.50) ], 'minecraft:blackstone')
 })

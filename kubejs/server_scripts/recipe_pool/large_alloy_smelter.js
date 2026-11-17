@@ -246,4 +246,50 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:large_alloy_smelter/black_tungsten_alloy')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:large_alloy_smelter',
+        tick_time: 100,
+        requirements: [
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'frequency:brass_symbol_2' },
+                count: 1,
+                consume_chance: 0.0
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'createnuclear:steel_ingot' },
+                count: 16
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'minecraft:netherite_scrap' },
+                count: 16
+            },
+            {
+                type: 'minecraft:item',
+                io: 'output',
+                stack: {
+                    id: 'minecraft:netherite_ingot',
+                    count: 64
+                },
+            },
+            {
+                type: 'create:stress',
+                io: 'input',
+                stress: 48.0,
+                min_rpm: 64
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 72
+            }
+        ]
+    }).id('kubejs:large_alloy_smelter/netherite')
 })
