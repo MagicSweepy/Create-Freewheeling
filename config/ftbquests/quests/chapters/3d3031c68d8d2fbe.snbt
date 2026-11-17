@@ -886,5 +886,42 @@
 			x: 32.5d
 			y: -5.0d
 		}
+		{
+			dependencies: [
+				"1DAA431B72EB2B94"
+				"5A85EF1D0E3E2CE9"
+			]
+			icon: {
+				id: "minecraft:netherite_ingot"
+			}
+			id: "7789BF5AB859DB42"
+			tasks: [
+				{
+					id: "5D55A418375171CF"
+					item: { count: 1, id: "kubejs:hot_netherite_scrap" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "019AF7DE222A6812"
+					item: { count: 1, id: "kubejs:netherite_mixture" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "04A1EDA71AA3D4A4"
+					item: { count: 1, id: "kubejs:inert_netherite_ingot" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "796BD0B05F999305"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 40.0d
+			y: 0.0d
+		}
 	]
 }
