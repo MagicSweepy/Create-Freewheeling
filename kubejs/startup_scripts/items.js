@@ -86,4 +86,6 @@ StartupEvents.registry('item', event => {
 
     event.create('prismatic_compound')
     event.create('netherite_coil')
+
+    event.create('incomplete_creative_mechanism', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
 })

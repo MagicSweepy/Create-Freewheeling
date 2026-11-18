@@ -132,4 +132,6 @@ ItemEvents.modifyTooltips(event => {
 
     event.add('create:shadow_steel', Text.translate('kubejs.tooltip.shadow_steel').gray())
     event.add('create:refined_radiance', Text.translate('kubejs.tooltip.refined_radiance').gray())
+
+    event.add('avaritia:refined_coal', Text.translate('kubejs.tooltip.refined_coal').gray())
 })

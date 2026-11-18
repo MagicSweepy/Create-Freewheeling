@@ -2,7 +2,7 @@
   "type": "avaritia:shaped_table",
   "key": {
     "A": {
-      "item": "neoecoae:large_integrated_working_station_casing"
+      "item": "avaritia_integration:crystal_matrix_casing"
     },
     "B": {
       "item": "neoecoae:computation_casing"
@@ -30,15 +30,18 @@
     },
     "J": {
       "item": "avaritia_integration:crystal_matrix_rod"
+    },
+    "K": {
+      "item": "neoecoae:large_integrated_working_station_casing"
     }
   },
   "pattern": [
     "IGFEDEFGI",
     "G B   B G",
     "FJC   CJF",
-    "E C   C E",
+    "E K   K E",
     "DHB A BHD",
-    "E C   C E",
+    "E K   K E",
     "FJC   CJF",
     "G B   B G",
     "IGFEDEFGI"

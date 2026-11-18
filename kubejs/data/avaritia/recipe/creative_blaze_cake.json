@@ -4,7 +4,7 @@
     "item": "avaritia:upgrade_smithing_template"
   },
   "base": {
-    "item": "create:blaze_cake"
+    "item": "avaritia_integration:star_cake"
   },
   "addition": [
     {
@@ -14,7 +14,7 @@
       "item": "avaritia:enhancement_core"
     },
     {
-      "item": "avaritia:infinity"
+      "item": "avaritia_integration:creative_mechanism"
     }
   ],
   "result": {

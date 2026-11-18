@@ -276,4 +276,60 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:chemical_reactor/chemical_gel')
+
+    event.custom({
+        type: 'mmcr:machine_recipe',
+        recipe_pool: 'kubejs:chemical_reactor',
+        tick_time: 400,
+        parallelized: true,
+        requirements: [
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'avaritia:refined_coal_block' },
+                count: 1
+            },
+            {
+                type: 'minecraft:item',
+                io: 'input',
+                item: { item: 'avaritia_integration:crystal_matrix_dust' },
+                count: 2
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'avaritia_integration:molten_blaze' },
+                amount: 4000
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'createdieselgenerators:gasoline' },
+                amount: 16000
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'input',
+                fluid: { fluid: 'createdieselgenerators:diesel' },
+                amount: 16000
+            },
+            {
+                type: 'neoforge:energy',
+                io: 'input',
+                fe_per_tick: 256
+            },
+            {
+                type: 'mmcr:smart_interface',
+                io: 'input',
+                interface_type: 'environment',
+                min_value: 1,
+                max_value: 1
+            },
+            {
+                type: 'minecraft:fluid',
+                io: 'output',
+                stack: { id: 'avaritia_integration:molten_star', amount: 4000 }
+            }
+        ]
+    }).id('kubejs:chemical_reactor/star_fuel')
 })

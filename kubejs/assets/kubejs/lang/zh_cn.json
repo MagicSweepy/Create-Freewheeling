@@ -80,6 +80,7 @@
     "item.kubejs.inert_netherite_ingot": "惰性下界合金锭",
     "item.kubejs.prismatic_compound": "棱彩化合物",
     "item.kubejs.netherite_coil": "下界合金线圈",
+    "item.kubejs.incomplete_creative_mechanism": "未完成创世构件",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "半基岩化的陨石块",
 
@@ -249,6 +250,7 @@
     "kubejs.tooltip.sculk_info": "在幽匿催发体半径8格内杀死能掉落经验生物以转化方块",
     "kubejs.tooltip.shadow_steel": "将异彩化合物丢入虚空中转化",
     "kubejs.tooltip.refined_radiance": "将异彩化合物丢在信标上转化",
+    "kubejs.tooltip.refined_coal": "使用炽灭之焚林斧砍伐原木获得",
 
     "atmosphere.kubejs.collecting": "正在收集大气",
     "atmosphere.kubejs.output_full": "输出仓已满",

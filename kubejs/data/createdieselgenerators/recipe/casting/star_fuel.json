@@ -1,0 +1,17 @@
+{
+  "type": "createdieselgenerators:casting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "avaritia_integration:molten_star",
+      "amount": 250
+    }
+  ],
+  "mold": "createdieselgenerators:bar",
+  "results": [
+    {
+      "id": "avaritia:star_fuel",
+      "count": 1
+    }
+  ]
+}

@@ -8,7 +8,7 @@
       "item": "neoecoae:computation_casing"
     },
     "C": {
-      "item": "neoecoae:large_integrated_working_station_casing"
+      "item": "avaritia_integration:crystal_matrix_casing"
     },
     "D": {
       "item": "neoecoae:crafting_casing"
@@ -30,16 +30,19 @@
     },
     "J": {
       "item": "avaritia_integration:crystal_matrix_rod"
+    },
+    "K": {
+      "item": "neoecoae:large_integrated_working_station_casing"
     }
   },
   "pattern": [
     "FFGIHIGFF",
     "F  JEJ  F",
-    "G  DDD  G",
+    "G KDDDK G",
     "IJDBABDJI",
     "HEDACADEH",
     "IJDBABDJI",
-    "G  DDD  G",
+    "G KDDDK G",
     "F  JEJ  F",
     "FFGIHIGFF"
   ],

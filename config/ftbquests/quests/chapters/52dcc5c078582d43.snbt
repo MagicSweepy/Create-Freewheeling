@@ -5,7 +5,7 @@
 	filename: "52dcc5c078582d43"
 	group: "1076DA646B9BA11C"
 	icon: {
-		id: "avaritia:infinity"
+		id: "avaritia_integration:crystal_matrix_casing"
 	}
 	id: "52DCC5C078582D43"
 	images: [ ]
@@ -77,11 +77,23 @@
 		{
 			dependencies: ["63ABB85ACD862A10"]
 			id: "6914847A83B19413"
-			tasks: [{
-				id: "0A495E35AED5E706"
-				item: { count: 1, id: "avaritia:neutron_ingot" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "19BB29066BE884F8"
+					item: { count: 1, id: "avaritia:neutron_pile" }
+					type: "item"
+				}
+				{
+					id: "2DE0C8791F19735E"
+					item: { count: 1, id: "avaritia:neutron_nugget" }
+					type: "item"
+				}
+				{
+					id: "7924E25C4B5E0899"
+					item: { count: 1, id: "avaritia:neutron_ingot" }
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -189,12 +201,50 @@
 		}
 		{
 			dependencies: ["6914847A83B19413"]
+			icon: {
+				id: "avaritia:star_fuel"
+			}
 			id: "63BBD7F4CECC21A4"
-			tasks: [{
-				id: "33E8DB5E670C5DA4"
-				item: { count: 1, id: "avaritia:star_fuel" }
+			rewards: [{
+				id: "21D1370AE5BA2BE2"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							mode: {
+								smelt: 1b
+							}
+						}
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:efficiency": 5
+							}
+						}
+						"minecraft:repair_cost": 3
+						"minecraft:unbreakable": { }
+					}
+					count: 1
+					id: "avaritia:blaze_axe"
+				}
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "394BC58CD6724209"
+					type: "checkmark"
+				}
+				{
+					id: "6DAF9230A9904E4A"
+					item: { count: 1, id: "avaritia:refined_coal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60E33906DDFEE404"
+					item: { count: 1, id: "avaritia:star_fuel" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 12.5d
 			y: -5.0d
 		}
@@ -374,11 +424,19 @@
 			]
 			id: "496D9C298D9F11C5"
 			size: 5.0d
-			tasks: [{
-				id: "2D14C33466D60CED"
-				item: { count: 1, id: "avaritia_integration:creative_compound" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D14C33466D60CED"
+					item: { count: 1, id: "avaritia_integration:creative_compound" }
+					type: "item"
+				}
+				{
+					id: "52439BA69ACDF31E"
+					item: { count: 1, id: "avaritia_integration:creative_mechanism" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 22.5d
 			y: -5.0d
 		}

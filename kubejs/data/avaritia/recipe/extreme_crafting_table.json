@@ -5,48 +5,44 @@
       "item": "avaritia_integration:crystal_matrix_casing"
     },
     "b": {
-      "item": "avaritia_integration:crystal_matrix_plate"
+      "item": "create:blaze_burner"
     },
     "c": {
-      "item": "avaritia_integration:crystal_matrix_rod"
+      "item": "create_enchantment_industry:blaze_enchanter"
     },
     "d": {
-      "item": "avaritia:crystal_matrix"
+      "item": "create_enchantment_industry:blaze_forger"
     },
     "e": {
-      "item": "kubejs:netherite_coil"
+      "item": "avaritia_integration:neutron_rod"
     },
     "f": {
-      "item": "avaritia_integration:blaze_cube_plate"
+      "item": "avaritia_integration:neutron_plate"
     },
     "g": {
-      "item": "avaritia:endest_pearl"
+      "item": "avaritia_integration:blaze_cube_rod"
     },
     "h": {
-      "item": "kubejs:productivity_module_mk3"
+      "item": "avaritia_integration:blaze_cube_plate"
     },
     "i": {
-      "item": "kubejs:efficiency_module_mk3"
-    },
-    "j": {
-      "item": "kubejs:speed_module_mk3"
-    },
-    "k": {
-      "item": "createimp:batch_mechanical_crafter"
+      "item": "kubejs:netherite_coil"
     }
   },
   "pattern": [
-    "dbcccbd",
-    "bdefedb",
-    "cekhkec",
-    "cfgagfc",
-    "ceigjec",
-    "bdefedb",
-    "dbcccbd"
+    "ffeefeeff",
+    "f  geg  f",
+    "e hidih e",
+    "egicbcige",
+    "fedbabdef",
+    "egicbcige",
+    "e hidih e",
+    "f  geg  f",
+    "ffeefeeff"
   ],
   "result": {
     "count": 1,
-    "id": "avaritia:extreme_crafting_table"
+    "id": "avaritia_integration:extreme_blaze_burner"
   },
-  "tier": 3
+  "tier": 4
 }

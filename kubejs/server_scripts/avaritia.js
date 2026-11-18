@@ -223,4 +223,8 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.remove({ id: 'avaritia:refined_coal' })
+    event.remove({ id: 'avaritia:star_fuel' })
+    event.remove({ id: 'avaritia:star_fuel_alternate' })
 })

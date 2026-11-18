@@ -84,4 +84,97 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'avaritia_integration:parts/neutron/screw' })
     event.remove({ id: 'avaritia_integration:parts/neutron/spring' })
     event.remove({ id: 'avaritia_integration:parts/neutron/wire' })
+
+    event.remove({ id: 'avaritia_integration:create/star_cake_base' })
+    event.recipes.create.compacting('avaritia_integration:star_cake_base', [ 'create_enchantment_industry:experience_cake_base', '2x avaritia:endest_pearl', Fluid.of('avaritia_integration:molten_neutron', 250) ]).superheated()
+
+    event.remove({ id: 'avaritia_integration:create/extreme_blaze_burner' })
+
+    event.remove({ id: 'avaritia_integration:create/neutron_mechanical_press' })
+    event.shaped('avaritia_integration:neutron_mechanical_press',
+    [
+        ' S ',
+        ' C ',
+        ' B '
+    ],
+    {
+        S: '#create:shafts',
+        C: 'avaritia_integration:crystal_matrix_casing',
+        B: 'avaritia:neutron'
+    })
+
+    event.remove({ id: 'avaritia_integration:create/matrix_mechanical_mixer' })
+    event.shaped('avaritia_integration:matrix_mechanical_mixer',
+    [
+        ' G ',
+        ' C ',
+        ' W '
+    ],
+    {
+        G: '#create:large_cogwheels',
+        C: 'avaritia_integration:crystal_matrix_casing',
+        W: 'create:whisk' // TODO: Add neutron one or crystal matrix one.
+    })
+
+    event.remove({ id: 'avaritia_integration:create/extreme_encased_fan' })
+    event.shaped('avaritia_integration:extreme_encased_fan',
+    [
+        ' S ',
+        ' C ',
+        ' P '
+    ],
+    {
+        S: '#create:shafts',
+        C: 'avaritia_integration:crystal_matrix_casing',
+        P: 'create:propeller' // TODO: Same as upper.
+    })
+
+    event.remove({ id: 'avaritia_integration:create/extreme_basin' })
+    event.shaped('avaritia_integration:extreme_basin',
+    [
+        '   ',
+        'I I',
+        'III'
+    ],
+    {
+        I: 'avaritia:crystal_matrix_ingot'
+    })
+
+    event.remove({ id: 'avaritia_integration:create/extreme_depot' })
+    event.shapeless('avaritia_integration:extreme_depot', [ 'avaritia:neutron_ingot', 'avaritia_integration:crystal_matrix_casing' ])
+
+    event.remove({ id: 'avaritia_integration:create/chromatic_compound' })
+    event.remove({ id: 'avaritia_integration:create/creative_compound' })
+    event.custom({
+	    type: 'avaritia_integration:extreme_mixing',
+	    heatRequirement: 'star',
+	    ingredients: [
+		    { item: 'kubejs:prismatic_compound', count: 2 },
+		    { item: 'avaritia:enhancement_core' },
+            { item: 'avaritia_integration:blaze_cube_dust', count: 4 },
+		    { item: 'avaritia_integration:crystal_matrix_dust', count: 4 },
+            { item: 'avaritia_integration:infinity_dust', count: 4 },
+            { item: 'avaritia_integration:neutron_dust', count: 4 }
+	    ],
+	    results: [{ count: 2, id: 'avaritia_integration:creative_compound' }]
+    })
+
+    event.remove({ id: 'avaritia_integration:create/creative_mechanism' })
+    var incomplete = 'kubejs:incomplete_creative_mechanism'
+    event.recipes.create.sequenced_assembly([ 'avaritia_integration:creative_mechanism' ], 'avaritia_integration:infinity_plate',
+    [
+        event.recipes.create.deploying(incomplete, [ incomplete, 'create:precision_mechanism' ]),
+        event.recipes.create.deploying(incomplete, [ incomplete, 'avaritia_integration:infinity_plate' ]),
+        event.recipes.create.deploying(incomplete, [ incomplete, 'avaritia_integration:infinity_rod' ]),
+        event.recipes.create.filling(incomplete, [ incomplete, Fluid.of('avaritia_integration:molten_crystal_matrix', 500) ]),
+        event.recipes.create.deploying(incomplete, [ incomplete, 'avaritia_integration:infinity_plate' ]),
+        event.recipes.create.deploying(incomplete, [ incomplete, 'avaritia_integration:infinity_rod' ]),
+        event.recipes.create.pressing(incomplete, incomplete),
+        event.recipes.create.deploying(incomplete, [ incomplete, 'avaritia:tesseract' ]),
+        event.recipes.create.deploying(incomplete, [ incomplete, 'kubejs:netherite_coil' ]),
+        event.recipes.create.deploying(incomplete, [ incomplete, 'avaritia_integration:creative_compound' ]),
+        event.recipes.create.deploying(incomplete, [ incomplete, 'avaritia:enhancement_core' ])
+    ])
+    .transitionalItem(incomplete)
+    .loops(2)
 })

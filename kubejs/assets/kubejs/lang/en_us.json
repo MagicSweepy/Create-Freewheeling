@@ -80,6 +80,7 @@
     "item.kubejs.inert_netherite_ingot": "Inert Netherite Ingot",
     "item.kubejs.prismatic_compound": "Prismatic Compound",
     "item.kubejs.netherite_coil": "Netherite Coil",
+    "item.kubejs.incomplete_creative_mechanism": "Incomplete Creative Mechanism",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "Half Bedrock Budding Sky Stone Block",
 
@@ -249,6 +250,7 @@
     "kubejs.tooltip.sculk_info": "Kill monsters within radius of 8 blocks of Sculk Catalyst to transform block",
     "kubejs.tooltip.shadow_steel": "Throw Chromatic Compound into the Void to transform it",
     "kubejs.tooltip.refined_radiance": "Throw Chromatic Compound on the Beacon to transform it",
+    "kubejs.tooltip.refined_coal": "Use Blaze Axe to break logs to transform it",
 
     "atmosphere.kubejs.collecting": "Collecting atmosphere",
     "atmosphere.kubejs.output_full": "Output tank is full",
