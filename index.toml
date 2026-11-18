@@ -1041,6 +1041,10 @@ file = "kubejs/server_scripts/create_improve.js"
 hash = "19b4a23b7c9e5103b2c8e07b654cea6bdd82c720e79cfaad4d660d6de70a43ec"
 
 [[files]]
+file = "kubejs/server_scripts/create_integrated_farming.js"
+hash = "dad6552a6dad62dacf6c8e05c040420a9bc371c638cfd45436f2e9055007b505"
+
+[[files]]
 file = "kubejs/server_scripts/create_nuclear.js"
 hash = "4472d378761aef4b6a889ba35e9d942ad241cee6e2bfcce3d29949df29b12dd2"
 
@@ -1244,12 +1248,12 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "6207706727f83484fb4af7d22f0d97d055a0f5d8248036618e84a9a7b5e174ae"
+hash = "7ef227b056ff62f602db935025c9bf106b22bf1d4b77568d956b71c810c24c23"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
 metafile = true
 
 [[files]]
@@ -1329,7 +1333,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "114b7064674ad8f1551282bb51689b5d302bf0b6b9ef1a79f632e7dec2e0a7ae"
+hash = "6148bb95e7deabf96fc37a9db3f3f1f57fa22c69a17fc7a18f4b10d102461af5"
 metafile = true
 
 [[files]]
@@ -1359,7 +1363,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-integrated-farming.pw.toml"
-hash = "048819dc63310056e9a26ba0bbcf5f629f7c530b58c9ca1777ea39867765bd6c"
+hash = "c7a22418e5d0eb381c854aa31894445ae160cd91ea5478b7100ddde576d13df7"
 metafile = true
 
 [[files]]
@@ -1434,12 +1438,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "df64ca595f6f0f79e3a4a844fd0a887b44f5e007f5deb9ac011b5cf67b3a2127"
+hash = "1c653566b0cea97e9282c23458a28b7de879e5fd226f5bb3455502adabfc839d"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "ce69874826195a0aed63a54128c8656b80e564cd32db59c1f9cfe3367150fd5e"
+hash = "4c973a826e4e866c3fb4d1813ebdf649526af21a332a83856ae4a2fd57362283"
 metafile = true
 
 [[files]]
@@ -1569,7 +1573,7 @@ metafile = true
 
 [[files]]
 file = "mods/neo-eco-ae-extension.pw.toml"
-hash = "0710de5cc8cb42cc33f23c14e130b24405f3056e62a7007e812fe404820277e2"
+hash = "f0547afd7d62c52466bfd9bbe0e78156bd6912f9bec0843e0f4ed13acde8b5a0"
 metafile = true
 
 [[files]]
@@ -1624,12 +1628,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "eb53e55904b817f6fc907109f51f4b17c474ec06084c01a4f6729d2ec1347f33"
+hash = "f82badea9e041ccb63e7feed55ea29f0f5c446b42a1e6bbbdda37a56ec47fb09"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-inventory-interactions.pw.toml"
-hash = "cf8be7456dcef66443d1e8d459a733a9a9c16d3f21cabaad7a5b201b99a2e6ba"
+hash = "495bd275f59efa9fd089f3b773b0fadd324ece80af1726fdfae530d70a8818d5"
 metafile = true
 
 [[files]]
@@ -1649,7 +1653,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "daf137e8a49ade4dd31c65befa0fe1136cd834e43714a989db482c133f7d45d4"
+hash = "054053aaf1ae0e6ea3621f33533f4d78f17f22835813bbcf9b3b9ccb7b4eb971"
 metafile = true
 
 [[files]]
