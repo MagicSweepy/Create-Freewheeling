@@ -81,6 +81,12 @@
     "item.kubejs.prismatic_compound": "棱彩化合物",
     "item.kubejs.netherite_coil": "下界合金线圈",
     "item.kubejs.incomplete_creative_mechanism": "未完成创世构件",
+    "item.kubejs.diamond_crystal_seed": "钻石晶种",
+    "item.kubejs.diamond_boule": "人造钻石晶体",
+    "item.kubejs.incomplete_diamond_boule": "人造钻石晶体（半成品）",
+    "item.kubejs.emerald_crystal_seed": "绿宝石晶种",
+    "item.kubejs.emerald_boule": "人造绿宝石晶体",
+    "item.kubejs.incomplete_emerald_boule": "人造绿宝石晶体（半成品）",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "半基岩化的陨石块",
 

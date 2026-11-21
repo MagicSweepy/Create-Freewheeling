@@ -186,11 +186,11 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "a532b6772eeb25a89d1363c6f92dd509549ae295eb6c51b094916f646e5d6e3a"
+hash = "8efc09d018a68b2c72a673349763e9825b055d438fb37676b4ce5ce94759bcb0"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "3136fd55633f25bfd304d053fb9f771dbeb8a1ee3e4b7dc844f3c30c4acd79d0"
+hash = "086553a998f363640fb173daeb256e3bdc9b41e64f9be792f15ff631f1ee5e73"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/half_bedrock_budding_sky_stone_block.png"
@@ -973,6 +973,10 @@ file = "kubejs/server_scripts/chain/cosmic_water_chain.js"
 hash = "f86fa46d050ee70ba0ca40b01b2bf7ffdb06d1bf702668fb59ad5fbb8c531742"
 
 [[files]]
+file = "kubejs/server_scripts/chain/diamond_chain.js"
+hash = "c3b91c440112b7d6895f82e1b6a5818122b1a9bf077a59d1418b07db8826c417"
+
+[[files]]
 file = "kubejs/server_scripts/chain/fusion_chain.js"
 hash = "4363279eca11603c9ff89cf7f7483cc5a781de6b4b16b4810d664ca357e465a2"
 
@@ -994,7 +998,7 @@ hash = "9383d12dda0fa13fc167798fb958423bfb038b2a6aa19a1b986a8093a7941ecc"
 
 [[files]]
 file = "kubejs/server_scripts/chain/stone_chain.js"
-hash = "3fefc2fed02e8464660fd77a785ca096b06d14f487ccbfe022dc5c99a6e79cd5"
+hash = "6cf6cc42a390991d3c5add83e23a38aef021ecb52d17e58b2d8adc7749e55b8c"
 
 [[files]]
 file = "kubejs/server_scripts/create.js"
@@ -1070,7 +1074,7 @@ hash = "e857640c6a983612c74fbfa2ea4ec7c24a62d29f95af97bdc96f2e35bbcf83d1"
 
 [[files]]
 file = "kubejs/server_scripts/just_enough_items.js"
-hash = "8c3e9bc19a4e16706dbac724417caa9ea42d25172221abc9e729b004f79e5529"
+hash = "65397207e78208a7937d6215eaecb11d05fab1e6826431a985119f94f2928fa2"
 
 [[files]]
 file = "kubejs/server_scripts/kubejs.js"
@@ -1218,7 +1222,7 @@ hash = "8016a103a8758a96c6cf3d8e367058906e8040455214c331816ca94a36c340bb"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "81a7ec525ea02eaa0646229c7ddca8605dc4f4923e0077aa6f5a189ff5697351"
+hash = "0d3a19ec33d90e096318d7267a2cb0928a3aa1cb3c5c03eaaa44b9f91a1dc674"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
@@ -1358,7 +1362,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-improve.pw.toml"
-hash = "7d0597e25f243a0f4b6f1d2eee1af669d3f3c4bf028f2ed8db69d4dc80dc4d59"
+hash = "43b8dc851cfb6fd0371a6f4ef0aec61724b087232fa7554ebdad0a17394ad17b"
 metafile = true
 
 [[files]]

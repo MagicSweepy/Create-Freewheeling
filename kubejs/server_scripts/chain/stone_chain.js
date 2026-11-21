@@ -48,4 +48,6 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting([ CreateItem.of('neoecoae:raw_tungsten_ore', 0.40), 'neoecoae:iron_dust' ], 'kubejs:heavy_metal_residue').superheated()
 
     event.recipes.create.crushing([ 'minecraft:coal', CreateItem.of('createnuclear:coal_dust', 0.50) ], 'minecraft:blackstone')
+
+    event.recipes.create.crushing([ 'minecraft:lapis_lazuli', CreateItem.of('minecraft:blackstone', 0.35) ], 'minecraft:basalt')
 })

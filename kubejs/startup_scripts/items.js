@@ -88,4 +88,11 @@ StartupEvents.registry('item', event => {
     event.create('netherite_coil')
 
     event.create('incomplete_creative_mechanism', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
+
+    event.create('diamond_crystal_seed')
+    event.create('diamond_boule')
+    event.create('incomplete_diamond_boule', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
+    event.create('emerald_crystal_seed')
+    event.create('emerald_boule')
+    event.create('incomplete_emerald_boule', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
 })

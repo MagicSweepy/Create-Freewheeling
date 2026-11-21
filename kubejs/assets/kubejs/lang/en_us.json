@@ -81,6 +81,12 @@
     "item.kubejs.prismatic_compound": "Prismatic Compound",
     "item.kubejs.netherite_coil": "Netherite Coil",
     "item.kubejs.incomplete_creative_mechanism": "Incomplete Creative Mechanism",
+    "item.kubejs.diamond_crystal_seed": "Diamond Crystal Seed",
+    "item.kubejs.diamond_boule": "Diamond Crystal Boule",
+    "item.kubejs.incomplete_diamond_boule": "Incomplete Diamond Crystal Boule",
+    "item.kubejs.emerald_crystal_seed": "Emerald Crystal Seed",
+    "item.kubejs.emerald_boule": "Emerald Crystal Boule",
+    "item.kubejs.incomplete_emerald_boule": "Incomplete Emerald Crystal Boule",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "Half Bedrock Budding Sky Stone Block",
 
