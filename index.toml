@@ -357,6 +357,14 @@ file = "kubejs/assets/kubejs/textures/item/depleted_fusion_rod.png"
 hash = "f08d6b1c71d3c9021eff71745ed90fdee6149d142c9713228bcea7ac09ae186f"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/diamond_boule.png"
+hash = "ec68b050d3d7597269e09f3afb53a9cd2437eb2e68a57e6f9d64dc49ee73df7e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/diamond_crystal_seed.png"
+hash = "7e9bace16f54d325347b7777af17c673128d7f5b0ed53bafcc8d53042a298439"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/diamond_sheet.png"
 hash = "1fc1a5af71593f684efcb0f0f0467c95b117b424cbb3bbe92df1042e0a571185"
 
@@ -371,6 +379,14 @@ hash = "2b610b5db8ab79ed07655edfdebf67364d4571dbf52b9e164c1a6bf4d80dff8c"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/efficiency_module_mk3.png"
 hash = "8d1edd9cf912a920caa3901973e09a1383d6bac6231d410e9f7822be02ed72f2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/emerald_boule.png"
+hash = "113c87f1ee9b80a4c0733cfdc9a19247d4824eeaff35d043ff936cc7eb680b08"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/emerald_crystal_seed.png"
+hash = "c7ba5e1ca286e452c0d88f9a9d96c6cb7c04c1926ba28d4052b13ffb09590a2e"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/energized_certus_quartz_sheet.png"
@@ -439,6 +455,14 @@ hash = "34b04229162f0fa2d03cafe89a608868ebb9226a12fd80eab9a7fa79aadfa748"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_creative_mechanism.png"
 hash = "f16aa3579c513c91cb8568b482818807c191c3678eae18dc459bd00d367b1911"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_diamond_boule.png"
+hash = "48645f039ec1e71dce54bf7e518c77f4fe1974f13f59ad0f521fe3b322d12ca4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_emerald_boule.png"
+hash = "429939b9b55c0a859f3d651b6e0736915b54f14e5d46c12a8eee77dc50453c70"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_fluix_coil.png"
