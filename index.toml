@@ -789,6 +789,10 @@ file = "kubejs/data/createaddition/recipe/rolling/tungsten_rod.json"
 hash = "741877fa8d773171f7f07595550aca52c1ba64b2bcf3f1dff60ab9061bc72bb5"
 
 [[files]]
+file = "kubejs/data/createdieselgenerators/recipe/casting/slime_ball.json"
+hash = "bef3564c5626c3ea059e8ebd8fee49fb3739e3fc0424f5e05fd4520899a2a81b"
+
+[[files]]
 file = "kubejs/data/createdieselgenerators/recipe/casting/star_fuel.json"
 hash = "48b026ca0d74d46f84f7088b3cd8a74b2a2b0a0ace92d8e68bd131718726ca8a"
 

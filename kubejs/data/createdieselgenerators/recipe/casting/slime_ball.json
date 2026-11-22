@@ -1,0 +1,17 @@
+{
+  "type": "createdieselgenerators:casting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "fluid": "rubberworks:resin",
+      "amount": 500
+    }
+  ],
+  "mold": "createdieselgenerators:bar",
+  "results": [
+    {
+      "id": "minecraft:slime_ball",
+      "count": 1
+    }
+  ]
+}
