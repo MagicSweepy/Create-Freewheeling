@@ -445,7 +445,7 @@ ServerEvents.recipes(event => {
         ],
         {
             C: input,
-            H: 'create:chute'
+            H: 'fluidlogistics:fluid_hatch'
         })
     }
 

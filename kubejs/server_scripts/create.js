@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
     ],
     {
         C: 'create:copper_casing',
-        H: 'create:chute'
+        H: 'fluidlogistics:fluid_hatch'
     })
 
     event.remove({ output: 'create:encased_chain_drive' })
