@@ -1,0 +1,48 @@
+{
+  "type": "avaritia:shaped_table",
+  "key": {
+    "a": {
+      "item": "avaritia_integration:crystal_matrix_casing"
+    },
+    "b": {
+      "item": "create:blaze_burner"
+    },
+    "c": {
+      "item": "create_enchantment_industry:blaze_enchanter"
+    },
+    "d": {
+      "item": "create_enchantment_industry:blaze_forger"
+    },
+    "e": {
+      "item": "avaritia_integration:neutron_rod"
+    },
+    "f": {
+      "item": "avaritia_integration:neutron_plate"
+    },
+    "g": {
+      "item": "avaritia_integration:blaze_cube_rod"
+    },
+    "h": {
+      "item": "avaritia_integration:blaze_cube_plate"
+    },
+    "i": {
+      "item": "kubejs:netherite_coil"
+    }
+  },
+  "pattern": [
+    "ffeefeeff",
+    "f  geg  f",
+    "e hidih e",
+    "egicbcige",
+    "fedbabdef",
+    "egicbcige",
+    "e hidih e",
+    "f  geg  f",
+    "ffeefeeff"
+  ],
+  "result": {
+    "count": 1,
+    "id": "avaritia_integration:extreme_blaze_burner"
+  },
+  "tier": 4
+}

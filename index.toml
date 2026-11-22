@@ -714,11 +714,11 @@ hash = "8e5244d638377e124e5f7727b8ae06029f1d892a62ebc91eae097dae8d8e8abb"
 
 [[files]]
 file = "kubejs/data/avaritia/recipe/extreme_blaze_burner.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "07c3852179d6fc38b1b4719f1832aff9411c5ec320f43580e26ce2f8cd6f0017"
 
 [[files]]
 file = "kubejs/data/avaritia/recipe/extreme_crafting_table.json"
-hash = "07c3852179d6fc38b1b4719f1832aff9411c5ec320f43580e26ce2f8cd6f0017"
+hash = "3c076c3cb8a4cd11e5b9f9864c463e6663d6ccecc0f94a1f0a1015f49d679d15"
 
 [[files]]
 file = "kubejs/data/avaritia/recipe/handheld_world_shaper.json"
@@ -966,7 +966,7 @@ hash = "f732f18c3fe302fb924c1a7cba84b004d643982de0c3affcbfcdc90f2117837f"
 
 [[files]]
 file = "kubejs/server_scripts/avaritia.js"
-hash = "8cc0fa5e1d71fe2b59c36a05fb9b24224518747a9e24b801d906af17b91ac39f"
+hash = "fcb548aa509dc7d4998dd6fc7b5bedd6657cb642c4c77dcf1007652836851cd6"
 
 [[files]]
 file = "kubejs/server_scripts/avaritia_integration.js"

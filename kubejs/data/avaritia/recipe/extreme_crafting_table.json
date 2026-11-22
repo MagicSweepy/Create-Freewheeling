@@ -2,47 +2,51 @@
   "type": "avaritia:shaped_table",
   "key": {
     "a": {
-      "item": "avaritia_integration:crystal_matrix_casing"
+      "item": "avaritia:crystal_matrix"
     },
     "b": {
-      "item": "create:blaze_burner"
+      "item": "avaritia_integration:crystal_matrix_plate"
     },
     "c": {
-      "item": "create_enchantment_industry:blaze_enchanter"
+      "item": "avaritia_integration:crystal_matrix_rod"
     },
     "d": {
-      "item": "create_enchantment_industry:blaze_forger"
+      "item": "kubejs:netherite_coil"
     },
     "e": {
-      "item": "avaritia_integration:neutron_rod"
-    },
-    "f": {
-      "item": "avaritia_integration:neutron_plate"
-    },
-    "g": {
-      "item": "avaritia_integration:blaze_cube_rod"
-    },
-    "h": {
       "item": "avaritia_integration:blaze_cube_plate"
     },
+    "f": {
+      "item": "createimp:batch_mechanical_crafter"
+    },
+    "g": {
+      "item": "kubejs:productivity_module_mk3"
+    },
+    "h": {
+      "item": "kubejs:efficiency_module_mk3"
+    },
     "i": {
-      "item": "kubejs:netherite_coil"
+      "item": "kubejs:speed_module_mk3"
+    },
+    "j": {
+      "item": "avaritia:endest_pearl"
+    },
+    "k": {
+      "item": "avaritia_integration:crystal_matrix_casing"
     }
   },
   "pattern": [
-    "ffeefeeff",
-    "f  geg  f",
-    "e hidih e",
-    "egicbcige",
-    "fedbabdef",
-    "egicbcige",
-    "e hidih e",
-    "f  geg  f",
-    "ffeefeeff"
+    "abcccba",
+    "badedab",
+    "cdfgfdc",
+    "cejkjec",
+    "cdhjidc",
+    "badedab",
+    "abcccba"
   ],
   "result": {
     "count": 1,
-    "id": "avaritia_integration:extreme_blaze_burner"
+    "id": "avaritia:extreme_crafting_table"
   },
-  "tier": 4
+  "tier": 3
 }

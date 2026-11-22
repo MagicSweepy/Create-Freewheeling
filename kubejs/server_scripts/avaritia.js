@@ -227,4 +227,22 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'avaritia:refined_coal' })
     event.remove({ id: 'avaritia:star_fuel' })
     event.remove({ id: 'avaritia:star_fuel_alternate' })
+
+    event.remove({ id: 'avaritia:compressed_chest' })
+    event.custom({
+        type: 'create:item_application',
+        ingredients: [
+            {
+                item: 'minecraft:chest'
+            },
+            {
+                item: 'avaritia:neutron_gear'
+            }
+        ],
+        results: [
+            {
+                id: 'avaritia:compressed_chest'
+            }
+        ]
+    })
 })
