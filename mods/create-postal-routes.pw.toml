@@ -1,0 +1,13 @@
+name = "Create: Postal Routes"
+filename = "postalroutes-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "00a9fdc37357416e40f8e00040d43d66a49b3b62"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9747601
+project-id = 1820795

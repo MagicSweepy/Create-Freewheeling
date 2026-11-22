@@ -1405,6 +1405,11 @@ hash = "5bf8716ddc33271c900238653d5a37ecd46729b6d03f7925819e6dc18277c08e"
 metafile = true
 
 [[files]]
+file = "mods/create-postal-routes.pw.toml"
+hash = "ee7edc542e17b0dfb3fc2aa7dccacfdfa002d82db99bcfd108965fcd225e0d03"
+metafile = true
+
+[[files]]
 file = "mods/create-rubberworks.pw.toml"
 hash = "31c3d1a049b685618fbc3edb730f36d438b446c539ccc84471179a22bcab1fca"
 metafile = true
@@ -1656,7 +1661,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-air-tank.pw.toml"
-hash = "61a558835244774e81092b2031171d577a8f2e7cb98dd4197cb46bb574076541"
+hash = "378884ec507735110ab51a7446699d565bf1e5ac503f898e0d3c21ae04616b4b"
 metafile = true
 
 [[files]]
