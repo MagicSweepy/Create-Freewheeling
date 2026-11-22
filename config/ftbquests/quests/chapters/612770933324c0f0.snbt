@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "square"
+	default_quest_shape: "hexagon"
 	default_quest_size: 4.0d
 	filename: "612770933324c0f0"
 	group: "10F403E42D9782F3"
@@ -11,5 +11,163 @@
 	images: [ ]
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["29CB0A265DE666BF"]
+			id: "2CA6AE8FD95EAABB"
+			tasks: [
+				{
+					id: "640D0086179F9142"
+					item: { count: 1, id: "create:package_frogport" }
+					type: "item"
+				}
+				{
+					id: "6F32F240776E6550"
+					item: { count: 1, id: "fluidlogistics:copper_frogport" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29CB0A265DE666BF"
+				"71944E2317B34D17"
+			]
+			id: "33C78FF0482AEA9B"
+			size: 5.0d
+			tasks: [{
+				id: "341A40E28361D56A"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33C78FF0482AEA9B"]
+			id: "012914049B79D652"
+			tasks: [{
+				id: "1866B4BF4E89F690"
+				item: { count: 1, id: "create:stock_ticker" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F52399523596EB4"
+				"55C1633C4FFA0A72"
+			]
+			id: "71944E2317B34D17"
+			tasks: [
+				{
+					id: "67DDC240692485AF"
+					item: { count: 1, id: "create:packager" }
+					type: "item"
+				}
+				{
+					id: "19FC761602C0BF4E"
+					item: { count: 1, id: "fluidlogistics:fluid_packager" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["71944E2317B34D17"]
+			id: "0E4AC99E4894A80A"
+			tasks: [
+				{
+					id: "4F7E57EE5DA92896"
+					item: { count: 1, id: "create:repackager" }
+					type: "item"
+				}
+				{
+					id: "0AA70321141EBF26"
+					item: { count: 1, id: "fluidlogistics:fluid_repackager" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"33C78FF0482AEA9B"
+				"40BA0F9395594249"
+			]
+			id: "6DBEB1EE15FEBF9D"
+			tasks: [
+				{
+					id: "4A19C3397D900CF3"
+					item: { count: 1, id: "create:factory_gauge" }
+					type: "item"
+				}
+				{
+					id: "4D6054F8E392B237"
+					item: { count: 1, id: "fluidlogistics:fluid_factory_gauge" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6DBEB1EE15FEBF9D"]
+			id: "15B4591D125E1BA0"
+			tasks: [
+				{
+					id: "5BB1FC89AD23456E"
+					item: { count: 1, id: "createimp:template_panel" }
+					type: "item"
+				}
+				{
+					id: "617D973768CD6A11"
+					item: { count: 1, id: "extra_gauges:logic_gauge" }
+					type: "item"
+				}
+				{
+					id: "0ED44CCD0BA352EC"
+					item: { count: 1, id: "extra_gauges:integer_gauge" }
+					type: "item"
+				}
+				{
+					id: "5419BB2BC0FB2B50"
+					item: { count: 1, id: "extra_gauges:comparator_gauge" }
+					type: "item"
+				}
+				{
+					id: "38B422FD4D06DD7D"
+					item: { count: 1, id: "extra_gauges:counter_gauge" }
+					type: "item"
+				}
+				{
+					id: "6AC9873913D098A5"
+					item: { count: 1, id: "extra_gauges:passive_gauge" }
+					type: "item"
+				}
+				{
+					id: "345F895F45B71FFD"
+					item: { count: 1, id: "extra_gauges:string_gauge" }
+					type: "item"
+				}
+				{
+					id: "5204AA99A1DAE94E"
+					item: { count: 1, id: "extra_gauges:expression_gauge" }
+					type: "item"
+				}
+				{
+					id: "34F5E0CD13C55158"
+					item: { count: 1, id: "extra_gauges:passive_gauge" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -5.0d
+		}
+	]
 }

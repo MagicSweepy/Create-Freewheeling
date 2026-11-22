@@ -594,24 +594,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["40BA0F9395594249"]
-			id: "068456B599E80D89"
-			tasks: [
-				{
-					id: "565B7A561C5C1516"
-					item: { count: 1, id: "create:factory_gauge" }
-					type: "item"
-				}
-				{
-					id: "302B0202D828667B"
-					item: { count: 1, id: "fluidlogistics:fluid_factory_gauge" }
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: 15.0d
-		}
-		{
 			dependencies: ["71B30D1F4C433134"]
 			id: "21C723DC80E28D77"
 			tasks: [
@@ -922,6 +904,28 @@
 			]
 			x: 40.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D728E2E2CF5D096"
+				"0E4AC99E4894A80A"
+			]
+			id: "3E3471123F657745"
+			tasks: [
+				{
+					id: "532B407BD4A30FDC"
+					item: { count: 1, id: "createimp:batch_mechanical_crafter" }
+					type: "item"
+				}
+				{
+					id: "0CCFF4152B966481"
+					item: { count: 1, id: "createimp:batch_repackager" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 42.5d
+			y: 5.0d
 		}
 	]
 }
