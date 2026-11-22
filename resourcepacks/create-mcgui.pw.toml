@@ -1,13 +1,13 @@
 name = "create:mcGUI"
-filename = "create_mcGUI_2.10.0.zip"
+filename = "create_mcGUI_v2.13.0.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "17526ba7a103468d0107b4e3d5960017b4e76bbe"
+hash = "a944612754be8e02bd69e7793df9457dd7bc701d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9458951
+file-id = 9691447
 project-id = 1674897

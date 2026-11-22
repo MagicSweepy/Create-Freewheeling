@@ -90,7 +90,7 @@ hash = "d9aecebae2bef8e2eb5927228c06591a8ce3a7be11e793307f73fbdc3e4017d6"
 
 [[files]]
 file = "config/tofneo_packs.json"
-hash = "976cedef0516c6e73e567bd6444ba997c92a32f1843112b7e00d8cc214a60c05"
+hash = "225510ac552facf54530212f731323d1364e33268c5fe00b97cf705b7174c870"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -1238,7 +1238,7 @@ hash = "16c8499cee9faea7c6df57fecea36af55682a484ddeb91c7d288c3b070859d98"
 
 [[files]]
 file = "local/tofneo_packs/seen.txt"
-hash = "fdf9266c402a514093190996f4c00930463394a81f91336829ffb55c9f451a7a"
+hash = "56d9047e672a0b5299dadbb2c326464d432ac774721fdf69a7c40df735651d22"
 
 [[files]]
 file = "mods/ae2-jei-integration.pw.toml"
@@ -1702,7 +1702,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "5c1d736ce37df42b38c9061883dd10a0af7003ff8db42524ed33561a85cd491c"
+hash = "83dac266e7ea75ecd1e16f89d9388f45df37e0f31e92e89f4dc70e37142f2e0c"
 
 [[files]]
 file = "resourcepacks/create-functional-storage.pw.toml"
@@ -1711,7 +1711,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/create-mcgui.pw.toml"
-hash = "2d6b980b2291ff09376f7475390770b83b4394668e472cd95a3f374e6c079630"
+hash = "e8cd1192e2b1afd2dd1ec8ca0cb89b93b98641110602c336346c739226092eba"
 metafile = true
 
 [[files]]
