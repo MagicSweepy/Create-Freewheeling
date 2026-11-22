@@ -1371,6 +1371,11 @@ hash = "c7a22418e5d0eb381c854aa31894445ae160cd91ea5478b7100ddde576d13df7"
 metafile = true
 
 [[files]]
+file = "mods/create-jetpack.pw.toml"
+hash = "003a1ba71d0017c0e9db6ec860ac44775d6d691b7865c54db3bbb3a2af6b5e8f"
+metafile = true
+
+[[files]]
 file = "mods/create-optical.pw.toml"
 hash = "5bf8716ddc33271c900238653d5a37ecd46729b6d03f7925819e6dc18277c08e"
 metafile = true
@@ -1516,6 +1521,11 @@ hash = "083c9d609335090c7fd62c13c146c0739306f597096e257fbdae6cdbb1917019"
 metafile = true
 
 [[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "562bc572ab8ffd96ed9b7b354aed4284cd99f8e2ca96d4cf905e9d7349a0f72e"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "21a5deb5da882d9f3eb4eaf7f0cf77f52737e1e6b44d2f691bf10fda9c86d790"
 metafile = true
@@ -1618,6 +1628,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "617ec6e9893d59905035a510fe336addd46a97b6fd28fad88b70713ebf8e69e3"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-air-tank.pw.toml"
+hash = "61a558835244774e81092b2031171d577a8f2e7cb98dd4197cb46bb574076541"
 metafile = true
 
 [[files]]
