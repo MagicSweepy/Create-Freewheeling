@@ -97,6 +97,14 @@ file = "config/waystones-common.toml"
 hash = "dea8d2000b7bf50b4450cfb76aded10079a833fdc08a9d409dfd9b2b8f0aa5f3"
 
 [[files]]
+file = "kubejs/assets/avaritia/lang/en_us.json"
+hash = "4c9b15124b6f27b12098df5d6daf78de349003d3ddbc439c37efe37935d5fe19"
+
+[[files]]
+file = "kubejs/assets/avaritia/lang/zh_cn.json"
+hash = "95811422c7845cdb6cc68e6c905969fa9f8fae6c25ac23aca6a88c5053d619ee"
+
+[[files]]
 file = "kubejs/assets/catalogue/lang/zh_cn.json"
 hash = "0c8d0fe2749ad4deef3b80aac62b135ed674e5ab48646d7d8054e54cfb1f0f44"
 
@@ -1169,6 +1177,10 @@ file = "kubejs/server_scripts/recipe_pool/lightning_processor.js"
 hash = "f87d3f59d49bdea95353e958f6a4ac9fd1708e158ed11f6f92f928dda838a395"
 
 [[files]]
+file = "kubejs/server_scripts/singularities.js"
+hash = "5117b29d9405bf85acff498d5eeedf5bdf4740f9b7b757d15cfa32c9d29c3096"
+
+[[files]]
 file = "kubejs/server_scripts/sophisticated_storage.js"
 hash = "86f08f03016082fa4e69320fe1eb4e7f6661e2bdea29699b51c857ad6f6694f5"
 
@@ -1540,7 +1552,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "10b3806965691bfa3d0de63b563c45077bbede9963a096d094fee88d39fa25a4"
+hash = "75c8544ee70cd8b0549e429a0c08bd5c1c20f97fc6bb15d30fdd98677a657cef"
 metafile = true
 
 [[files]]
@@ -1585,12 +1597,12 @@ metafile = true
 
 [[files]]
 file = "mods/mezzconfig.pw.toml"
-hash = "81a9a360cfea30ef1243b21c3623f7ee26ba9547f3c987da8612eec0daf40b17"
+hash = "5d445e2ad3f047becc67fec1e8f3bf6fe22ade3a443ec301590d54d0f3b91f3a"
 metafile = true
 
 [[files]]
 file = "mods/mezzconfiggui.pw.toml"
-hash = "c8e892b182d86465ffaf7f2a6290164656946fafb4e13f36c4a664972d7fe011"
+hash = "50b96995b4ccd7f03f0f6b902d6ae14320ffc769e98397dfd4b18068065e0067"
 metafile = true
 
 [[files]]
