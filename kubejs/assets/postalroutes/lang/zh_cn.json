@@ -1,0 +1,21 @@
+{
+  "postalroutes.widget.label": "包裹路线",
+  "postalroutes.widget.title": "机械动力：包裹路线",
+  "postalroutes.widget.on": "启用覆盖层显示",
+  "postalroutes.widget.off": "禁用覆盖层显示",
+  "postalroutes.widget.hint": "点击以切换",
+
+  "postalroutes.port.frogport": "货物蛙港",
+  "postalroutes.port.postbox": "邮箱",
+  "postalroutes.port.station": "车站",
+
+  "postalroutes.tooltip.no_address": "没有地址",
+  "postalroutes.tooltip.accepting": "正在接收包裹",
+  "postalroutes.tooltip.rejecting": "没有接收的包裹",
+  "postalroutes.tooltip.package": "包裹在运输中",
+  "postalroutes.tooltip.loose_package": "包裹丢失",
+
+  "postalroutes.command.stats.header": "包裹路线 — %s个追踪的含包裹区块， %s个地图显示",
+  "postalroutes.command.stats.dimension": "%s：%s个方块，%s个路线，%s个蛙港，%s个包括",
+  "postalroutes.command.rescan": "包裹路线重新扫描了%s个已加载区块"
+}

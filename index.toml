@@ -617,6 +617,10 @@ file = "kubejs/assets/mmcr/lang/zh_cn.json"
 hash = "e65d5c31003358d320e8c0c4f092925b43e3feb5c7aa4b89aa2485ad3b9f9c7b"
 
 [[files]]
+file = "kubejs/assets/postalroutes/lang/zh_cn.json"
+hash = "bdb39bcba217b2021c28f59026c447786b81cab3706c89fa5417aeefd7fd793c"
+
+[[files]]
 file = "kubejs/assets/rubberworks/lang/zh_cn.json"
 hash = "d106229ac6e932d9ddebae4718dbab9a3cb2e0163b4bf4d62e31e4ee27b2b6a0"
 
