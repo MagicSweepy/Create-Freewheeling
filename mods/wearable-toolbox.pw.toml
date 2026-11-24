@@ -1,13 +1,13 @@
 name = "Create: Wearable Toolbox"
-filename = "wearable_toolbox-0.1.9.jar"
+filename = "wearable_toolbox-0.1.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2269ca20011185ee3abb34e4b514f05d30895a5b"
+hash = "ab257c39afdc03a520ab00404ce562b4083e8aa1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9589221
+file-id = 9773440
 project-id = 1764993

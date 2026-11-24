@@ -1122,7 +1122,7 @@ hash = "e1a2745c31dabb40d8875959346fd2ffc4ad962b3b744afa2f0ddfb682210772"
 
 [[files]]
 file = "kubejs/server_scripts/neo_eco_ae_extension.js"
-hash = "1c0c4c136b40ac152a6568fb1ac05998118e11d5d7e088575cc3ee5a9fe0c792"
+hash = "a9630985cfdc11a0dbfc09a712b85e11458d8d5db80b14185c4c90d74942839e"
 
 [[files]]
 file = "kubejs/server_scripts/pipez.js"
@@ -1435,7 +1435,7 @@ metafile = true
 
 [[files]]
 file = "mods/createnuclear.pw.toml"
-hash = "8f84b6788d9876ea1d7fa527b667482b6e26bb14af6735c4c79138d164442e68"
+hash = "8dcf61121613977f608e8cb6c961fba0866721efe44423faec08abda8b2a20f9"
 metafile = true
 
 [[files]]
@@ -1735,7 +1735,7 @@ metafile = true
 
 [[files]]
 file = "mods/wearable-toolbox.pw.toml"
-hash = "4bf3cf2ccf8531594961e13a61f9a51fde55dede1ebf356d4bd5c29263d76a42"
+hash = "4038e8fe9b997738b19a012aa6fc7ad5b216ac9f7aa91a0b0c83c921fdad99f6"
 metafile = true
 
 [[files]]

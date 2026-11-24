@@ -118,4 +118,9 @@ ServerEvents.recipes(event => {
         K: '#c:plates/black_tungsten_alloy',
         L: 'neoecoae:crystal_matrix'
     })
+    
+    event.remove({ id: 'neoecoae:integrated_working_station/energized_crystal' })
+    event.remove({ id: 'neoecoae:integrated_working_station/energized_fluix_crystal' })
+    event.remove({ id: 'neoecoae:integrated_working_station/energized_superconductive_ingot' })
+    event.remove({ id: 'neoecoae:integrated_working_station/crystal_ingot' })
 })
