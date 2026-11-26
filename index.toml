@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CHANGELOG.md"
+hash = "4b741a79a8ba85b03e3ec29082b5c0aad0e369cc74a7d84f2cef890d60554803"
+
+[[files]]
 file = "config/ModernUI/client.toml"
 hash = "3adee74d730eb659aa522e634a399f87c556e414f678277c80f0dce749bbc5a7"
 
