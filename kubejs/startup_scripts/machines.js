@@ -12,6 +12,18 @@ const ENERGY_CORE_TIERS = [
 // ~2^53
 const ENERGY_CORE_TRANSFER = 9000000000000000
 
+const MODULE_MODIFIER_IDS = [
+    'kubejs:speed_module_mk1',
+    'kubejs:speed_module_mk2',
+    'kubejs:speed_module_mk3',
+    'kubejs:productivity_module_mk1',
+    'kubejs:productivity_module_mk2',
+    'kubejs:productivity_module_mk3',
+    'kubejs:efficiency_module_mk1',
+    'kubejs:efficiency_module_mk2',
+    'kubejs:efficiency_module_mk3'
+]
+
 function energyCoreState(ctx) {
     var total = $BigInteger.ZERO
     var topTier = -1
@@ -35,10 +47,15 @@ MMCREvents.startup(event => {
     const RecipeIO = api.recipeIO()
     const OutputPolicy = api.outputPolicy()
 
-    event.createMachine('kubejs:large_assembler')
+    const moduleMachine = id => {
+        const machine = event.createMachine(id)
+        MODULE_MODIFIER_IDS.forEach(modifierId => machine.allowModifier(modifierId))
+        return machine
+    }
+
+    moduleMachine('kubejs:large_assembler')
         .displayNameKey('machine.kubejs.large_assembler.name')
         .recipePool('kubejs:large_assembler')
-        .allowModifiers()
         .controllerBaseTexture('create:block/railway_casing')
         .formedPortBaseTexture('create:block/railway_casing')
         .allowMultithreading()
@@ -46,10 +63,9 @@ MMCREvents.startup(event => {
         .maxParallelAmount(64)
         .register()
 
-    event.createMachine('kubejs:large_crusher')
+    moduleMachine('kubejs:large_crusher')
         .displayNameKey('machine.kubejs.large_crusher.name')
         .recipePool('kubejs:large_crusher')
-        .allowModifiers()
         .controllerBaseTexture('create:block/brass_casing')
         .formedPortBaseTexture('create:block/brass_casing')
         .allowMultithreading()
@@ -57,10 +73,9 @@ MMCREvents.startup(event => {
         .maxParallelAmount(64)
         .register()
 
-    event.createMachine('kubejs:large_rolling_mill')
+    moduleMachine('kubejs:large_rolling_mill')
         .displayNameKey('machine.kubejs.large_rolling_mill.name')
         .recipePool('kubejs:large_rolling_mill')
-        .allowModifiers()
         .controllerBaseTexture('createcasing:block/casing/zinc')
         .formedPortBaseTexture('createcasing:block/casing/zinc')
         .allowMultithreading()
@@ -68,10 +83,9 @@ MMCREvents.startup(event => {
         .maxParallelAmount(64)
         .register()
 
-    event.createMachine('kubejs:large_alloy_smelter')
+    moduleMachine('kubejs:large_alloy_smelter')
         .displayNameKey('machine.kubejs.large_alloy_smelter.name')
         .recipePool('kubejs:large_alloy_smelter')
-        .allowModifiers()
         .allowMultithreading()
         .allowParallelism()
         .maxParallelAmount(64)
@@ -157,10 +171,9 @@ MMCREvents.startup(event => {
         }))
         .register()
 
-    event.createMachine('kubejs:chemical_reactor')
+    moduleMachine('kubejs:chemical_reactor')
         .displayNameKey('machine.kubejs.chemical_reactor.name')
         .recipePool('kubejs:chemical_reactor')
-        .allowModifiers()
         .allowMultithreading()
         .allowParallelism()
         .maxParallelAmount(64)
@@ -181,12 +194,11 @@ MMCREvents.startup(event => {
         })
         .register()
 
-    event.createMachine('kubejs:lightning_processor')
+    moduleMachine('kubejs:lightning_processor')
         .displayNameKey('machine.kubejs.lightning_processor.name')
         .recipePool('kubejs:lightning_processor')
         .controllerBaseTexture('create:block/shadow_steel_casing')
         .formedPortBaseTexture('create:block/shadow_steel_casing')
-        .allowModifiers()
         .allowMultithreading()
         .allowParallelism()
         .maxParallelAmount(256)
@@ -310,10 +322,9 @@ MMCREvents.startup(event => {
         }))
         .register()
     
-    event.createMachine('kubejs:bio_chamber')
+    moduleMachine('kubejs:bio_chamber')
         .displayNameKey('machine.kubejs.bio_chamber.name')
         .recipePool('kubejs:bio_chamber')
-        .allowModifiers()
         .allowMultithreading()
         .allowParallelism()
         .maxParallelAmount(256)
@@ -334,12 +345,11 @@ MMCREvents.startup(event => {
         })
         .register()
 
-    event.createMachine('kubejs:industrial_centrifuge')
+    moduleMachine('kubejs:industrial_centrifuge')
         .displayNameKey('machine.kubejs.industrial_centrifuge.name')
         .recipePool('kubejs:industrial_centrifuge')
         .controllerBaseTexture('neoecoae:block/working_station/casing')
         .formedPortBaseTexture('neoecoae:block/working_station/casing')
-        .allowModifiers()
         .allowMultithreading()
         .allowParallelism()
         .maxParallelAmount(256)

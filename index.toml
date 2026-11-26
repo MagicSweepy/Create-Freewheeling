@@ -1274,7 +1274,7 @@ hash = "0d3a19ec33d90e096318d7267a2cb0928a3aa1cb3c5c03eaaa44b9f91a1dc674"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"
-hash = "2497e882bd4b1e51fb58bf4e0cbf4af46535d5c60993fdf5de58561309c084f5"
+hash = "304b8e8c3c9433e772437ad1ba67c2de7916db36a5dc700ab3506b509cfab0f5"
 
 [[files]]
 file = "kubejs/startup_scripts/modpack.js"
@@ -1620,7 +1620,7 @@ metafile = true
 
 [[files]]
 file = "mods/modular-machinery-community-refoxed.pw.toml"
-hash = "fed91aaaeebd83eb87630a40f882fdc78d54037a4a5c721790bfa0f130b9e3fe"
+hash = "6401f87b87d6ce52a252653aef2c2021c827f3e48311637cb2d31f44e8e68867"
 metafile = true
 
 [[files]]
@@ -1640,7 +1640,7 @@ metafile = true
 
 [[files]]
 file = "mods/neo-eco-ae-extension.pw.toml"
-hash = "f0547afd7d62c52466bfd9bbe0e78156bd6912f9bec0843e0f4ed13acde8b5a0"
+hash = "cc247a2dfabd7012964a556e4af41958fa38ce1dabc65e3a2f9a2d926b533bc9"
 metafile = true
 
 [[files]]
@@ -1695,12 +1695,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "a92eb8ece81a5134b9fd1d19d1735a58af1d189ad1fb0135e0cf713d35d36b81"
+hash = "7abbd821576ea4f53d1eb07ecb3c75d8b28391b972981ba6e9c7967cb6d80f00"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "8dfb0b7c7546a01911daff294b76a15e1db958579dce15d71e0ef68e8594bd65"
+hash = "1828dc11ca2009d47d05737794fbf84029216691679182c90e4f36c828dd6380"
 metafile = true
 
 [[files]]
@@ -1715,7 +1715,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "0ef48baddd8f67f923ed3e82beca19f583d85f171fd6c7fd8e42ac822c85a7ce"
+hash = "02e914b896577720350ce47fd4f635702010591fadb305582f2dfde2f9c0ca8f"
 metafile = true
 
 [[files]]
@@ -1725,7 +1725,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "91987e941f5545bc14854e8f44d8cff78486a272ca5822275a5424b23d14f679"
+hash = "bfd7c76112282a9fff343cbd91c7c95f814b88705309b95aebea60e89a95fb25"
 metafile = true
 
 [[files]]
