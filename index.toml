@@ -1130,7 +1130,7 @@ hash = "82577d23ea74d56fe0142a36777bcffd15af283f6bde1a8c682705ec97b5d140"
 
 [[files]]
 file = "kubejs/server_scripts/modular_machinery.js"
-hash = "311c78c97a8cbea6a65f407ae638ff49b620d339e0b69e467b25974997edd8be"
+hash = "d9cb366d9c704952d06c3d266a0f57659f94900a963b43157dce45904b758e9b"
 
 [[files]]
 file = "kubejs/server_scripts/neapolitan.js"
@@ -1170,7 +1170,7 @@ hash = "fc23a15ad9672c272b1e34c49bd41a20b37d37018e4147dee7cf5f2d87581104"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_assembler.js"
-hash = "96685bf1ee8e29cbe21e89235d3f59702a888a3db5246e538884d2f859bc8c67"
+hash = "d40fce880f4e2f616a2b4a22a13f7da5bfce63e23c831c9a4d96fd5562d04855"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/large_crusher.js"
@@ -1202,7 +1202,7 @@ hash = "7d278f2f389c530a9a63c36103530e702c8b01197a98506c103015d8e3087116"
 
 [[files]]
 file = "kubejs/server_scripts/structure/bio_chamber.js"
-hash = "a3f386fe3380665e03b87ea59e73e2fc4d1d32e38ba01e51f9ca13fc1dac3604"
+hash = "c6b6e601995827a39a70944d1dc93049e46d71c515424dfb1cbbddeb3885dc77"
 
 [[files]]
 file = "kubejs/server_scripts/structure/chemical_reactor.js"
@@ -1226,7 +1226,7 @@ hash = "2540c99706bc02ba0308bf8647616996900c240e2c1d28679f7a627a146584b8"
 
 [[files]]
 file = "kubejs/server_scripts/structure/large_alloy_smelter.js"
-hash = "bebf2d33f907ae3036ccc9c727a5a9c06723d9a4ef2777fa8d8b190417153d7d"
+hash = "cfc6ace3dc9bca7e6ceac92bdca33027a360285df7c94fe59d148d26d77c1d7f"
 
 [[files]]
 file = "kubejs/server_scripts/structure/large_alternator.js"

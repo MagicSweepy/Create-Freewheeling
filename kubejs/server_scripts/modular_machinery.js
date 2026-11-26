@@ -1,4 +1,3 @@
-
 ServerEvents.recipes(event => {
     event.remove({ id: 'mmcr:modularium' })
 
@@ -18,6 +17,62 @@ ServerEvents.recipes(event => {
                 id: 'mmcr:basic_casing'
             }
         ]
+    })
+
+    event.remove({ id: 'mmcr:vent' })
+    event.shaped('mmcr:vent',
+    [
+        'BBB',
+        'AQA',
+        'MCP'
+    ],
+    {
+        B: 'minecraft:iron_bars',
+        C: 'mmcr:basic_casing',
+        P: 'create:propeller',
+        M: '#create:cogwheels',
+        A: '#c:plates/industrial_iron',
+        Q: '#create:fluid_pipes'
+    })
+
+    event.remove({ id: 'mmcr:gearbox' })
+    event.shaped('mmcr:gearbox',
+    [
+        'AGA',
+        'GCG',
+        'AGA'
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        A: '#c:plates/industrial_iron',
+        G: '#create:cogwheels'
+    })
+
+    event.remove({ id: 'mmcr:air_intake' })
+    event.shaped('mmcr:air_intake',
+    [
+        'PAP',
+        'QCQ',
+        'PAP'
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        P: 'create:propeller',
+        Q: '#create:fluid_pipes',
+        A: '#c:plates/industrial_iron',
+    })
+
+    event.remove({ id: 'mmcr:combustion_chamber' })
+    event.shaped('mmcr:combustion_chamber',
+    [
+        'PSP',
+        'SCS',
+        'PSP'
+    ],
+    {
+        C: 'mmcr:basic_casing',
+        P: '#c:plates/steel',
+        S: '#c:rods/steel'
     })
 
     event.remove({ output: 'mmcr:terminal' })

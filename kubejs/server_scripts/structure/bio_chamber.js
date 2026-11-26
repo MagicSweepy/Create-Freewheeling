@@ -2,11 +2,11 @@ MMCREvents.server(event => {
     const api = event.getAPI()
     event.createStructure('kubejs:bio_chamber')
         .pattern("  XSX  ", "  AAA  ", "  AAA  ", "  AAA  ", "  XXX  ")
-        .pattern(" XBBBX ", " X   X ", " X   X ", " X   X ", " XBBBX ")
+        .pattern(" XBBBX ", " E   E ", " E   E ", " E   E ", " XBBBX ")
         .pattern("XBBDBBX", "A     A", "A     A", "A     A", "XBBDBBX")
         .pattern("XBDDDBX", "A     A", "A     A", "A     A", "XBDDDBX")
         .pattern("XBBDBBX", "A     A", "A     A", "A     A", "XBBDBBX")
-        .pattern(" XBBBX ", " X   X ", " X   X ", " X   X ", " XBBBX ")
+        .pattern(" XBBBX ", " E   E ", " E   E ", " E   E ", " XBBBX ")
         .pattern("  XCX  ", "  AAA  ", "  AAA  ", "  AAA  ", "  XUX  ")
         .set('X', api.anyOf(
             api.block('mmcr:basic_casing'),
@@ -26,6 +26,7 @@ MMCREvents.server(event => {
         .set('A', api.block('ae2:quartz_vibrant_glass'))
         .set('B', api.block('neoecoae:cryogenic_aluminum_alloy_casing'))
         .set('D', api.block('neoecoae:aluminum_alloy_casing'))
+        .set('E', api.block('mmcr:vent'))
         .set('S', api.smartInterface())
         .controller('C')
         .build()

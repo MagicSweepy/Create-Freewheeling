@@ -2,9 +2,9 @@ MMCREvents.server(event => {
     const api = event.getAPI()
     event.createStructure("kubejs:large_alloy_smelter")
         .pattern(" XUX ", "     ", " AAA ", " XXX ", " XBX ", " XXX ", " AAA ")
-        .pattern("XXXXX", " D D ", "AAAAA", "X   X", "XEEEX", "X   X", "AAAAA")
-        .pattern("XXXXX", "     ", "AAAAA", "X E X", "FE EF", "X E X", "AAAAA")
-        .pattern("XXXXX", " D D ", "AAAAA", "X   X", "XEEEX", "X   X", "AAAAA")
+        .pattern("XXXXX", " D D ", "AIIIA", "X   X", "XEEEX", "X   X", "AJJJA")
+        .pattern("XXXXX", "     ", "AIIIA", "X E X", "FE EF", "X E X", "AJJJA")
+        .pattern("XXXXX", " D D ", "AIIIA", "X   X", "XEEEX", "X   X", "AJJJA")
         .pattern(" XCX ", "  G  ", " AAA ", " XHX ", " XHX ", " XHX ", " AAA ")
         .set('X', api.anyOf(
             api.block('mmcr:basic_casing'),
@@ -48,6 +48,8 @@ MMCREvents.server(event => {
             api.block('mmcr:create_stress_input_interface')))
         .set('G', api.state('createimp:redstone_link_router[facing=south]'))
         .set('H', api.block('createnuclear:reinforced_glass'))
+        .set('I', api.block('mmcr:combustion_chamber'))
+        .set('J', api.block('mmcr:vent'))
         .controller('C')
         .build()
 })
