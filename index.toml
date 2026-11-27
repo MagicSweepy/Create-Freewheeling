@@ -41,12 +41,16 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "2368e1bedb2641710ad6765f0c0d9bb2e503e5218913293a97cefa74e78a4b43"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/1064f90b2496e345.snbt"
+hash = "ca36ac483bfd1ca22b5a11f1d71215750e7cd31861c266179f4ab2b0d8d05f55"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/1447f4a377d057b9.snbt"
 hash = "d2bad84c418165e5e32d1298b8c153223db342b2f9c72f5fd23387b36f12d07e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1654fb55717b9615.snbt"
-hash = "dbfc95503f667ee7df2b4008512a2e8eb49944ad21975d4d2087e1e507ae8b07"
+hash = "f7a82453078e384edd600577f2c363d93e12cff817b27999f12f2db314b9c157"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1d6c23f01387180b.snbt"
@@ -66,7 +70,7 @@ hash = "9b267d86c2295798ff2a41d57a83a5b895e0b9710710e77de49e9bcbedf70fe8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/57f6b3854384d3bf.snbt"
-hash = "d07350e90c395304a8e5ec3680620486a2d833b5f82ac66554cf188d3a6f2bc9"
+hash = "e1bc665aad2b292fadebcbb603d8d1503e80946f5a94eb6da207facbb41e2706"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/612770933324c0f0.snbt"
@@ -78,11 +82,11 @@ hash = "360148cc5a53ffbc2cefd68cfc23f4c5a152439419a99b8b171e9f9173ccc0c3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "40ef39546ce8bf7d28d5092191b98b418165bbd73c62e163c80cd3eb611b1808"
+hash = "a61a9d7e86c9bb0607df66044aa4f0ee3cd94f29e1488e57be91b0f75bd30957"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "23223d38cd2ef450bd857cb031176f90a80bd2f8f7deb3f2bd9bbde8383a4c54"
+hash = "311a9f851c1d873b6a761fa4a216deff7a5bb44871be8de4acd3f430fa0728af"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -198,15 +202,27 @@ hash = "154245b386499916bba4b1f4cce63a22039198095fe839ff354ebe19e0d9f62d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "8efc09d018a68b2c72a673349763e9825b055d438fb37676b4ce5ce94759bcb0"
+hash = "770961034fc033f39da5b330e1e9dcd3227e445f2fed8dafe1e8b76cfaa0b085"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "086553a998f363640fb173daeb256e3bdc9b41e64f9be792f15ff631f1ee5e73"
+hash = "9ce29f2fbecd224ebf8083170280ed3a2bb1b6dc3e9cbab23b1acfed361b2ac8"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/half_bedrock_budding_sky_stone_block.png"
 hash = "a7acf130e3f169fb88b4faa623a5666cb47694bdf75b45a54188c59a5fadb1b3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/wither_infused_soul_soil.png"
+hash = "782508df909b67d3d44788633e6c8d06480a82af244c653b22b61b8ab5978ee5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/active_wither_powder.png"
+hash = "190afe3d1624878785bfd7a395884e6b221082db01927e9a9be70297dfc13a70"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/active_wither_powder.png.mcmeta"
+hash = "f48b008269a08380f20c1ac9ec2142f2cb37333f11076a6c894107aee579c928"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aluminum_alloy_sheet.png"
@@ -607,6 +623,10 @@ hash = "7cb9de591e954f27b1e51184e029d84d5443d1cce60626d50fdd2a4e6e513362"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/unfilled_cake_mechanism.png"
 hash = "4c173c012b3339877b8724ea1b3922df1020bf173c2f52359f47495b01a717e2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/wither_powder.png"
+hash = "42b66dcc980900ecb893cb5d815092e8e55df3c27b6369da5ce125a754e8aa50"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/zinc_dust.png"
@@ -1026,7 +1046,7 @@ hash = "4363279eca11603c9ff89cf7f7483cc5a781de6b4b16b4810d664ca357e465a2"
 
 [[files]]
 file = "kubejs/server_scripts/chain/netherite_chain.js"
-hash = "9eae5581b0cb35e6530a18e64412000d5474645c143e4a9e9f66c521f84040ae"
+hash = "8ad767b6d0c42872a60a0ac6c46b548c7beffc690b0fae790b52071e0b2d632f"
 
 [[files]]
 file = "kubejs/server_scripts/chain/oil_chain.js"
@@ -1071,6 +1091,10 @@ hash = "e03f592627c6d161d60fbb49a109c8c9c48a8c31cd8635df70a39f074e56829b"
 [[files]]
 file = "kubejs/server_scripts/create_encased.js"
 hash = "e1275d72037436c77dacf74cb59484d45f694e25c4290377b991ecd74a2ab52e"
+
+[[files]]
+file = "kubejs/server_scripts/create_enchantment_industry.js"
+hash = "a1e4eba9dba900a13ca548b893854679d8f3d81ea0e4c8e65426caed4a799868"
 
 [[files]]
 file = "kubejs/server_scripts/create_ender_gateway.js"
@@ -1182,7 +1206,7 @@ hash = "9c97ddc8b11856f3ff1f9ba78ac6e4bab0993682f97870f8392e3d675604e6a9"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_pool/lightning_processor.js"
-hash = "f87d3f59d49bdea95353e958f6a4ac9fd1708e158ed11f6f92f928dda838a395"
+hash = "25637e6b83802d4eb12fb7de834407ef50007d6f8c67148f96a3e47d1d1fa5a7"
 
 [[files]]
 file = "kubejs/server_scripts/singularities.js"
@@ -1258,7 +1282,7 @@ hash = "084a90c4045c96c8e60823601b1f1b5dabc36d0560cea9ad072626d9daa3ebd9"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "22d009b386ec8ec287b7f1b877b2566e7c8e92195a883c1e276ecefcd81d55ed"
+hash = "0e7c8e9dd628b14c48b03671f2ac60fd61151a766193b6692a8893ea808df4e8"
 
 [[files]]
 file = "kubejs/startup_scripts/chromatic_route_judge.js"
@@ -1270,7 +1294,7 @@ hash = "8016a103a8758a96c6cf3d8e367058906e8040455214c331816ca94a36c340bb"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "0d3a19ec33d90e096318d7267a2cb0928a3aa1cb3c5c03eaaa44b9f91a1dc674"
+hash = "4200742a4ed4644c486feb7cd1663f3f544c994974e5fa703dcdeadd61a90e88"
 
 [[files]]
 file = "kubejs/startup_scripts/machines.js"

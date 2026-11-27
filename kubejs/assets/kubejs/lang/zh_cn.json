@@ -87,8 +87,11 @@
     "item.kubejs.emerald_crystal_seed": "绿宝石晶种",
     "item.kubejs.emerald_boule": "人造绿宝石晶体",
     "item.kubejs.incomplete_emerald_boule": "人造绿宝石晶体（半成品）",
+    "item.kubejs.wither_powder": "凋零尘",
+    "item.kubejs.active_wither_powder": "烈性凋零尘",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "半基岩化的陨石块",
+    "block.kubejs.wither_infused_soul_soil": "凋零侵染的灵魂土",
 
     "item.kubejs.ethylene_bucket": "乙烯桶",
     "fluid.kubejs.ethylene": "乙烯",

@@ -87,8 +87,11 @@
     "item.kubejs.emerald_crystal_seed": "Emerald Crystal Seed",
     "item.kubejs.emerald_boule": "Emerald Crystal Boule",
     "item.kubejs.incomplete_emerald_boule": "Incomplete Emerald Crystal Boule",
+    "item.kubejs.wither_powder": "Wither Powder",
+    "item.kubejs.active_wither_powder": "Active Wither Powder",
 
     "block.kubejs.half_bedrock_budding_sky_stone_block": "Half Bedrock Budding Sky Stone Block",
+    "block.kubejs.wither_infused_soul_soil": "Wither-Infused Soul Soil",
 
     "item.kubejs.ethylene_bucket": "Ethylene Bucket",
     "fluid.kubejs.ethylene": "Ethylene",

@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_quest_size: 4.0d
+	filename: "1064f90b2496e345"
+	group: "10F403E42D9782F3"
+	icon: {
+		id: "create_enchantment_industry:blaze_enchanter"
+	}
+	id: "1064F90B2496E345"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0129441E33AC78C2"
+				"2E3AE84A004FFBF6"
+				"55C1633C4FFA0A72"
+			]
+			dependency_requirement: "one_completed"
+			id: "63005BED2B58485D"
+			tasks: [{
+				id: "7F308C8F66E76DD7"
+				item: { count: 1, id: "create:experience_nugget" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["609C0B7F36EDC762"]
+			id: "5DA91D51A63764A1"
+			tasks: [{
+				id: "1EDD3D28BD60B46A"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3B39A6674FC93E3D"
+				"5DA91D51A63764A1"
+				"63005BED2B58485D"
+			]
+			id: "076608D973D0E2DA"
+			size: 5.0d
+			tasks: [
+				{
+					id: "6CC29C2E77A7AA34"
+					item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+					type: "item"
+				}
+				{
+					id: "70A2F00C5F1404E5"
+					item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63005BED2B58485D"]
+			id: "5E2938EED981CE53"
+			tasks: [{
+				id: "156B45BE7FEE23DB"
+				item: { count: 1, id: "create_enchantment_industry:enchanting_template" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63005BED2B58485D"]
+			id: "2D4D00D4C372BBA4"
+			tasks: [
+				{
+					id: "1660BEB61C634F6B"
+					item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
+					type: "item"
+				}
+				{
+					id: "1DFB57BBB37289EF"
+					item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"37BECA3B494FD00E"
+				"51EAAB669848352A"
+			]
+			id: "1276DE466AF5BD3F"
+			tasks: [{
+				id: "7B5CFA7418FAA4DB"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["63005BED2B58485D"]
+			icon: {
+				id: "create_enchantment_industry:super_experience_nugget"
+			}
+			id: "0A767462A02B3897"
+			tasks: [{
+				id: "1691A35CDC2463F4"
+				item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A767462A02B3897"]
+			id: "4C326F6552C89ADE"
+			tasks: [{
+				id: "7FF08CE18520ED56"
+				item: { count: 1, id: "create_enchantment_industry:super_enchanting_template" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0A767462A02B3897"
+				"7789BF5AB859DB42"
+				"0D3FF0DA73505800"
+			]
+			id: "16FB1B5615625128"
+			size: 5.0d
+			tasks: [
+				{
+					id: "779ECFB3428D8E0F"
+					item: { count: 1, id: "kubejs:wither_powder" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "57A3C13845B59FA9"
+					item: { count: 1, id: "kubejs:active_wither_powder" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0BDE3185E95F5FFB"
+					item: { count: 1, id: "kubejs:wither_infused_soul_soil" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7DC42DE14E733FA8"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09E8028ED09E5C30"]
+			id: "2BDC9697CBF38C6E"
+			tasks: [{
+				id: "13B1F71710E1D3BD"
+				item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+	]
+}

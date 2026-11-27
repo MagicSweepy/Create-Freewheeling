@@ -511,5 +511,36 @@
 			x: -5.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["659D7CA3BAED2C6D"]
+			id: "34C02832C4DA17CB"
+			size: 3.5d
+			tasks: [
+				{
+					id: "54675A0A863E4495"
+					item: { count: 1, id: "kubejs:diamond_crystal_seed" }
+					type: "item"
+				}
+				{
+					id: "504C74D1F9BB67CC"
+					item: { count: 1, id: "kubejs:emerald_crystal_seed" }
+					type: "item"
+				}
+				{
+					id: "31883754EB1A57AF"
+					item: { count: 1, id: "kubejs:diamond_boule" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2CC8632E16C59AE5"
+					item: { count: 1, id: "kubejs:emerald_boule" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 15.0d
+		}
 	]
 }

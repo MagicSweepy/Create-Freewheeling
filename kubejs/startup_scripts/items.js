@@ -95,4 +95,7 @@ StartupEvents.registry('item', event => {
     event.create('emerald_crystal_seed')
     event.create('emerald_boule')
     event.create('incomplete_emerald_boule', 'create:sequenced_assembly').tag('kubejs:incomplete_items')
+
+    event.create('wither_powder').tag('c:dusts').tag('c:dusts/wither')
+    event.create('active_wither_powder').tag('c:dusts').tag('c:dusts/active_wither')
 })
