@@ -1094,7 +1094,7 @@ hash = "e1275d72037436c77dacf74cb59484d45f694e25c4290377b991ecd74a2ab52e"
 
 [[files]]
 file = "kubejs/server_scripts/create_enchantment_industry.js"
-hash = "a1e4eba9dba900a13ca548b893854679d8f3d81ea0e4c8e65426caed4a799868"
+hash = "fa9d9a66a7862fd896cd019fd40d788744ebc6397e3cfa184a44f882c88bf493"
 
 [[files]]
 file = "kubejs/server_scripts/create_ender_gateway.js"

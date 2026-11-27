@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'create_enchantment_industry:experience_hatch' })
+    event.remove({ id: 'create_enchantment_industry:item_application/experience_hatch' })
     event.custom({
         type: 'create:item_application',
         ingredients: [
