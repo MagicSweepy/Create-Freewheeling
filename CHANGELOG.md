@@ -1,3 +1,30 @@
+# 1.0.5
+
+## Mod Update
+
+- **Modular Machinery: Community Refoxed**: 0.1.8 -> 0.2.0-dev
+- **Neo ECO AE Extension**: 21.2.18 -> 21.3.0
+- **Sophisticated Backpacks**: 3.26.22.2257 -> 3.26.23.2263
+- **Sophisticated Core**: 1.5.39.2489 -> 1.5.43.2504
+- **Sophisticated Storage**: 1.6.20.2239 -> 1.6.22.2244
+- **Sophisticated Storage Create Integration**: 0.1.23.246 -> 0.1.24.252
+
+## New Features
+
+- New recipes for Vent, Gearbox, Air Intake and Combustion Chamber (new blocks in updated **Modular Machinery Community Refoxed** mod).
+- Modify multiblock structure of **Bio Chamber** and **Alloy Smelter** with new blocks.
+- Add **Nether Star Processing** which produce Nether Star via Netherite Mixture and Super Experience.
+- Add **Super Experience Block** recipe for Lightning Processor.
+
+## Enhancements
+
+- Add new quest chapter for Enchantments.
+- Add quests for Diamond and Emerald chain.
+
+## Bug Fixes
+
+- Fix uncraftable input ingredient in Experience Hatch recipe.
+
 # 1.0.4
 
 **Warning: This version update Neoforged API for the Modpack, please reinstall it if update modpack cannot launch game correctly.**

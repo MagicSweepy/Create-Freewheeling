@@ -1,12 +1,12 @@
 name = "Create Freewheeling"
 author = "Magic_Sweepy"
-version = "1.0.4"
+version = "1.0.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "aab3b96dc2faea9fc2e6c911a471b87efa69ca7e933ec49a921f2bc10e1018f3"
+hash = "3bfa8314f94f4bf2af7cc0186ab117cbb8d8352c6b2251448c68107cde2972f7"
 
 [versions]
 minecraft = "1.21.1"
